@@ -60,11 +60,14 @@
 				"telemetry.telemetryLevel": "off",
 				"telemetry.feedback.enabled": false,
 				"files.exclude": {
-					"**/.DS_Store": false,
-					"**/.git": false,
+					"**/.DS_Store": true,
+					"**/.git": true,
 					"**/.hg": false,
 					"**/.svn": false,
-					"**/Thumbs.db": false
+					"**/Thumbs.db": false,
+					"bun.lock": true,
+					"node_modules": true,
+					"package.json": true
 				},
 				"search.exclude": {
 					"**/.DS_Store": true,
@@ -74,7 +77,9 @@
 					"**/Thumbs.db": true,
 					"**/node_modules": true,
 					"**/bower_components": true,
-					"**/*.code-search": true
+					"**/*.code-search": true,
+					"bun.lock": true,
+					"package.json": true
 				},
 				"editor.codeActionsOnSave": {
 					"source.fixAll.biome": "always"
@@ -88,6 +93,8 @@
 				"[yaml][markdown]": {
 					"editor.defaultFormatter": "esbenp.prettier-vscode"
 				},
+				"npm.scriptRunner": "bun",
+				"npm.packageManager": "bun",
 				"go.lintTool": "golangci-lint-v2",
 				"go.lintFlags": [
 					"--path-mode=abs",
@@ -101,6 +108,7 @@
 				"go.alternateTools": {
 					"customFormatter": "golangci-lint-v2"
 				},
+				"go.diagnostic.vulncheck": "Off",
 				"biome.requireConfiguration": true,
 				"gitlens.ai.model": "vscode",
 				"gitlens.ai.vscode.model": "copilot:gpt-4.1",
