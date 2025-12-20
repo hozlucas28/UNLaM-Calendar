@@ -47,21 +47,19 @@ fi
 cd $(cd "$(dirname "$0")/.." && pwd)
 
 # Install packages (formatters, linters, and git hooks manager)
-echo -e "\nInstalling repository tools (formatters, linters, and git hooks manager)...\n"
+echo -e "\e[30m\nInstalling repository tools (formatters, linters, and git hooks manager)...\n\e[0m"
 
 bun add --dev \
 	prettier@^3 \
-	@biomejs/biome@^2
-
-echo ""
-go install github.com/evilmartians/lefthook/v2@v2
+	@biomejs/biome@^2 \
+	lefthook@^2
 
 echo -e "\e[32m\nRepository tools installed successfully.\e[0m"
 
 # Pull images
 zizmor_image="ghcr.io/zizmorcore/zizmor:1.16.3" # Linter for Dependabot files and GitHub Actions workflows
 
-echo -e "\nPulling docker images repository tools...\n"
+echo -e "\e[30m\nPulling docker images repository tools...\n\e[0m"
 
 docker pull "$zizmor_image"
 
@@ -70,22 +68,13 @@ echo -e "\e[32m\nDocker images pulled successfully.\e[0m"
 # Create bin scripts
 echo "#! /bin/bash
 
-# Convert relative paths to absolute paths
-arguments=()
-for argument in \"\$@\"; do
-	if [[ \"\$argument\" == ./* ]]; then
-		arguments+=(\"\$(realpath \"\$argument\")\")
-	else
-		arguments+=(\"\$argument\")
-	fi
-done
-
 docker run \\
 	--rm \\
 	--name zizmor \\
 	--volume /workspaces/UNLaM-Calendar/:/workspaces/UNLaM-Calendar/ \\
+	--workdir /workspaces/UNLaM-Calendar/ \\
 	$zizmor_image \\
-	\"\${arguments[@]}\"
+	\"\$@\"
 " > /usr/local/bin/zizmor
 
 # Allow execution of scripts
@@ -93,10 +82,10 @@ chmod +x /usr/local/bin/zizmor
 chmod +x /workspaces/UNLaM-Calendar/scripts/*.sh
 
 # Set git configuration and hooks
-echo -e "\nSetting up git configuration and hooks...\n"
+echo -e "\e[30m\nSetting up git configuration and hooks...\n\e[0m"
 
 git config --global --add safe.directory /workspaces/UNLaM-Calendar
-lefthook install
+bun run lefthook install
 
 echo -e "\e[32m\nGit configuration and hooks set successfully.\e[0m"
 
@@ -125,4 +114,4 @@ you have to do a few things before you start coding:\n"
 echo -e "\e[33m  1. Press \`F1\` and run the command \`> Go: Install/Update Tools\` to install Go tools (it may take a while).\e[0m"
 echo -e "\e[33m  2. (Optional) Set \`user.name\` and \`user.email\` git configuration properties (may not be required).\e[0m"
 
-echo -e "\e[30m\n> After completing these steps, we recommend you to run the health check script (\`bash ./scripts/health-check.sh\`).\e[0m"
+echo -e "\e[30m\n> If you want to make a commit, we recommend you \`git commit\` (without \`-m\` option) instead of using VSCode interface.\n\e[0m"
