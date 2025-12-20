@@ -55,12 +55,12 @@ exit_code=0
 
 echo -e "Checking common tools...\n"
 
-yq --version >/dev/null 2>&1
+node --version >/dev/null 2>&1
 if [[ $? -ne 0 ]]; then
-	echo -e "\e[31m  - YQ is not installed or not found in PATH.\e[0m" >&2
+	echo -e "\e[31m  - Node.js is not installed or not found in PATH.\e[0m" >&2
 	exit_code=1
 else
-	echo -e "\e[32m  - YQ installed.\e[0m"
+	echo -e "\e[32m  - Node.js installed.\e[0m"
 fi
 
 bun --version >/dev/null 2>&1
@@ -69,6 +69,30 @@ if [[ $? -ne 0 ]]; then
 	exit_code=1
 else
 	echo -e "\e[32m  - Bun installed.\e[0m"
+fi
+
+gitleaks --version >/dev/null 2>&1
+if [[ $? -ne 0 ]]; then
+	echo -e "\e[31m  - Gitleaks is not installed or not found in PATH.\e[0m" >&2
+	exit_code=1
+else
+	echo -e "\e[32m  - Gitleaks installed.\e[0m"
+fi
+
+yq --version >/dev/null 2>&1
+if [[ $? -ne 0 ]]; then
+	echo -e "\e[31m  - YQ is not installed or not found in PATH.\e[0m" >&2
+	exit_code=1
+else
+	echo -e "\e[32m  - YQ installed.\e[0m"
+fi
+
+docker --version >/dev/null 2>&1
+if [[ $? -ne 0 ]]; then
+	echo -e "\e[31m - Docker is not installed,not found in PATH, or not running.\e[0m" >&2
+	exit_code=1
+else
+	echo -e "\e[32m  - Docker installed.\e[0m"
 fi
 
 bun run prettier --version >/dev/null 2>&1
@@ -87,20 +111,20 @@ else
 	echo -e "\e[32m  - Biome installed\e[0m"
 fi
 
-docker --version >/dev/null 2>&1
-if [[ $? -ne 0 ]]; then
-	echo -e "\e[31m - Docker is not installed,not found in PATH, or not running.\e[0m" >&2
-	exit_code=1
-else
-	echo -e "\e[32m  - Docker installed.\e[0m"
-fi
-
-lefthook --version >/dev/null 2>&1
+bun run lefthook --version >/dev/null 2>&1
 if [[ $? -ne 0 ]]; then
 	echo -e "\e[31m  - Lefthook is not installed or not found in PATH.\e[0m" >&2
 	exit_code=1
 else
 	echo -e "\e[32m  - Lefthook installed.\e[0m"
+fi
+
+zizmor --version >/dev/null 2>&1
+if [[ $? -ne 0 ]]; then
+	echo -e "\e[31m  - Zizmor is not installed or not found in PATH.\e[0m" >&2
+	exit_code=1
+else
+	echo -e "\e[32m  - Zizmor installed\e[0m"
 fi
 
 
