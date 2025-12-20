@@ -1,0 +1,27 @@
+{
+	"version": "0.2",
+	"language": "es,es-ES,en,en-US,en-GB",
+	"useGitignore": true,
+	"words": [
+		"biomejs",
+		"cooldown",
+		"devcontainers",
+		"evilmartians",
+		"getopt",
+		"gnupg",
+		"golangci",
+		"gomod",
+		"lefthook",
+		"mfenderov",
+		"unlam",
+		"zizmor",
+		"zizmorcore"
+	],
+	"ignorePaths": [
+		"**/.devcontainer/devcontainer.json",
+		"**/.gitignore",
+		"**/.prettierignore",
+		"**/go.mod",
+		"**/go.sum"
+	]
+}
