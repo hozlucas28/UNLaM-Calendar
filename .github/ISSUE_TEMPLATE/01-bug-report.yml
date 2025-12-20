@@ -7,12 +7,12 @@ labels:
 assignees:
   - hozlucas28
 
-title: "<TÍTULO BREVE>"
+title: ""
 
 body:
   - type: markdown
     attributes:
-      value: Gracias por tomarte el tiempo para reportar el Bug. Complete la plantilla que se encuentra debajo lo mejor que puedas.
+      value: Gracias por tomarte el tiempo para reportar el Bug. Complete la plantilla que se encuentra debajo lo mejor que puedas y agrega un breve título al reporte.
 
   - type: textarea
     id: what-happened
