@@ -1,0 +1,10 @@
+---
+name: unlam-calendar_devcontainer
+
+services:
+  devcontainer:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    volumes:
+      - ../../:/workspaces:cached

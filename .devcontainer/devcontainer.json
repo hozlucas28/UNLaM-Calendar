@@ -1,0 +1,177 @@
+{
+	"service": "devcontainer",
+	"dockerComposeFile": "./docker-compose.yml",
+	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+	"features": {
+		"ghcr.io/devcontainers/features/node:1": {
+			"version": "24"
+		},
+		// Package manager
+		"ghcr.io/devcontainers-extra/features/bun:1": {
+			"version": "1.3.3"
+		},
+		// Secret scanner
+		"ghcr.io/jsburckhardt/devcontainer-features/gitleaks:1": {
+			"version": "v8.30.0"
+		},
+		// Tool for YAML processing
+		"ghcr.io/eitsupi/devcontainer-features/jq-likes:2": {
+			"yqVersion": "4",
+			"jqVersion": "none",
+			"xqVersion": "none",
+			"jaqVersion": "none",
+			"gojqVersion": "none",
+			"allowJqRcVersion": "false"
+		},
+		"ghcr.io/devcontainers/features/docker-in-docker:2": {
+			"version": "28",
+			"dockerDashComposeVersion": "v2"
+		}
+	},
+	"remoteUser": "root",
+	"postCreateCommand": "bash ./.devcontainer/setup-tools.sh",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"golang.go",
+				"eamodio.gitlens",
+				"GitHub.copilot",
+				"GitHub.copilot-chat",
+				"biomejs.biome",
+				"esbenp.prettier-vscode",
+				"docker.docker",
+				"ms-azuretools.vscode-docker",
+				"EditorConfig.EditorConfig",
+				"stackbreak.comment-divider",
+				"bierner.markdown-checkbox",
+				"bierner.markdown-preview-github-styles",
+				"streetsidesoftware.code-spell-checker",
+				"streetsidesoftware.code-spell-checker-spanish",
+				"github.vscode-github-actions",
+				"GitHub.vscode-pull-request-github",
+				"oven.bun-vscode",
+				"bierner.markdown-mermaid",
+				"YoavBls.pretty-ts-errors",
+				"astro-build.astro-vscode",
+				"redhat.vscode-yaml"
+			],
+			"settings": {
+				"editor.formatOnSave": true,
+				"telemetry.telemetryLevel": "off",
+				"telemetry.feedback.enabled": false,
+				"files.exclude": {
+					"**/.DS_Store": false,
+					"**/.git": false,
+					"**/.hg": false,
+					"**/.svn": false,
+					"**/Thumbs.db": false
+				},
+				"search.exclude": {
+					"**/.DS_Store": true,
+					"**/.git": true,
+					"**/.hg": true,
+					"**/.svn": true,
+					"**/Thumbs.db": true,
+					"**/node_modules": true,
+					"**/bower_components": true,
+					"**/*.code-search": true
+				},
+				"editor.codeActionsOnSave": {
+					"source.fixAll.biome": "always"
+				},
+				"[go]": {
+					"editor.defaultFormatter": "golang.go"
+				},
+				"[json]": {
+					"editor.defaultFormatter": "biomejs.biome"
+				},
+				"[yaml][markdown]": {
+					"editor.defaultFormatter": "esbenp.prettier-vscode"
+				},
+				"go.lintTool": "golangci-lint-v2",
+				"go.lintFlags": [
+					"--path-mode=abs",
+					"--fast-only"
+				],
+				"go.formatTool": "custom",
+				"go.formatFlags": [
+					"fmt",
+					"--stdin"
+				],
+				"go.alternateTools": {
+					"customFormatter": "golangci-lint-v2"
+				},
+				"biome.requireConfiguration": true,
+				"gitlens.ai.model": "vscode",
+				"gitlens.ai.vscode.model": "copilot:gpt-4.1",
+				"gitlens.codeLens.enabled": false,
+				"gitlens.currentLine.enabled": false,
+				"gitlens.graph.allowMultiple": false,
+				"gitlens.graph.dateFormat": "hh:mm:ss a - MMMM DD, YYYY",
+				"gitlens.graph.dimMergeCommits": true,
+				"gitlens.graph.layout": "editor",
+				"gitlens.graph.minimap.enabled": false,
+				"gitlens.graph.minimap.additionalTypes": [
+					"localBranches",
+					"pullRequests",
+					"stashes",
+					"remoteBranches",
+					"tags"
+				],
+				"gitlens.graph.showRemoteNames": true,
+				"gitlens.showWhatsNewAfterUpgrades": false,
+				"gitlens.views.branches.files.icon": "status",
+				"gitlens.views.branches.files.layout": "tree",
+				"gitlens.views.commits.files.icon": "status",
+				"gitlens.views.commits.files.layout": "tree",
+				"gitlens.views.formats.commits.description": "${agoOrDate}",
+				"gitlens.views.formats.commits.label": "${( authorNotYou )} ${message}",
+				"gitlens.views.remotes.files.icon": "status",
+				"gitlens.views.remotes.files.layout": "tree",
+				"gitlens.views.repositories.files.icon": "status",
+				"gitlens.views.repositories.files.layout": "tree",
+				"gitlens.views.stashes.files.icon": "status",
+				"gitlens.views.stashes.files.layout": "tree",
+				"gitlens.views.tags.files.icon": "status",
+				"gitlens.views.tags.files.layout": "tree",
+				"chat.agent.enabled": true,
+				"chat.editing.confirmEditRequestRemoval": false,
+				"github.copilot.chat.agent.thinkingTool": true,
+				"github.copilot.chat.codesearch.enabled": true,
+				"github.copilot.chat.generateTests.codeLens": true,
+				"github.copilot.chat.scopeSelection": true,
+				"github-actions.workflows.pinned.refresh.enabled": true,
+				"docker.extension.enableComposeLanguageServer": true,
+				"containers.images.sortBy": "Label",
+				"containers.images.description": [
+					"CreatedTime",
+					"Size"
+				],
+				"containers.containers.label": "ContainerName",
+				"containers.containers.sortBy": "Label",
+				"containers.containers.description": [
+					"ContainerName",
+					"CreatedTime",
+					"Image",
+					"Ports",
+					"Status"
+				],
+				"containers.networks.sortBy": "Label",
+				"containers.networks.description": [
+					"CreatedTime",
+					"NetworkDriver"
+				],
+				"yaml.schemas": {
+					"https://raw.githubusercontent.com/docker/vscode-extension/6a88caada42b57090df7ce91ec2a6561b422afe1/misc/empty.json": [
+						"compose*y*ml",
+						"docker-compose*y*ml",
+						".github/workflows/**/*.{yml,yaml}"
+					]
+				},
+				"material-icon-theme.files.associations": {
+					".env.super-linter": "tune"
+				}
+			}
+		}
+	}
+}
