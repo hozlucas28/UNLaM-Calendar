@@ -1,0 +1,70 @@
+version: 2
+
+updates:
+  - package-ecosystem: bun
+    directory: ./frontend/
+    target-branch: main
+    commit-message:
+      prefix: "ci"
+    labels:
+      - "bot"
+      - "frontend dependencies"
+    cooldown:
+      default-days: 7
+      semver-patch-days: 1
+    open-pull-requests-limit: 4
+    schedule:
+      interval: cron
+      cronjob: "0 8 * * *" # Every day at 08:00
+      timezone: America/Argentina/Buenos_Aires
+
+  - package-ecosystem: gomod
+    directory: ./backend/
+    target-branch: main
+    commit-message:
+      prefix: "ci"
+    labels:
+      - "bot"
+      - "backend dependencies"
+    cooldown:
+      default-days: 7
+      semver-patch-days: 1
+    open-pull-requests-limit: 4
+    schedule:
+      interval: cron
+      cronjob: "0 8 * * *" # Every day at 08:00
+      timezone: America/Argentina/Buenos_Aires
+
+  - package-ecosystem: github-actions
+    directory: /
+    target-branch: main
+    commit-message:
+      prefix: "ci"
+    labels:
+      - "bot"
+      - "github actions"
+    cooldown:
+      default-days: 7
+      semver-patch-days: 1
+    open-pull-requests-limit: 4
+    schedule:
+      interval: cron
+      cronjob: "0 8 * * *" # Every day at 08:00
+      timezone: America/Argentina/Buenos_Aires
+
+  - package-ecosystem: devcontainers
+    directory: /
+    commit-message:
+      prefix: "ci"
+    labels:
+      - "bot"
+      - "devcontainers"
+    target-branch: main
+    cooldown:
+      default-days: 7
+      semver-patch-days: 1
+    open-pull-requests-limit: 4
+    schedule:
+      interval: cron
+      cronjob: "0 8 * * *" # Every day at 08:00
+      timezone: America/Argentina/Buenos_Aires
