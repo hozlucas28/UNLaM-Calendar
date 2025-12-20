@@ -38,7 +38,7 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
-.pnpm-debug.log*
+pnpm-debug.log*
 
 # Diagnostic reports
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
@@ -86,7 +86,7 @@ web_modules/
 # Yarn Integrity file
 .yarn-integrity
 
-# dotenv environment variable files
+# Environment variable files
 .env
 .env.development.local
 .env.test.local
@@ -125,8 +125,11 @@ web_modules/
 #                                     ASTRO                                    #
 # ---------------------------------------------------------------------------- #
 
+# Build output
+dist/
+
 # Ignore content collection generated files
-.astro
+.astro/
 
 
 
@@ -169,3 +172,12 @@ go.work
 *_BASE_*.txt
 *_LOCAL_*.txt
 *_REMOTE_*.txt
+
+
+
+# ---------------------------------------------------------------------------- #
+#                                    OTHERS                                    #
+# ---------------------------------------------------------------------------- #
+
+# MacOS specific files
+.DS_Store
