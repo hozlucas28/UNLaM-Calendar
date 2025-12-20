@@ -1,0 +1,60 @@
+---
+name: Reportar un Bug
+description: Reportar un Bug reproducible.
+
+labels:
+  - bug
+assignees:
+  - hozlucas28
+
+title: "<TÍTULO BREVE>"
+
+body:
+  - type: markdown
+    attributes:
+      value: Gracias por tomarte el tiempo para reportar el Bug. Complete la plantilla que se encuentra debajo lo mejor que puedas.
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: ¿Qué pasó?
+      description: Cuéntanos ¿Qué esperabas que pasara? ¿Y qué pasó realmente?
+      placeholder: Estaba intentando de... y luego...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: environment
+    attributes:
+      label: ¿En qué entornos experimentaste este Bug?
+      description: Seleccione los entornos en los que experimento el Bug.
+      options:
+        - DevContainer
+        - Entorno local
+      default: 0
+      multiple: true
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps-to-reproduce-it
+    attributes:
+      label: Pasos para reproducirlo
+      description: Proporcione una lista paso a paso de cómo reproducir el Bug.
+      placeholder: |
+        1. Envía una solicitud a...
+        2. Después, ejecuta...
+        3. Finalmente, observa el Bug en...
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Log relevante
+      description: Pega cualquier Log relevante y el mismo sera formateado automáticamente en el código, por lo que no necesitas comillas invertidas.
+      placeholder: |
+        2025-01-01 00:00:00 [error] ¡Pasó algo malo!
+      render: shell
+    validations:
+      required: false
