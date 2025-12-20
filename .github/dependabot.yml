@@ -45,7 +45,6 @@ updates:
       - "github actions"
     cooldown:
       default-days: 7
-      semver-patch-days: 1
     open-pull-requests-limit: 4
     schedule:
       interval: cron
@@ -62,7 +61,6 @@ updates:
     target-branch: main
     cooldown:
       default-days: 7
-      semver-patch-days: 1
     open-pull-requests-limit: 4
     schedule:
       interval: cron
