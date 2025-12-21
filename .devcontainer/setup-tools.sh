@@ -89,6 +89,15 @@ bun run lefthook install
 
 echo -e "\e[32m\nGit configuration and hooks set successfully.\e[0m"
 
+# Install Frontend dependencies
+echo -e "\e[30m\nInstalling Frontend dependencies...\n\e[0m"
+
+cd ./frontend/
+bun install
+cd ../
+
+echo -e "\e[32m\nFrontend dependencies installed successfully.\e[0m"
+
 # Health check
 echo -e "\e[30m\nRunning health check...\n\e[0m"
 
