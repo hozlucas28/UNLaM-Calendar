@@ -16,7 +16,12 @@
 </p>
 
 <p align="center">
-    <img src="./.github/docs/assets/unlam-calendar-logo.png" alt='Logo de "UNLaM Calendar"' width="800">
+		<!-- TODO: agregar link a la página oficial cuando esté disponible -->
+    <a href="#" target="_blank">
+			<img src="./.github/docs/assets/unlam-calendar-logo.png" alt='Logo de "UNLaM Calendar"' width="800">
+			<br />
+			Página oficial
+		</a>
 </p>
 
 ## Qué es
