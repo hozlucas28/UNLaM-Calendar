@@ -1,7 +1,7 @@
 #! /bin/bash
 
 # Parse options
-options=$(getopt -o "h" --long "help" -- "$@")
+options=$(getopt -o "e:h" --long "env:,help" -- "$@")
 
 if [ $? -ne 0 ]; then
 	echo -e "\e[31mAn error occurred on parsing options.\e[0m" >&2
@@ -12,6 +12,10 @@ eval set -- "$options"
 
 while true; do
 	case "$1" in
+		"-e" | "--env")
+			env="$2"
+			shift 2
+			;;
 		"-h" | "--help")
 			need_help="true"
 			shift 1
@@ -53,7 +57,7 @@ exit_code=0
 
 # ------------------------------- Common Tools ------------------------------- #
 
-echo -e "Checking common tools...\n"
+echo -e "\e[30mChecking common tools...\n\e[0m"
 
 node --version >/dev/null 2>&1
 if [[ $? -ne 0 ]]; then
@@ -81,18 +85,28 @@ fi
 
 yq --version >/dev/null 2>&1
 if [[ $? -ne 0 ]]; then
-	echo -e "\e[31m  - YQ is not installed or not found in PATH.\e[0m" >&2
+	echo -e "\e[31m  - yq is not installed or not found in PATH.\e[0m" >&2
 	exit_code=1
 else
-	echo -e "\e[32m  - YQ installed.\e[0m"
+	echo -e "\e[32m  - yq installed.\e[0m"
 fi
 
-docker --version >/dev/null 2>&1
-if [[ $? -ne 0 ]]; then
-	echo -e "\e[31m - Docker is not installed,not found in PATH, or not running.\e[0m" >&2
-	exit_code=1
+if [[ "$env" == "local" ]]; then
+	jq --version >/dev/null 2>&1
+	if [[ $? -ne 0 ]]; then
+		echo -e "\e[31m  - jq is not installed or not found in PATH.\e[0m" >&2
+		exit_code=1
+	else
+		echo -e "\e[32m  - jq installed.\e[0m"
+	fi
 else
-	echo -e "\e[32m  - Docker installed.\e[0m"
+	docker --version >/dev/null 2>&1
+	if [[ $? -ne 0 ]]; then
+		echo -e "\e[31m  - Docker is not installed, not found in PATH, or not running.\e[0m" >&2
+		exit_code=1
+	else
+		echo -e "\e[32m  - Docker installed.\e[0m"
+	fi
 fi
 
 bun run prettier --version >/dev/null 2>&1
@@ -130,7 +144,7 @@ fi
 
 # -------------------------- Dedicated Backend Tools ------------------------- #
 
-echo -e "\nChecking dedicated Backend tools...\n"
+echo -e "\e[30m\nChecking dedicated Backend tools...\n\e[0m"
 
 go version >/dev/null 2>&1
 if [[ $? -ne 0 ]]; then
