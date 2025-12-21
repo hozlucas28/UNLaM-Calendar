@@ -65,7 +65,7 @@ body:
     id: logs
     attributes:
       label: Log relevante
-      description: Pega cualquier Log relevante y el mismo sera formateado automáticamente en el código, por lo que no necesitas comillas invertidas.
+      description: Pega cualquier Log relevante y el mismo sera representado automáticamente como código Shell, por lo que no necesitas comillas invertidas.
       placeholder: |
         2025-01-01 00:00:00 [error] ¡Pasó algo malo!
       render: shell
