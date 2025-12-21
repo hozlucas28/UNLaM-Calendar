@@ -12,14 +12,14 @@
 2. Clona e instala el Fork del proyecto en tu máquina personal utilizando una de las [guías de instalación](#guías-de-instalación).
 3. Crea una nueva Branch para realizar tu contribución (por ejemplo, `hozlucas28/feature/map-2C-events` o `hozlucas28/issue/1`).
 4. Realiza tu contribución.
-5. Commitea los cambios realizados.
+5. Comitea los cambios realizados.
 6. Pushea la Branch que creaste a tu Fork en GitHub.
 7. Crea una Pull Request en tu Fork en GitHub que apunte al repositorio original del proyecto.
 8. Completa la plantilla de la Pull Request.
 9. Espera la aprobación de la Pull Request por parte de los mantenedores para que tu contribución sea integrada al proyecto original.
 
 > [!IMPORTANT]
-> Te recomendamos que la nueva Branch siga la convención `<NOMBRE DE TU USUARIO>/<TIPO DE CONTRIBUCIÓN>/<BREVE TÍTULO O NÚMERO DE LA ISSUE>`, cómo se muestra en los ejemplos del paso N° 3. Ten en cuenta que `<BREVE TÍTULO>` debe ser conciso.
+> Te recomendamos que la nueva Branch siga la convención `<NOMBRE DE TU USUARIO>/<TIPO DE CONTRIBUCIÓN>/<BREVE TÍTULO O NÚMERO DE LA ISSUE>`, cómo se muestra en los ejemplos del paso 3. Ten en cuenta que `<BREVE TÍTULO>` debe ser conciso.
 
 ## Guías de instalación
 
@@ -97,7 +97,7 @@ flowchart
 
 	RunCI --> RunCIOutput
 
-	RunCIOutput{"Ejecución de las <br>GitHub Actions"}
+	RunCIOutput{"Ejecución de las <br />GitHub Actions"}
 	RunCIOutput -->|Exitosa| MaintainerReview
 	RunCIOutput -->|Fallida| OwnerFixCode
 
