@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-    <strong>Proyecto que autogenera y publica calendarios a partir de los eventos del <a href="https://www.unlam.edu.ar/calendario-academico/" target="_blank">calendario oficial</a> de la <a href="https://www.unlam.edu.ar/" target="_blank">Universidad Nacional de La Matanza</a>.</strong>
+    <strong>Proyecto que autogenera y publica calendarios a partir de los eventos <br />del <a href="https://www.unlam.edu.ar/calendario-academico/" target="_blank">calendario oficial</a> de la <a href="https://www.unlam.edu.ar/" target="_blank">Universidad Nacional de La Matanza</a>.</strong>
 </p>
 
 <p align="center">
