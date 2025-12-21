@@ -106,7 +106,7 @@ else
 fi
 
 # Show welcome message
-echo -e "\n# Welcome to the Devcontainer\n"
+echo -e "\n# Welcome to the DevContainer\n"
 
 echo -e "Development container is set up with all the necessary tools and configurations to help you get started quickly, but
 you have to do a few things before you start coding:\n"
@@ -114,4 +114,4 @@ you have to do a few things before you start coding:\n"
 echo -e "\e[33m  1. Press \`F1\` and run the command \`> Go: Install/Update Tools\` to install Go tools (it may take a while).\e[0m"
 echo -e "\e[33m  2. (Optional) Set \`user.name\` and \`user.email\` git configuration properties (may not be required).\e[0m"
 
-echo -e "\e[30m\n> If you want to make a commit, we recommend you \`git commit\` (without \`-m\` option) instead of using VSCode interface.\n\e[0m"
+echo -e "\e[30m\n> If you want to make a commit, we recommend you \`git commit\` (without \`-m\` option) instead of using VSCode interface.\e[0m"
