@@ -630,7 +630,7 @@ state the exclusion of warranty; and each file should have at least
 the "copyright" line and a pointer to where the full notice is found.
 
 	UNLaM Calendar is a project to auto generate and publish calendars
-	on services such as Google Calendar, based on the data of National
+	on services such as Google Calendar, based on the events of National
 	University of La Matanza (UNLaM) <https://www.unlam.edu.ar/UNLaM>
 	official calendar board.
 
