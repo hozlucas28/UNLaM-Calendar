@@ -38,7 +38,7 @@ UNLaM Calendar es un proyecto compuesto por un [Backend](./backend/) que extrae 
 
 ## Cómo contribuir
 
-Para contribuir a este proyecto, lee la [guía de contribución](?tab=contributing-ov-file) en donde se detallan: los pasos para instalarlo localmente, la guía de cómo debes realizar una Pull Request y cómo la misma puede ser integrada al proyecto.
+Para contribuir a este proyecto, lee la [guía de contribución](./CONTRIBUTING.md) en donde se detallan: los pasos para instalarlo localmente, la guía de cómo debes realizar una Pull Request y cómo la misma puede ser integrada al proyecto.
 
 ## Estructura del proyecto
 
@@ -92,7 +92,7 @@ UNLaM-Calendar/
 
 ## Licencia
 
-Este proyecto está bajo la [licencia GNU AGPLv3](?tab=AGPL-3.0-1-ov-file). Para más información sobre lo que está permitido hacer con el contenido de este proyecto, visita [choosealicense.com](https://choosealicense.com/licenses/).
+Este proyecto está bajo la [licencia GNU AGPLv3](./LICENSE). Para más información sobre lo que está permitido hacer con el contenido de este proyecto, visita [choosealicense.com](https://choosealicense.com/licenses/).
 
 ## Contacto
 
