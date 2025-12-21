@@ -18,7 +18,8 @@
 	"overrides": [
 		{
 			"files": [
-				"*.{yml,yaml}"
+				"*.{yml,yaml}",
+				"*.mermaid"
 			],
 			"options": {
 				"useTabs": false,
