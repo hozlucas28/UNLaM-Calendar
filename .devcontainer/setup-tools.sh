@@ -51,6 +51,7 @@ echo -e "\e[30m\nInstalling repository tools (formatters, linters, and git hooks
 
 bun add --dev \
 	prettier@^3 \
+	prettier-plugin-astro@^0 \
 	@biomejs/biome@^2 \
 	lefthook@^2
 

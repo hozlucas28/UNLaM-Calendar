@@ -81,6 +81,9 @@
 				"editor.codeActionsOnSave": {
 					"source.fixAll.biome": "always"
 				},
+				"[astro]": {
+					"editor.defaultFormatter": "esbenp.prettier-vscode"
+				},
 				"[go]": {
 					"editor.defaultFormatter": "golang.go"
 				},
@@ -106,6 +109,10 @@
 					"customFormatter": "golangci-lint-v2"
 				},
 				"go.diagnostic.vulncheck": "Off",
+				"prettier.requireConfig": false,
+				"prettier.documentSelectors": [
+					"**/*.astro"
+				],
 				"biome.requireConfiguration": true,
 				"gitlens.ai.model": "vscode",
 				"gitlens.ai.vscode.model": "copilot:gpt-4.1",

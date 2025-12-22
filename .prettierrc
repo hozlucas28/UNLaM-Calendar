@@ -15,7 +15,16 @@
 	"trailingComma": "none",
 	"htmlWhitespaceSensitivity": "ignore",
 	"embeddedLanguageFormatting": "auto",
+	"plugins": ["prettier-plugin-astro"],
 	"overrides": [
+		{
+			"files": [
+				"*.astro"
+			],
+			"options": {
+				"parser": "astro"
+			}
+		},
 		{
 			"files": [
 				"*.{yml,yaml}",
