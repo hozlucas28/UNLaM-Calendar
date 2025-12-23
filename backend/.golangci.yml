@@ -1,0 +1,52 @@
+---
+version: "2"
+
+run:
+  timeout: "1m30s"
+
+issues:
+  fix: true
+
+output:
+  sort-order:
+    - file
+    - linter
+
+linters:
+  default: fast
+  settings:
+    depguard:
+      rules:
+        main:
+          allow:
+            - $gostd
+            - github.com/gocolly/colly
+
+    gocognit:
+      min-complexity: 18
+
+    gocyclo:
+      min-complexity: 18
+
+    godoclint:
+      options:
+        max-len:
+          length: 120
+
+    godot:
+      capital: true
+
+formatters:
+  enable:
+    - gci
+    - gofmt
+    - gofumpt
+    - golines
+
+  settings:
+    gofumpt:
+      extra-rules: true
+
+    golines:
+      tab-len: 4
+      max-len: 120
