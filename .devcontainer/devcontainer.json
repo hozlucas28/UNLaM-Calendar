@@ -53,6 +53,8 @@
 				"redhat.vscode-yaml"
 			],
 			"settings": {
+				"npm.scriptRunner": "bun",
+				"npm.packageManager": "bun",
 				"editor.formatOnSave": true,
 				"telemetry.telemetryLevel": "off",
 				"telemetry.feedback.enabled": false,
@@ -81,20 +83,15 @@
 				"editor.codeActionsOnSave": {
 					"source.fixAll.biome": "always"
 				},
-				"[astro]": {
+				"[astro][yaml][markdown][mermaid]": {
 					"editor.defaultFormatter": "esbenp.prettier-vscode"
+				},
+				"[html][css][javascript][javascriptreact][typescript][typescriptreact][json]": {
+					"editor.defaultFormatter": "biomejs.biome"
 				},
 				"[go]": {
 					"editor.defaultFormatter": "golang.go"
 				},
-				"[json]": {
-					"editor.defaultFormatter": "biomejs.biome"
-				},
-				"[yaml][markdown][mermaid]": {
-					"editor.defaultFormatter": "esbenp.prettier-vscode"
-				},
-				"npm.scriptRunner": "bun",
-				"npm.packageManager": "bun",
 				"go.lintTool": "golangci-lint-v2",
 				"go.lintFlags": [
 					"--path-mode=abs",
