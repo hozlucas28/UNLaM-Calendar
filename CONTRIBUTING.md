@@ -33,6 +33,9 @@
 - Espera a que se construya e inicie el contenedor, y a que se instalen las herramientas.
 - ¡Listo! El Fork del proyecto ya está instalado.
 
+> [!NOTE]
+> Puede que al construir o reconstruir el DevContainer ocurra un error del estilo: _"El contenedor ya existe o se encuentra en uso"_. No te preocupes, es un Bug conocido, simplemente ignóralo y vuelve a reconstruirlo.
+
 <details>
 <summary>
 	<h3>Entorno local</h3>
