@@ -53,12 +53,13 @@ UNLaM-Calendar/
 ├── .devcontainer/                # Archivos de configuración del DevContainer.
 │
 ├── .github/
-│   ├── CODEOWNERS                # Archivo para asignar a los responsables de revisión de Pull Request(s) e Issue(s).
+│   ├── CODEOWNERS                # Archivo para asignar a los responsables de revisión de Pull Requests e Issues.
 │   ├── dependabot.yml            # Configuración del Dependabot (actualizaciones automáticas de dependencias).
 │   ├── labeler.yml               # Configuración de Labeler (asignación automática de etiquetas a Pull Requests).
+│   ├── PULL_REQUEST_TEMPLATE.md  # Plantilla para Pull Requests.
 │   │
 │   ├── docs/                     # Documentación técnica y archivos multimedia del proyecto.
-│   ├── ISSUE_TEMPLATE/           # Plantillas para Issue(s).
+│   ├── ISSUE_TEMPLATE/           # Plantillas para Issues.
 │   └── workflows/                # Flujos de trabajo de GitHub Actions (CI/CD).
 │
 ├── .vscode/
