@@ -171,9 +171,6 @@
 						"docker-compose*y*ml",
 						".github/workflows/**/*.{yml,yaml}"
 					]
-				},
-				"material-icon-theme.files.associations": {
-					".env.super-linter": "tune"
 				}
 			}
 		}
