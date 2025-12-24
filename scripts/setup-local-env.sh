@@ -81,7 +81,7 @@ echo -e "\e[32m\nFrontend dependencies installed successfully.\e[0m"
 # Health check
 echo -e "\e[30m\nRunning health check...\n\e[0m"
 
-bash ./scripts/health-check.sh
+bash ./scripts/health-check.sh --env=local
 
 if [ $? -eq 0 ]; then
 	echo -e "\e[32m\nAll tools are installed and working correctly.\e[0m"
