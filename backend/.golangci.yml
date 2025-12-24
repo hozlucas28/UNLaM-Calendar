@@ -21,6 +21,7 @@ linters:
           allow:
             - $gostd
             - github.com/gocolly/colly
+            - github.com/stretchr/testify
 
     gocognit:
       min-complexity: 18

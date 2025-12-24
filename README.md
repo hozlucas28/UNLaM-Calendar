@@ -69,6 +69,7 @@ UNLaM-Calendar/
 │
 ├── scripts/
 │   ├── health-check.sh           # Script para comprobar que las herramientas necesarias estén instaladas.
+│   ├── run-tests.sh              # Script para ejecutar los tests del Frontend y Backend.
 │   └── setup-local-env.sh        # Script para configurar el entorno de desarrollo local.
 │
 ├── .editorconfig                 # Configuración para estandarizar el estilo de código entre diferentes IDEs.
