@@ -32,7 +32,7 @@ pre-commit:
             stage_fixed: true
 
           - name: " Lint and format Golang files"
-            run: golangci-lint run {staged_files} -v --fix --color=never
+            run: golangci-lint run {staged_files} --fix --color=never
             glob:
               - "go.mod"
               - "go.sum"
