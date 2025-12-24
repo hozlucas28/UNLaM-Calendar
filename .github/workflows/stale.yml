@@ -1,0 +1,31 @@
+---
+name: "Stale pull requests and issues"
+description: "Stale pull requests and issues after a period of inactivity."
+permissions: {}
+
+on:
+  schedule:
+    - cron: "0 8 * * *"
+
+jobs:
+  stale-issues-and-pull-requests:
+    name: "Stale pull requests and issues"
+    runs-on: ubuntu-latest
+
+    permissions:
+      issues: write
+      actions: write
+      pull-requests: write
+
+    steps:
+      - uses: actions/stale@v10
+        with:
+          days-before-stale: 7
+          days-before-close: -1
+          stale-pr-label: "stale"
+          stale-issue-label: "stale"
+          exempt-pr-labels: "bot"
+          exempt-issue-labels: "bot"
+          stale-pr-message: "This pull request has been marked as stale due to inactivity."
+          stale-issue-message: "This issue has been marked as stale due to inactivity."
+          exempt-draft-pr: true
