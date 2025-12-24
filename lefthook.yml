@@ -3,11 +3,11 @@ assert_lefthook_installed: true
 
 pre-commit:
   jobs:
-    - name: " Lint and format"
+    - name: " Lint, format, and apply fixes"
       group:
         parallel: true
         jobs:
-          - name: " Format with prettier"
+          - name: " Format with Prettier"
             run: bun run prettier {staged_files} --write --ignore-unknown --no-color --no-error-on-unmatched-pattern
             glob:
               - "*.astro"
@@ -16,7 +16,7 @@ pre-commit:
               - "*.mermaid"
             stage_fixed: true
 
-          - name: " Format with biome"
+          - name: " Lint and format with Biome"
             run: |
               for stagedFile in {staged_files}; do
                 echo "$stagedFile"
@@ -31,7 +31,7 @@ pre-commit:
               - "*.json"
             stage_fixed: true
 
-          - name: " Lint and format Golang files (applying fixes)"
+          - name: " Lint and format Golang files"
             run: golangci-lint run {staged_files} -v --fix --color=never
             glob:
               - "go.mod"
@@ -43,11 +43,11 @@ pre-commit:
       group:
         parallel: true
         jobs:
-          - name: " Scan leaked secrets"
-            run: gitleaks git --pre-commit --staged --verbose --no-color --no-banner
-
-          - name: " Lint Dependabot files and GitHub Actions workflows"
+          - name: " Lint Dependabot file and GitHub Actions workflows"
             run: zizmor {staged_files} --color=never
             glob:
               - ".github/dependabot.{yml,yaml}"
               - ".github/workflows/*.{yml,yaml}"
+
+          - name: " Scan for leaked secrets"
+            run: gitleaks git --pre-commit --staged --verbose --no-color --no-banner
