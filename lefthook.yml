@@ -22,7 +22,7 @@ pre-commit:
                 echo "$stagedFile"
               done
               echo ""
-              bun run --bun biome format --write --staged --colors=off --no-errors-on-unmatched
+              bun run --bun biome check --write --staged --colors=off --no-errors-on-unmatched
             glob:
               - "*.html"
               - "*.css"
