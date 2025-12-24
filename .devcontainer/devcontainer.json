@@ -12,13 +12,8 @@
 		"ghcr.io/jsburckhardt/devcontainer-features/gitleaks:1": {
 			"version": "v8.30.0"
 		},
-		"ghcr.io/eitsupi/devcontainer-features/jq-likes:2": {
-			"yqVersion": "4",
-			"jqVersion": "none",
-			"xqVersion": "none",
-			"jaqVersion": "none",
-			"gojqVersion": "none",
-			"allowJqRcVersion": "false"
+		"ghcr.io/devcontainers/features/github-cli:1": {
+			"version": "latest"
 		},
 		"ghcr.io/devcontainers/features/docker-in-docker:2": {
 			"version": "latest",
