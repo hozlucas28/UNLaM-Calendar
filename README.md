@@ -55,7 +55,7 @@ UNLaM-Calendar/
 ├── .github/
 │   ├── CODEOWNERS                # Archivo para asignar a los responsables de revisión de Pull Request(s) e Issue(s).
 │   ├── dependabot.yml            # Configuración del Dependabot (actualizaciones automáticas de dependencias).
-│   ├── PULL_REQUEST_TEMPLATE.md  # Plantilla para Pull Request(s).
+│   ├── labeler.yml               # Configuración de Labeler (asignación automática de etiquetas a Pull Requests).
 │   │
 │   ├── docs/                     # Documentación técnica y archivos multimedia del proyecto.
 │   ├── ISSUE_TEMPLATE/           # Plantillas para Issue(s).

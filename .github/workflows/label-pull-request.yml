@@ -1,0 +1,27 @@
+---
+name: "Add labels to pull request"
+description: "Add labels to pull request based on changed files on create or update it."
+permissions: {}
+
+on:
+  pull_request:
+
+jobs:
+  label-pull-request:
+    name: "Label pull request"
+    runs-on: ubuntu-latest
+
+    if: ${{ github.actor != 'dependabot[bot]' }}
+
+    permissions:
+      issues: write
+      contents: read
+      pull-requests: write
+
+    steps:
+      - name: "Label pull request"
+        uses: actions/labeler@v6
+
+concurrency:
+  group: ${{ github.ref }}_label-pull-requests
+  cancel-in-progress: true
