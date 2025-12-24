@@ -69,8 +69,7 @@ UNLaM-Calendar/
 │
 ├── scripts/
 │   ├── health-check.sh           # Script para comprobar que las herramientas necesarias estén instaladas.
-│   ├── setup-local-env.sh        # Script para configurar el entorno de desarrollo local.
-│   └── super-linter.sh           # Script para ejecutar Super-linter localmente.
+│   └── setup-local-env.sh        # Script para configurar el entorno de desarrollo local.
 │
 ├── .editorconfig                 # Configuración para estandarizar el estilo de código entre diferentes IDEs.
 ├── .gitattributes                # Configuración para los atributos de Git.
