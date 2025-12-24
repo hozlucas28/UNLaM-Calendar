@@ -21,7 +21,7 @@
 			"allowJqRcVersion": "false"
 		},
 		"ghcr.io/devcontainers/features/docker-in-docker:2": {
-			"version": "28",
+			"version": "latest",
 			"dockerDashComposeVersion": "v2"
 		}
 	},
