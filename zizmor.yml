@@ -3,4 +3,5 @@ rules:
     config:
       policies:
         actions/*: ref-pin
-        super-linter/super-linter/slim: ref-pin
+        oven-sh/setup-bun: ref-pin
+        golangci/golangci-lint-action: ref-pin
