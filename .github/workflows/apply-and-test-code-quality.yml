@@ -101,19 +101,9 @@ jobs:
       contents: read
 
     steps:
-      - name: "Create GitHub app token"
-        id: github_app_token
-        if: ${{ env.ACT != 'true' }}
-        uses: actions/create-github-app-token@v2
-        with:
-          app-id: ${{ secrets.BYPASS_RULES_APP_ID }}
-          private-key: ${{ secrets.BYPASS_RULES_APP_PRIVATE_KEY }}
-          permission-contents: read
-
       - name: "Checkout repository"
         uses: actions/checkout@v5
         with:
-          token: ${{ (steps.github_app_token.conclusion == 'skipped' && github.token) || steps.github_app_token.outputs.token }}
           fetch-depth: 0
           persist-credentials: false
 
@@ -147,19 +137,9 @@ jobs:
       contents: read
 
     steps:
-      - name: "Create GitHub app token"
-        id: github_app_token
-        if: ${{ env.ACT != 'true' }}
-        uses: actions/create-github-app-token@v2
-        with:
-          app-id: ${{ secrets.BYPASS_RULES_APP_ID }}
-          private-key: ${{ secrets.BYPASS_RULES_APP_PRIVATE_KEY }}
-          permission-contents: read
-
       - name: "Checkout repository"
         uses: actions/checkout@v5
         with:
-          token: ${{ (steps.github_app_token.conclusion == 'skipped' && github.token) || steps.github_app_token.outputs.token }}
           fetch-depth: 0
           persist-credentials: false
 
