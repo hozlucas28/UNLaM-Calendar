@@ -48,15 +48,18 @@
    - [Go](https://go.dev/dl/) (v1.25.x)
    - [Node.js](https://nodejs.org/es/download) (v24.x.x)
    - [Bun](https://bun.com/docs/installation#installing-older-versions) (v1.3.3)
+   - [act](https://nektosact.com/installation/index.html) (latest version)
    - [Gitleaks](https://github.com/gitleaks/gitleaks?tab=readme-ov-file#installing) (v8.30.0)
+   - [GitHub CLI](https://cli.github.com/) (latest version)
    - [jq](https://jqlang.org/download/) (v1.x.x)
+   - [Docker Desktop](https://www.docker.com/) (latest version)
    - [Zizmor](https://docs.zizmor.sh/installation/) (v1.16.3)
 3. Abre la carpeta del repositorio en Visual Studio Code.
 4. Ejecuta `bash ./scripts/setup-local-env.sh` en la terminal para terminar de configurar el entorno local.
 
 ¡Listo! El Fork del proyecto ya está instalado.
 
-> Asegúrate de que Go, Node.js, Bun, Gitleaks, yq y Zizmor hayan sido añadidos al PATH. Para verificarlo ejecuta `bash ./scripts/health-check.sh --env=local` en la terminal, no debería aparecer ningún error relacionado con estas herramientas.
+> Asegúrate de que Go, Node.js, Bun, act, Gitleaks, GitHub CLI, jq, Docker Desktop y Zizmor hayan sido añadidos al PATH. Para verificarlo ejecuta `bash ./scripts/health-check.sh --env=local` en la terminal, no debería aparecer ningún error relacionado con estas herramientas.
 
 </details>
 
