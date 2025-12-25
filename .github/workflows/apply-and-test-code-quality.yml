@@ -69,6 +69,7 @@ jobs:
       - name: "Lint Dependabot file and GitHub Actions workflows"
         uses: zizmorcore/zizmor-action@e639db99335bc9038abc0e066dfcd72e23d26fb4 # v0.3.0
         with:
+          token: ${{ (steps.github_app_token.conclusion == 'skipped' && github.token) || steps.github_app_token.outputs.token }}
           version: "v1.16.3"
           advanced-security: ${{ env.ACT != 'true' }}
 
