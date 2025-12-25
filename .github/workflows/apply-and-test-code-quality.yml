@@ -36,7 +36,7 @@ jobs:
         with:
           token: ${{ (steps.github_app_token.conclusion == 'skipped' && github.token) || steps.github_app_token.outputs.token }}
           fetch-depth: 0
-          persist-credentials: false
+          persist-credentials: true
 
       - name: "Install Node.js"
         uses: actions/setup-node@v6
