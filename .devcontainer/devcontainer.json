@@ -9,6 +9,9 @@
 		"ghcr.io/devcontainers-extra/features/bun:1": {
 			"version": "1.3.3"
 		},
+		"ghcr.io/devcontainers-extra/features/act:1": {
+			"version": "latest"
+		},
 		"ghcr.io/jsburckhardt/devcontainer-features/gitleaks:1": {
 			"version": "v8.30.0"
 		},
@@ -45,7 +48,8 @@
 				"bierner.markdown-mermaid",
 				"YoavBls.pretty-ts-errors",
 				"astro-build.astro-vscode",
-				"redhat.vscode-yaml"
+				"redhat.vscode-yaml",
+				"SanjulaGanepola.github-local-actions"
 			],
 			"settings": {
 				"npm.scriptRunner": "bun",
@@ -144,7 +148,6 @@
 				"github.copilot.chat.codesearch.enabled": true,
 				"github.copilot.chat.generateTests.codeLens": true,
 				"github.copilot.chat.scopeSelection": true,
-				"github-actions.workflows.pinned.refresh.enabled": true,
 				"docker.extension.enableComposeLanguageServer": true,
 				"containers.images.sortBy": "Label",
 				"containers.images.description": [
