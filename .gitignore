@@ -18,6 +18,7 @@
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/*.code-snippets
+!*.vscode/github-local-actions-payloads/
 
 # Local history
 .history

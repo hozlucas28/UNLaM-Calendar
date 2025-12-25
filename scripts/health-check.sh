@@ -75,6 +75,14 @@ else
 	echo -e "\e[32m  - Bun installed.\e[0m"
 fi
 
+act --version >/dev/null 2>&1
+if [[ $? -ne 0 ]]; then
+	echo -e "\e[31m  - act is not installed or not found in PATH.\e[0m" >&2
+	exit_code=1
+else
+	echo -e "\e[32m  - act installed.\e[0m"
+fi
+
 gitleaks --version >/dev/null 2>&1
 if [[ $? -ne 0 ]]; then
 	echo -e "\e[31m  - Gitleaks is not installed or not found in PATH.\e[0m" >&2
@@ -83,12 +91,12 @@ else
 	echo -e "\e[32m  - Gitleaks installed.\e[0m"
 fi
 
-yq --version >/dev/null 2>&1
+gh --version >/dev/null 2>&1
 if [[ $? -ne 0 ]]; then
-	echo -e "\e[31m  - yq is not installed or not found in PATH.\e[0m" >&2
+	echo -e "\e[31m  - GitHub CLI is not installed or not found in PATH.\e[0m" >&2
 	exit_code=1
 else
-	echo -e "\e[32m  - yq installed.\e[0m"
+	echo -e "\e[32m  - GitHub CLI installed.\e[0m"
 fi
 
 if [[ "$env" == "local" ]]; then
@@ -99,14 +107,14 @@ if [[ "$env" == "local" ]]; then
 	else
 		echo -e "\e[32m  - jq installed.\e[0m"
 	fi
+fi
+
+docker --version >/dev/null 2>&1
+if [[ $? -ne 0 ]]; then
+	echo -e "\e[31m  - Docker is not installed, not found in PATH, or not running.\e[0m" >&2
+	exit_code=1
 else
-	docker --version >/dev/null 2>&1
-	if [[ $? -ne 0 ]]; then
-		echo -e "\e[31m  - Docker is not installed, not found in PATH, or not running.\e[0m" >&2
-		exit_code=1
-	else
-		echo -e "\e[32m  - Docker installed.\e[0m"
-	fi
+	echo -e "\e[32m  - Docker installed.\e[0m"
 fi
 
 bun run prettier --version >/dev/null 2>&1
