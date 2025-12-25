@@ -32,7 +32,7 @@ jobs:
           permission-security-events: write
 
       - name: "Checkout repository"
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           token: ${{ (steps.github_app_token.conclusion == 'skipped' && github.token) || steps.github_app_token.outputs.token }}
           fetch-depth: 0
@@ -101,7 +101,7 @@ jobs:
 
     steps:
       - name: "Checkout repository"
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0
           persist-credentials: false
@@ -137,7 +137,7 @@ jobs:
 
     steps:
       - name: "Checkout repository"
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0
           persist-credentials: false
