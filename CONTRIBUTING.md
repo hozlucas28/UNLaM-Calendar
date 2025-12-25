@@ -1,6 +1,7 @@
 <p align="center">
     <a href="#pasos-para-contribuir">Pasos para contribuir</a> •
     <a href="#guías-de-instalación">Guías de instalación</a> •
+    <a href="#cómo-ejecutar-los-tests">Cómo ejecutar los tests</a> •
     <a href="#proceso-para-determinar-la-integración-de-una-pull-request">Proceso para determinar la integración de una Pull Request</a>
 </p>
 
@@ -63,13 +64,50 @@
 
 </details>
 
+## Cómo ejecutar los tests
+
+Para ejecutar todos los tests del proyecto, puedes optar por uno de los siguientes métodos:
+
+- Utilizar la interfaz de Visual Studio Code para ejecutar los tests del Frontend o Backend.
+- Ejecutar `bash ./scripts/run-tests.sh`, para que se ejecuten automáticamente todos los tests del Frontend y Backend a la vez.
+
+<details>
+<summary>
+	<h3>Testear GitHub Actions localmente</h3>
+</summary>
+
+Para testear el Workflow de una GitHub Action, o los existentes, deberás instalar [GitHub Local Actions](https://marketplace.visualstudio.com/items?itemName=SanjulaGanepola.github-local-actions) (extensión de Visual Studio Code).
+
+> Nota: si instalas el proyecto utilizando un DevContainer, la extensión ya estará instalada.
+
+Luego, deberás seleccionar el icono de la extensión (barra lateral izquierda de Visual Studio Code) y agregar las siguientes configuraciones:
+
+- Secrets
+  - Selecciona y edita el valor `GITHUB_TOKEN` (presionando el icono circular al colocar el puntero encima de este).
+- Payloads
+  - Agrega cada uno de los Payloads que se encuentra en la carpeta [`./.vscode/github-local-actions-payloads/`](./.vscode/github-local-actions-payloads/).
+- Options
+  - Selecciona y edita el valor `GITHUB_TOKEN` para que tenga como valor `hozlucas28`.
+
+¡Listo! Ya puedes comenzar a testear localmente los Workflows de las GitHub Actions a traves de la sección `Workflows`, ubicada en el panel de la extensión.
+
+#### Recuerda
+
+- Seleccionar el Payload sobre el cuál quieres testear el Workflow.
+- Crear los Payloads faltantes para los nuevos Workflows que quieres testear.
+- Si es necesario, editar los Payloads existentes para cumplir con los requisitos de los nuevos Workflows.
+
+> Tip: puedes encontrar ejemplos de Payloads en el repositorio de [Actions Toolkit](https://github.com/mcolyer/actions-toolkit-action/tree/master/fixtures).
+
+</details>
+
 ## Proceso para determinar la integración de una Pull Request
 
 Al realizar una Pull Request, estos son los procedimientos automáticos y manuales que se realizan para aprobarla o rechazarla:
 
 1. Se ejecutan automáticamente los GitHub Actions.
    - Se lintea y formatea el código.
-   - Se ejecutan los Tests del Frontend y Backend.
+   - Se ejecutan los tests del Frontend y Backend.
 2. Si la Pull Request ejecuta exitosamente los GitHub Actions, se comprueba si añade una característica deseable o si corrige un Bug.
 3. Si se añade una característica deseable o si se corrige un Bug, un mantenedor la aprueba e integra al proyecto.
 
