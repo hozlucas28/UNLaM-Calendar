@@ -25,13 +25,14 @@
 
 ### DevContainer (recomendada)
 
-- Clona el Fork del proyecto a tu máquina personal.
-- Instala [Visual Studio Code](https://code.visualstudio.com/), [Docker Desktop](https://www.docker.com/) y [Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) (extensión de Visual Studio Code).
-- Ejecuta Docker Desktop.
-- Abre la carpeta del repositorio en Visual Studio Code.
-- Reabre el proyecto en un DevContainer, presionando `F1` y seleccionando `Dev Containers: Rebuild and Reopen in Container`.
-- Espera a que se construya e inicie el contenedor, y a que se instalen las herramientas.
-- ¡Listo! El Fork del proyecto ya está instalado.
+1. Clona el Fork del proyecto a tu máquina personal.
+2. Instala [Visual Studio Code](https://code.visualstudio.com/), [Docker Desktop](https://www.docker.com/) y [Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) (extensión de Visual Studio Code).
+3. Ejecuta Docker Desktop.
+4. Abre la carpeta del repositorio en Visual Studio Code.
+5. Reabre el proyecto en un DevContainer, presionando `F1` y seleccionando `Dev Containers: Rebuild and Reopen in Container`.
+6. Espera a que se construya e inicie el contenedor, y a que se instalen las herramientas.
+
+¡Listo! El Fork del proyecto ya está instalado.
 
 > [!NOTE]
 > Puede que al construir o reconstruir el DevContainer ocurra un error del estilo: _"El contenedor ya existe o se encuentra en uso"_. No te preocupes, es un Bug conocido, simplemente ignóralo y vuelve a reconstruirlo.
@@ -41,19 +42,19 @@
 	<h3>Entorno local</h3>
 </summary>
 
-- Clona el Fork del proyecto a tu máquina personal.
-- Instala
-  - [Visual Studio Code](https://code.visualstudio.com/)
-  - [Go](https://go.dev/dl/) (v1.25.x)
-  - [Node.js](https://nodejs.org/es/download) (v24.x.x)
-  - [Bun](https://bun.com/docs/installation#installing-older-versions) (v1.3.3)
-  - [Gitleaks](https://github.com/gitleaks/gitleaks?tab=readme-ov-file#installing) (v8.30.0)
-  - [jq](https://jqlang.org/download/) (v1.x.x)
-  - [yq](https://github.com/mikefarah/yq?tab=readme-ov-file#install) (v4.x.x)
-  - [Zizmor](https://docs.zizmor.sh/installation/) (v1.16.3)
-- Abre la carpeta del repositorio en Visual Studio Code.
-- Ejecuta `bash ./scripts/setup-local-env.sh` en la terminal para terminar de configurar el entorno local.
-- ¡Listo! El Fork del proyecto ya está instalado.
+1. Clona el Fork del proyecto a tu máquina personal.
+2. Instala
+   - [Visual Studio Code](https://code.visualstudio.com/)
+   - [Go](https://go.dev/dl/) (v1.25.x)
+   - [Node.js](https://nodejs.org/es/download) (v24.x.x)
+   - [Bun](https://bun.com/docs/installation#installing-older-versions) (v1.3.3)
+   - [Gitleaks](https://github.com/gitleaks/gitleaks?tab=readme-ov-file#installing) (v8.30.0)
+   - [jq](https://jqlang.org/download/) (v1.x.x)
+   - [Zizmor](https://docs.zizmor.sh/installation/) (v1.16.3)
+3. Abre la carpeta del repositorio en Visual Studio Code.
+4. Ejecuta `bash ./scripts/setup-local-env.sh` en la terminal para terminar de configurar el entorno local.
+
+¡Listo! El Fork del proyecto ya está instalado.
 
 > Asegúrate de que Go, Node.js, Bun, Gitleaks, yq y Zizmor hayan sido añadidos al PATH. Para verificarlo ejecuta `bash ./scripts/health-check.sh --env=local` en la terminal, no debería aparecer ningún error relacionado con estas herramientas.
 
