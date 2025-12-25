@@ -132,30 +132,36 @@ flowchart
 
 	Start[ ]@{ shape: circle }
 
-	Start --> CreateFork
-	CreateFork["Se crea una Pull Request"] --> RunCI
+	Start --> CreatePR
+	CreatePR["Se crea una Pull Request"] --> RunGHActions
 
-	subgraph RunCI["GitHub Actions"]
-		LintAndFormat["Lintea y formatea el código"] --> Tests
-		Tests["Ejecuta los Tests del Frontend y Backend"]
+	subgraph RunGHActions["GitHub Actions"]
+		AddLabel["Agrega etiquetas"] --> LintAndFormat
+		LintBranchName["Lintea el nombre de la rama"] --> LintAndFormat
+		LintAndFormat["Lintea y formatea el código"] --> RunFrontendTests
+		LintAndFormat["Lintea y formatea el código"] --> RunBackendTests
+		RunFrontendTests["Ejecuta los tests del Frontend"]
+		RunBackendTests["Ejecuta los tests del Backend"]
 	end
 
-	RunCI --> RunCIOutput
+	RunGHActions --> RunGHActionsOutput
 
-	RunCIOutput{"Ejecución de las <br />GitHub Actions"}
-	RunCIOutput -->|Exitosa| MaintainerReview
-	RunCIOutput -->|Fallida| OwnerFixCode
+	RunGHActionsOutput{"Ejecución de las <br />GitHub Actions"}
+	RunGHActionsOutput -->|Exitosa| MaintainerReviewPR
+	RunGHActionsOutput -->|Fallida| OwnerFixPR
 
-	MaintainerReview["Un mantenedor revisa la Pull Request"] --> HasDesirableFeatureOrBugFix
-	OwnerFixCode["El dueño de la Pull Request corrige el código"] --> CommitChanges
-	CommitChanges["Comitea los cambios"] --> RunCI
+	MaintainerReviewPR["Un mantenedor revisa la Pull Request"] --> PRHasDesirableFeatureOrBugFix
+	OwnerFixPR["El dueño de la Pull Request corrige los fallos"] --> CommitAndSaveChanges
+	CommitAndSaveChanges["Comitea y guarda los cambios"] --> RunGHActions
 
-	HasDesirableFeatureOrBugFix{"¿Tiene una característica deseable o corrige un Bug?"}
-	HasDesirableFeatureOrBugFix -->|Si| ApproveAndMerge
-	HasDesirableFeatureOrBugFix -->|No| Reject
+	PRHasDesirableFeatureOrBugFix{"¿Tiene una característica deseable o corrige un Bug?"}
+	PRHasDesirableFeatureOrBugFix -->|Si| ApproveAndMergePR
+	PRHasDesirableFeatureOrBugFix -->|No| RejectPR
 
-	ApproveAndMerge["El mantenedor la aprueba e integra al proyecto"] --> End
-	Reject["El mantenedor la rechaza"] --> End
+	ApproveAndMergePR["El mantenedor la aprueba e integra al proyecto"] --> ClosePR
+	RejectPR["El mantenedor la rechaza"] --> ClosePR
+
+	ClosePR["Se cierra la Pull Request"] --> End
 
 	End[ ]@{ shape: dbl-circ }
 ```
