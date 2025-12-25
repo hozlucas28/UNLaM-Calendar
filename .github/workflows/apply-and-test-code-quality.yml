@@ -26,6 +26,7 @@ jobs:
         with:
           app-id: ${{ secrets.BYPASS_RULES_APP_ID }}
           private-key: ${{ secrets.BYPASS_RULES_APP_PRIVATE_KEY }}
+          permission-actions: read
           permission-members: read
           permission-metadata: read
           permission-contents: write
@@ -96,6 +97,9 @@ jobs:
 
     needs: lint-and-format
 
+    permissions:
+      contents: read
+
     steps:
       - name: "Create GitHub app token"
         id: github_app_token
@@ -104,8 +108,7 @@ jobs:
         with:
           app-id: ${{ secrets.BYPASS_RULES_APP_ID }}
           private-key: ${{ secrets.BYPASS_RULES_APP_PRIVATE_KEY }}
-          permission-contents: write
-          permission-statuses: write
+          permission-contents: read
 
       - name: "Checkout repository"
         uses: actions/checkout@v5
@@ -141,7 +144,7 @@ jobs:
     needs: lint-and-format
 
     permissions:
-      contents: write
+      contents: read
 
     steps:
       - name: "Create GitHub app token"
@@ -151,8 +154,7 @@ jobs:
         with:
           app-id: ${{ secrets.BYPASS_RULES_APP_ID }}
           private-key: ${{ secrets.BYPASS_RULES_APP_PRIVATE_KEY }}
-          permission-contents: write
-          permission-statuses: write
+          permission-contents: read
 
       - name: "Checkout repository"
         uses: actions/checkout@v5
