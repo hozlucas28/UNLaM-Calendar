@@ -59,7 +59,6 @@ jobs:
           bun add --dev prettier@^3 prettier-plugin-astro@^0 @biomejs/biome@^2
           bun run prettier . --write --ignore-unknown --no-error-on-unmatched-pattern
           bun run --bun biome check --write --no-errors-on-unmatched
-          rm -rf ./node_modules/ ./bun.lock ./package.json
 
       - name: "Lint and format Golang files"
         uses: golangci/golangci-lint-action@v9
