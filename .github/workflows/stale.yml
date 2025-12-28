@@ -1,7 +1,7 @@
 ---
 name: "Stale"
 run-name: "Stale pull requests and issues"
-description: "Stale pull requests and issues after a period of inactivity."
+description: "Stales pull requests and issues after a period of inactivity."
 permissions: {}
 
 on:
