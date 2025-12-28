@@ -1,0 +1,30 @@
+---
+name: "Lint Pull Request Head Branch Name"
+run-name: "Lint pull request head branch name"
+description: "Lint pull request head branch name when it is opened or reopened."
+permissions: {}
+
+on:
+  pull_request:
+    types:
+      - opened
+      - reopened
+
+jobs:
+  lint-head-branch-name:
+    name: "Lint pull request head branch name"
+    runs-on: ubuntu-latest
+
+    permissions:
+      pull-requests: read
+
+    steps:
+      - name: "Lint pull request head branch name"
+        uses: deepakputhraya/action-branch-name@e0f8db53a8e289f1ae6f6c3e8dc70a3d366fd876
+        with:
+          regex: '\/.+'
+          allowed_prefixes: ${{ github.actor }}
+
+concurrency:
+  group: ${{ github.ref }}_lint-pull-request-head-branch-name
+  cancel-in-progress: true

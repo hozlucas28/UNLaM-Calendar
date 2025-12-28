@@ -1,0 +1,12 @@
+{
+	"action": "opened",
+	"number": 1,
+	"pull_request": {
+		"base": {
+			"ref": "master"
+		},
+		"head": {
+			"ref": "hozlucas28/feature/map-2C-events"
+		}
+	}
+}
