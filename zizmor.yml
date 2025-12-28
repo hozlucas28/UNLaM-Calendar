@@ -5,3 +5,7 @@ rules:
         actions/*: ref-pin
         oven-sh/setup-bun: ref-pin
         golangci/golangci-lint-action: ref-pin
+
+  dangerous-triggers:
+    ignore:
+      - label.yml
