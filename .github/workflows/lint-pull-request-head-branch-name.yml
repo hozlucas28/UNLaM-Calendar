@@ -1,14 +1,13 @@
 ---
 name: "Lint Pull Request Head Branch Name"
 run-name: "Lint pull request head branch name"
-description: "Lints pull request head branch name when it is opened or reopened."
+description: "Lints pull request head branch name when it is opened."
 permissions: {}
 
 on:
   pull_request:
     types:
       - opened
-      - reopened
 
 jobs:
   lint-head-branch-name:
