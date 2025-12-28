@@ -1,5 +1,6 @@
 ---
-name: "Stale pull requests and issues"
+name: "Stale"
+run-name: "Stale pull requests and issues"
 description: "Stale pull requests and issues after a period of inactivity."
 permissions: {}
 
@@ -8,7 +9,7 @@ on:
     - cron: "0 8 * * *"
 
 jobs:
-  stale-issues-and-pull-requests:
+  stale:
     name: "Stale pull requests and issues"
     runs-on: ubuntu-latest
 
