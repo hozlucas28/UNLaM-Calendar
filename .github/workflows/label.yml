@@ -6,6 +6,8 @@ permissions: {}
 
 on:
   pull_request_target:
+    branches-ignore:
+      - hozlucas28/github-action/workflow-test
 
 jobs:
   label:
