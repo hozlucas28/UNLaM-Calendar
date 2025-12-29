@@ -8,6 +8,8 @@ on:
   pull_request:
     types:
       - opened
+    branches-ignore:
+      - hozlucas28/github-action/workflow-test
 
 jobs:
   lint-head-branch-name:
