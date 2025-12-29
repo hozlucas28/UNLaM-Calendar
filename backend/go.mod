@@ -3,7 +3,7 @@ module backend
 go 1.25.3
 
 require (
-	github.com/gocolly/colly v1.2.0
+	github.com/gocolly/colly v2.2.0
 	github.com/stretchr/testify v1.11.1
 )
 
