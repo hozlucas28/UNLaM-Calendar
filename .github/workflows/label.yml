@@ -24,7 +24,7 @@ jobs:
       - name: Checkout labeler configuration
         uses: actions/checkout@v6
         with:
-          sparse-checkout: "./.github/labeler.yml"
+          sparse-checkout: .github/labeler.yml
           persist-credentials: false
           sparse-checkout-cone-mode: false
 
