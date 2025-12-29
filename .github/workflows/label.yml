@@ -1,7 +1,7 @@
 ---
-name: "Label"
-run-name: "Label"
-description: "Labels pull request based on changed files when it is opened, reopened, or synchronized."
+name: Label
+run-name: Label
+description: Labels pull request based on changed files when it is opened, reopened, or synchronized.
 permissions: {}
 
 on:
@@ -9,7 +9,7 @@ on:
 
 jobs:
   label:
-    name: "Label pull request"
+    name: Label pull request
     runs-on: ubuntu-latest
 
     if: ${{ github.repository == 'hozlucas28/UNLaM-Calendar' }}
@@ -19,14 +19,14 @@ jobs:
       pull-requests: write
 
     steps:
-      - name: "Checkout labeler configuration"
+      - name: Checkout labeler configuration
         uses: actions/checkout@v6
         with:
           sparse-checkout: "./.github/labeler.yml"
           persist-credentials: false
           sparse-checkout-cone-mode: false
 
-      - name: "Label pull request"
+      - name: Label pull request
         uses: actions/labeler@v6
 
 concurrency:
