@@ -46,14 +46,14 @@ cd $(cd "$(dirname "$0")/.." && pwd)
 # Test Frontend
 echo -e "\e[30m\nTesting Frontend...\n\e[0m"
 
-cd ./frontend/
+cd frontend/
 bun test
 cd ../
 
 # Test Backend
 echo -e "\e[30m\nTesting Backend...\n\e[0m"
 
-cd ./backend/
+cd backend/
 go test ./...
 cd ../
 

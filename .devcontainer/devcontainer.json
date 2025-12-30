@@ -1,6 +1,6 @@
 {
 	"service": "devcontainer",
-	"dockerComposeFile": "./docker-compose.yml",
+	"dockerComposeFile": "docker-compose.yml",
 	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
 	"features": {
 		"ghcr.io/devcontainers/features/node:1": {
@@ -24,7 +24,7 @@
 		}
 	},
 	"remoteUser": "root",
-	"postCreateCommand": "bash ./.devcontainer/setup-tools.sh",
+	"postCreateCommand": "bash .devcontainer/setup-tools.sh",
 	"customizations": {
 		"vscode": {
 			"extensions": [

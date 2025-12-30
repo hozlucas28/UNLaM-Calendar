@@ -2,10 +2,10 @@ version: 2
 
 updates:
   - package-ecosystem: bun
-    directory: ./frontend/
+    directory: frontend
     target-branch: main
     commit-message:
-      prefix: "ci"
+      prefix: ci
     labels:
       - "bot"
       - "frontend dependencies"
@@ -15,14 +15,14 @@ updates:
     open-pull-requests-limit: 4
     schedule:
       interval: cron
-      cronjob: "0 8 * * *" # Every day at 08:00
+      cronjob: 0 8 * * * # Every day at 08:00
       timezone: America/Argentina/Buenos_Aires
 
   - package-ecosystem: gomod
-    directory: ./backend/
+    directory: backend
     target-branch: main
     commit-message:
-      prefix: "ci"
+      prefix: ci
     labels:
       - "bot"
       - "backend dependencies"
@@ -32,14 +32,14 @@ updates:
     open-pull-requests-limit: 4
     schedule:
       interval: cron
-      cronjob: "0 8 * * *" # Every day at 08:00
+      cronjob: 0 8 * * * # Every day at 08:00
       timezone: America/Argentina/Buenos_Aires
 
   - package-ecosystem: github-actions
     directory: /
     target-branch: main
     commit-message:
-      prefix: "ci"
+      prefix: ci
     labels:
       - "bot"
       - "github actions"
@@ -48,13 +48,13 @@ updates:
     open-pull-requests-limit: 4
     schedule:
       interval: cron
-      cronjob: "0 8 * * *" # Every day at 08:00
+      cronjob: 0 8 * * * # Every day at 08:00
       timezone: America/Argentina/Buenos_Aires
 
   - package-ecosystem: devcontainers
     directory: /
     commit-message:
-      prefix: "ci"
+      prefix: ci
     labels:
       - "bot"
       - "devcontainers"
@@ -64,5 +64,5 @@ updates:
     open-pull-requests-limit: 4
     schedule:
       interval: cron
-      cronjob: "0 8 * * *" # Every day at 08:00
+      cronjob: 0 8 * * * # Every day at 08:00
       timezone: America/Argentina/Buenos_Aires

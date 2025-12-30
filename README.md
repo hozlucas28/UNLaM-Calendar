@@ -18,7 +18,7 @@
 <p align="center">
 		<!-- TODO: agregar link a la página oficial cuando esté disponible -->
     <a href="#" target="_blank">
-			<img src="./.github/docs/assets/unlam-calendar-logo.png" alt='Logo de "UNLaM Calendar"' width="800">
+			<img src=".github/docs/assets/unlam-calendar-logo.png" alt='Logo de "UNLaM Calendar"' width="800">
 			<br />
 			Página oficial
 		</a>
@@ -26,7 +26,7 @@
 
 ## Qué es
 
-UNLaM Calendar es un proyecto compuesto por un [Backend](./backend/) que extrae automáticamente los eventos del [calendario oficial](https://www.unlam.edu.ar/calendario-academico/) de la [Universidad Nacional de La Matanza (UNLaM)](https://www.unlam.edu.ar/) para generar calendarios en diferentes servicios, cómo [Google Calendar](https://calendar.google.com/), con los eventos de los departamentos de la universidad. Además, posee un [Frontend](./frontend/) que permite a los estudiantes suscribirse a dichos calendarios en base al departamento al cual pertenece su carrera.
+UNLaM Calendar es un proyecto compuesto por un [Backend](backend/) que extrae automáticamente los eventos del [calendario oficial](https://www.unlam.edu.ar/calendario-academico/) de la [Universidad Nacional de La Matanza (UNLaM)](https://www.unlam.edu.ar/) para generar calendarios en diferentes servicios, cómo [Google Calendar](https://calendar.google.com/), con los eventos de los departamentos de la universidad. Además, posee un [Frontend](frontend/) que permite a los estudiantes suscribirse a dichos calendarios en base al departamento al cual pertenece su carrera.
 
 > [!NOTE]
 > Si el calendario ya había sido generado, el Backend añade los nuevos eventos y modifica los existentes (si es necesario).
@@ -43,7 +43,7 @@ UNLaM Calendar es un proyecto compuesto por un [Backend](./backend/) que extrae 
 
 ## Cómo contribuir
 
-Para contribuir a este proyecto, lee la [guía de contribución](./CONTRIBUTING.md) en donde se detallan: los pasos para instalarlo localmente, la guía de cómo debes realizar una Pull Request y cómo la misma puede ser integrada al proyecto.
+Para contribuir a este proyecto, lee la [guía de contribución](CONTRIBUTING.md) en donde se detallan: los pasos para instalarlo localmente, la guía de cómo debes realizar una Pull Request y cómo la misma puede ser integrada al proyecto.
 
 ## Estructura del proyecto
 
@@ -89,16 +89,16 @@ UNLaM-Calendar/
 ```
 
 > [!TIP]
-> Si deseas conocer más información sobre las arquitecturas y tecnologías utilizadas en el Frontend y Backend, consulta la [documentación del Frontend](./frontend/) o la [documentación del Backend](./backend/) respectivamente.
+> Si deseas conocer más información sobre las arquitecturas y tecnologías utilizadas en el Frontend y Backend, consulta la [documentación del Frontend](frontend/) o la [documentación del Backend](backend/) respectivamente.
 
 ## Material adicional
 
-- [Guía de contribución](./CONTRIBUTING.md)
-- [Documentación técnica (relevamiento de requerimientos, diagramas, etc.)](./.github/docs/)
+- [Guía de contribución](CONTRIBUTING.md)
+- [Documentación técnica (relevamiento de requerimientos, diagramas, etc.)](.github/docs/)
 
 ## Licencia
 
-Este proyecto está bajo la [licencia GNU AGPLv3](./LICENSE). Para más información sobre lo que está permitido hacer con el contenido de este proyecto, visita [choosealicense.com](https://choosealicense.com/licenses/).
+Este proyecto está bajo la [licencia GNU AGPLv3](LICENSE). Para más información sobre lo que está permitido hacer con el contenido de este proyecto, visita [choosealicense.com](https://choosealicense.com/licenses/).
 
 ## Contacto
 

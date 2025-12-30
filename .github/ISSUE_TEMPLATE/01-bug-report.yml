@@ -7,7 +7,7 @@ labels:
 assignees:
   - hozlucas28
 
-title: "<BREVE TÍTULO>"
+title: <BREVE TÍTULO>
 
 body:
   - type: markdown

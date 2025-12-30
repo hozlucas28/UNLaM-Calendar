@@ -21,7 +21,7 @@ pre-commit:
               for stagedFile in {staged_files}; do
                 echo "$stagedFile"
               done
-              echo ""
+              echo ''
               bun run --bun biome check --write --staged --colors=off --no-errors-on-unmatched
             glob:
               - "*.html"

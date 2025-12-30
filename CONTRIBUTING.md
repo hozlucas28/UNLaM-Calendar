@@ -5,7 +5,7 @@
     <a href="#proceso-para-determinar-la-integración-de-una-pull-request">Proceso para determinar la integración de una Pull Request</a>
 </p>
 
-> Te recomendados leer la [documentación técnica del proyecto](./github/docs/) para entender su diseño y funcionamiento.
+> Te recomendados leer la [documentación técnica del proyecto](github/docs/) para entender su diseño y funcionamiento.
 
 ## Pasos para contribuir
 
@@ -56,11 +56,11 @@
    - [Docker Desktop](https://www.docker.com/) (latest version)
    - [Zizmor](https://docs.zizmor.sh/installation/) (v1.16.3)
 3. Abre la carpeta del repositorio en Visual Studio Code.
-4. Ejecuta `bash ./scripts/setup-local-env.sh` en la terminal para terminar de configurar el entorno local.
+4. Ejecuta `bash scripts/setup-local-env.sh` en la terminal para terminar de configurar el entorno local.
 
 ¡Listo! El Fork del proyecto ya está instalado.
 
-> Asegúrate de que Go, Node.js, Bun, act, Gitleaks, GitHub CLI, jq, Docker Desktop y Zizmor hayan sido añadidos al PATH. Para verificarlo ejecuta `bash ./scripts/health-check.sh --env=local` en la terminal, no debería aparecer ningún error relacionado con estas herramientas.
+> Asegúrate de que Go, Node.js, Bun, act, Gitleaks, GitHub CLI, jq, Docker Desktop y Zizmor hayan sido añadidos al PATH. Para verificarlo ejecuta `bash scripts/health-check.sh --env=local` en la terminal, no debería aparecer ningún error relacionado con estas herramientas.
 
 </details>
 
@@ -69,7 +69,7 @@
 Para ejecutar todos los tests del proyecto, puedes optar por uno de los siguientes métodos:
 
 - Utilizar la interfaz de Visual Studio Code para ejecutar los tests del Frontend o Backend.
-- Ejecutar `bash ./scripts/run-tests.sh`, para que se ejecuten automáticamente todos los tests del Frontend y Backend a la vez.
+- Ejecutar `bash scripts/run-tests.sh`, para que se ejecuten automáticamente todos los tests del Frontend y Backend a la vez.
 
 <details>
 <summary>
@@ -85,7 +85,7 @@ Luego, deberás seleccionar el icono de la extensión (barra lateral izquierda d
 - Secrets
   - Selecciona y edita el valor `GITHUB_TOKEN` (presionando el icono circular al colocar el puntero encima de este).
 - Payloads
-  - Agrega cada uno de los Payloads que se encuentra en la carpeta [`./.vscode/github-local-actions-payloads/`](./.vscode/github-local-actions-payloads/).
+  - Agrega cada uno de los Payloads que se encuentra en la carpeta [`.vscode/github-local-actions-payloads/`](.vscode/github-local-actions-payloads/).
 - Options
   - Selecciona y edita el valor `GITHUB_TOKEN` para que tenga como valor `hozlucas28`.
 

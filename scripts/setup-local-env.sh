@@ -57,8 +57,8 @@ echo -e "\e[32m\nRepository tools installed successfully.\e[0m"
 # Create Visual Studio Code setting and recommended extensions files
 echo -e "\e[30m\nCreating Visual Studio Code setting and recommended extensions files...\n\e[0m"
 
-jq '.customizations.vscode.settings' ./.devcontainer/devcontainer.json > ./.vscode/settings.json
-jq '{recommendations: .customizations.vscode.extensions}' ./.devcontainer/devcontainer.json > ./.vscode/extensions.json
+jq '.customizations.vscode.settings' .devcontainer/devcontainer.json > .vscode/settings.json
+jq '{recommendations: .customizations.vscode.extensions}' .devcontainer/devcontainer.json > .vscode/extensions.json
 
 echo -e "\e[32m\nVisual Studio Code setting and recommended extensions files created successfully.\e[0m"
 
@@ -72,7 +72,7 @@ echo -e "\e[32m\nGit hooks set successfully.\e[0m"
 # Install Frontend dependencies
 echo -e "\e[30m\nInstalling Frontend dependencies...\n\e[0m"
 
-cd ./frontend/
+cd frontend/
 bun install
 cd ../
 
@@ -81,7 +81,7 @@ echo -e "\e[32m\nFrontend dependencies installed successfully.\e[0m"
 # Health check
 echo -e "\e[30m\nRunning health check...\n\e[0m"
 
-bash ./scripts/health-check.sh --env=local
+bash scripts/health-check.sh --env=local
 
 if [ $? -eq 0 ]; then
 	echo -e "\e[32m\nAll tools are installed and working correctly.\e[0m"

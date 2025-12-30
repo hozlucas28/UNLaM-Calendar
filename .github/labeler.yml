@@ -2,47 +2,47 @@
 "github":
   - changed-files:
       - any-glob-to-any-file:
-          - "./.github/CODEOWNERS"
-          - "./.github/dependabot.yml"
-          - "./.github/PULL_REQUEST_TEMPLATE.md"
-          - "./.github/ISSUE_TEMPLATE/**/*"
+          - .github/CODEOWNERS
+          - .github/dependabot.yml
+          - .github/PULL_REQUEST_TEMPLATE.md
+          - .github/ISSUE_TEMPLATE/**/*
 
 "github actions":
   - changed-files:
       - any-glob-to-any-file:
-          - "./.github/labeler.yml"
-          - "./.github/workflows/**/*.yml"
+          - .github/labeler.yml
+          - .github/workflows/**/*.yml
 
 "frontend":
   - changed-files:
-      - any-glob-to-any-file: "./frontend/**/*"
+      - any-glob-to-any-file: frontend/**/*
 
 "frontend dependencies":
   - changed-files:
       - any-glob-to-any-file:
-          - "./frontend/**/bun.lock"
-          - "./frontend/**/package.json"
+          - frontend/**/bun.lock
+          - frontend/**/package.json
 
 "backend":
   - changed-files:
-      - any-glob-to-any-file: "./backend/**/*"
+      - any-glob-to-any-file: backend/**/*
 
 "backend dependencies":
   - changed-files:
       - any-glob-to-any-file:
-          - "./backend/**/go.mod"
-          - "./backend/**/go.sum"
+          - backend/**/go.mod
+          - backend/**/go.sum
 
 "scripts":
   - changed-files:
-      - any-glob-to-any-file: "./**/*.sh"
+      - any-glob-to-any-file: "**/*.sh"
 
 "documentation":
   - changed-files:
       - any-glob-to-any-file:
-          - "./**/*.md"
-          - "./.github/docs/**/*"
+          - "**/*.md"
+          - .github/docs/**/*
 
 "devcontainers":
   - changed-files:
-      - any-glob-to-any-file: "./.devcontainer/**/*"
+      - any-glob-to-any-file: .devcontainer/**/*
