@@ -2,7 +2,7 @@
 version: "2"
 
 run:
-  timeout: "1m30s"
+  timeout: 1m30s
 
 issues:
   fix: true
@@ -14,6 +14,13 @@ output:
 
 linters:
   default: fast
+
+  enable:
+    - wsl_v5
+
+  disable:
+    - wsl
+
   settings:
     depguard:
       rules:
@@ -36,6 +43,11 @@ linters:
 
     godot:
       capital: true
+
+    wsl_v5:
+      allow-first-in-block: true
+      allow-whole-block: false
+      branch-max-lines: 2
 
 formatters:
   enable:
