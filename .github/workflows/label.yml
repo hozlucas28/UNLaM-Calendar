@@ -30,6 +30,8 @@ jobs:
 
       - name: Label pull request
         uses: actions/labeler@v6
+        with:
+          sync-labels: true
 
 concurrency:
   group: ${{ github.event.pull_request.number }}_label
