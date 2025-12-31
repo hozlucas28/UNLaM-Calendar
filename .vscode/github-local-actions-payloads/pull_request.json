@@ -25,11 +25,11 @@
 				"href": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/pulls/3"
 			},
 			"statuses": {
-				"href": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/statuses/6272c9a3957d1b68ecb57e28ee3181307c58b544"
+				"href": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/statuses/5a2645cacbeaec2ed0bf5e23d246f693a326235b"
 			}
 		},
 		"active_lock_reason": null,
-		"additions": 36,
+		"additions": 64,
 		"assignee": null,
 		"assignees": [],
 		"author_association": "OWNER",
@@ -123,9 +123,9 @@
 				},
 				"private": false,
 				"pulls_url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/pulls{/number}",
-				"pushed_at": "2025-12-29T07:29:48Z",
+				"pushed_at": "2025-12-30T20:54:42Z",
 				"releases_url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/releases{/id}",
-				"size": 8136,
+				"size": 8151,
 				"ssh_url": "git@github.com:hozlucas28/UNLaM-Calendar.git",
 				"stargazers_count": 0,
 				"stargazers_url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/stargazers",
@@ -167,15 +167,15 @@
 				"user_view_type": "public"
 			}
 		},
-		"body": "Pull request of a dummy branch for testing GitHub Action workflows.\r\nIt's necessary to have a valid payloads to test GitHub Action workflows with [`act`](https://github.com/nektos/act), using [GitHub Local Actions (Visual Studio Code extension)](https://marketplace.visualstudio.com/items?itemName=SanjulaGanepola.github-local-actions).\r\n\u003E More information in [contribution guidelines](https://github.com/hozlucas28/UNLaM-Calendar/blob/main/CONTRIBUTING.md).",
-		"changed_files": 14,
+		"body": "Pull request of a dummy branch for testing GitHub Action workflows.\r\nIt's necessary to have a valid payloads to test GitHub Action workflows with [`act`](https://github.com/nektos/act), using [GitHub Local Actions (Visual Studio Code extension)](https://marketplace.visualstudio.com/items?itemName=SanjulaGanepola.github-local-actions).\r\n> More information in [contribution guidelines](https://github.com/hozlucas28/UNLaM-Calendar/blob/main/CONTRIBUTING.md).",
+		"changed_files": 16,
 		"closed_at": null,
 		"comments": 0,
 		"comments_url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/issues/3/comments",
-		"commits": 12,
+		"commits": 18,
 		"commits_url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/pulls/3/commits",
 		"created_at": "2025-12-29T07:30:56Z",
-		"deletions": 126,
+		"deletions": 129,
 		"diff_url": "https://github.com/hozlucas28/UNLaM-Calendar/pull/3.diff",
 		"draft": false,
 		"head": {
@@ -267,9 +267,9 @@
 				},
 				"private": false,
 				"pulls_url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/pulls{/number}",
-				"pushed_at": "2025-12-29T07:29:48Z",
+				"pushed_at": "2025-12-30T20:54:42Z",
 				"releases_url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/releases{/id}",
-				"size": 8136,
+				"size": 8151,
 				"ssh_url": "git@github.com:hozlucas28/UNLaM-Calendar.git",
 				"stargazers_count": 0,
 				"stargazers_url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/stargazers",
@@ -288,7 +288,7 @@
 				"watchers_count": 0,
 				"web_commit_signoff_required": false
 			},
-			"sha": "6272c9a3957d1b68ecb57e28ee3181307c58b544",
+			"sha": "5a2645cacbeaec2ed0bf5e23d246f693a326235b",
 			"user": {
 				"avatar_url": "https://avatars.githubusercontent.com/u/88015479?v=4",
 				"events_url": "https://api.github.com/users/hozlucas28/events{/privacy}",
@@ -317,7 +317,7 @@
 		"labels": [],
 		"locked": false,
 		"maintainer_can_modify": false,
-		"merge_commit_sha": "469a2062b00396585852b94985d9b65cd510d142",
+		"merge_commit_sha": "580ba26688a347df9a4b8fa5014694730c35047e",
 		"mergeable": true,
 		"mergeable_state": "clean",
 		"merged": false,
@@ -331,12 +331,12 @@
 		"requested_reviewers": [],
 		"requested_teams": [],
 		"review_comment_url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/pulls/comments{/number}",
-		"review_comments": 0,
+		"review_comments": 2,
 		"review_comments_url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/pulls/3/comments",
 		"state": "open",
-		"statuses_url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/statuses/6272c9a3957d1b68ecb57e28ee3181307c58b544",
+		"statuses_url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/statuses/5a2645cacbeaec2ed0bf5e23d246f693a326235b",
 		"title": "Pull request for testing GitHub Action workflows",
-		"updated_at": "2025-12-29T07:30:56Z",
+		"updated_at": "2025-12-30T20:54:43Z",
 		"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/pulls/3",
 		"user": {
 			"avatar_url": "https://avatars.githubusercontent.com/u/88015479?v=4",

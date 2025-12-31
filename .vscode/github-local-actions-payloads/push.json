@@ -1,16 +1,1686 @@
 {
-	"after": "103a40317fb4e4d023ffac8dff28c09b7e617755",
+	"after": "5a2645cacbeaec2ed0bf5e23d246f693a326235b",
 	"base_ref": "hozlucas28/github-action/workflow-test",
 	"before": "ab2ef9cfee6736431c885d7788148921967473ee",
+	"commits": [
+		{
+			"author": {
+				"avatar_url": "https://avatars.githubusercontent.com/u/88015479?v=4",
+				"events_url": "https://api.github.com/users/hozlucas28/events{/privacy}",
+				"followers_url": "https://api.github.com/users/hozlucas28/followers",
+				"following_url": "https://api.github.com/users/hozlucas28/following{/other_user}",
+				"gists_url": "https://api.github.com/users/hozlucas28/gists{/gist_id}",
+				"gravatar_id": "",
+				"html_url": "https://github.com/hozlucas28",
+				"id": 88015479,
+				"login": "hozlucas28",
+				"node_id": "MDQ6VXNlcjg4MDE1NDc5",
+				"organizations_url": "https://api.github.com/users/hozlucas28/orgs",
+				"received_events_url": "https://api.github.com/users/hozlucas28/received_events",
+				"repos_url": "https://api.github.com/users/hozlucas28/repos",
+				"site_admin": false,
+				"starred_url": "https://api.github.com/users/hozlucas28/starred{/owner}{/repo}",
+				"subscriptions_url": "https://api.github.com/users/hozlucas28/subscriptions",
+				"type": "User",
+				"url": "https://api.github.com/users/hozlucas28",
+				"user_view_type": "public"
+			},
+			"comments_url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/5a7249d10d27f7c0ae70fcaf06c7561aa91a391d/comments",
+			"commit": {
+				"author": {
+					"date": "2025-12-29T05:44:57Z",
+					"email": "loremIpsum@gmail.com",
+					"name": "Lucas Hoz"
+				},
+				"comment_count": 0,
+				"committer": {
+					"date": "2025-12-29T05:44:57Z",
+					"email": "noreply@github.com",
+					"name": "GitHub"
+				},
+				"message": "docs: update `README.md`",
+				"tree": {
+					"sha": "26d006076c807856ce90028c8d7216835171922f",
+					"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/git/trees/26d006076c807856ce90028c8d7216835171922f"
+				},
+				"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/git/commits/5a7249d10d27f7c0ae70fcaf06c7561aa91a391d",
+				"verification": {
+					"payload": "tree 26d006076c807856ce90028c8d7216835171922f\nparent ab2ef9cfee6736431c885d7788148921967473ee\nauthor Lucas Hoz <loremIpsum@gmail.com> 1766987097 -0300\ncommitter GitHub <noreply@github.com> 1766987097 -0300\n\ndocs: update `README.md`",
+					"reason": "valid",
+					"signature": null,
+					"verified": true,
+					"verified_at": "2025-12-29T05:44:57Z"
+				}
+			},
+			"committer": {
+				"avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+				"events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+				"followers_url": "https://api.github.com/users/web-flow/followers",
+				"following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+				"gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+				"gravatar_id": "",
+				"html_url": "https://github.com/web-flow",
+				"id": 19864447,
+				"login": "web-flow",
+				"node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+				"organizations_url": "https://api.github.com/users/web-flow/orgs",
+				"received_events_url": "https://api.github.com/users/web-flow/received_events",
+				"repos_url": "https://api.github.com/users/web-flow/repos",
+				"site_admin": false,
+				"starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+				"subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+				"type": "User",
+				"url": "https://api.github.com/users/web-flow",
+				"user_view_type": "public"
+			},
+			"html_url": "https://github.com/hozlucas28/UNLaM-Calendar/commit/5a7249d10d27f7c0ae70fcaf06c7561aa91a391d",
+			"node_id": "C_kwDOQizWBtoAKDVhNzI0OWQxMGQyN2Y3YzBhZTcwZmNhZjA2Yzc1NjFhYTkxYTM5MWQ",
+			"parents": [
+				{
+					"html_url": "https://github.com/hozlucas28/UNLaM-Calendar/commit/ab2ef9cfee6736431c885d7788148921967473ee",
+					"sha": "ab2ef9cfee6736431c885d7788148921967473ee",
+					"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/ab2ef9cfee6736431c885d7788148921967473ee"
+				}
+			],
+			"sha": "5a7249d10d27f7c0ae70fcaf06c7561aa91a391d",
+			"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/5a7249d10d27f7c0ae70fcaf06c7561aa91a391d"
+		},
+		{
+			"author": {
+				"avatar_url": "https://avatars.githubusercontent.com/u/88015479?v=4",
+				"events_url": "https://api.github.com/users/hozlucas28/events{/privacy}",
+				"followers_url": "https://api.github.com/users/hozlucas28/followers",
+				"following_url": "https://api.github.com/users/hozlucas28/following{/other_user}",
+				"gists_url": "https://api.github.com/users/hozlucas28/gists{/gist_id}",
+				"gravatar_id": "",
+				"html_url": "https://github.com/hozlucas28",
+				"id": 88015479,
+				"login": "hozlucas28",
+				"node_id": "MDQ6VXNlcjg4MDE1NDc5",
+				"organizations_url": "https://api.github.com/users/hozlucas28/orgs",
+				"received_events_url": "https://api.github.com/users/hozlucas28/received_events",
+				"repos_url": "https://api.github.com/users/hozlucas28/repos",
+				"site_admin": false,
+				"starred_url": "https://api.github.com/users/hozlucas28/starred{/owner}{/repo}",
+				"subscriptions_url": "https://api.github.com/users/hozlucas28/subscriptions",
+				"type": "User",
+				"url": "https://api.github.com/users/hozlucas28",
+				"user_view_type": "public"
+			},
+			"comments_url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/668ecd3d99b3b34a976093e799d5290519f82352/comments",
+			"commit": {
+				"author": {
+					"date": "2025-12-29T05:45:53Z",
+					"email": "loremIpsum@gmail.com",
+					"name": "Lucas Hoz"
+				},
+				"comment_count": 0,
+				"committer": {
+					"date": "2025-12-29T05:45:53Z",
+					"email": "noreply@github.com",
+					"name": "GitHub"
+				},
+				"message": "chore: create `hello-world.sh` to say hi",
+				"tree": {
+					"sha": "2c291b4f742ffcc89ef272c3f33a1ff4ef1473aa",
+					"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/git/trees/2c291b4f742ffcc89ef272c3f33a1ff4ef1473aa"
+				},
+				"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/git/commits/668ecd3d99b3b34a976093e799d5290519f82352",
+				"verification": {
+					"payload": "tree 2c291b4f742ffcc89ef272c3f33a1ff4ef1473aa\nparent 5a7249d10d27f7c0ae70fcaf06c7561aa91a391d\nauthor Lucas Hoz <loremIpsum@gmail.com> 1766987153 -0300\ncommitter GitHub <noreply@github.com> 1766987153 -0300\n\nchore: create `hello-world.sh` to say hi",
+					"reason": "valid",
+					"signature": null,
+					"verified": true,
+					"verified_at": "2025-12-29T05:45:54Z"
+				}
+			},
+			"committer": {
+				"avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+				"events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+				"followers_url": "https://api.github.com/users/web-flow/followers",
+				"following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+				"gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+				"gravatar_id": "",
+				"html_url": "https://github.com/web-flow",
+				"id": 19864447,
+				"login": "web-flow",
+				"node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+				"organizations_url": "https://api.github.com/users/web-flow/orgs",
+				"received_events_url": "https://api.github.com/users/web-flow/received_events",
+				"repos_url": "https://api.github.com/users/web-flow/repos",
+				"site_admin": false,
+				"starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+				"subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+				"type": "User",
+				"url": "https://api.github.com/users/web-flow",
+				"user_view_type": "public"
+			},
+			"html_url": "https://github.com/hozlucas28/UNLaM-Calendar/commit/668ecd3d99b3b34a976093e799d5290519f82352",
+			"node_id": "C_kwDOQizWBtoAKDY2OGVjZDNkOTliM2IzNGE5NzYwOTNlNzk5ZDUyOTA1MTlmODIzNTI",
+			"parents": [
+				{
+					"html_url": "https://github.com/hozlucas28/UNLaM-Calendar/commit/5a7249d10d27f7c0ae70fcaf06c7561aa91a391d",
+					"sha": "5a7249d10d27f7c0ae70fcaf06c7561aa91a391d",
+					"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/5a7249d10d27f7c0ae70fcaf06c7561aa91a391d"
+				}
+			],
+			"sha": "668ecd3d99b3b34a976093e799d5290519f82352",
+			"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/668ecd3d99b3b34a976093e799d5290519f82352"
+		},
+		{
+			"author": {
+				"avatar_url": "https://avatars.githubusercontent.com/u/88015479?v=4",
+				"events_url": "https://api.github.com/users/hozlucas28/events{/privacy}",
+				"followers_url": "https://api.github.com/users/hozlucas28/followers",
+				"following_url": "https://api.github.com/users/hozlucas28/following{/other_user}",
+				"gists_url": "https://api.github.com/users/hozlucas28/gists{/gist_id}",
+				"gravatar_id": "",
+				"html_url": "https://github.com/hozlucas28",
+				"id": 88015479,
+				"login": "hozlucas28",
+				"node_id": "MDQ6VXNlcjg4MDE1NDc5",
+				"organizations_url": "https://api.github.com/users/hozlucas28/orgs",
+				"received_events_url": "https://api.github.com/users/hozlucas28/received_events",
+				"repos_url": "https://api.github.com/users/hozlucas28/repos",
+				"site_admin": false,
+				"starred_url": "https://api.github.com/users/hozlucas28/starred{/owner}{/repo}",
+				"subscriptions_url": "https://api.github.com/users/hozlucas28/subscriptions",
+				"type": "User",
+				"url": "https://api.github.com/users/hozlucas28",
+				"user_view_type": "public"
+			},
+			"comments_url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/f920e48a86773f60ec11923e25da2eb8aac8031f/comments",
+			"commit": {
+				"author": {
+					"date": "2025-12-29T05:46:43Z",
+					"email": "loremIpsum@gmail.com",
+					"name": "Lucas Hoz"
+				},
+				"comment_count": 0,
+				"committer": {
+					"date": "2025-12-29T05:46:43Z",
+					"email": "noreply@github.com",
+					"name": "GitHub"
+				},
+				"message": "feature(frontend): add `greet` npm script",
+				"tree": {
+					"sha": "040fb0f9b6bbd688e75c53ebfd7e87250d40fa22",
+					"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/git/trees/040fb0f9b6bbd688e75c53ebfd7e87250d40fa22"
+				},
+				"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/git/commits/f920e48a86773f60ec11923e25da2eb8aac8031f",
+				"verification": {
+					"payload": "tree 040fb0f9b6bbd688e75c53ebfd7e87250d40fa22\nparent 668ecd3d99b3b34a976093e799d5290519f82352\nauthor Lucas Hoz <loremIpsum@gmail.com> 1766987203 -0300\ncommitter GitHub <noreply@github.com> 1766987203 -0300\n\nfeature(frontend): add `greet` npm script",
+					"reason": "valid",
+					"signature": null,
+					"verified": true,
+					"verified_at": "2025-12-29T05:46:44Z"
+				}
+			},
+			"committer": {
+				"avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+				"events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+				"followers_url": "https://api.github.com/users/web-flow/followers",
+				"following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+				"gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+				"gravatar_id": "",
+				"html_url": "https://github.com/web-flow",
+				"id": 19864447,
+				"login": "web-flow",
+				"node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+				"organizations_url": "https://api.github.com/users/web-flow/orgs",
+				"received_events_url": "https://api.github.com/users/web-flow/received_events",
+				"repos_url": "https://api.github.com/users/web-flow/repos",
+				"site_admin": false,
+				"starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+				"subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+				"type": "User",
+				"url": "https://api.github.com/users/web-flow",
+				"user_view_type": "public"
+			},
+			"html_url": "https://github.com/hozlucas28/UNLaM-Calendar/commit/f920e48a86773f60ec11923e25da2eb8aac8031f",
+			"node_id": "C_kwDOQizWBtoAKGY5MjBlNDhhODY3NzNmNjBlYzExOTIzZTI1ZGEyZWI4YWFjODAzMWY",
+			"parents": [
+				{
+					"html_url": "https://github.com/hozlucas28/UNLaM-Calendar/commit/668ecd3d99b3b34a976093e799d5290519f82352",
+					"sha": "668ecd3d99b3b34a976093e799d5290519f82352",
+					"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/668ecd3d99b3b34a976093e799d5290519f82352"
+				}
+			],
+			"sha": "f920e48a86773f60ec11923e25da2eb8aac8031f",
+			"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/f920e48a86773f60ec11923e25da2eb8aac8031f"
+		},
+		{
+			"author": {
+				"avatar_url": "https://avatars.githubusercontent.com/u/88015479?v=4",
+				"events_url": "https://api.github.com/users/hozlucas28/events{/privacy}",
+				"followers_url": "https://api.github.com/users/hozlucas28/followers",
+				"following_url": "https://api.github.com/users/hozlucas28/following{/other_user}",
+				"gists_url": "https://api.github.com/users/hozlucas28/gists{/gist_id}",
+				"gravatar_id": "",
+				"html_url": "https://github.com/hozlucas28",
+				"id": 88015479,
+				"login": "hozlucas28",
+				"node_id": "MDQ6VXNlcjg4MDE1NDc5",
+				"organizations_url": "https://api.github.com/users/hozlucas28/orgs",
+				"received_events_url": "https://api.github.com/users/hozlucas28/received_events",
+				"repos_url": "https://api.github.com/users/hozlucas28/repos",
+				"site_admin": false,
+				"starred_url": "https://api.github.com/users/hozlucas28/starred{/owner}{/repo}",
+				"subscriptions_url": "https://api.github.com/users/hozlucas28/subscriptions",
+				"type": "User",
+				"url": "https://api.github.com/users/hozlucas28",
+				"user_view_type": "public"
+			},
+			"comments_url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/42365653294cb289b5ec43b0dee2372d5ef4721f/comments",
+			"commit": {
+				"author": {
+					"date": "2025-12-29T05:47:32Z",
+					"email": "88015479+hozlucas28@users.noreply.github.com",
+					"name": "hozlucas28"
+				},
+				"comment_count": 0,
+				"committer": {
+					"date": "2025-12-29T05:47:32Z",
+					"email": "github-actions[bot]@users.noreply.github.com",
+					"name": "github-actions[bot]"
+				},
+				"message": "ci: fix and format",
+				"tree": {
+					"sha": "d0f6ccc224d87099963d91d80cc39358a161bb36",
+					"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/git/trees/d0f6ccc224d87099963d91d80cc39358a161bb36"
+				},
+				"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/git/commits/42365653294cb289b5ec43b0dee2372d5ef4721f",
+				"verification": {
+					"payload": null,
+					"reason": "unsigned",
+					"signature": null,
+					"verified": false,
+					"verified_at": null
+				}
+			},
+			"committer": {
+				"avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+				"events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
+				"followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
+				"following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
+				"gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
+				"gravatar_id": "",
+				"html_url": "https://github.com/apps/github-actions",
+				"id": 41898282,
+				"login": "github-actions[bot]",
+				"node_id": "MDM6Qm90NDE4OTgyODI=",
+				"organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
+				"received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
+				"repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
+				"site_admin": false,
+				"starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
+				"subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
+				"type": "Bot",
+				"url": "https://api.github.com/users/github-actions%5Bbot%5D",
+				"user_view_type": "public"
+			},
+			"html_url": "https://github.com/hozlucas28/UNLaM-Calendar/commit/42365653294cb289b5ec43b0dee2372d5ef4721f",
+			"node_id": "C_kwDOQizWBtoAKDQyMzY1NjUzMjk0Y2IyODliNWVjNDNiMGRlZTIzNzJkNWVmNDcyMWY",
+			"parents": [
+				{
+					"html_url": "https://github.com/hozlucas28/UNLaM-Calendar/commit/f920e48a86773f60ec11923e25da2eb8aac8031f",
+					"sha": "f920e48a86773f60ec11923e25da2eb8aac8031f",
+					"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/f920e48a86773f60ec11923e25da2eb8aac8031f"
+				}
+			],
+			"sha": "42365653294cb289b5ec43b0dee2372d5ef4721f",
+			"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/42365653294cb289b5ec43b0dee2372d5ef4721f"
+		},
+		{
+			"author": {
+				"avatar_url": "https://avatars.githubusercontent.com/u/88015479?v=4",
+				"events_url": "https://api.github.com/users/hozlucas28/events{/privacy}",
+				"followers_url": "https://api.github.com/users/hozlucas28/followers",
+				"following_url": "https://api.github.com/users/hozlucas28/following{/other_user}",
+				"gists_url": "https://api.github.com/users/hozlucas28/gists{/gist_id}",
+				"gravatar_id": "",
+				"html_url": "https://github.com/hozlucas28",
+				"id": 88015479,
+				"login": "hozlucas28",
+				"node_id": "MDQ6VXNlcjg4MDE1NDc5",
+				"organizations_url": "https://api.github.com/users/hozlucas28/orgs",
+				"received_events_url": "https://api.github.com/users/hozlucas28/received_events",
+				"repos_url": "https://api.github.com/users/hozlucas28/repos",
+				"site_admin": false,
+				"starred_url": "https://api.github.com/users/hozlucas28/starred{/owner}{/repo}",
+				"subscriptions_url": "https://api.github.com/users/hozlucas28/subscriptions",
+				"type": "User",
+				"url": "https://api.github.com/users/hozlucas28",
+				"user_view_type": "public"
+			},
+			"comments_url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/6f43eca7e6ec002774d4dc0babac88dcc53c514d/comments",
+			"commit": {
+				"author": {
+					"date": "2025-12-29T05:50:11Z",
+					"email": "loremIpsum@gmail.com",
+					"name": "Lucas Hoz"
+				},
+				"comment_count": 0,
+				"committer": {
+					"date": "2025-12-29T05:50:11Z",
+					"email": "noreply@github.com",
+					"name": "GitHub"
+				},
+				"message": "test(frontend): update expected and received results",
+				"tree": {
+					"sha": "6e92de917908faa482e99737ab646488c47ba6de",
+					"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/git/trees/6e92de917908faa482e99737ab646488c47ba6de"
+				},
+				"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/git/commits/6f43eca7e6ec002774d4dc0babac88dcc53c514d",
+				"verification": {
+					"payload": "tree 6e92de917908faa482e99737ab646488c47ba6de\nparent 42365653294cb289b5ec43b0dee2372d5ef4721f\nauthor Lucas Hoz <loremIpsum@gmail.com> 1766987411 -0300\ncommitter GitHub <noreply@github.com> 1766987411 -0300\n\ntest(frontend): update expected and received results",
+					"reason": "valid",
+					"signature": null,
+					"verified": true,
+					"verified_at": "2025-12-29T05:50:12Z"
+				}
+			},
+			"committer": {
+				"avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+				"events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+				"followers_url": "https://api.github.com/users/web-flow/followers",
+				"following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+				"gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+				"gravatar_id": "",
+				"html_url": "https://github.com/web-flow",
+				"id": 19864447,
+				"login": "web-flow",
+				"node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+				"organizations_url": "https://api.github.com/users/web-flow/orgs",
+				"received_events_url": "https://api.github.com/users/web-flow/received_events",
+				"repos_url": "https://api.github.com/users/web-flow/repos",
+				"site_admin": false,
+				"starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+				"subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+				"type": "User",
+				"url": "https://api.github.com/users/web-flow",
+				"user_view_type": "public"
+			},
+			"html_url": "https://github.com/hozlucas28/UNLaM-Calendar/commit/6f43eca7e6ec002774d4dc0babac88dcc53c514d",
+			"node_id": "C_kwDOQizWBtoAKDZmNDNlY2E3ZTZlYzAwMjc3NGQ0ZGMwYmFiYWM4OGRjYzUzYzUxNGQ",
+			"parents": [
+				{
+					"html_url": "https://github.com/hozlucas28/UNLaM-Calendar/commit/42365653294cb289b5ec43b0dee2372d5ef4721f",
+					"sha": "42365653294cb289b5ec43b0dee2372d5ef4721f",
+					"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/42365653294cb289b5ec43b0dee2372d5ef4721f"
+				}
+			],
+			"sha": "6f43eca7e6ec002774d4dc0babac88dcc53c514d",
+			"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/6f43eca7e6ec002774d4dc0babac88dcc53c514d"
+		},
+		{
+			"author": {
+				"avatar_url": "https://avatars.githubusercontent.com/u/88015479?v=4",
+				"events_url": "https://api.github.com/users/hozlucas28/events{/privacy}",
+				"followers_url": "https://api.github.com/users/hozlucas28/followers",
+				"following_url": "https://api.github.com/users/hozlucas28/following{/other_user}",
+				"gists_url": "https://api.github.com/users/hozlucas28/gists{/gist_id}",
+				"gravatar_id": "",
+				"html_url": "https://github.com/hozlucas28",
+				"id": 88015479,
+				"login": "hozlucas28",
+				"node_id": "MDQ6VXNlcjg4MDE1NDc5",
+				"organizations_url": "https://api.github.com/users/hozlucas28/orgs",
+				"received_events_url": "https://api.github.com/users/hozlucas28/received_events",
+				"repos_url": "https://api.github.com/users/hozlucas28/repos",
+				"site_admin": false,
+				"starred_url": "https://api.github.com/users/hozlucas28/starred{/owner}{/repo}",
+				"subscriptions_url": "https://api.github.com/users/hozlucas28/subscriptions",
+				"type": "User",
+				"url": "https://api.github.com/users/hozlucas28",
+				"user_view_type": "public"
+			},
+			"comments_url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/ee440c1d76acc4b6990c76e48670222d1d26296b/comments",
+			"commit": {
+				"author": {
+					"date": "2025-12-29T05:50:54Z",
+					"email": "88015479+hozlucas28@users.noreply.github.com",
+					"name": "hozlucas28"
+				},
+				"comment_count": 0,
+				"committer": {
+					"date": "2025-12-29T05:50:54Z",
+					"email": "github-actions[bot]@users.noreply.github.com",
+					"name": "github-actions[bot]"
+				},
+				"message": "ci: fix and format",
+				"tree": {
+					"sha": "82faf9548df7679ca9b14ed7531929ed2e326d41",
+					"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/git/trees/82faf9548df7679ca9b14ed7531929ed2e326d41"
+				},
+				"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/git/commits/ee440c1d76acc4b6990c76e48670222d1d26296b",
+				"verification": {
+					"payload": null,
+					"reason": "unsigned",
+					"signature": null,
+					"verified": false,
+					"verified_at": null
+				}
+			},
+			"committer": {
+				"avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+				"events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
+				"followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
+				"following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
+				"gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
+				"gravatar_id": "",
+				"html_url": "https://github.com/apps/github-actions",
+				"id": 41898282,
+				"login": "github-actions[bot]",
+				"node_id": "MDM6Qm90NDE4OTgyODI=",
+				"organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
+				"received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
+				"repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
+				"site_admin": false,
+				"starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
+				"subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
+				"type": "Bot",
+				"url": "https://api.github.com/users/github-actions%5Bbot%5D",
+				"user_view_type": "public"
+			},
+			"html_url": "https://github.com/hozlucas28/UNLaM-Calendar/commit/ee440c1d76acc4b6990c76e48670222d1d26296b",
+			"node_id": "C_kwDOQizWBtoAKGVlNDQwYzFkNzZhY2M0YjY5OTBjNzZlNDg2NzAyMjJkMWQyNjI5NmI",
+			"parents": [
+				{
+					"html_url": "https://github.com/hozlucas28/UNLaM-Calendar/commit/6f43eca7e6ec002774d4dc0babac88dcc53c514d",
+					"sha": "6f43eca7e6ec002774d4dc0babac88dcc53c514d",
+					"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/6f43eca7e6ec002774d4dc0babac88dcc53c514d"
+				}
+			],
+			"sha": "ee440c1d76acc4b6990c76e48670222d1d26296b",
+			"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/ee440c1d76acc4b6990c76e48670222d1d26296b"
+		},
+		{
+			"author": {
+				"avatar_url": "https://avatars.githubusercontent.com/u/88015479?v=4",
+				"events_url": "https://api.github.com/users/hozlucas28/events{/privacy}",
+				"followers_url": "https://api.github.com/users/hozlucas28/followers",
+				"following_url": "https://api.github.com/users/hozlucas28/following{/other_user}",
+				"gists_url": "https://api.github.com/users/hozlucas28/gists{/gist_id}",
+				"gravatar_id": "",
+				"html_url": "https://github.com/hozlucas28",
+				"id": 88015479,
+				"login": "hozlucas28",
+				"node_id": "MDQ6VXNlcjg4MDE1NDc5",
+				"organizations_url": "https://api.github.com/users/hozlucas28/orgs",
+				"received_events_url": "https://api.github.com/users/hozlucas28/received_events",
+				"repos_url": "https://api.github.com/users/hozlucas28/repos",
+				"site_admin": false,
+				"starred_url": "https://api.github.com/users/hozlucas28/starred{/owner}{/repo}",
+				"subscriptions_url": "https://api.github.com/users/hozlucas28/subscriptions",
+				"type": "User",
+				"url": "https://api.github.com/users/hozlucas28",
+				"user_view_type": "public"
+			},
+			"comments_url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/27e7e5b97ff0ae9ee06992ef37d226a521719d32/comments",
+			"commit": {
+				"author": {
+					"date": "2025-12-29T05:55:22Z",
+					"email": "loremIpsum@gmail.com",
+					"name": "Lucas Hoz"
+				},
+				"comment_count": 0,
+				"committer": {
+					"date": "2025-12-29T05:55:22Z",
+					"email": "noreply@github.com",
+					"name": "GitHub"
+				},
+				"message": "fix(frontend): remove meta generator",
+				"tree": {
+					"sha": "4be7dbd951f7afaf894f5dfceab8319dc9292931",
+					"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/git/trees/4be7dbd951f7afaf894f5dfceab8319dc9292931"
+				},
+				"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/git/commits/27e7e5b97ff0ae9ee06992ef37d226a521719d32",
+				"verification": {
+					"payload": "tree 4be7dbd951f7afaf894f5dfceab8319dc9292931\nparent ee440c1d76acc4b6990c76e48670222d1d26296b\nauthor Lucas Hoz <loremIpsum@gmail.com> 1766987722 -0300\ncommitter GitHub <noreply@github.com> 1766987722 -0300\n\nfix(frontend): remove meta generator",
+					"reason": "valid",
+					"signature": null,
+					"verified": true,
+					"verified_at": "2025-12-29T05:55:23Z"
+				}
+			},
+			"committer": {
+				"avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+				"events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+				"followers_url": "https://api.github.com/users/web-flow/followers",
+				"following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+				"gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+				"gravatar_id": "",
+				"html_url": "https://github.com/web-flow",
+				"id": 19864447,
+				"login": "web-flow",
+				"node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+				"organizations_url": "https://api.github.com/users/web-flow/orgs",
+				"received_events_url": "https://api.github.com/users/web-flow/received_events",
+				"repos_url": "https://api.github.com/users/web-flow/repos",
+				"site_admin": false,
+				"starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+				"subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+				"type": "User",
+				"url": "https://api.github.com/users/web-flow",
+				"user_view_type": "public"
+			},
+			"html_url": "https://github.com/hozlucas28/UNLaM-Calendar/commit/27e7e5b97ff0ae9ee06992ef37d226a521719d32",
+			"node_id": "C_kwDOQizWBtoAKDI3ZTdlNWI5N2ZmMGFlOWVlMDY5OTJlZjM3ZDIyNmE1MjE3MTlkMzI",
+			"parents": [
+				{
+					"html_url": "https://github.com/hozlucas28/UNLaM-Calendar/commit/ee440c1d76acc4b6990c76e48670222d1d26296b",
+					"sha": "ee440c1d76acc4b6990c76e48670222d1d26296b",
+					"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/ee440c1d76acc4b6990c76e48670222d1d26296b"
+				}
+			],
+			"sha": "27e7e5b97ff0ae9ee06992ef37d226a521719d32",
+			"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/27e7e5b97ff0ae9ee06992ef37d226a521719d32"
+		},
+		{
+			"author": {
+				"avatar_url": "https://avatars.githubusercontent.com/u/88015479?v=4",
+				"events_url": "https://api.github.com/users/hozlucas28/events{/privacy}",
+				"followers_url": "https://api.github.com/users/hozlucas28/followers",
+				"following_url": "https://api.github.com/users/hozlucas28/following{/other_user}",
+				"gists_url": "https://api.github.com/users/hozlucas28/gists{/gist_id}",
+				"gravatar_id": "",
+				"html_url": "https://github.com/hozlucas28",
+				"id": 88015479,
+				"login": "hozlucas28",
+				"node_id": "MDQ6VXNlcjg4MDE1NDc5",
+				"organizations_url": "https://api.github.com/users/hozlucas28/orgs",
+				"received_events_url": "https://api.github.com/users/hozlucas28/received_events",
+				"repos_url": "https://api.github.com/users/hozlucas28/repos",
+				"site_admin": false,
+				"starred_url": "https://api.github.com/users/hozlucas28/starred{/owner}{/repo}",
+				"subscriptions_url": "https://api.github.com/users/hozlucas28/subscriptions",
+				"type": "User",
+				"url": "https://api.github.com/users/hozlucas28",
+				"user_view_type": "public"
+			},
+			"comments_url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/85e3ab7920fb6dc389ed12f8d4697c4226427873/comments",
+			"commit": {
+				"author": {
+					"date": "2025-12-29T05:56:26Z",
+					"email": "loremIpsum@gmail.com",
+					"name": "Lucas Hoz"
+				},
+				"comment_count": 0,
+				"committer": {
+					"date": "2025-12-29T05:56:26Z",
+					"email": "noreply@github.com",
+					"name": "GitHub"
+				},
+				"message": "devops: several changes",
+				"tree": {
+					"sha": "be00ad2403de7a35b3e94eb75f43736551fef8d9",
+					"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/git/trees/be00ad2403de7a35b3e94eb75f43736551fef8d9"
+				},
+				"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/git/commits/85e3ab7920fb6dc389ed12f8d4697c4226427873",
+				"verification": {
+					"payload": "tree be00ad2403de7a35b3e94eb75f43736551fef8d9\nparent 27e7e5b97ff0ae9ee06992ef37d226a521719d32\nauthor Lucas Hoz <loremIpsum@gmail.com> 1766987786 -0300\ncommitter GitHub <noreply@github.com> 1766987786 -0300\n\ndevops: several changes",
+					"reason": "valid",
+					"signature": null,
+					"verified": true,
+					"verified_at": "2025-12-29T05:56:26Z"
+				}
+			},
+			"committer": {
+				"avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+				"events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+				"followers_url": "https://api.github.com/users/web-flow/followers",
+				"following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+				"gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+				"gravatar_id": "",
+				"html_url": "https://github.com/web-flow",
+				"id": 19864447,
+				"login": "web-flow",
+				"node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+				"organizations_url": "https://api.github.com/users/web-flow/orgs",
+				"received_events_url": "https://api.github.com/users/web-flow/received_events",
+				"repos_url": "https://api.github.com/users/web-flow/repos",
+				"site_admin": false,
+				"starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+				"subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+				"type": "User",
+				"url": "https://api.github.com/users/web-flow",
+				"user_view_type": "public"
+			},
+			"html_url": "https://github.com/hozlucas28/UNLaM-Calendar/commit/85e3ab7920fb6dc389ed12f8d4697c4226427873",
+			"node_id": "C_kwDOQizWBtoAKDg1ZTNhYjc5MjBmYjZkYzM4OWVkMTJmOGQ0Njk3YzQyMjY0Mjc4NzM",
+			"parents": [
+				{
+					"html_url": "https://github.com/hozlucas28/UNLaM-Calendar/commit/27e7e5b97ff0ae9ee06992ef37d226a521719d32",
+					"sha": "27e7e5b97ff0ae9ee06992ef37d226a521719d32",
+					"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/27e7e5b97ff0ae9ee06992ef37d226a521719d32"
+				}
+			],
+			"sha": "85e3ab7920fb6dc389ed12f8d4697c4226427873",
+			"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/85e3ab7920fb6dc389ed12f8d4697c4226427873"
+		},
+		{
+			"author": {
+				"avatar_url": "https://avatars.githubusercontent.com/u/88015479?v=4",
+				"events_url": "https://api.github.com/users/hozlucas28/events{/privacy}",
+				"followers_url": "https://api.github.com/users/hozlucas28/followers",
+				"following_url": "https://api.github.com/users/hozlucas28/following{/other_user}",
+				"gists_url": "https://api.github.com/users/hozlucas28/gists{/gist_id}",
+				"gravatar_id": "",
+				"html_url": "https://github.com/hozlucas28",
+				"id": 88015479,
+				"login": "hozlucas28",
+				"node_id": "MDQ6VXNlcjg4MDE1NDc5",
+				"organizations_url": "https://api.github.com/users/hozlucas28/orgs",
+				"received_events_url": "https://api.github.com/users/hozlucas28/received_events",
+				"repos_url": "https://api.github.com/users/hozlucas28/repos",
+				"site_admin": false,
+				"starred_url": "https://api.github.com/users/hozlucas28/starred{/owner}{/repo}",
+				"subscriptions_url": "https://api.github.com/users/hozlucas28/subscriptions",
+				"type": "User",
+				"url": "https://api.github.com/users/hozlucas28",
+				"user_view_type": "public"
+			},
+			"comments_url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/4d145f3750da28c03c97422baa340cccabfb4441/comments",
+			"commit": {
+				"author": {
+					"date": "2025-12-29T05:57:47Z",
+					"email": "loremIpsum@gmail.com",
+					"name": "Lucas Hoz"
+				},
+				"comment_count": 0,
+				"committer": {
+					"date": "2025-12-29T05:57:47Z",
+					"email": "noreply@github.com",
+					"name": "GitHub"
+				},
+				"message": "chore(backend): bump colly version",
+				"tree": {
+					"sha": "ad60eaed355b541f3f040cab64d4bbfc38350b44",
+					"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/git/trees/ad60eaed355b541f3f040cab64d4bbfc38350b44"
+				},
+				"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/git/commits/4d145f3750da28c03c97422baa340cccabfb4441",
+				"verification": {
+					"payload": "tree ad60eaed355b541f3f040cab64d4bbfc38350b44\nparent 85e3ab7920fb6dc389ed12f8d4697c4226427873\nauthor Lucas Hoz <loremIpsum@gmail.com> 1766987867 -0300\ncommitter GitHub <noreply@github.com> 1766987867 -0300\n\nchore(backend): bump colly version",
+					"reason": "valid",
+					"signature": null,
+					"verified": true,
+					"verified_at": "2025-12-29T05:57:48Z"
+				}
+			},
+			"committer": {
+				"avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+				"events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+				"followers_url": "https://api.github.com/users/web-flow/followers",
+				"following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+				"gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+				"gravatar_id": "",
+				"html_url": "https://github.com/web-flow",
+				"id": 19864447,
+				"login": "web-flow",
+				"node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+				"organizations_url": "https://api.github.com/users/web-flow/orgs",
+				"received_events_url": "https://api.github.com/users/web-flow/received_events",
+				"repos_url": "https://api.github.com/users/web-flow/repos",
+				"site_admin": false,
+				"starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+				"subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+				"type": "User",
+				"url": "https://api.github.com/users/web-flow",
+				"user_view_type": "public"
+			},
+			"html_url": "https://github.com/hozlucas28/UNLaM-Calendar/commit/4d145f3750da28c03c97422baa340cccabfb4441",
+			"node_id": "C_kwDOQizWBtoAKDRkMTQ1ZjM3NTBkYTI4YzAzYzk3NDIyYmFhMzQwY2NjYWJmYjQ0NDE",
+			"parents": [
+				{
+					"html_url": "https://github.com/hozlucas28/UNLaM-Calendar/commit/85e3ab7920fb6dc389ed12f8d4697c4226427873",
+					"sha": "85e3ab7920fb6dc389ed12f8d4697c4226427873",
+					"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/85e3ab7920fb6dc389ed12f8d4697c4226427873"
+				}
+			],
+			"sha": "4d145f3750da28c03c97422baa340cccabfb4441",
+			"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/4d145f3750da28c03c97422baa340cccabfb4441"
+		},
+		{
+			"author": {
+				"avatar_url": "https://avatars.githubusercontent.com/u/88015479?v=4",
+				"events_url": "https://api.github.com/users/hozlucas28/events{/privacy}",
+				"followers_url": "https://api.github.com/users/hozlucas28/followers",
+				"following_url": "https://api.github.com/users/hozlucas28/following{/other_user}",
+				"gists_url": "https://api.github.com/users/hozlucas28/gists{/gist_id}",
+				"gravatar_id": "",
+				"html_url": "https://github.com/hozlucas28",
+				"id": 88015479,
+				"login": "hozlucas28",
+				"node_id": "MDQ6VXNlcjg4MDE1NDc5",
+				"organizations_url": "https://api.github.com/users/hozlucas28/orgs",
+				"received_events_url": "https://api.github.com/users/hozlucas28/received_events",
+				"repos_url": "https://api.github.com/users/hozlucas28/repos",
+				"site_admin": false,
+				"starred_url": "https://api.github.com/users/hozlucas28/starred{/owner}{/repo}",
+				"subscriptions_url": "https://api.github.com/users/hozlucas28/subscriptions",
+				"type": "User",
+				"url": "https://api.github.com/users/hozlucas28",
+				"user_view_type": "public"
+			},
+			"comments_url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/32ccc707a897d896dc2af9fff4c54e2b467fa12d/comments",
+			"commit": {
+				"author": {
+					"date": "2025-12-29T05:58:07Z",
+					"email": "loremIpsum@gmail.com",
+					"name": "Lucas Hoz"
+				},
+				"comment_count": 0,
+				"committer": {
+					"date": "2025-12-29T05:58:07Z",
+					"email": "noreply@github.com",
+					"name": "GitHub"
+				},
+				"message": "test(backend): update expected and received results",
+				"tree": {
+					"sha": "1ac92a332132110987fb2c8d77c5cf7873f9fa16",
+					"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/git/trees/1ac92a332132110987fb2c8d77c5cf7873f9fa16"
+				},
+				"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/git/commits/32ccc707a897d896dc2af9fff4c54e2b467fa12d",
+				"verification": {
+					"payload": "tree 1ac92a332132110987fb2c8d77c5cf7873f9fa16\nparent 4d145f3750da28c03c97422baa340cccabfb4441\nauthor Lucas Hoz <loremIpsum@gmail.com> 1766987887 -0300\ncommitter GitHub <noreply@github.com> 1766987887 -0300\n\ntest(backend): update expected and received results",
+					"reason": "valid",
+					"signature": null,
+					"verified": true,
+					"verified_at": "2025-12-29T05:58:07Z"
+				}
+			},
+			"committer": {
+				"avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+				"events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+				"followers_url": "https://api.github.com/users/web-flow/followers",
+				"following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+				"gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+				"gravatar_id": "",
+				"html_url": "https://github.com/web-flow",
+				"id": 19864447,
+				"login": "web-flow",
+				"node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+				"organizations_url": "https://api.github.com/users/web-flow/orgs",
+				"received_events_url": "https://api.github.com/users/web-flow/received_events",
+				"repos_url": "https://api.github.com/users/web-flow/repos",
+				"site_admin": false,
+				"starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+				"subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+				"type": "User",
+				"url": "https://api.github.com/users/web-flow",
+				"user_view_type": "public"
+			},
+			"html_url": "https://github.com/hozlucas28/UNLaM-Calendar/commit/32ccc707a897d896dc2af9fff4c54e2b467fa12d",
+			"node_id": "C_kwDOQizWBtoAKDMyY2NjNzA3YTg5N2Q4OTZkYzJhZjlmZmY0YzU0ZTJiNDY3ZmExMmQ",
+			"parents": [
+				{
+					"html_url": "https://github.com/hozlucas28/UNLaM-Calendar/commit/4d145f3750da28c03c97422baa340cccabfb4441",
+					"sha": "4d145f3750da28c03c97422baa340cccabfb4441",
+					"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/4d145f3750da28c03c97422baa340cccabfb4441"
+				}
+			],
+			"sha": "32ccc707a897d896dc2af9fff4c54e2b467fa12d",
+			"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/32ccc707a897d896dc2af9fff4c54e2b467fa12d"
+		},
+		{
+			"author": {
+				"avatar_url": "https://avatars.githubusercontent.com/u/88015479?v=4",
+				"events_url": "https://api.github.com/users/hozlucas28/events{/privacy}",
+				"followers_url": "https://api.github.com/users/hozlucas28/followers",
+				"following_url": "https://api.github.com/users/hozlucas28/following{/other_user}",
+				"gists_url": "https://api.github.com/users/hozlucas28/gists{/gist_id}",
+				"gravatar_id": "",
+				"html_url": "https://github.com/hozlucas28",
+				"id": 88015479,
+				"login": "hozlucas28",
+				"node_id": "MDQ6VXNlcjg4MDE1NDc5",
+				"organizations_url": "https://api.github.com/users/hozlucas28/orgs",
+				"received_events_url": "https://api.github.com/users/hozlucas28/received_events",
+				"repos_url": "https://api.github.com/users/hozlucas28/repos",
+				"site_admin": false,
+				"starred_url": "https://api.github.com/users/hozlucas28/starred{/owner}{/repo}",
+				"subscriptions_url": "https://api.github.com/users/hozlucas28/subscriptions",
+				"type": "User",
+				"url": "https://api.github.com/users/hozlucas28",
+				"user_view_type": "public"
+			},
+			"comments_url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/ba4a311fb4ecc9039b88b01b91b1ff721c3b40f6/comments",
+			"commit": {
+				"author": {
+					"date": "2025-12-29T05:58:59Z",
+					"email": "loremIpsum@gmail.com",
+					"name": "Lucas Hoz"
+				},
+				"comment_count": 0,
+				"committer": {
+					"date": "2025-12-29T05:58:59Z",
+					"email": "noreply@github.com",
+					"name": "GitHub"
+				},
+				"message": "feature(backend): create `greet` function",
+				"tree": {
+					"sha": "24501dffab52d23caebd175b920ed057377840db",
+					"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/git/trees/24501dffab52d23caebd175b920ed057377840db"
+				},
+				"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/git/commits/ba4a311fb4ecc9039b88b01b91b1ff721c3b40f6",
+				"verification": {
+					"payload": "tree 24501dffab52d23caebd175b920ed057377840db\nparent 32ccc707a897d896dc2af9fff4c54e2b467fa12d\nauthor Lucas Hoz <loremIpsum@gmail.com> 1766987939 -0300\ncommitter GitHub <noreply@github.com> 1766987939 -0300\n\nfeature(backend): create `greet` function",
+					"reason": "valid",
+					"signature": null,
+					"verified": true,
+					"verified_at": "2025-12-29T05:58:59Z"
+				}
+			},
+			"committer": {
+				"avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+				"events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+				"followers_url": "https://api.github.com/users/web-flow/followers",
+				"following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+				"gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+				"gravatar_id": "",
+				"html_url": "https://github.com/web-flow",
+				"id": 19864447,
+				"login": "web-flow",
+				"node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+				"organizations_url": "https://api.github.com/users/web-flow/orgs",
+				"received_events_url": "https://api.github.com/users/web-flow/received_events",
+				"repos_url": "https://api.github.com/users/web-flow/repos",
+				"site_admin": false,
+				"starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+				"subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+				"type": "User",
+				"url": "https://api.github.com/users/web-flow",
+				"user_view_type": "public"
+			},
+			"html_url": "https://github.com/hozlucas28/UNLaM-Calendar/commit/ba4a311fb4ecc9039b88b01b91b1ff721c3b40f6",
+			"node_id": "C_kwDOQizWBtoAKGJhNGEzMTFmYjRlY2M5MDM5Yjg4YjAxYjkxYjFmZjcyMWMzYjQwZjY",
+			"parents": [
+				{
+					"html_url": "https://github.com/hozlucas28/UNLaM-Calendar/commit/32ccc707a897d896dc2af9fff4c54e2b467fa12d",
+					"sha": "32ccc707a897d896dc2af9fff4c54e2b467fa12d",
+					"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/32ccc707a897d896dc2af9fff4c54e2b467fa12d"
+				}
+			],
+			"sha": "ba4a311fb4ecc9039b88b01b91b1ff721c3b40f6",
+			"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/ba4a311fb4ecc9039b88b01b91b1ff721c3b40f6"
+		},
+		{
+			"author": {
+				"avatar_url": "https://avatars.githubusercontent.com/u/88015479?v=4",
+				"events_url": "https://api.github.com/users/hozlucas28/events{/privacy}",
+				"followers_url": "https://api.github.com/users/hozlucas28/followers",
+				"following_url": "https://api.github.com/users/hozlucas28/following{/other_user}",
+				"gists_url": "https://api.github.com/users/hozlucas28/gists{/gist_id}",
+				"gravatar_id": "",
+				"html_url": "https://github.com/hozlucas28",
+				"id": 88015479,
+				"login": "hozlucas28",
+				"node_id": "MDQ6VXNlcjg4MDE1NDc5",
+				"organizations_url": "https://api.github.com/users/hozlucas28/orgs",
+				"received_events_url": "https://api.github.com/users/hozlucas28/received_events",
+				"repos_url": "https://api.github.com/users/hozlucas28/repos",
+				"site_admin": false,
+				"starred_url": "https://api.github.com/users/hozlucas28/starred{/owner}{/repo}",
+				"subscriptions_url": "https://api.github.com/users/hozlucas28/subscriptions",
+				"type": "User",
+				"url": "https://api.github.com/users/hozlucas28",
+				"user_view_type": "public"
+			},
+			"comments_url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/6272c9a3957d1b68ecb57e28ee3181307c58b544/comments",
+			"commit": {
+				"author": {
+					"date": "2025-12-29T06:28:31Z",
+					"email": "loremIpsum@gmail.com",
+					"name": "Lucas Hoz"
+				},
+				"comment_count": 0,
+				"committer": {
+					"date": "2025-12-29T06:28:31Z",
+					"email": "noreply@github.com",
+					"name": "GitHub"
+				},
+				"message": "Update README.md",
+				"tree": {
+					"sha": "2e85dc39b7ec45b8911b3e4ac56dca114f1659e1",
+					"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/git/trees/2e85dc39b7ec45b8911b3e4ac56dca114f1659e1"
+				},
+				"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/git/commits/6272c9a3957d1b68ecb57e28ee3181307c58b544",
+				"verification": {
+					"payload": "tree 2e85dc39b7ec45b8911b3e4ac56dca114f1659e1\nparent ba4a311fb4ecc9039b88b01b91b1ff721c3b40f6\nauthor Lucas Hoz <loremIpsum@gmail.com> 1766989711 -0300\ncommitter GitHub <noreply@github.com> 1766989711 -0300\n\nUpdate README.md",
+					"reason": "valid",
+					"signature": null,
+					"verified": true,
+					"verified_at": "2025-12-29T06:28:32Z"
+				}
+			},
+			"committer": {
+				"avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+				"events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+				"followers_url": "https://api.github.com/users/web-flow/followers",
+				"following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+				"gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+				"gravatar_id": "",
+				"html_url": "https://github.com/web-flow",
+				"id": 19864447,
+				"login": "web-flow",
+				"node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+				"organizations_url": "https://api.github.com/users/web-flow/orgs",
+				"received_events_url": "https://api.github.com/users/web-flow/received_events",
+				"repos_url": "https://api.github.com/users/web-flow/repos",
+				"site_admin": false,
+				"starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+				"subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+				"type": "User",
+				"url": "https://api.github.com/users/web-flow",
+				"user_view_type": "public"
+			},
+			"html_url": "https://github.com/hozlucas28/UNLaM-Calendar/commit/6272c9a3957d1b68ecb57e28ee3181307c58b544",
+			"node_id": "C_kwDOQizWBtoAKDYyNzJjOWEzOTU3ZDFiNjhlY2I1N2UyOGVlMzE4MTMwN2M1OGI1NDQ",
+			"parents": [
+				{
+					"html_url": "https://github.com/hozlucas28/UNLaM-Calendar/commit/ba4a311fb4ecc9039b88b01b91b1ff721c3b40f6",
+					"sha": "ba4a311fb4ecc9039b88b01b91b1ff721c3b40f6",
+					"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/ba4a311fb4ecc9039b88b01b91b1ff721c3b40f6"
+				}
+			],
+			"sha": "6272c9a3957d1b68ecb57e28ee3181307c58b544",
+			"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/6272c9a3957d1b68ecb57e28ee3181307c58b544"
+		},
+		{
+			"author": {
+				"avatar_url": "https://avatars.githubusercontent.com/u/88015479?v=4",
+				"events_url": "https://api.github.com/users/hozlucas28/events{/privacy}",
+				"followers_url": "https://api.github.com/users/hozlucas28/followers",
+				"following_url": "https://api.github.com/users/hozlucas28/following{/other_user}",
+				"gists_url": "https://api.github.com/users/hozlucas28/gists{/gist_id}",
+				"gravatar_id": "",
+				"html_url": "https://github.com/hozlucas28",
+				"id": 88015479,
+				"login": "hozlucas28",
+				"node_id": "MDQ6VXNlcjg4MDE1NDc5",
+				"organizations_url": "https://api.github.com/users/hozlucas28/orgs",
+				"received_events_url": "https://api.github.com/users/hozlucas28/received_events",
+				"repos_url": "https://api.github.com/users/hozlucas28/repos",
+				"site_admin": false,
+				"starred_url": "https://api.github.com/users/hozlucas28/starred{/owner}{/repo}",
+				"subscriptions_url": "https://api.github.com/users/hozlucas28/subscriptions",
+				"type": "User",
+				"url": "https://api.github.com/users/hozlucas28",
+				"user_view_type": "public"
+			},
+			"comments_url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/cc8d147384b7d1d283b324f602abec2b2365f1c5/comments",
+			"commit": {
+				"author": {
+					"date": "2025-12-29T19:20:27Z",
+					"email": "loremIpsum@gmail.com",
+					"name": "Lucas Hoz"
+				},
+				"comment_count": 0,
+				"committer": {
+					"date": "2025-12-29T19:20:27Z",
+					"email": "noreply@github.com",
+					"name": "GitHub"
+				},
+				"message": "chore(frontend): apply invalid format",
+				"tree": {
+					"sha": "3cb230a29970bffe2e0c87e6430ee3be1fce8199",
+					"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/git/trees/3cb230a29970bffe2e0c87e6430ee3be1fce8199"
+				},
+				"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/git/commits/cc8d147384b7d1d283b324f602abec2b2365f1c5",
+				"verification": {
+					"payload": "tree 3cb230a29970bffe2e0c87e6430ee3be1fce8199\nparent 6272c9a3957d1b68ecb57e28ee3181307c58b544\nauthor Lucas Hoz <loremIpsum@gmail.com> 1767036027 -0300\ncommitter GitHub <noreply@github.com> 1767036027 -0300\n\nchore(frontend): apply invalid format",
+					"reason": "valid",
+					"signature": null,
+					"verified": true,
+					"verified_at": "2025-12-29T19:20:28Z"
+				}
+			},
+			"committer": {
+				"avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+				"events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+				"followers_url": "https://api.github.com/users/web-flow/followers",
+				"following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+				"gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+				"gravatar_id": "",
+				"html_url": "https://github.com/web-flow",
+				"id": 19864447,
+				"login": "web-flow",
+				"node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+				"organizations_url": "https://api.github.com/users/web-flow/orgs",
+				"received_events_url": "https://api.github.com/users/web-flow/received_events",
+				"repos_url": "https://api.github.com/users/web-flow/repos",
+				"site_admin": false,
+				"starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+				"subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+				"type": "User",
+				"url": "https://api.github.com/users/web-flow",
+				"user_view_type": "public"
+			},
+			"html_url": "https://github.com/hozlucas28/UNLaM-Calendar/commit/cc8d147384b7d1d283b324f602abec2b2365f1c5",
+			"node_id": "C_kwDOQizWBtoAKGNjOGQxNDczODRiN2QxZDI4M2IzMjRmNjAyYWJlYzJiMjM2NWYxYzU",
+			"parents": [
+				{
+					"html_url": "https://github.com/hozlucas28/UNLaM-Calendar/commit/6272c9a3957d1b68ecb57e28ee3181307c58b544",
+					"sha": "6272c9a3957d1b68ecb57e28ee3181307c58b544",
+					"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/6272c9a3957d1b68ecb57e28ee3181307c58b544"
+				}
+			],
+			"sha": "cc8d147384b7d1d283b324f602abec2b2365f1c5",
+			"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/cc8d147384b7d1d283b324f602abec2b2365f1c5"
+		},
+		{
+			"author": {
+				"avatar_url": "https://avatars.githubusercontent.com/u/88015479?v=4",
+				"events_url": "https://api.github.com/users/hozlucas28/events{/privacy}",
+				"followers_url": "https://api.github.com/users/hozlucas28/followers",
+				"following_url": "https://api.github.com/users/hozlucas28/following{/other_user}",
+				"gists_url": "https://api.github.com/users/hozlucas28/gists{/gist_id}",
+				"gravatar_id": "",
+				"html_url": "https://github.com/hozlucas28",
+				"id": 88015479,
+				"login": "hozlucas28",
+				"node_id": "MDQ6VXNlcjg4MDE1NDc5",
+				"organizations_url": "https://api.github.com/users/hozlucas28/orgs",
+				"received_events_url": "https://api.github.com/users/hozlucas28/received_events",
+				"repos_url": "https://api.github.com/users/hozlucas28/repos",
+				"site_admin": false,
+				"starred_url": "https://api.github.com/users/hozlucas28/starred{/owner}{/repo}",
+				"subscriptions_url": "https://api.github.com/users/hozlucas28/subscriptions",
+				"type": "User",
+				"url": "https://api.github.com/users/hozlucas28",
+				"user_view_type": "public"
+			},
+			"comments_url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/95327411da8f70a3ac1bd5d62ddcb8b75d7ad3a7/comments",
+			"commit": {
+				"author": {
+					"date": "2025-12-29T19:25:21Z",
+					"email": "loremIpsum@gmail.com",
+					"name": "Lucas Hoz"
+				},
+				"comment_count": 0,
+				"committer": {
+					"date": "2025-12-29T19:25:21Z",
+					"email": "noreply@github.com",
+					"name": "GitHub"
+				},
+				"message": "Update temporal.test.ts",
+				"tree": {
+					"sha": "d370392f67e45740226bf10186f07eb9638a1fdd",
+					"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/git/trees/d370392f67e45740226bf10186f07eb9638a1fdd"
+				},
+				"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/git/commits/95327411da8f70a3ac1bd5d62ddcb8b75d7ad3a7",
+				"verification": {
+					"payload": "tree d370392f67e45740226bf10186f07eb9638a1fdd\nparent cc8d147384b7d1d283b324f602abec2b2365f1c5\nauthor Lucas Hoz <loremIpsum@gmail.com> 1767036321 -0300\ncommitter GitHub <noreply@github.com> 1767036321 -0300\n\nUpdate temporal.test.ts",
+					"reason": "valid",
+					"signature": null,
+					"verified": true,
+					"verified_at": "2025-12-29T19:25:22Z"
+				}
+			},
+			"committer": {
+				"avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+				"events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+				"followers_url": "https://api.github.com/users/web-flow/followers",
+				"following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+				"gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+				"gravatar_id": "",
+				"html_url": "https://github.com/web-flow",
+				"id": 19864447,
+				"login": "web-flow",
+				"node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+				"organizations_url": "https://api.github.com/users/web-flow/orgs",
+				"received_events_url": "https://api.github.com/users/web-flow/received_events",
+				"repos_url": "https://api.github.com/users/web-flow/repos",
+				"site_admin": false,
+				"starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+				"subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+				"type": "User",
+				"url": "https://api.github.com/users/web-flow",
+				"user_view_type": "public"
+			},
+			"html_url": "https://github.com/hozlucas28/UNLaM-Calendar/commit/95327411da8f70a3ac1bd5d62ddcb8b75d7ad3a7",
+			"node_id": "C_kwDOQizWBtoAKDk1MzI3NDExZGE4ZjcwYTNhYzFiZDVkNjJkZGNiOGI3NWQ3YWQzYTc",
+			"parents": [
+				{
+					"html_url": "https://github.com/hozlucas28/UNLaM-Calendar/commit/cc8d147384b7d1d283b324f602abec2b2365f1c5",
+					"sha": "cc8d147384b7d1d283b324f602abec2b2365f1c5",
+					"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/cc8d147384b7d1d283b324f602abec2b2365f1c5"
+				}
+			],
+			"sha": "95327411da8f70a3ac1bd5d62ddcb8b75d7ad3a7",
+			"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/95327411da8f70a3ac1bd5d62ddcb8b75d7ad3a7"
+		},
+		{
+			"author": null,
+			"comments_url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/243fdf0c792a89371a97f66af9ac1f0cc0f7cfa0/comments",
+			"commit": {
+				"author": {
+					"date": "2025-12-29T20:26:42Z",
+					"email": "+hozlucas28@users.noreply.github.com",
+					"name": "hozlucas28"
+				},
+				"comment_count": 0,
+				"committer": {
+					"date": "2025-12-29T20:26:42Z",
+					"email": "github-actions[bot]@users.noreply.github.com",
+					"name": "github-actions[bot]"
+				},
+				"message": "ci(frontend): apply safe fixes",
+				"tree": {
+					"sha": "4f5e9728ed1d6991c481c703f6212f9dcb5c54c2",
+					"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/git/trees/4f5e9728ed1d6991c481c703f6212f9dcb5c54c2"
+				},
+				"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/git/commits/243fdf0c792a89371a97f66af9ac1f0cc0f7cfa0",
+				"verification": {
+					"payload": null,
+					"reason": "unsigned",
+					"signature": null,
+					"verified": false,
+					"verified_at": null
+				}
+			},
+			"committer": {
+				"avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+				"events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
+				"followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
+				"following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
+				"gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
+				"gravatar_id": "",
+				"html_url": "https://github.com/apps/github-actions",
+				"id": 41898282,
+				"login": "github-actions[bot]",
+				"node_id": "MDM6Qm90NDE4OTgyODI=",
+				"organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
+				"received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
+				"repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
+				"site_admin": false,
+				"starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
+				"subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
+				"type": "Bot",
+				"url": "https://api.github.com/users/github-actions%5Bbot%5D",
+				"user_view_type": "public"
+			},
+			"html_url": "https://github.com/hozlucas28/UNLaM-Calendar/commit/243fdf0c792a89371a97f66af9ac1f0cc0f7cfa0",
+			"node_id": "C_kwDOQizWBtoAKDI0M2ZkZjBjNzkyYTg5MzcxYTk3ZjY2YWY5YWMxZjBjYzBmN2NmYTA",
+			"parents": [
+				{
+					"html_url": "https://github.com/hozlucas28/UNLaM-Calendar/commit/95327411da8f70a3ac1bd5d62ddcb8b75d7ad3a7",
+					"sha": "95327411da8f70a3ac1bd5d62ddcb8b75d7ad3a7",
+					"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/95327411da8f70a3ac1bd5d62ddcb8b75d7ad3a7"
+				}
+			],
+			"sha": "243fdf0c792a89371a97f66af9ac1f0cc0f7cfa0",
+			"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/243fdf0c792a89371a97f66af9ac1f0cc0f7cfa0"
+		},
+		{
+			"author": {
+				"avatar_url": "https://avatars.githubusercontent.com/u/88015479?v=4",
+				"events_url": "https://api.github.com/users/hozlucas28/events{/privacy}",
+				"followers_url": "https://api.github.com/users/hozlucas28/followers",
+				"following_url": "https://api.github.com/users/hozlucas28/following{/other_user}",
+				"gists_url": "https://api.github.com/users/hozlucas28/gists{/gist_id}",
+				"gravatar_id": "",
+				"html_url": "https://github.com/hozlucas28",
+				"id": 88015479,
+				"login": "hozlucas28",
+				"node_id": "MDQ6VXNlcjg4MDE1NDc5",
+				"organizations_url": "https://api.github.com/users/hozlucas28/orgs",
+				"received_events_url": "https://api.github.com/users/hozlucas28/received_events",
+				"repos_url": "https://api.github.com/users/hozlucas28/repos",
+				"site_admin": false,
+				"starred_url": "https://api.github.com/users/hozlucas28/starred{/owner}{/repo}",
+				"subscriptions_url": "https://api.github.com/users/hozlucas28/subscriptions",
+				"type": "User",
+				"url": "https://api.github.com/users/hozlucas28",
+				"user_view_type": "public"
+			},
+			"comments_url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/5a2645cacbeaec2ed0bf5e23d246f693a326235b/comments",
+			"commit": {
+				"author": {
+					"date": "2025-12-29T21:17:12Z",
+					"email": "loremIpsum@gmail.com",
+					"name": "Lucas Hoz"
+				},
+				"comment_count": 0,
+				"committer": {
+					"date": "2025-12-29T21:17:12Z",
+					"email": "loremIpsum@gmail.com",
+					"name": "Lucas Hoz"
+				},
+				"message": "Revert \"ci(frontend): apply safe fixes\"\n\nThis reverts commit 243fdf0c792a89371a97f66af9ac1f0cc0f7cfa0.",
+				"tree": {
+					"sha": "d370392f67e45740226bf10186f07eb9638a1fdd",
+					"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/git/trees/d370392f67e45740226bf10186f07eb9638a1fdd"
+				},
+				"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/git/commits/5a2645cacbeaec2ed0bf5e23d246f693a326235b",
+				"verification": {
+					"payload": null,
+					"reason": "unsigned",
+					"signature": null,
+					"verified": false,
+					"verified_at": null
+				}
+			},
+			"committer": {
+				"avatar_url": "https://avatars.githubusercontent.com/u/88015479?v=4",
+				"events_url": "https://api.github.com/users/hozlucas28/events{/privacy}",
+				"followers_url": "https://api.github.com/users/hozlucas28/followers",
+				"following_url": "https://api.github.com/users/hozlucas28/following{/other_user}",
+				"gists_url": "https://api.github.com/users/hozlucas28/gists{/gist_id}",
+				"gravatar_id": "",
+				"html_url": "https://github.com/hozlucas28",
+				"id": 88015479,
+				"login": "hozlucas28",
+				"node_id": "MDQ6VXNlcjg4MDE1NDc5",
+				"organizations_url": "https://api.github.com/users/hozlucas28/orgs",
+				"received_events_url": "https://api.github.com/users/hozlucas28/received_events",
+				"repos_url": "https://api.github.com/users/hozlucas28/repos",
+				"site_admin": false,
+				"starred_url": "https://api.github.com/users/hozlucas28/starred{/owner}{/repo}",
+				"subscriptions_url": "https://api.github.com/users/hozlucas28/subscriptions",
+				"type": "User",
+				"url": "https://api.github.com/users/hozlucas28",
+				"user_view_type": "public"
+			},
+			"html_url": "https://github.com/hozlucas28/UNLaM-Calendar/commit/5a2645cacbeaec2ed0bf5e23d246f693a326235b",
+			"node_id": "C_kwDOQizWBtoAKDEwM2E0MDMxN2ZiNGU0ZDAyM2ZmYWM4ZGZmMjhjMDliN2U2MTc3NTU",
+			"parents": [
+				{
+					"html_url": "https://github.com/hozlucas28/UNLaM-Calendar/commit/243fdf0c792a89371a97f66af9ac1f0cc0f7cfa0",
+					"sha": "243fdf0c792a89371a97f66af9ac1f0cc0f7cfa0",
+					"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/243fdf0c792a89371a97f66af9ac1f0cc0f7cfa0"
+				}
+			],
+			"sha": "5a2645cacbeaec2ed0bf5e23d246f693a326235b",
+			"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/5a2645cacbeaec2ed0bf5e23d246f693a326235b"
+		},
+		{
+			"author": {
+				"avatar_url": "https://avatars.githubusercontent.com/u/88015479?v=4",
+				"events_url": "https://api.github.com/users/hozlucas28/events{/privacy}",
+				"followers_url": "https://api.github.com/users/hozlucas28/followers",
+				"following_url": "https://api.github.com/users/hozlucas28/following{/other_user}",
+				"gists_url": "https://api.github.com/users/hozlucas28/gists{/gist_id}",
+				"gravatar_id": "",
+				"html_url": "https://github.com/hozlucas28",
+				"id": 88015479,
+				"login": "hozlucas28",
+				"node_id": "MDQ6VXNlcjg4MDE1NDc5",
+				"organizations_url": "https://api.github.com/users/hozlucas28/orgs",
+				"received_events_url": "https://api.github.com/users/hozlucas28/received_events",
+				"repos_url": "https://api.github.com/users/hozlucas28/repos",
+				"site_admin": false,
+				"starred_url": "https://api.github.com/users/hozlucas28/starred{/owner}{/repo}",
+				"subscriptions_url": "https://api.github.com/users/hozlucas28/subscriptions",
+				"type": "User",
+				"url": "https://api.github.com/users/hozlucas28",
+				"user_view_type": "public"
+			},
+			"comments_url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/eecbf5848cf054ea183e7407480e6c3c53c4fb81/comments",
+			"commit": {
+				"author": {
+					"date": "2025-12-30T20:18:21Z",
+					"email": "loremIpsum@gmail.com",
+					"name": "Lucas Hoz"
+				},
+				"comment_count": 0,
+				"committer": {
+					"date": "2025-12-30T20:18:21Z",
+					"email": "noreply@github.com",
+					"name": "GitHub"
+				},
+				"message": "chore(backend): update dependencies",
+				"tree": {
+					"sha": "fde5be9f78995b6c6364e59fa7efb563de7a1910",
+					"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/git/trees/fde5be9f78995b6c6364e59fa7efb563de7a1910"
+				},
+				"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/git/commits/eecbf5848cf054ea183e7407480e6c3c53c4fb81",
+				"verification": {
+					"payload": "tree fde5be9f78995b6c6364e59fa7efb563de7a1910\nparent 103a40317fb4e4d023ffac8dff28c09b7e617755\nauthor Lucas Hoz <loremIpsum@gmail.com> 1767125901 -0300\ncommitter GitHub <noreply@github.com> 1767125901 -0300\n\nchore(backend): update dependencies",
+					"reason": "valid",
+					"signature": null,
+					"verified": true,
+					"verified_at": "2025-12-30T20:18:22Z"
+				}
+			},
+			"committer": {
+				"avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+				"events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+				"followers_url": "https://api.github.com/users/web-flow/followers",
+				"following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+				"gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+				"gravatar_id": "",
+				"html_url": "https://github.com/web-flow",
+				"id": 19864447,
+				"login": "web-flow",
+				"node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+				"organizations_url": "https://api.github.com/users/web-flow/orgs",
+				"received_events_url": "https://api.github.com/users/web-flow/received_events",
+				"repos_url": "https://api.github.com/users/web-flow/repos",
+				"site_admin": false,
+				"starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+				"subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+				"type": "User",
+				"url": "https://api.github.com/users/web-flow",
+				"user_view_type": "public"
+			},
+			"files": [
+				{
+					"additions": 13,
+					"blob_url": "https://github.com/hozlucas28/UNLaM-Calendar/blob/eecbf5848cf054ea183e7407480e6c3c53c4fb81/backend%2F.golangci.yml",
+					"changes": 14,
+					"contents_url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/contents/backend%2F.golangci.yml?ref=eecbf5848cf054ea183e7407480e6c3c53c4fb81",
+					"deletions": 1,
+					"filename": "backend/.golangci.yml",
+					"patch": "@@ -2,7 +2,7 @@\n version: \"2\"\n \n run:\n-  timeout: \"1m30s\"\n+  timeout: 1m30s\n \n issues:\n   fix: true\n@@ -14,6 +14,13 @@ output:\n \n linters:\n   default: fast\n+\n+  enable:\n+    - wsl_v5\n+\n+  disable:\n+    - wsl\n+\n   settings:\n     depguard:\n       rules:\n@@ -37,6 +44,11 @@ linters:\n     godot:\n       capital: true\n \n+    wsl_v5:\n+      allow-first-in-block: true\n+      allow-whole-block: false\n+      branch-max-lines: 2\n+\n formatters:\n   enable:\n     - gci",
+					"raw_url": "https://github.com/hozlucas28/UNLaM-Calendar/raw/eecbf5848cf054ea183e7407480e6c3c53c4fb81/backend%2F.golangci.yml",
+					"sha": "5741f34a5efdb774136470f83b8a3ba36808d86a",
+					"status": "modified"
+				},
+				{
+					"additions": 5,
+					"blob_url": "https://github.com/hozlucas28/UNLaM-Calendar/blob/eecbf5848cf054ea183e7407480e6c3c53c4fb81/backend%2Fgo.mod",
+					"changes": 6,
+					"contents_url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/contents/backend%2Fgo.mod?ref=eecbf5848cf054ea183e7407480e6c3c53c4fb81",
+					"deletions": 1,
+					"filename": "backend/go.mod",
+					"patch": "@@ -3,7 +3,7 @@ module backend\n go 1.25.3\n \n require (\n-\tgithub.com/gocolly/colly v2.2.0\n+\tgithub.com/gocolly/colly v1.2.0\n \tgithub.com/stretchr/testify v1.11.1\n )\n \n@@ -13,11 +13,15 @@ require (\n \tgithub.com/antchfx/htmlquery v1.3.5 // indirect\n \tgithub.com/antchfx/xmlquery v1.5.0 // indirect\n \tgithub.com/antchfx/xpath v1.3.5 // indirect\n+\tgithub.com/bits-and-blooms/bitset v1.24.4 // indirect\n \tgithub.com/davecgh/go-spew v1.1.1 // indirect\n \tgithub.com/gobwas/glob v0.2.3 // indirect\n+\tgithub.com/gocolly/colly/v2 v2.3.0 // indirect\n \tgithub.com/golang/groupcache v0.0.0-20241129210726-2c02b8208cf8 // indirect\n \tgithub.com/golang/protobuf v1.5.4 // indirect\n+\tgithub.com/jawher/mow.cli v1.2.0 // indirect\n \tgithub.com/kennygrant/sanitize v1.2.4 // indirect\n+\tgithub.com/nlnwa/whatwg-url v0.6.2 // indirect\n \tgithub.com/pmezard/go-difflib v1.0.0 // indirect\n \tgithub.com/saintfish/chardet v0.0.0-20230101081208-5e3ef4b5456d // indirect\n \tgithub.com/temoto/robotstxt v1.1.2 // indirect",
+					"raw_url": "https://github.com/hozlucas28/UNLaM-Calendar/raw/eecbf5848cf054ea183e7407480e6c3c53c4fb81/backend%2Fgo.mod",
+					"sha": "e46fa20016e9d257db50c0e736e3443b66cac8a5",
+					"status": "modified"
+				},
+				{
+					"additions": 17,
+					"blob_url": "https://github.com/hozlucas28/UNLaM-Calendar/blob/eecbf5848cf054ea183e7407480e6c3c53c4fb81/backend%2Fgo.sum",
+					"changes": 17,
+					"contents_url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/contents/backend%2Fgo.sum?ref=eecbf5848cf054ea183e7407480e6c3c53c4fb81",
+					"deletions": 0,
+					"filename": "backend/go.sum",
+					"patch": "@@ -8,13 +8,18 @@ github.com/antchfx/xmlquery v1.5.0 h1:uAi+mO40ZWfyU6mlUBxRVvL6uBNZ6LMU4M3+mQIBV4\n github.com/antchfx/xmlquery v1.5.0/go.mod h1:lJfWRXzYMK1ss32zm1GQV3gMIW/HFey3xDZmkP1SuNc=\n github.com/antchfx/xpath v1.3.5 h1:PqbXLC3TkfeZyakF5eeh3NTWEbYl4VHNVeufANzDbKQ=\n github.com/antchfx/xpath v1.3.5/go.mod h1:i54GszH55fYfBmoZXapTHN8T8tkcHfRgLyVwwqzXNcs=\n+github.com/bits-and-blooms/bitset v1.20.0/go.mod h1:7hO7Gc7Pp1vODcmWvKMRA9BNmbv6a/7QIWpPxHddWR8=\n+github.com/bits-and-blooms/bitset v1.24.4 h1:95H15Og1clikBrKr/DuzMXkQzECs1M6hhoGXLwLQOZE=\n+github.com/bits-and-blooms/bitset v1.24.4/go.mod h1:7hO7Gc7Pp1vODcmWvKMRA9BNmbv6a/7QIWpPxHddWR8=\n github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=\n github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=\n github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=\n github.com/gobwas/glob v0.2.3 h1:A4xDbljILXROh+kObIiy5kIaPYD8e96x1tgBhUI5J+Y=\n github.com/gobwas/glob v0.2.3/go.mod h1:d3Ez4x06l9bZtSvzIay5+Yzi0fmZzPgnTbPcKjJAkT8=\n github.com/gocolly/colly v1.2.0 h1:qRz9YAn8FIH0qzgNUw+HT9UN7wm1oF9OBAilwEWpyrI=\n github.com/gocolly/colly v1.2.0/go.mod h1:Hof5T3ZswNVsOHYmba1u03W65HDWgpV5HifSuueE0EA=\n+github.com/gocolly/colly/v2 v2.3.0 h1:HSFh0ckbgVd2CSGRE+Y/iA4goUhGROJwyQDCMXGFBWM=\n+github.com/gocolly/colly/v2 v2.3.0/go.mod h1:Qp54s/kQbwCQvFVx8KzKCSTXVJ1wWT4QeAKEu33x1q8=\n github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da/go.mod h1:cIg4eruTrX1D+g88fzRXU5OdNfaM+9IcxsU14FzY7Hc=\n github.com/golang/groupcache v0.0.0-20241129210726-2c02b8208cf8 h1:f+oWsMOmNPc8JmEHVZIycC7hBoQxHH9pNKQORJNozsQ=\n github.com/golang/groupcache v0.0.0-20241129210726-2c02b8208cf8/go.mod h1:wcDNUvekVysuuOpQKo3191zZyTpiI6se1N1ULghS0sw=\n@@ -26,14 +31,20 @@ github.com/google/go-cmp v0.5.5/go.mod h1:v8dTdLbMG2kIc/vJvl+f65V22dbkXbowE6jgT/\n github.com/google/go-cmp v0.6.0/go.mod h1:17dUlkBOakJ0+DkrSSNjCkIjxS6bF9zb3elmeNGIjoY=\n github.com/google/go-cmp v0.7.0 h1:wk8382ETsv4JYUZwIsn6YpYiWiBsYLSJiTsyBybVuN8=\n github.com/google/go-cmp v0.7.0/go.mod h1:pXiqmnSA92OHEEa9HXL2W4E7lf9JzCmGVUdgjX3N/iU=\n+github.com/jawher/mow.cli v1.2.0 h1:e6ViPPy+82A/NFF/cfbq3Lr6q4JHKT9tyHwTCcUQgQw=\n+github.com/jawher/mow.cli v1.2.0/go.mod h1:y+pcA3jBAdo/GIZx/0rFjw/K2bVEODP9rfZOfaiq8Ko=\n github.com/kennygrant/sanitize v1.2.4 h1:gN25/otpP5vAsO2djbMhF/LQX6R7+O1TB4yv8NzpJ3o=\n github.com/kennygrant/sanitize v1.2.4/go.mod h1:LGsjYYtgxbetdg5owWB2mpgUL6e2nfw2eObZ0u0qvak=\n+github.com/nlnwa/whatwg-url v0.6.2 h1:jU61lU2ig4LANydbEJmA2nPrtCGiKdtgT0rmMd2VZ/Q=\n+github.com/nlnwa/whatwg-url v0.6.2/go.mod h1:x0FPXJzzOEieQtsBT/AKvbiBbQ46YlL6Xa7m02M1ECk=\n github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=\n github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=\n github.com/saintfish/chardet v0.0.0-20230101081208-5e3ef4b5456d h1:hrujxIzL1woJ7AwssoOcM/tq5JjjG2yYOc8odClEiXA=\n github.com/saintfish/chardet v0.0.0-20230101081208-5e3ef4b5456d/go.mod h1:uugorj2VCxiV1x+LzaIdVa9b4S4qGAcH6cbhh4qVxOU=\n github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=\n+github.com/stretchr/objx v0.2.0/go.mod h1:qt09Ya8vawLte6SNmTgCsAVtYtaKzEcn8ATUoHMkEqE=\n github.com/stretchr/testify v1.3.0/go.mod h1:M5WIy9Dh21IEIfnGCwXGc5bZfKNJtfHm1UVUgZn+9EI=\n+github.com/stretchr/testify v1.4.0/go.mod h1:j7eGeouHqKxXV5pUuKE4zz7dFj8WfuZ+81PSLYec5m4=\n github.com/stretchr/testify v1.11.1 h1:7s2iGBzp5EwR7/aIZr8ao5+dra3wiQyKjjFuvgVKu7U=\n github.com/stretchr/testify v1.11.1/go.mod h1:wZwfW3scLgRK+23gO65QZefKpKQRnfz6sD981Nm4B6U=\n github.com/temoto/robotstxt v1.1.2 h1:W2pOjSJ6SWvldyEuiFXNxz3xZ8aiWX5LbfDiOFd7Fxg=\n@@ -45,6 +56,7 @@ golang.org/x/crypto v0.13.0/go.mod h1:y6Z2r+Rw4iayiXXAIxJIDAJ1zMW4yaTpebo8fPOliY\n golang.org/x/crypto v0.19.0/go.mod h1:Iy9bg/ha4yyC70EfRS8jz+B6ybOBKMaSxLj6P6oBDfU=\n golang.org/x/crypto v0.23.0/go.mod h1:CKFgDieR+mRhux2Lsu27y0fO304Db0wZe70UKqHu0v8=\n golang.org/x/crypto v0.31.0/go.mod h1:kDsLvtWBEx7MV9tJOj9bnXsPbxwJQ6csT/x4KIN4Ssk=\n+golang.org/x/crypto v0.32.0/go.mod h1:ZnnJkOaASj8g0AjIduWNlq2NRxL0PlBrbKVyZ6V/Ugc=\n golang.org/x/mod v0.6.0-dev.0.20220419223038-86c51ed26bb4/go.mod h1:jJ57K6gSWd91VN4djpZkiMVwK6gcyfeH4XE8wZrZaV4=\n golang.org/x/mod v0.8.0/go.mod h1:iBbtSCu2XBx23ZKBPSOrRkjjQPZFPuis4dIYUhu/chs=\n golang.org/x/mod v0.12.0/go.mod h1:iBbtSCu2XBx23ZKBPSOrRkjjQPZFPuis4dIYUhu/chs=\n@@ -59,6 +71,7 @@ golang.org/x/net v0.15.0/go.mod h1:idbUs1IY1+zTqbi8yxTbhexhEEk5ur9LInksu6HrEpk=\n golang.org/x/net v0.21.0/go.mod h1:bIjVDfnllIU7BJ2DNgfnXvpSvtn8VRwhlsaeUTyUS44=\n golang.org/x/net v0.25.0/go.mod h1:JkAGAh7GEvH74S6FOH42FLoXpXbE/aqXSrIQjXgsiwM=\n golang.org/x/net v0.33.0/go.mod h1:HXLR5J+9DxmrqMwG9qjGCxZ+zKXxBru04zlTvWlWuN4=\n+golang.org/x/net v0.34.0/go.mod h1:di0qlW3YNM5oh6GqDGQr92MyTozJPmybPK4Ev/Gm31k=\n golang.org/x/net v0.48.0 h1:zyQRTTrjc33Lhh0fBgT/H3oZq9WuvRR5gPC70xpDiQU=\n golang.org/x/net v0.48.0/go.mod h1:+ndRgGjkh8FGtu1w1FGbEC31if4VrNVMuKTgcAAnQRY=\n golang.org/x/sync v0.0.0-20190423024810-112230192c58/go.mod h1:RxMgew5VJxzue5/jJTE5uejpjVlOe/izrB70Jof72aM=\n@@ -79,6 +92,7 @@ golang.org/x/sys v0.12.0/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=\n golang.org/x/sys v0.17.0/go.mod h1:/VUhepiaJMQUp4+oa/7Zr1D23ma6VTLIYjOOTFZPUcA=\n golang.org/x/sys v0.20.0/go.mod h1:/VUhepiaJMQUp4+oa/7Zr1D23ma6VTLIYjOOTFZPUcA=\n golang.org/x/sys v0.28.0/go.mod h1:/VUhepiaJMQUp4+oa/7Zr1D23ma6VTLIYjOOTFZPUcA=\n+golang.org/x/sys v0.29.0/go.mod h1:/VUhepiaJMQUp4+oa/7Zr1D23ma6VTLIYjOOTFZPUcA=\n golang.org/x/telemetry v0.0.0-20240228155512-f48c80bd79b2/go.mod h1:TeRTkGYfJXctD9OcfyVLyj2J3IxLnKwHJR8f4D8a3YE=\n golang.org/x/term v0.0.0-20201126162022-7de9c90e9dd1/go.mod h1:bj7SfCRtBDWHUb9snDiAeCFNEtKQo2Wmx5Cou7ajbmo=\n golang.org/x/term v0.0.0-20210927222741-03fcf44c2211/go.mod h1:jbD1KX2456YbFQfuXm/mYQcufACuNUgVhRMnK/tPxf8=\n@@ -88,6 +102,7 @@ golang.org/x/term v0.12.0/go.mod h1:owVbMEjm3cBLCHdkQu9b1opXd4ETQWc3BhuQGKgXgvU=\n golang.org/x/term v0.17.0/go.mod h1:lLRBjIVuehSbZlaOtGMbcMncT+aqLLLmKrsjNrUguwk=\n golang.org/x/term v0.20.0/go.mod h1:8UkIAJTvZgivsXaD6/pH6U9ecQzZ45awqEOzuCvwpFY=\n golang.org/x/term v0.27.0/go.mod h1:iMsnZpn0cago0GOrHO2+Y7u7JPn5AylBrcoWkElMTSM=\n+golang.org/x/term v0.28.0/go.mod h1:Sw/lC2IAUZ92udQNf3WodGtn4k/XoLyZoh8v/8uiwek=\n golang.org/x/text v0.3.0/go.mod h1:NqM8EUOU14njkJ3fqMW+pc6Ldnwhi/IjpwHt7yyuwOQ=\n golang.org/x/text v0.3.3/go.mod h1:5Zoc/QRtKVWzQhOtBMvqHzDpF6irO9z98xDceosuGiQ=\n golang.org/x/text v0.3.7/go.mod h1:u+2+/6zg+i71rQMx5EYifcz6MCKuco9NR6JIITiCfzQ=\n@@ -116,5 +131,7 @@ google.golang.org/protobuf v1.36.11 h1:fV6ZwhNocDyBLK0dj+fg8ektcVegBBuEolpbTQyBN\n google.golang.org/protobuf v1.36.11/go.mod h1:HTf+CrKn2C3g5S8VImy6tdcUvCska2kB7j23XfzDpco=\n gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405 h1:yhCVgyC4o1eVCa2tZl7eS0r+SDo693bJlVdllGtEeKM=\n gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405/go.mod h1:Co6ibVJAznAaIkqp8huTwlJQCZ016jof/cbN4VW5Yz0=\n+gopkg.in/yaml.v2 v2.2.2/go.mod h1:hI93XBmqTisBFMUTm0b8Fm+jr3Dg1NNxqwp+5A1VGuI=\n+gopkg.in/yaml.v2 v2.2.5/go.mod h1:hI93XBmqTisBFMUTm0b8Fm+jr3Dg1NNxqwp+5A1VGuI=\n gopkg.in/yaml.v3 v3.0.1 h1:fxVm/GzAzEWqLHuvctI91KS9hhNmmWOoWu0XTYJS7CA=\n gopkg.in/yaml.v3 v3.0.1/go.mod h1:K4uyk7z7BCEPqu6E+C64Yfv1cQ7kz7rIZviUmN+EgEM=",
+					"raw_url": "https://github.com/hozlucas28/UNLaM-Calendar/raw/eecbf5848cf054ea183e7407480e6c3c53c4fb81/backend%2Fgo.sum",
+					"sha": "003238b45edb86b36727db674ae0c0c22d3ce27b",
+					"status": "modified"
+				},
+				{
+					"additions": 1,
+					"blob_url": "https://github.com/hozlucas28/UNLaM-Calendar/blob/eecbf5848cf054ea183e7407480e6c3c53c4fb81/backend%2Fmain.go",
+					"changes": 2,
+					"contents_url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/contents/backend%2Fmain.go?ref=eecbf5848cf054ea183e7407480e6c3c53c4fb81",
+					"deletions": 1,
+					"filename": "backend/main.go",
+					"patch": "@@ -3,7 +3,7 @@ package main\n import (\n \t\"fmt\"\n \n-\t\"github.com/gocolly/colly\"\n+\t\"github.com/gocolly/colly/v2\"\n )\n \n // Hello world",
+					"raw_url": "https://github.com/hozlucas28/UNLaM-Calendar/raw/eecbf5848cf054ea183e7407480e6c3c53c4fb81/backend%2Fmain.go",
+					"sha": "bcc537c11e42d9032950a9d11643a967a7ed540a",
+					"status": "modified"
+				}
+			],
+			"html_url": "https://github.com/hozlucas28/UNLaM-Calendar/commit/eecbf5848cf054ea183e7407480e6c3c53c4fb81",
+			"node_id": "C_kwDOQizWBtoAKGVlY2JmNTg0OGNmMDU0ZWExODNlNzQwNzQ4MGU2YzNjNTNjNGZiODE",
+			"parents": [
+				{
+					"html_url": "https://github.com/hozlucas28/UNLaM-Calendar/commit/103a40317fb4e4d023ffac8dff28c09b7e617755",
+					"sha": "103a40317fb4e4d023ffac8dff28c09b7e617755",
+					"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/103a40317fb4e4d023ffac8dff28c09b7e617755"
+				}
+			],
+			"sha": "eecbf5848cf054ea183e7407480e6c3c53c4fb81",
+			"stats": {
+				"additions": 36,
+				"deletions": 3,
+				"total": 39
+			},
+			"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/eecbf5848cf054ea183e7407480e6c3c53c4fb81"
+		},
+		{
+			"author": {
+				"avatar_url": "https://avatars.githubusercontent.com/u/88015479?v=4",
+				"events_url": "https://api.github.com/users/hozlucas28/events{/privacy}",
+				"followers_url": "https://api.github.com/users/hozlucas28/followers",
+				"following_url": "https://api.github.com/users/hozlucas28/following{/other_user}",
+				"gists_url": "https://api.github.com/users/hozlucas28/gists{/gist_id}",
+				"gravatar_id": "",
+				"html_url": "https://github.com/hozlucas28",
+				"id": 88015479,
+				"login": "hozlucas28",
+				"node_id": "MDQ6VXNlcjg4MDE1NDc5",
+				"organizations_url": "https://api.github.com/users/hozlucas28/orgs",
+				"received_events_url": "https://api.github.com/users/hozlucas28/received_events",
+				"repos_url": "https://api.github.com/users/hozlucas28/repos",
+				"site_admin": false,
+				"starred_url": "https://api.github.com/users/hozlucas28/starred{/owner}{/repo}",
+				"subscriptions_url": "https://api.github.com/users/hozlucas28/subscriptions",
+				"type": "User",
+				"url": "https://api.github.com/users/hozlucas28",
+				"user_view_type": "public"
+			},
+			"comments_url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/eecbf5848cf054ea183e7407480e6c3c53c4fb81/comments",
+			"commit": {
+				"author": {
+					"date": "2025-12-30T20:18:21Z",
+					"email": "loremIpsum@gmail.com",
+					"name": "Lucas Hoz"
+				},
+				"comment_count": 0,
+				"committer": {
+					"date": "2025-12-30T20:18:21Z",
+					"email": "noreply@github.com",
+					"name": "GitHub"
+				},
+				"message": "chore(backend): update dependencies",
+				"tree": {
+					"sha": "fde5be9f78995b6c6364e59fa7efb563de7a1910",
+					"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/git/trees/fde5be9f78995b6c6364e59fa7efb563de7a1910"
+				},
+				"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/git/commits/eecbf5848cf054ea183e7407480e6c3c53c4fb81",
+				"verification": {
+					"payload": "tree fde5be9f78995b6c6364e59fa7efb563de7a1910\nparent 103a40317fb4e4d023ffac8dff28c09b7e617755\nauthor Lucas Hoz <loremIpsum@gmail.com> 1767125901 -0300\ncommitter GitHub <noreply@github.com> 1767125901 -0300\n\nchore(backend): update dependencies",
+					"reason": "valid",
+					"signature": null,
+					"verified": true,
+					"verified_at": "2025-12-30T20:18:22Z"
+				}
+			},
+			"committer": {
+				"avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+				"events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+				"followers_url": "https://api.github.com/users/web-flow/followers",
+				"following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+				"gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+				"gravatar_id": "",
+				"html_url": "https://github.com/web-flow",
+				"id": 19864447,
+				"login": "web-flow",
+				"node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+				"organizations_url": "https://api.github.com/users/web-flow/orgs",
+				"received_events_url": "https://api.github.com/users/web-flow/received_events",
+				"repos_url": "https://api.github.com/users/web-flow/repos",
+				"site_admin": false,
+				"starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+				"subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+				"type": "User",
+				"url": "https://api.github.com/users/web-flow",
+				"user_view_type": "public"
+			},
+			"files": [
+				{
+					"additions": 13,
+					"blob_url": "https://github.com/hozlucas28/UNLaM-Calendar/blob/eecbf5848cf054ea183e7407480e6c3c53c4fb81/backend%2F.golangci.yml",
+					"changes": 14,
+					"contents_url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/contents/backend%2F.golangci.yml?ref=eecbf5848cf054ea183e7407480e6c3c53c4fb81",
+					"deletions": 1,
+					"filename": "backend/.golangci.yml",
+					"patch": "@@ -2,7 +2,7 @@\n version: \"2\"\n \n run:\n-  timeout: \"1m30s\"\n+  timeout: 1m30s\n \n issues:\n   fix: true\n@@ -14,6 +14,13 @@ output:\n \n linters:\n   default: fast\n+\n+  enable:\n+    - wsl_v5\n+\n+  disable:\n+    - wsl\n+\n   settings:\n     depguard:\n       rules:\n@@ -37,6 +44,11 @@ linters:\n     godot:\n       capital: true\n \n+    wsl_v5:\n+      allow-first-in-block: true\n+      allow-whole-block: false\n+      branch-max-lines: 2\n+\n formatters:\n   enable:\n     - gci",
+					"raw_url": "https://github.com/hozlucas28/UNLaM-Calendar/raw/eecbf5848cf054ea183e7407480e6c3c53c4fb81/backend%2F.golangci.yml",
+					"sha": "5741f34a5efdb774136470f83b8a3ba36808d86a",
+					"status": "modified"
+				},
+				{
+					"additions": 5,
+					"blob_url": "https://github.com/hozlucas28/UNLaM-Calendar/blob/eecbf5848cf054ea183e7407480e6c3c53c4fb81/backend%2Fgo.mod",
+					"changes": 6,
+					"contents_url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/contents/backend%2Fgo.mod?ref=eecbf5848cf054ea183e7407480e6c3c53c4fb81",
+					"deletions": 1,
+					"filename": "backend/go.mod",
+					"patch": "@@ -3,7 +3,7 @@ module backend\n go 1.25.3\n \n require (\n-\tgithub.com/gocolly/colly v2.2.0\n+\tgithub.com/gocolly/colly v1.2.0\n \tgithub.com/stretchr/testify v1.11.1\n )\n \n@@ -13,11 +13,15 @@ require (\n \tgithub.com/antchfx/htmlquery v1.3.5 // indirect\n \tgithub.com/antchfx/xmlquery v1.5.0 // indirect\n \tgithub.com/antchfx/xpath v1.3.5 // indirect\n+\tgithub.com/bits-and-blooms/bitset v1.24.4 // indirect\n \tgithub.com/davecgh/go-spew v1.1.1 // indirect\n \tgithub.com/gobwas/glob v0.2.3 // indirect\n+\tgithub.com/gocolly/colly/v2 v2.3.0 // indirect\n \tgithub.com/golang/groupcache v0.0.0-20241129210726-2c02b8208cf8 // indirect\n \tgithub.com/golang/protobuf v1.5.4 // indirect\n+\tgithub.com/jawher/mow.cli v1.2.0 // indirect\n \tgithub.com/kennygrant/sanitize v1.2.4 // indirect\n+\tgithub.com/nlnwa/whatwg-url v0.6.2 // indirect\n \tgithub.com/pmezard/go-difflib v1.0.0 // indirect\n \tgithub.com/saintfish/chardet v0.0.0-20230101081208-5e3ef4b5456d // indirect\n \tgithub.com/temoto/robotstxt v1.1.2 // indirect",
+					"raw_url": "https://github.com/hozlucas28/UNLaM-Calendar/raw/eecbf5848cf054ea183e7407480e6c3c53c4fb81/backend%2Fgo.mod",
+					"sha": "e46fa20016e9d257db50c0e736e3443b66cac8a5",
+					"status": "modified"
+				},
+				{
+					"additions": 17,
+					"blob_url": "https://github.com/hozlucas28/UNLaM-Calendar/blob/eecbf5848cf054ea183e7407480e6c3c53c4fb81/backend%2Fgo.sum",
+					"changes": 17,
+					"contents_url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/contents/backend%2Fgo.sum?ref=eecbf5848cf054ea183e7407480e6c3c53c4fb81",
+					"deletions": 0,
+					"filename": "backend/go.sum",
+					"patch": "@@ -8,13 +8,18 @@ github.com/antchfx/xmlquery v1.5.0 h1:uAi+mO40ZWfyU6mlUBxRVvL6uBNZ6LMU4M3+mQIBV4\n github.com/antchfx/xmlquery v1.5.0/go.mod h1:lJfWRXzYMK1ss32zm1GQV3gMIW/HFey3xDZmkP1SuNc=\n github.com/antchfx/xpath v1.3.5 h1:PqbXLC3TkfeZyakF5eeh3NTWEbYl4VHNVeufANzDbKQ=\n github.com/antchfx/xpath v1.3.5/go.mod h1:i54GszH55fYfBmoZXapTHN8T8tkcHfRgLyVwwqzXNcs=\n+github.com/bits-and-blooms/bitset v1.20.0/go.mod h1:7hO7Gc7Pp1vODcmWvKMRA9BNmbv6a/7QIWpPxHddWR8=\n+github.com/bits-and-blooms/bitset v1.24.4 h1:95H15Og1clikBrKr/DuzMXkQzECs1M6hhoGXLwLQOZE=\n+github.com/bits-and-blooms/bitset v1.24.4/go.mod h1:7hO7Gc7Pp1vODcmWvKMRA9BNmbv6a/7QIWpPxHddWR8=\n github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=\n github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=\n github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=\n github.com/gobwas/glob v0.2.3 h1:A4xDbljILXROh+kObIiy5kIaPYD8e96x1tgBhUI5J+Y=\n github.com/gobwas/glob v0.2.3/go.mod h1:d3Ez4x06l9bZtSvzIay5+Yzi0fmZzPgnTbPcKjJAkT8=\n github.com/gocolly/colly v1.2.0 h1:qRz9YAn8FIH0qzgNUw+HT9UN7wm1oF9OBAilwEWpyrI=\n github.com/gocolly/colly v1.2.0/go.mod h1:Hof5T3ZswNVsOHYmba1u03W65HDWgpV5HifSuueE0EA=\n+github.com/gocolly/colly/v2 v2.3.0 h1:HSFh0ckbgVd2CSGRE+Y/iA4goUhGROJwyQDCMXGFBWM=\n+github.com/gocolly/colly/v2 v2.3.0/go.mod h1:Qp54s/kQbwCQvFVx8KzKCSTXVJ1wWT4QeAKEu33x1q8=\n github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da/go.mod h1:cIg4eruTrX1D+g88fzRXU5OdNfaM+9IcxsU14FzY7Hc=\n github.com/golang/groupcache v0.0.0-20241129210726-2c02b8208cf8 h1:f+oWsMOmNPc8JmEHVZIycC7hBoQxHH9pNKQORJNozsQ=\n github.com/golang/groupcache v0.0.0-20241129210726-2c02b8208cf8/go.mod h1:wcDNUvekVysuuOpQKo3191zZyTpiI6se1N1ULghS0sw=\n@@ -26,14 +31,20 @@ github.com/google/go-cmp v0.5.5/go.mod h1:v8dTdLbMG2kIc/vJvl+f65V22dbkXbowE6jgT/\n github.com/google/go-cmp v0.6.0/go.mod h1:17dUlkBOakJ0+DkrSSNjCkIjxS6bF9zb3elmeNGIjoY=\n github.com/google/go-cmp v0.7.0 h1:wk8382ETsv4JYUZwIsn6YpYiWiBsYLSJiTsyBybVuN8=\n github.com/google/go-cmp v0.7.0/go.mod h1:pXiqmnSA92OHEEa9HXL2W4E7lf9JzCmGVUdgjX3N/iU=\n+github.com/jawher/mow.cli v1.2.0 h1:e6ViPPy+82A/NFF/cfbq3Lr6q4JHKT9tyHwTCcUQgQw=\n+github.com/jawher/mow.cli v1.2.0/go.mod h1:y+pcA3jBAdo/GIZx/0rFjw/K2bVEODP9rfZOfaiq8Ko=\n github.com/kennygrant/sanitize v1.2.4 h1:gN25/otpP5vAsO2djbMhF/LQX6R7+O1TB4yv8NzpJ3o=\n github.com/kennygrant/sanitize v1.2.4/go.mod h1:LGsjYYtgxbetdg5owWB2mpgUL6e2nfw2eObZ0u0qvak=\n+github.com/nlnwa/whatwg-url v0.6.2 h1:jU61lU2ig4LANydbEJmA2nPrtCGiKdtgT0rmMd2VZ/Q=\n+github.com/nlnwa/whatwg-url v0.6.2/go.mod h1:x0FPXJzzOEieQtsBT/AKvbiBbQ46YlL6Xa7m02M1ECk=\n github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=\n github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=\n github.com/saintfish/chardet v0.0.0-20230101081208-5e3ef4b5456d h1:hrujxIzL1woJ7AwssoOcM/tq5JjjG2yYOc8odClEiXA=\n github.com/saintfish/chardet v0.0.0-20230101081208-5e3ef4b5456d/go.mod h1:uugorj2VCxiV1x+LzaIdVa9b4S4qGAcH6cbhh4qVxOU=\n github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=\n+github.com/stretchr/objx v0.2.0/go.mod h1:qt09Ya8vawLte6SNmTgCsAVtYtaKzEcn8ATUoHMkEqE=\n github.com/stretchr/testify v1.3.0/go.mod h1:M5WIy9Dh21IEIfnGCwXGc5bZfKNJtfHm1UVUgZn+9EI=\n+github.com/stretchr/testify v1.4.0/go.mod h1:j7eGeouHqKxXV5pUuKE4zz7dFj8WfuZ+81PSLYec5m4=\n github.com/stretchr/testify v1.11.1 h1:7s2iGBzp5EwR7/aIZr8ao5+dra3wiQyKjjFuvgVKu7U=\n github.com/stretchr/testify v1.11.1/go.mod h1:wZwfW3scLgRK+23gO65QZefKpKQRnfz6sD981Nm4B6U=\n github.com/temoto/robotstxt v1.1.2 h1:W2pOjSJ6SWvldyEuiFXNxz3xZ8aiWX5LbfDiOFd7Fxg=\n@@ -45,6 +56,7 @@ golang.org/x/crypto v0.13.0/go.mod h1:y6Z2r+Rw4iayiXXAIxJIDAJ1zMW4yaTpebo8fPOliY\n golang.org/x/crypto v0.19.0/go.mod h1:Iy9bg/ha4yyC70EfRS8jz+B6ybOBKMaSxLj6P6oBDfU=\n golang.org/x/crypto v0.23.0/go.mod h1:CKFgDieR+mRhux2Lsu27y0fO304Db0wZe70UKqHu0v8=\n golang.org/x/crypto v0.31.0/go.mod h1:kDsLvtWBEx7MV9tJOj9bnXsPbxwJQ6csT/x4KIN4Ssk=\n+golang.org/x/crypto v0.32.0/go.mod h1:ZnnJkOaASj8g0AjIduWNlq2NRxL0PlBrbKVyZ6V/Ugc=\n golang.org/x/mod v0.6.0-dev.0.20220419223038-86c51ed26bb4/go.mod h1:jJ57K6gSWd91VN4djpZkiMVwK6gcyfeH4XE8wZrZaV4=\n golang.org/x/mod v0.8.0/go.mod h1:iBbtSCu2XBx23ZKBPSOrRkjjQPZFPuis4dIYUhu/chs=\n golang.org/x/mod v0.12.0/go.mod h1:iBbtSCu2XBx23ZKBPSOrRkjjQPZFPuis4dIYUhu/chs=\n@@ -59,6 +71,7 @@ golang.org/x/net v0.15.0/go.mod h1:idbUs1IY1+zTqbi8yxTbhexhEEk5ur9LInksu6HrEpk=\n golang.org/x/net v0.21.0/go.mod h1:bIjVDfnllIU7BJ2DNgfnXvpSvtn8VRwhlsaeUTyUS44=\n golang.org/x/net v0.25.0/go.mod h1:JkAGAh7GEvH74S6FOH42FLoXpXbE/aqXSrIQjXgsiwM=\n golang.org/x/net v0.33.0/go.mod h1:HXLR5J+9DxmrqMwG9qjGCxZ+zKXxBru04zlTvWlWuN4=\n+golang.org/x/net v0.34.0/go.mod h1:di0qlW3YNM5oh6GqDGQr92MyTozJPmybPK4Ev/Gm31k=\n golang.org/x/net v0.48.0 h1:zyQRTTrjc33Lhh0fBgT/H3oZq9WuvRR5gPC70xpDiQU=\n golang.org/x/net v0.48.0/go.mod h1:+ndRgGjkh8FGtu1w1FGbEC31if4VrNVMuKTgcAAnQRY=\n golang.org/x/sync v0.0.0-20190423024810-112230192c58/go.mod h1:RxMgew5VJxzue5/jJTE5uejpjVlOe/izrB70Jof72aM=\n@@ -79,6 +92,7 @@ golang.org/x/sys v0.12.0/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=\n golang.org/x/sys v0.17.0/go.mod h1:/VUhepiaJMQUp4+oa/7Zr1D23ma6VTLIYjOOTFZPUcA=\n golang.org/x/sys v0.20.0/go.mod h1:/VUhepiaJMQUp4+oa/7Zr1D23ma6VTLIYjOOTFZPUcA=\n golang.org/x/sys v0.28.0/go.mod h1:/VUhepiaJMQUp4+oa/7Zr1D23ma6VTLIYjOOTFZPUcA=\n+golang.org/x/sys v0.29.0/go.mod h1:/VUhepiaJMQUp4+oa/7Zr1D23ma6VTLIYjOOTFZPUcA=\n golang.org/x/telemetry v0.0.0-20240228155512-f48c80bd79b2/go.mod h1:TeRTkGYfJXctD9OcfyVLyj2J3IxLnKwHJR8f4D8a3YE=\n golang.org/x/term v0.0.0-20201126162022-7de9c90e9dd1/go.mod h1:bj7SfCRtBDWHUb9snDiAeCFNEtKQo2Wmx5Cou7ajbmo=\n golang.org/x/term v0.0.0-20210927222741-03fcf44c2211/go.mod h1:jbD1KX2456YbFQfuXm/mYQcufACuNUgVhRMnK/tPxf8=\n@@ -88,6 +102,7 @@ golang.org/x/term v0.12.0/go.mod h1:owVbMEjm3cBLCHdkQu9b1opXd4ETQWc3BhuQGKgXgvU=\n golang.org/x/term v0.17.0/go.mod h1:lLRBjIVuehSbZlaOtGMbcMncT+aqLLLmKrsjNrUguwk=\n golang.org/x/term v0.20.0/go.mod h1:8UkIAJTvZgivsXaD6/pH6U9ecQzZ45awqEOzuCvwpFY=\n golang.org/x/term v0.27.0/go.mod h1:iMsnZpn0cago0GOrHO2+Y7u7JPn5AylBrcoWkElMTSM=\n+golang.org/x/term v0.28.0/go.mod h1:Sw/lC2IAUZ92udQNf3WodGtn4k/XoLyZoh8v/8uiwek=\n golang.org/x/text v0.3.0/go.mod h1:NqM8EUOU14njkJ3fqMW+pc6Ldnwhi/IjpwHt7yyuwOQ=\n golang.org/x/text v0.3.3/go.mod h1:5Zoc/QRtKVWzQhOtBMvqHzDpF6irO9z98xDceosuGiQ=\n golang.org/x/text v0.3.7/go.mod h1:u+2+/6zg+i71rQMx5EYifcz6MCKuco9NR6JIITiCfzQ=\n@@ -116,5 +131,7 @@ google.golang.org/protobuf v1.36.11 h1:fV6ZwhNocDyBLK0dj+fg8ektcVegBBuEolpbTQyBN\n google.golang.org/protobuf v1.36.11/go.mod h1:HTf+CrKn2C3g5S8VImy6tdcUvCska2kB7j23XfzDpco=\n gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405 h1:yhCVgyC4o1eVCa2tZl7eS0r+SDo693bJlVdllGtEeKM=\n gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405/go.mod h1:Co6ibVJAznAaIkqp8huTwlJQCZ016jof/cbN4VW5Yz0=\n+gopkg.in/yaml.v2 v2.2.2/go.mod h1:hI93XBmqTisBFMUTm0b8Fm+jr3Dg1NNxqwp+5A1VGuI=\n+gopkg.in/yaml.v2 v2.2.5/go.mod h1:hI93XBmqTisBFMUTm0b8Fm+jr3Dg1NNxqwp+5A1VGuI=\n gopkg.in/yaml.v3 v3.0.1 h1:fxVm/GzAzEWqLHuvctI91KS9hhNmmWOoWu0XTYJS7CA=\n gopkg.in/yaml.v3 v3.0.1/go.mod h1:K4uyk7z7BCEPqu6E+C64Yfv1cQ7kz7rIZviUmN+EgEM=",
+					"raw_url": "https://github.com/hozlucas28/UNLaM-Calendar/raw/eecbf5848cf054ea183e7407480e6c3c53c4fb81/backend%2Fgo.sum",
+					"sha": "003238b45edb86b36727db674ae0c0c22d3ce27b",
+					"status": "modified"
+				},
+				{
+					"additions": 1,
+					"blob_url": "https://github.com/hozlucas28/UNLaM-Calendar/blob/eecbf5848cf054ea183e7407480e6c3c53c4fb81/backend%2Fmain.go",
+					"changes": 2,
+					"contents_url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/contents/backend%2Fmain.go?ref=eecbf5848cf054ea183e7407480e6c3c53c4fb81",
+					"deletions": 1,
+					"filename": "backend/main.go",
+					"patch": "@@ -3,7 +3,7 @@ package main\n import (\n \t\"fmt\"\n \n-\t\"github.com/gocolly/colly\"\n+\t\"github.com/gocolly/colly/v2\"\n )\n \n // Hello world",
+					"raw_url": "https://github.com/hozlucas28/UNLaM-Calendar/raw/eecbf5848cf054ea183e7407480e6c3c53c4fb81/backend%2Fmain.go",
+					"sha": "bcc537c11e42d9032950a9d11643a967a7ed540a",
+					"status": "modified"
+				}
+			],
+			"html_url": "https://github.com/hozlucas28/UNLaM-Calendar/commit/eecbf5848cf054ea183e7407480e6c3c53c4fb81",
+			"node_id": "C_kwDOQizWBtoAKGVlY2JmNTg0OGNmMDU0ZWExODNlNzQwNzQ4MGU2YzNjNTNjNGZiODE",
+			"parents": [
+				{
+					"html_url": "https://github.com/hozlucas28/UNLaM-Calendar/commit/103a40317fb4e4d023ffac8dff28c09b7e617755",
+					"sha": "103a40317fb4e4d023ffac8dff28c09b7e617755",
+					"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/103a40317fb4e4d023ffac8dff28c09b7e617755"
+				}
+			],
+			"sha": "eecbf5848cf054ea183e7407480e6c3c53c4fb81",
+			"stats": {
+				"additions": 36,
+				"deletions": 3,
+				"total": 39
+			},
+			"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/eecbf5848cf054ea183e7407480e6c3c53c4fb81"
+		},
+		{
+			"author": {
+				"avatar_url": "https://avatars.githubusercontent.com/u/88015479?v=4",
+				"events_url": "https://api.github.com/users/hozlucas28/events{/privacy}",
+				"followers_url": "https://api.github.com/users/hozlucas28/followers",
+				"following_url": "https://api.github.com/users/hozlucas28/following{/other_user}",
+				"gists_url": "https://api.github.com/users/hozlucas28/gists{/gist_id}",
+				"gravatar_id": "",
+				"html_url": "https://github.com/hozlucas28",
+				"id": 88015479,
+				"login": "hozlucas28",
+				"node_id": "MDQ6VXNlcjg4MDE1NDc5",
+				"organizations_url": "https://api.github.com/users/hozlucas28/orgs",
+				"received_events_url": "https://api.github.com/users/hozlucas28/received_events",
+				"repos_url": "https://api.github.com/users/hozlucas28/repos",
+				"site_admin": false,
+				"starred_url": "https://api.github.com/users/hozlucas28/starred{/owner}{/repo}",
+				"subscriptions_url": "https://api.github.com/users/hozlucas28/subscriptions",
+				"type": "User",
+				"url": "https://api.github.com/users/hozlucas28",
+				"user_view_type": "public"
+			},
+			"comments_url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/5a2645cacbeaec2ed0bf5e23d246f693a326235b/comments",
+			"commit": {
+				"author": {
+					"date": "2025-12-30T20:54:42Z",
+					"email": "loremIpsum@gmail.com",
+					"name": "Lucas Hoz"
+				},
+				"comment_count": 0,
+				"committer": {
+					"date": "2025-12-30T20:54:42Z",
+					"email": "noreply@github.com",
+					"name": "GitHub"
+				},
+				"message": "chore(backend): update `main.go`",
+				"tree": {
+					"sha": "25254099da945c09bab9f0274a66961bd1bb798a",
+					"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/git/trees/25254099da945c09bab9f0274a66961bd1bb798a"
+				},
+				"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/git/commits/5a2645cacbeaec2ed0bf5e23d246f693a326235b",
+				"verification": {
+					"payload": "tree 25254099da945c09bab9f0274a66961bd1bb798a\nparent eecbf5848cf054ea183e7407480e6c3c53c4fb81\nauthor Lucas Hoz <loremIpsum@gmail.com> 1767128082 -0300\ncommitter GitHub <noreply@github.com> 1767128082 -0300\n\nchore(backend): update `main.go`",
+					"reason": "valid",
+					"signature": null,
+					"verified": true,
+					"verified_at": "2025-12-30T20:54:43Z"
+				}
+			},
+			"committer": {
+				"avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+				"events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+				"followers_url": "https://api.github.com/users/web-flow/followers",
+				"following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+				"gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+				"gravatar_id": "",
+				"html_url": "https://github.com/web-flow",
+				"id": 19864447,
+				"login": "web-flow",
+				"node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+				"organizations_url": "https://api.github.com/users/web-flow/orgs",
+				"received_events_url": "https://api.github.com/users/web-flow/received_events",
+				"repos_url": "https://api.github.com/users/web-flow/repos",
+				"site_admin": false,
+				"starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+				"subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+				"type": "User",
+				"url": "https://api.github.com/users/web-flow",
+				"user_view_type": "public"
+			},
+			"files": [
+				{
+					"additions": 3,
+					"blob_url": "https://github.com/hozlucas28/UNLaM-Calendar/blob/5a2645cacbeaec2ed0bf5e23d246f693a326235b/backend%2Fmain.go",
+					"changes": 17,
+					"contents_url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/contents/backend%2Fmain.go?ref=5a2645cacbeaec2ed0bf5e23d246f693a326235b",
+					"deletions": 14,
+					"filename": "backend/main.go",
+					"patch": "@@ -9,25 +9,14 @@ import (\n // Hello world\n func greet() {\n \tconst GoogleCalendarAPIToken = \"uhZtofOcNnzoH6F5-m0bzsLvCqIjzNFG\"\n-\n-\tif (true) {\n-\t\tif (true) {\n-\t\t\tif (true) {\n-\t\t\t\tif (true) {\n-\t\t\t\t\tif (true) {\n-\t\t\t\t\t\tif (true) {\n-\t\t\t\t\t\t\tfmt.Printf(\"Hello world!\\n\")\n-\t\t\t\t\t\t}\n-\t\t\t\t\t}\n-\t\t\t\t}\n-\t\t\t}\n-\t\t}\n-\t}\n+\tfmt.Printf(\"Hello world %s!\\n\", GoogleCalendarAPIToken)\n }\n \n func main() {\n \tc := colly.NewCollector()\n \n+\tgreet()\n+\n \tc.OnRequest(func(r *colly.Request) {\n \t\tfmt.Printf(\"> \\\"%s\\\" visited.\\n\", r.URL)\n \t})",
+					"raw_url": "https://github.com/hozlucas28/UNLaM-Calendar/raw/5a2645cacbeaec2ed0bf5e23d246f693a326235b/backend%2Fmain.go",
+					"sha": "3077a067de578ee834e31594615291c42de8258e",
+					"status": "modified"
+				}
+			],
+			"html_url": "https://github.com/hozlucas28/UNLaM-Calendar/commit/5a2645cacbeaec2ed0bf5e23d246f693a326235b",
+			"node_id": "C_kwDOQizWBtoAKDVhMjY0NWNhY2JlYWVjMmVkMGJmNWUyM2QyNDZmNjkzYTMyNjIzNWI",
+			"parents": [
+				{
+					"html_url": "https://github.com/hozlucas28/UNLaM-Calendar/commit/eecbf5848cf054ea183e7407480e6c3c53c4fb81",
+					"sha": "eecbf5848cf054ea183e7407480e6c3c53c4fb81",
+					"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/eecbf5848cf054ea183e7407480e6c3c53c4fb81"
+				}
+			],
+			"sha": "5a2645cacbeaec2ed0bf5e23d246f693a326235b",
+			"stats": {
+				"additions": 3,
+				"deletions": 14,
+				"total": 17
+			},
+			"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/5a2645cacbeaec2ed0bf5e23d246f693a326235b"
+		}
+	],
+	"compare": "https://github.com/hozlucas28/UNLaM-Calendar/compare/ab2ef9cfee6736431c885d7788148921967473ee...5a2645cacbeaec2ed0bf5e23d246f693a326235b",
 	"created": false,
 	"deleted": false,
-	"ref": "hozlucas28/github-action/workflow-test",
 	"forced": false,
 	"head_commit": null,
 	"pusher": {
-		"name": "hozlucas28",
-		"email": "21031067+hozlucas28@users.noreply.github.com"
+		"email": "21031067+hozlucas28@users.noreply.github.com",
+		"name": "hozlucas28"
 	},
+	"ref": "hozlucas28/github-action/workflow-test",
 	"repository": {
 		"allow_forking": true,
 		"archive_url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/{archive_format}{/ref}",
@@ -122,1333 +1792,38 @@
 		"web_commit_signoff_required": false
 	},
 	"user": {
-		"login": "hozlucas28",
-		"id": 88015479,
-		"node_id": "MDQ6VXNlcjg4MDE1NDc5",
 		"avatar_url": "https://avatars.githubusercontent.com/u/88015479?v=4",
-		"gravatar_id": "",
-		"url": "https://api.github.com/users/hozlucas28",
-		"html_url": "https://github.com/hozlucas28",
+		"bio": "👨‍💻 Frontend Software Developer, Computer Engineering.",
+		"blog": "",
+		"company": null,
+		"created_at": "2021-07-27T03:06:35Z",
+		"email": null,
+		"events_url": "https://api.github.com/users/hozlucas28/events{/privacy}",
+		"followers": 13,
 		"followers_url": "https://api.github.com/users/hozlucas28/followers",
+		"following": 2,
 		"following_url": "https://api.github.com/users/hozlucas28/following{/other_user}",
 		"gists_url": "https://api.github.com/users/hozlucas28/gists{/gist_id}",
+		"gravatar_id": "",
+		"hireable": true,
+		"html_url": "https://github.com/hozlucas28",
+		"id": 88015479,
+		"location": "Buenos Aires, Argentina",
+		"login": "hozlucas28",
+		"name": "Lucas Hoz",
+		"node_id": "MDQ6VXNlcjg4MDE1NDc5",
+		"organizations_url": "https://api.github.com/users/hozlucas28/orgs",
+		"public_gists": 3,
+		"public_repos": 83,
+		"received_events_url": "https://api.github.com/users/hozlucas28/received_events",
+		"repos_url": "https://api.github.com/users/hozlucas28/repos",
+		"site_admin": false,
 		"starred_url": "https://api.github.com/users/hozlucas28/starred{/owner}{/repo}",
 		"subscriptions_url": "https://api.github.com/users/hozlucas28/subscriptions",
-		"organizations_url": "https://api.github.com/users/hozlucas28/orgs",
-		"repos_url": "https://api.github.com/users/hozlucas28/repos",
-		"events_url": "https://api.github.com/users/hozlucas28/events{/privacy}",
-		"received_events_url": "https://api.github.com/users/hozlucas28/received_events",
-		"type": "User",
-		"user_view_type": "public",
-		"site_admin": false,
-		"name": "Lucas Hoz",
-		"company": null,
-		"blog": "",
-		"location": "Buenos Aires, Argentina",
-		"email": null,
-		"hireable": true,
-		"bio": "👨‍💻 Frontend Software Developer, Computer Engineering.",
 		"twitter_username": "hozlucas28",
-		"public_repos": 83,
-		"public_gists": 3,
-		"followers": 13,
-		"following": 2,
-		"created_at": "2021-07-27T03:06:35Z",
-		"updated_at": "2025-12-27T07:06:10Z"
-	},
-	"compare": "https://github.com/hozlucas28/UNLaM-Calendar/compare/ab2ef9cfee6736431c885d7788148921967473ee...103a40317fb4e4d023ffac8dff28c09b7e617755",
-	"commits": [
-		{
-			"sha": "5a7249d10d27f7c0ae70fcaf06c7561aa91a391d",
-			"node_id": "C_kwDOQizWBtoAKDVhNzI0OWQxMGQyN2Y3YzBhZTcwZmNhZjA2Yzc1NjFhYTkxYTM5MWQ",
-			"commit": {
-				"author": {
-					"name": "Lucas Hoz",
-					"email": "loremIpsum@gmail.com",
-					"date": "2025-12-29T05:44:57Z"
-				},
-				"committer": {
-					"name": "GitHub",
-					"email": "noreply@github.com",
-					"date": "2025-12-29T05:44:57Z"
-				},
-				"message": "docs: update `README.md`",
-				"tree": {
-					"sha": "26d006076c807856ce90028c8d7216835171922f",
-					"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/git/trees/26d006076c807856ce90028c8d7216835171922f"
-				},
-				"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/git/commits/5a7249d10d27f7c0ae70fcaf06c7561aa91a391d",
-				"comment_count": 0,
-				"verification": {
-					"verified": true,
-					"reason": "valid",
-					"signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpUhVZCRC1aQ7uu5UhlAAAEwEQAChn2VvLhEr/1IT6U3HJKCk4\n1mzYIx4E1Ikmua13eS9GX5EyTDPG3DVCvgY+9QH7hOtYF7IfHzBG4L7Krwz23EYI\nEsJOl63JG9vv7mJainECbk9FdkoUgIvUKTFf5bUYNWEHJ8n59QwAX3ZkyvZfIYPM\n7TA9oZlULjNmP06E4tr0kpzOgAQJn58g4BRzbfEWssveeiStAlLnwk/3TEYVYqN3\nT/WFHdVj3C2x7eF3NHgDAdYKKRoHWWkBr4srkiR9CYWx3SG2O3tMPwXbm2QqPSJY\nJwIQPkWdqQUKKRj49/UmTzprqAMA5u6w48maz6Nhcxvks1+4Nu43cLQgRGjlwK8E\nPVU46Ej6iJwzYzmNF655T+AzAel92WP4kUR5avBoABfZbmiIVFdc2axZaY5dia1g\n+dXNLsYmS8O5Sadt+YmqFfaAEOz/LCgBK/o1MgBCLo4FFjzqSyuPcAmge219HBVF\nok1VaVYa2uSZmAoAYo2tPBiHuQIGvcEc/unQMrbkGSGmfqg9Bk6qwMaLYONowp4D\nVfrXRMZMMYlbFwlVsErDynCiAJi/kyHe+SKsx7dkUpUfjjQ7iJfmz7MFxTLClx5E\ndkIT7SUuSnisch+QmRwSaf3ZaX3wKppvHTwL94eG1wpZza73Y5dWMmBtpR3lhmjy\nHhxkWSW31sw85IXybglP\n=7DNy\n-----END PGP SIGNATURE-----\n",
-					"payload": "tree 26d006076c807856ce90028c8d7216835171922f\nparent ab2ef9cfee6736431c885d7788148921967473ee\nauthor Lucas Hoz <loremIpsum@gmail.com> 1766987097 -0300\ncommitter GitHub <noreply@github.com> 1766987097 -0300\n\ndocs: update `README.md`",
-					"verified_at": "2025-12-29T05:44:57Z"
-				}
-			},
-			"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/5a7249d10d27f7c0ae70fcaf06c7561aa91a391d",
-			"html_url": "https://github.com/hozlucas28/UNLaM-Calendar/commit/5a7249d10d27f7c0ae70fcaf06c7561aa91a391d",
-			"comments_url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/5a7249d10d27f7c0ae70fcaf06c7561aa91a391d/comments",
-			"author": {
-				"login": "hozlucas28",
-				"id": 88015479,
-				"node_id": "MDQ6VXNlcjg4MDE1NDc5",
-				"avatar_url": "https://avatars.githubusercontent.com/u/88015479?v=4",
-				"gravatar_id": "",
-				"url": "https://api.github.com/users/hozlucas28",
-				"html_url": "https://github.com/hozlucas28",
-				"followers_url": "https://api.github.com/users/hozlucas28/followers",
-				"following_url": "https://api.github.com/users/hozlucas28/following{/other_user}",
-				"gists_url": "https://api.github.com/users/hozlucas28/gists{/gist_id}",
-				"starred_url": "https://api.github.com/users/hozlucas28/starred{/owner}{/repo}",
-				"subscriptions_url": "https://api.github.com/users/hozlucas28/subscriptions",
-				"organizations_url": "https://api.github.com/users/hozlucas28/orgs",
-				"repos_url": "https://api.github.com/users/hozlucas28/repos",
-				"events_url": "https://api.github.com/users/hozlucas28/events{/privacy}",
-				"received_events_url": "https://api.github.com/users/hozlucas28/received_events",
-				"type": "User",
-				"user_view_type": "public",
-				"site_admin": false
-			},
-			"committer": {
-				"login": "web-flow",
-				"id": 19864447,
-				"node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-				"avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
-				"gravatar_id": "",
-				"url": "https://api.github.com/users/web-flow",
-				"html_url": "https://github.com/web-flow",
-				"followers_url": "https://api.github.com/users/web-flow/followers",
-				"following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-				"gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-				"starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-				"subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-				"organizations_url": "https://api.github.com/users/web-flow/orgs",
-				"repos_url": "https://api.github.com/users/web-flow/repos",
-				"events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-				"received_events_url": "https://api.github.com/users/web-flow/received_events",
-				"type": "User",
-				"user_view_type": "public",
-				"site_admin": false
-			},
-			"parents": [
-				{
-					"sha": "ab2ef9cfee6736431c885d7788148921967473ee",
-					"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/ab2ef9cfee6736431c885d7788148921967473ee",
-					"html_url": "https://github.com/hozlucas28/UNLaM-Calendar/commit/ab2ef9cfee6736431c885d7788148921967473ee"
-				}
-			]
-		},
-		{
-			"sha": "668ecd3d99b3b34a976093e799d5290519f82352",
-			"node_id": "C_kwDOQizWBtoAKDY2OGVjZDNkOTliM2IzNGE5NzYwOTNlNzk5ZDUyOTA1MTlmODIzNTI",
-			"commit": {
-				"author": {
-					"name": "Lucas Hoz",
-					"email": "loremIpsum@gmail.com",
-					"date": "2025-12-29T05:45:53Z"
-				},
-				"committer": {
-					"name": "GitHub",
-					"email": "noreply@github.com",
-					"date": "2025-12-29T05:45:53Z"
-				},
-				"message": "chore: create `hello-world.sh` to say hi",
-				"tree": {
-					"sha": "2c291b4f742ffcc89ef272c3f33a1ff4ef1473aa",
-					"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/git/trees/2c291b4f742ffcc89ef272c3f33a1ff4ef1473aa"
-				},
-				"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/git/commits/668ecd3d99b3b34a976093e799d5290519f82352",
-				"comment_count": 0,
-				"verification": {
-					"verified": true,
-					"reason": "valid",
-					"signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpUhWRCRC1aQ7uu5UhlAAAYPgQAG+BQLZXsQzMQIAhae3b8jW3\nDOXMPMLe2AdKGFtrI8i6hK+nZL2F96FxVmeooTEL/ASsGVyjhqDQHZ08vBBSC7Il\nRVisf0uRpMMdLXT+AWEFjHu4ydJ7dtkRHM8PFj0bhxdJOmUCamftBk8ymm/cBA+c\np/N9II88ZEIX0VZWqFwinLojZMhQsK6IryTKM5ENIj/xsF9aiP2Q4qJXyzIdYcR7\nfQz0c2qPXY4As/56ZqNyKH8Axb0w6y/3XOj2G2VIELvowpPUu2Wh4mlh1dl9JqhX\n3wrxsqIw3/cjxCZCuLsE0Li1bw4xb9JthQx0hrFblyKciaWai5NDg+SDkrKLgVLh\n24vkrlTKJ7S5AikkzzFFZlHXRQfMjDnzYufhGV2JfmgQJRlI9bt1YfPc/gNXbt4W\nCnam/8V45P1NPHkc7iUiJh1Ogan+rO1INrcR5nco0HVIjhrirgP7UEhUpzkJJxKq\nMMQyckBKvQpEBPP6CRc8/o1Mw0ZopIOB7yOBS3FrztqoHYClJq+92395FzzSrUCQ\ny0zWESg56uZ+uDKdBX6W49KgqopuPeR11cAIqy/LznmDnofoeZsIQzK/XGkltMTo\nJGtTnIP5Geli3ktcLiI/41fkOGVu5erGzwsDJ911DjgsghuESPtStOPtVxl0cFzH\nbGC2o4BI/lnc9EU9Vrzj\n=vurq\n-----END PGP SIGNATURE-----\n",
-					"payload": "tree 2c291b4f742ffcc89ef272c3f33a1ff4ef1473aa\nparent 5a7249d10d27f7c0ae70fcaf06c7561aa91a391d\nauthor Lucas Hoz <loremIpsum@gmail.com> 1766987153 -0300\ncommitter GitHub <noreply@github.com> 1766987153 -0300\n\nchore: create `hello-world.sh` to say hi",
-					"verified_at": "2025-12-29T05:45:54Z"
-				}
-			},
-			"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/668ecd3d99b3b34a976093e799d5290519f82352",
-			"html_url": "https://github.com/hozlucas28/UNLaM-Calendar/commit/668ecd3d99b3b34a976093e799d5290519f82352",
-			"comments_url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/668ecd3d99b3b34a976093e799d5290519f82352/comments",
-			"author": {
-				"login": "hozlucas28",
-				"id": 88015479,
-				"node_id": "MDQ6VXNlcjg4MDE1NDc5",
-				"avatar_url": "https://avatars.githubusercontent.com/u/88015479?v=4",
-				"gravatar_id": "",
-				"url": "https://api.github.com/users/hozlucas28",
-				"html_url": "https://github.com/hozlucas28",
-				"followers_url": "https://api.github.com/users/hozlucas28/followers",
-				"following_url": "https://api.github.com/users/hozlucas28/following{/other_user}",
-				"gists_url": "https://api.github.com/users/hozlucas28/gists{/gist_id}",
-				"starred_url": "https://api.github.com/users/hozlucas28/starred{/owner}{/repo}",
-				"subscriptions_url": "https://api.github.com/users/hozlucas28/subscriptions",
-				"organizations_url": "https://api.github.com/users/hozlucas28/orgs",
-				"repos_url": "https://api.github.com/users/hozlucas28/repos",
-				"events_url": "https://api.github.com/users/hozlucas28/events{/privacy}",
-				"received_events_url": "https://api.github.com/users/hozlucas28/received_events",
-				"type": "User",
-				"user_view_type": "public",
-				"site_admin": false
-			},
-			"committer": {
-				"login": "web-flow",
-				"id": 19864447,
-				"node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-				"avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
-				"gravatar_id": "",
-				"url": "https://api.github.com/users/web-flow",
-				"html_url": "https://github.com/web-flow",
-				"followers_url": "https://api.github.com/users/web-flow/followers",
-				"following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-				"gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-				"starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-				"subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-				"organizations_url": "https://api.github.com/users/web-flow/orgs",
-				"repos_url": "https://api.github.com/users/web-flow/repos",
-				"events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-				"received_events_url": "https://api.github.com/users/web-flow/received_events",
-				"type": "User",
-				"user_view_type": "public",
-				"site_admin": false
-			},
-			"parents": [
-				{
-					"sha": "5a7249d10d27f7c0ae70fcaf06c7561aa91a391d",
-					"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/5a7249d10d27f7c0ae70fcaf06c7561aa91a391d",
-					"html_url": "https://github.com/hozlucas28/UNLaM-Calendar/commit/5a7249d10d27f7c0ae70fcaf06c7561aa91a391d"
-				}
-			]
-		},
-		{
-			"sha": "f920e48a86773f60ec11923e25da2eb8aac8031f",
-			"node_id": "C_kwDOQizWBtoAKGY5MjBlNDhhODY3NzNmNjBlYzExOTIzZTI1ZGEyZWI4YWFjODAzMWY",
-			"commit": {
-				"author": {
-					"name": "Lucas Hoz",
-					"email": "loremIpsum@gmail.com",
-					"date": "2025-12-29T05:46:43Z"
-				},
-				"committer": {
-					"name": "GitHub",
-					"email": "noreply@github.com",
-					"date": "2025-12-29T05:46:43Z"
-				},
-				"message": "feature(frontend): add `greet` npm script",
-				"tree": {
-					"sha": "040fb0f9b6bbd688e75c53ebfd7e87250d40fa22",
-					"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/git/trees/040fb0f9b6bbd688e75c53ebfd7e87250d40fa22"
-				},
-				"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/git/commits/f920e48a86773f60ec11923e25da2eb8aac8031f",
-				"comment_count": 0,
-				"verification": {
-					"verified": true,
-					"reason": "valid",
-					"signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpUhXDCRC1aQ7uu5UhlAAAi4QQAKehWiJvpUUgxdter9R5t2zt\njEmR6Lb7OJurPFRxi8njJ4RZwnwUgd1PZRVelNAtIuqJVzYLn6qixe+xjX9qAR9P\nzDLQup5OY4hB8SALUIdLgj0aS/Ty1lF8HT2nPIS5H/GOnKKx5BS99cN+SyJgCP1F\nQcmc79GLd+nPIF8TT6wxL7f+SYmTk+iBN+vv1xVDhg7oPs7Cr79leI+QFTQJseqo\n87BuRFNtKw3SekPEodCO0YLefik5WQO654aMm+WKVPN7wG5k0xiVZhGSuobLaqIQ\nTqGvLbmLLCq709xyUteMxaIluWS7zdW58hY5mBImignPmFAHkbUzUF17I1Qj7FE+\n+YAA9oBEh649dByVki7yXwlm6pHVEMsNJVmlHZlELDrnsKm0jzGtEXqGCj2bWc1X\nYjgfVUIOKPa3T7eF5OhibNlNdwgGGWmOR30emN4Y/rGys+EHnHIc3xG3jxEjPp4h\nGRekQzSR03zlHymWMjvfTPj8FxPGA+coOBXYFgbURcSPRYSB1FX59MEn55O4Se/Y\nokUJA4VU0Bo8jUkZ9diXbunAx8zpJCL39DCjGE9z4s82EVYtNFkpL+LjEtDJze2M\nwsHFzKuXAP3lD4lOmaUcs+rjW1ryy1K5XOzwe4D2Mf8f9dZHfSIEwAkxSrph0hJs\nPmWjKHNdIAXIwxzG8WW0\n=M9BH\n-----END PGP SIGNATURE-----\n",
-					"payload": "tree 040fb0f9b6bbd688e75c53ebfd7e87250d40fa22\nparent 668ecd3d99b3b34a976093e799d5290519f82352\nauthor Lucas Hoz <loremIpsum@gmail.com> 1766987203 -0300\ncommitter GitHub <noreply@github.com> 1766987203 -0300\n\nfeature(frontend): add `greet` npm script",
-					"verified_at": "2025-12-29T05:46:44Z"
-				}
-			},
-			"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/f920e48a86773f60ec11923e25da2eb8aac8031f",
-			"html_url": "https://github.com/hozlucas28/UNLaM-Calendar/commit/f920e48a86773f60ec11923e25da2eb8aac8031f",
-			"comments_url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/f920e48a86773f60ec11923e25da2eb8aac8031f/comments",
-			"author": {
-				"login": "hozlucas28",
-				"id": 88015479,
-				"node_id": "MDQ6VXNlcjg4MDE1NDc5",
-				"avatar_url": "https://avatars.githubusercontent.com/u/88015479?v=4",
-				"gravatar_id": "",
-				"url": "https://api.github.com/users/hozlucas28",
-				"html_url": "https://github.com/hozlucas28",
-				"followers_url": "https://api.github.com/users/hozlucas28/followers",
-				"following_url": "https://api.github.com/users/hozlucas28/following{/other_user}",
-				"gists_url": "https://api.github.com/users/hozlucas28/gists{/gist_id}",
-				"starred_url": "https://api.github.com/users/hozlucas28/starred{/owner}{/repo}",
-				"subscriptions_url": "https://api.github.com/users/hozlucas28/subscriptions",
-				"organizations_url": "https://api.github.com/users/hozlucas28/orgs",
-				"repos_url": "https://api.github.com/users/hozlucas28/repos",
-				"events_url": "https://api.github.com/users/hozlucas28/events{/privacy}",
-				"received_events_url": "https://api.github.com/users/hozlucas28/received_events",
-				"type": "User",
-				"user_view_type": "public",
-				"site_admin": false
-			},
-			"committer": {
-				"login": "web-flow",
-				"id": 19864447,
-				"node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-				"avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
-				"gravatar_id": "",
-				"url": "https://api.github.com/users/web-flow",
-				"html_url": "https://github.com/web-flow",
-				"followers_url": "https://api.github.com/users/web-flow/followers",
-				"following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-				"gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-				"starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-				"subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-				"organizations_url": "https://api.github.com/users/web-flow/orgs",
-				"repos_url": "https://api.github.com/users/web-flow/repos",
-				"events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-				"received_events_url": "https://api.github.com/users/web-flow/received_events",
-				"type": "User",
-				"user_view_type": "public",
-				"site_admin": false
-			},
-			"parents": [
-				{
-					"sha": "668ecd3d99b3b34a976093e799d5290519f82352",
-					"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/668ecd3d99b3b34a976093e799d5290519f82352",
-					"html_url": "https://github.com/hozlucas28/UNLaM-Calendar/commit/668ecd3d99b3b34a976093e799d5290519f82352"
-				}
-			]
-		},
-		{
-			"sha": "42365653294cb289b5ec43b0dee2372d5ef4721f",
-			"node_id": "C_kwDOQizWBtoAKDQyMzY1NjUzMjk0Y2IyODliNWVjNDNiMGRlZTIzNzJkNWVmNDcyMWY",
-			"commit": {
-				"author": {
-					"name": "hozlucas28",
-					"email": "88015479+hozlucas28@users.noreply.github.com",
-					"date": "2025-12-29T05:47:32Z"
-				},
-				"committer": {
-					"name": "github-actions[bot]",
-					"email": "github-actions[bot]@users.noreply.github.com",
-					"date": "2025-12-29T05:47:32Z"
-				},
-				"message": "ci: fix and format",
-				"tree": {
-					"sha": "d0f6ccc224d87099963d91d80cc39358a161bb36",
-					"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/git/trees/d0f6ccc224d87099963d91d80cc39358a161bb36"
-				},
-				"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/git/commits/42365653294cb289b5ec43b0dee2372d5ef4721f",
-				"comment_count": 0,
-				"verification": {
-					"verified": false,
-					"reason": "unsigned",
-					"signature": null,
-					"payload": null,
-					"verified_at": null
-				}
-			},
-			"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/42365653294cb289b5ec43b0dee2372d5ef4721f",
-			"html_url": "https://github.com/hozlucas28/UNLaM-Calendar/commit/42365653294cb289b5ec43b0dee2372d5ef4721f",
-			"comments_url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/42365653294cb289b5ec43b0dee2372d5ef4721f/comments",
-			"author": {
-				"login": "hozlucas28",
-				"id": 88015479,
-				"node_id": "MDQ6VXNlcjg4MDE1NDc5",
-				"avatar_url": "https://avatars.githubusercontent.com/u/88015479?v=4",
-				"gravatar_id": "",
-				"url": "https://api.github.com/users/hozlucas28",
-				"html_url": "https://github.com/hozlucas28",
-				"followers_url": "https://api.github.com/users/hozlucas28/followers",
-				"following_url": "https://api.github.com/users/hozlucas28/following{/other_user}",
-				"gists_url": "https://api.github.com/users/hozlucas28/gists{/gist_id}",
-				"starred_url": "https://api.github.com/users/hozlucas28/starred{/owner}{/repo}",
-				"subscriptions_url": "https://api.github.com/users/hozlucas28/subscriptions",
-				"organizations_url": "https://api.github.com/users/hozlucas28/orgs",
-				"repos_url": "https://api.github.com/users/hozlucas28/repos",
-				"events_url": "https://api.github.com/users/hozlucas28/events{/privacy}",
-				"received_events_url": "https://api.github.com/users/hozlucas28/received_events",
-				"type": "User",
-				"user_view_type": "public",
-				"site_admin": false
-			},
-			"committer": {
-				"login": "github-actions[bot]",
-				"id": 41898282,
-				"node_id": "MDM6Qm90NDE4OTgyODI=",
-				"avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
-				"gravatar_id": "",
-				"url": "https://api.github.com/users/github-actions%5Bbot%5D",
-				"html_url": "https://github.com/apps/github-actions",
-				"followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
-				"following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
-				"gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
-				"starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
-				"subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
-				"organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
-				"repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
-				"events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
-				"received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
-				"type": "Bot",
-				"user_view_type": "public",
-				"site_admin": false
-			},
-			"parents": [
-				{
-					"sha": "f920e48a86773f60ec11923e25da2eb8aac8031f",
-					"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/f920e48a86773f60ec11923e25da2eb8aac8031f",
-					"html_url": "https://github.com/hozlucas28/UNLaM-Calendar/commit/f920e48a86773f60ec11923e25da2eb8aac8031f"
-				}
-			]
-		},
-		{
-			"sha": "6f43eca7e6ec002774d4dc0babac88dcc53c514d",
-			"node_id": "C_kwDOQizWBtoAKDZmNDNlY2E3ZTZlYzAwMjc3NGQ0ZGMwYmFiYWM4OGRjYzUzYzUxNGQ",
-			"commit": {
-				"author": {
-					"name": "Lucas Hoz",
-					"email": "loremIpsum@gmail.com",
-					"date": "2025-12-29T05:50:11Z"
-				},
-				"committer": {
-					"name": "GitHub",
-					"email": "noreply@github.com",
-					"date": "2025-12-29T05:50:11Z"
-				},
-				"message": "test(frontend): update expected and received results",
-				"tree": {
-					"sha": "6e92de917908faa482e99737ab646488c47ba6de",
-					"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/git/trees/6e92de917908faa482e99737ab646488c47ba6de"
-				},
-				"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/git/commits/6f43eca7e6ec002774d4dc0babac88dcc53c514d",
-				"comment_count": 0,
-				"verification": {
-					"verified": true,
-					"reason": "valid",
-					"signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpUhaUCRC1aQ7uu5UhlAAAE5AQAAr0TvSrzlH9Sh1QgNldB4m0\nb4ZF7E9nTHT2el16/wnqoZ2K1jJuIHl1+OTWCPgWuvBxe9xfEyChycCLiwoTeUlB\nlEKEH0zhF0O8PdgtmWPayY12VkukxkaWInpxbNt1KqX4g9RcV9HoyCDDhNNiJOpf\nnxfuOHL60Z6CeqtP4+aGtcVKiYeiVbUvuVYS8wp5orj19MH1oWJNur8YZOGEzRMW\ncE+ChW3N+Nt8TRFNKE/092xUn4FWYFXMOG5c3y7xcq8PSimrrNsJkdcGix8Yr0Tr\nstdRn9NTFpostv0koDm1lkoxlA+qbfTv8IsKkizDRzsfLTF2YF9hKaSCrBL9waQp\n54dPLddtsu3FXq1KgEWWIhfQ6MF2UUAP9+JKPlWwNGQQBNpYzEdGBf4Sv2mr3SfG\n52B4iTCJAj4EXHosIqZZgIc8UeMQBRN0IBGFSiGrVC583U47fGL+2TRilQy0p+GC\nKEy2EOXHbi/V9wo1h1Y7Rd6uEbvRQU1pRpVg/KJ/HUSza6zGPq8JWpdx/NWi9ju5\nZ9ZJCcp/RXWHgP6wHEAvg5Sl9UJ8bLD091IqiiOFEPSZPwELEAK3LgxurVhJR3HA\n62mpGagGZyATQboj1pplklGi3SogxnUk5TQwLm1UDrw8mlyyCrgDl08WnpMg6jyb\nZtid6/wms8WyP1FSMvNm\n=SAHK\n-----END PGP SIGNATURE-----\n",
-					"payload": "tree 6e92de917908faa482e99737ab646488c47ba6de\nparent 42365653294cb289b5ec43b0dee2372d5ef4721f\nauthor Lucas Hoz <loremIpsum@gmail.com> 1766987411 -0300\ncommitter GitHub <noreply@github.com> 1766987411 -0300\n\ntest(frontend): update expected and received results",
-					"verified_at": "2025-12-29T05:50:12Z"
-				}
-			},
-			"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/6f43eca7e6ec002774d4dc0babac88dcc53c514d",
-			"html_url": "https://github.com/hozlucas28/UNLaM-Calendar/commit/6f43eca7e6ec002774d4dc0babac88dcc53c514d",
-			"comments_url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/6f43eca7e6ec002774d4dc0babac88dcc53c514d/comments",
-			"author": {
-				"login": "hozlucas28",
-				"id": 88015479,
-				"node_id": "MDQ6VXNlcjg4MDE1NDc5",
-				"avatar_url": "https://avatars.githubusercontent.com/u/88015479?v=4",
-				"gravatar_id": "",
-				"url": "https://api.github.com/users/hozlucas28",
-				"html_url": "https://github.com/hozlucas28",
-				"followers_url": "https://api.github.com/users/hozlucas28/followers",
-				"following_url": "https://api.github.com/users/hozlucas28/following{/other_user}",
-				"gists_url": "https://api.github.com/users/hozlucas28/gists{/gist_id}",
-				"starred_url": "https://api.github.com/users/hozlucas28/starred{/owner}{/repo}",
-				"subscriptions_url": "https://api.github.com/users/hozlucas28/subscriptions",
-				"organizations_url": "https://api.github.com/users/hozlucas28/orgs",
-				"repos_url": "https://api.github.com/users/hozlucas28/repos",
-				"events_url": "https://api.github.com/users/hozlucas28/events{/privacy}",
-				"received_events_url": "https://api.github.com/users/hozlucas28/received_events",
-				"type": "User",
-				"user_view_type": "public",
-				"site_admin": false
-			},
-			"committer": {
-				"login": "web-flow",
-				"id": 19864447,
-				"node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-				"avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
-				"gravatar_id": "",
-				"url": "https://api.github.com/users/web-flow",
-				"html_url": "https://github.com/web-flow",
-				"followers_url": "https://api.github.com/users/web-flow/followers",
-				"following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-				"gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-				"starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-				"subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-				"organizations_url": "https://api.github.com/users/web-flow/orgs",
-				"repos_url": "https://api.github.com/users/web-flow/repos",
-				"events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-				"received_events_url": "https://api.github.com/users/web-flow/received_events",
-				"type": "User",
-				"user_view_type": "public",
-				"site_admin": false
-			},
-			"parents": [
-				{
-					"sha": "42365653294cb289b5ec43b0dee2372d5ef4721f",
-					"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/42365653294cb289b5ec43b0dee2372d5ef4721f",
-					"html_url": "https://github.com/hozlucas28/UNLaM-Calendar/commit/42365653294cb289b5ec43b0dee2372d5ef4721f"
-				}
-			]
-		},
-		{
-			"sha": "ee440c1d76acc4b6990c76e48670222d1d26296b",
-			"node_id": "C_kwDOQizWBtoAKGVlNDQwYzFkNzZhY2M0YjY5OTBjNzZlNDg2NzAyMjJkMWQyNjI5NmI",
-			"commit": {
-				"author": {
-					"name": "hozlucas28",
-					"email": "88015479+hozlucas28@users.noreply.github.com",
-					"date": "2025-12-29T05:50:54Z"
-				},
-				"committer": {
-					"name": "github-actions[bot]",
-					"email": "github-actions[bot]@users.noreply.github.com",
-					"date": "2025-12-29T05:50:54Z"
-				},
-				"message": "ci: fix and format",
-				"tree": {
-					"sha": "82faf9548df7679ca9b14ed7531929ed2e326d41",
-					"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/git/trees/82faf9548df7679ca9b14ed7531929ed2e326d41"
-				},
-				"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/git/commits/ee440c1d76acc4b6990c76e48670222d1d26296b",
-				"comment_count": 0,
-				"verification": {
-					"verified": false,
-					"reason": "unsigned",
-					"signature": null,
-					"payload": null,
-					"verified_at": null
-				}
-			},
-			"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/ee440c1d76acc4b6990c76e48670222d1d26296b",
-			"html_url": "https://github.com/hozlucas28/UNLaM-Calendar/commit/ee440c1d76acc4b6990c76e48670222d1d26296b",
-			"comments_url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/ee440c1d76acc4b6990c76e48670222d1d26296b/comments",
-			"author": {
-				"login": "hozlucas28",
-				"id": 88015479,
-				"node_id": "MDQ6VXNlcjg4MDE1NDc5",
-				"avatar_url": "https://avatars.githubusercontent.com/u/88015479?v=4",
-				"gravatar_id": "",
-				"url": "https://api.github.com/users/hozlucas28",
-				"html_url": "https://github.com/hozlucas28",
-				"followers_url": "https://api.github.com/users/hozlucas28/followers",
-				"following_url": "https://api.github.com/users/hozlucas28/following{/other_user}",
-				"gists_url": "https://api.github.com/users/hozlucas28/gists{/gist_id}",
-				"starred_url": "https://api.github.com/users/hozlucas28/starred{/owner}{/repo}",
-				"subscriptions_url": "https://api.github.com/users/hozlucas28/subscriptions",
-				"organizations_url": "https://api.github.com/users/hozlucas28/orgs",
-				"repos_url": "https://api.github.com/users/hozlucas28/repos",
-				"events_url": "https://api.github.com/users/hozlucas28/events{/privacy}",
-				"received_events_url": "https://api.github.com/users/hozlucas28/received_events",
-				"type": "User",
-				"user_view_type": "public",
-				"site_admin": false
-			},
-			"committer": {
-				"login": "github-actions[bot]",
-				"id": 41898282,
-				"node_id": "MDM6Qm90NDE4OTgyODI=",
-				"avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
-				"gravatar_id": "",
-				"url": "https://api.github.com/users/github-actions%5Bbot%5D",
-				"html_url": "https://github.com/apps/github-actions",
-				"followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
-				"following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
-				"gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
-				"starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
-				"subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
-				"organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
-				"repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
-				"events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
-				"received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
-				"type": "Bot",
-				"user_view_type": "public",
-				"site_admin": false
-			},
-			"parents": [
-				{
-					"sha": "6f43eca7e6ec002774d4dc0babac88dcc53c514d",
-					"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/6f43eca7e6ec002774d4dc0babac88dcc53c514d",
-					"html_url": "https://github.com/hozlucas28/UNLaM-Calendar/commit/6f43eca7e6ec002774d4dc0babac88dcc53c514d"
-				}
-			]
-		},
-		{
-			"sha": "27e7e5b97ff0ae9ee06992ef37d226a521719d32",
-			"node_id": "C_kwDOQizWBtoAKDI3ZTdlNWI5N2ZmMGFlOWVlMDY5OTJlZjM3ZDIyNmE1MjE3MTlkMzI",
-			"commit": {
-				"author": {
-					"name": "Lucas Hoz",
-					"email": "loremIpsum@gmail.com",
-					"date": "2025-12-29T05:55:22Z"
-				},
-				"committer": {
-					"name": "GitHub",
-					"email": "noreply@github.com",
-					"date": "2025-12-29T05:55:22Z"
-				},
-				"message": "fix(frontend): remove meta generator",
-				"tree": {
-					"sha": "4be7dbd951f7afaf894f5dfceab8319dc9292931",
-					"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/git/trees/4be7dbd951f7afaf894f5dfceab8319dc9292931"
-				},
-				"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/git/commits/27e7e5b97ff0ae9ee06992ef37d226a521719d32",
-				"comment_count": 0,
-				"verification": {
-					"verified": true,
-					"reason": "valid",
-					"signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpUhfKCRC1aQ7uu5UhlAAAe24QAE6nUh2b+0LajgDpgpC9J5Aw\n6Q8zfP7W1zCWMIldt+YePR5VHun6+XRHLtg9KH0QznTjFSBYvFaEWEMXz0gNcmZQ\nWmUL9prUeIlh0+LsYzsJP6Ex+kvuJ3tWjEeI14I4GfSxvaXrPcA/zhI5jzCh7sy7\naQkcCzd7d0W0RwTAngrcvJbPPKF+hTZZ4wp5OXfANWFnR7RVq9aOTLJRH4AtQkOw\njsC/A7q/oP+Kf+doQVStjbnETZ3Rnp+1t345Ahi97hs2ZlGaK7/Z/QMvHsyUbZR5\nZa312advxt1EIS+5qfMvSJGezV9RsIkeiVSJzq6pMKFM60XfJNiLTPhLYWXfVy2o\nD6Qh1CwXDSeOij0ygypfhM5KxOolk6FBrYdsvtMYhT6srjjIb4w3OvfEWyJzUXCM\n5dQsIuOqSUCeMqruIMJck9r91NAy4HvG3TvPr3YB3E8+3oEYHWzOBvBdj7VAFYA3\ny7OrQwO8hbx5E/YU7muUHutZF34e5dLML4pA2qk6ga4cdJLWLEy+d6E+02rP3xJ3\nrGbf5izjvbz+MwTaJ5Vz8h0VZ0w1D3Yp9+Av3P6uhV6glB7blBO+ca9Z93yhgJKo\ns+JVd72jNQlGNsEqtNP+qfT7cpOYKtlA1egNwqGLS0GmPsmflE8EH80sJTMnlTmC\nx9mWiqEAC2cQY82Z8SPg\n=YC0N\n-----END PGP SIGNATURE-----\n",
-					"payload": "tree 4be7dbd951f7afaf894f5dfceab8319dc9292931\nparent ee440c1d76acc4b6990c76e48670222d1d26296b\nauthor Lucas Hoz <loremIpsum@gmail.com> 1766987722 -0300\ncommitter GitHub <noreply@github.com> 1766987722 -0300\n\nfix(frontend): remove meta generator",
-					"verified_at": "2025-12-29T05:55:23Z"
-				}
-			},
-			"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/27e7e5b97ff0ae9ee06992ef37d226a521719d32",
-			"html_url": "https://github.com/hozlucas28/UNLaM-Calendar/commit/27e7e5b97ff0ae9ee06992ef37d226a521719d32",
-			"comments_url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/27e7e5b97ff0ae9ee06992ef37d226a521719d32/comments",
-			"author": {
-				"login": "hozlucas28",
-				"id": 88015479,
-				"node_id": "MDQ6VXNlcjg4MDE1NDc5",
-				"avatar_url": "https://avatars.githubusercontent.com/u/88015479?v=4",
-				"gravatar_id": "",
-				"url": "https://api.github.com/users/hozlucas28",
-				"html_url": "https://github.com/hozlucas28",
-				"followers_url": "https://api.github.com/users/hozlucas28/followers",
-				"following_url": "https://api.github.com/users/hozlucas28/following{/other_user}",
-				"gists_url": "https://api.github.com/users/hozlucas28/gists{/gist_id}",
-				"starred_url": "https://api.github.com/users/hozlucas28/starred{/owner}{/repo}",
-				"subscriptions_url": "https://api.github.com/users/hozlucas28/subscriptions",
-				"organizations_url": "https://api.github.com/users/hozlucas28/orgs",
-				"repos_url": "https://api.github.com/users/hozlucas28/repos",
-				"events_url": "https://api.github.com/users/hozlucas28/events{/privacy}",
-				"received_events_url": "https://api.github.com/users/hozlucas28/received_events",
-				"type": "User",
-				"user_view_type": "public",
-				"site_admin": false
-			},
-			"committer": {
-				"login": "web-flow",
-				"id": 19864447,
-				"node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-				"avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
-				"gravatar_id": "",
-				"url": "https://api.github.com/users/web-flow",
-				"html_url": "https://github.com/web-flow",
-				"followers_url": "https://api.github.com/users/web-flow/followers",
-				"following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-				"gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-				"starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-				"subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-				"organizations_url": "https://api.github.com/users/web-flow/orgs",
-				"repos_url": "https://api.github.com/users/web-flow/repos",
-				"events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-				"received_events_url": "https://api.github.com/users/web-flow/received_events",
-				"type": "User",
-				"user_view_type": "public",
-				"site_admin": false
-			},
-			"parents": [
-				{
-					"sha": "ee440c1d76acc4b6990c76e48670222d1d26296b",
-					"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/ee440c1d76acc4b6990c76e48670222d1d26296b",
-					"html_url": "https://github.com/hozlucas28/UNLaM-Calendar/commit/ee440c1d76acc4b6990c76e48670222d1d26296b"
-				}
-			]
-		},
-		{
-			"sha": "85e3ab7920fb6dc389ed12f8d4697c4226427873",
-			"node_id": "C_kwDOQizWBtoAKDg1ZTNhYjc5MjBmYjZkYzM4OWVkMTJmOGQ0Njk3YzQyMjY0Mjc4NzM",
-			"commit": {
-				"author": {
-					"name": "Lucas Hoz",
-					"email": "loremIpsum@gmail.com",
-					"date": "2025-12-29T05:56:26Z"
-				},
-				"committer": {
-					"name": "GitHub",
-					"email": "noreply@github.com",
-					"date": "2025-12-29T05:56:26Z"
-				},
-				"message": "devops: several changes",
-				"tree": {
-					"sha": "be00ad2403de7a35b3e94eb75f43736551fef8d9",
-					"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/git/trees/be00ad2403de7a35b3e94eb75f43736551fef8d9"
-				},
-				"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/git/commits/85e3ab7920fb6dc389ed12f8d4697c4226427873",
-				"comment_count": 0,
-				"verification": {
-					"verified": true,
-					"reason": "valid",
-					"signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpUhgKCRC1aQ7uu5UhlAAABSMQACv8khspxh5k93WyBlbDvUFm\nqt3mZC3dx/mFNq+A21Q4ytsnZ+mqmQDPgLDiFp/xpmbs4vEYRDAucr5b1VpGtRS2\nC3mBRvAbpkn//ea4RpPvJPjUKZndhc3fFYxqcbLW3kQda/CEIffj10rDfpSVcFk2\n2J/ChJTJiYFkIhX1s0lc3GMUqh70QcH1i52bqRdj4DElGdmmulOh7wi4YkDVmCrf\nL4LPxuyKLKZ0kVYPOx2x9rXcI02pjjE1xVp7rgOX+oLVZWqtdHd4c6ASJFOlIc59\n1dTGzC6sxt1CL9vD0JXC8+rYMCi/fkSgDyyhBscKE22phrGvVmOTfQZl5+2itzwF\niRZzUQpVBaEGk+vCiRIkwqeVmVDm4Lo/dQR4Ubw15WDHNBMcHohLkUHyNPWnfeX2\n6LWFhKq7D2vslgPBm/S716ZeZk77nxyNuuXMl6XW7tglcAaBDnHJvOXQeNQJtDsP\nYMU5LkaAKFOz//H0zf++umeoV7EPnL3xutXZpQT6iQoHXtW6YN+mzd9FL/9dhUha\ntsfiizVmt+BP7o9l9oWuuyFCwcWwuIVt+g9XvqNnybTLgj4W89e2Xz7wMrITPazM\nZP1Jy5LLUXTciLB6GDJNYqHdY2Lb0P82Q+VrMDnpFy9xWyJczKVshaooonY/RAxm\n+4nDYtdCuyivOIJRvWKn\n=4spb\n-----END PGP SIGNATURE-----\n",
-					"payload": "tree be00ad2403de7a35b3e94eb75f43736551fef8d9\nparent 27e7e5b97ff0ae9ee06992ef37d226a521719d32\nauthor Lucas Hoz <loremIpsum@gmail.com> 1766987786 -0300\ncommitter GitHub <noreply@github.com> 1766987786 -0300\n\ndevops: several changes",
-					"verified_at": "2025-12-29T05:56:26Z"
-				}
-			},
-			"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/85e3ab7920fb6dc389ed12f8d4697c4226427873",
-			"html_url": "https://github.com/hozlucas28/UNLaM-Calendar/commit/85e3ab7920fb6dc389ed12f8d4697c4226427873",
-			"comments_url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/85e3ab7920fb6dc389ed12f8d4697c4226427873/comments",
-			"author": {
-				"login": "hozlucas28",
-				"id": 88015479,
-				"node_id": "MDQ6VXNlcjg4MDE1NDc5",
-				"avatar_url": "https://avatars.githubusercontent.com/u/88015479?v=4",
-				"gravatar_id": "",
-				"url": "https://api.github.com/users/hozlucas28",
-				"html_url": "https://github.com/hozlucas28",
-				"followers_url": "https://api.github.com/users/hozlucas28/followers",
-				"following_url": "https://api.github.com/users/hozlucas28/following{/other_user}",
-				"gists_url": "https://api.github.com/users/hozlucas28/gists{/gist_id}",
-				"starred_url": "https://api.github.com/users/hozlucas28/starred{/owner}{/repo}",
-				"subscriptions_url": "https://api.github.com/users/hozlucas28/subscriptions",
-				"organizations_url": "https://api.github.com/users/hozlucas28/orgs",
-				"repos_url": "https://api.github.com/users/hozlucas28/repos",
-				"events_url": "https://api.github.com/users/hozlucas28/events{/privacy}",
-				"received_events_url": "https://api.github.com/users/hozlucas28/received_events",
-				"type": "User",
-				"user_view_type": "public",
-				"site_admin": false
-			},
-			"committer": {
-				"login": "web-flow",
-				"id": 19864447,
-				"node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-				"avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
-				"gravatar_id": "",
-				"url": "https://api.github.com/users/web-flow",
-				"html_url": "https://github.com/web-flow",
-				"followers_url": "https://api.github.com/users/web-flow/followers",
-				"following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-				"gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-				"starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-				"subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-				"organizations_url": "https://api.github.com/users/web-flow/orgs",
-				"repos_url": "https://api.github.com/users/web-flow/repos",
-				"events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-				"received_events_url": "https://api.github.com/users/web-flow/received_events",
-				"type": "User",
-				"user_view_type": "public",
-				"site_admin": false
-			},
-			"parents": [
-				{
-					"sha": "27e7e5b97ff0ae9ee06992ef37d226a521719d32",
-					"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/27e7e5b97ff0ae9ee06992ef37d226a521719d32",
-					"html_url": "https://github.com/hozlucas28/UNLaM-Calendar/commit/27e7e5b97ff0ae9ee06992ef37d226a521719d32"
-				}
-			]
-		},
-		{
-			"sha": "4d145f3750da28c03c97422baa340cccabfb4441",
-			"node_id": "C_kwDOQizWBtoAKDRkMTQ1ZjM3NTBkYTI4YzAzYzk3NDIyYmFhMzQwY2NjYWJmYjQ0NDE",
-			"commit": {
-				"author": {
-					"name": "Lucas Hoz",
-					"email": "loremIpsum@gmail.com",
-					"date": "2025-12-29T05:57:47Z"
-				},
-				"committer": {
-					"name": "GitHub",
-					"email": "noreply@github.com",
-					"date": "2025-12-29T05:57:47Z"
-				},
-				"message": "chore(backend): bump colly version",
-				"tree": {
-					"sha": "ad60eaed355b541f3f040cab64d4bbfc38350b44",
-					"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/git/trees/ad60eaed355b541f3f040cab64d4bbfc38350b44"
-				},
-				"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/git/commits/4d145f3750da28c03c97422baa340cccabfb4441",
-				"comment_count": 0,
-				"verification": {
-					"verified": true,
-					"reason": "valid",
-					"signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpUhhbCRC1aQ7uu5UhlAAAWhoQAJj/mswV+iga1U4xeZ5epxZS\nEPIXUb1Omb5uEP53vmLGOeI1HbaJiz+aeEy3YX1fg24Js1nS5FOUQxXv5oiR27B+\nuOXJSHXSowZLS5M/qCw4i4+xt0cxDsQJQCOLmFWsKd89wmyLGhFdwUE6ah2/QTEI\nLFNdDxlr/B/xWIq4HsJ4HcaWrFmU4ZdlXoXnEby841VIXLgXc4lFo7SGwHymh1ZC\nWosp7NxfwfamjzINIXDCfvhUb4fUPSZlDfxVtl66nJ/JhAswUp0DPNNdjnbAVeDg\nWS7lfiqf2uJF0gr37ou6PXR0s+hyz9xAgVldy3f5UZYfyfc24MeZUKRlriH1FdO5\n5WCmZZwUycjBjDscsT6Scvo7bUA3rEQQA7oNmfSvmiL74rzDHKlq3V4Fxm97V3HK\n4BWqDZrT2tZ/NqUTI07q3ms0ETEsNuMFa+kNWpBXcQwfQRwTAC99pCHO+Iya4Xp9\n9iKcTKgEAFVzta7NnT77oSlwEVCvm175y84bXXSms3QANwN8R2dRzFC2CTXpXWjJ\nsDhgG0VVNM7IdtLEft4J3w6LcAqftrQedZkSp84+fJQ/rKUziC3+URWM2SD4O/4R\nNdSuW7ZcTv0VRU/LeMeeGmKqnhNuGLBccGrEnGuZz2OTo49v/kwt6FrJpGKlJAFA\nP5qhiGQNrWRyEKgUxSKm\n=hlSJ\n-----END PGP SIGNATURE-----\n",
-					"payload": "tree ad60eaed355b541f3f040cab64d4bbfc38350b44\nparent 85e3ab7920fb6dc389ed12f8d4697c4226427873\nauthor Lucas Hoz <loremIpsum@gmail.com> 1766987867 -0300\ncommitter GitHub <noreply@github.com> 1766987867 -0300\n\nchore(backend): bump colly version",
-					"verified_at": "2025-12-29T05:57:48Z"
-				}
-			},
-			"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/4d145f3750da28c03c97422baa340cccabfb4441",
-			"html_url": "https://github.com/hozlucas28/UNLaM-Calendar/commit/4d145f3750da28c03c97422baa340cccabfb4441",
-			"comments_url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/4d145f3750da28c03c97422baa340cccabfb4441/comments",
-			"author": {
-				"login": "hozlucas28",
-				"id": 88015479,
-				"node_id": "MDQ6VXNlcjg4MDE1NDc5",
-				"avatar_url": "https://avatars.githubusercontent.com/u/88015479?v=4",
-				"gravatar_id": "",
-				"url": "https://api.github.com/users/hozlucas28",
-				"html_url": "https://github.com/hozlucas28",
-				"followers_url": "https://api.github.com/users/hozlucas28/followers",
-				"following_url": "https://api.github.com/users/hozlucas28/following{/other_user}",
-				"gists_url": "https://api.github.com/users/hozlucas28/gists{/gist_id}",
-				"starred_url": "https://api.github.com/users/hozlucas28/starred{/owner}{/repo}",
-				"subscriptions_url": "https://api.github.com/users/hozlucas28/subscriptions",
-				"organizations_url": "https://api.github.com/users/hozlucas28/orgs",
-				"repos_url": "https://api.github.com/users/hozlucas28/repos",
-				"events_url": "https://api.github.com/users/hozlucas28/events{/privacy}",
-				"received_events_url": "https://api.github.com/users/hozlucas28/received_events",
-				"type": "User",
-				"user_view_type": "public",
-				"site_admin": false
-			},
-			"committer": {
-				"login": "web-flow",
-				"id": 19864447,
-				"node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-				"avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
-				"gravatar_id": "",
-				"url": "https://api.github.com/users/web-flow",
-				"html_url": "https://github.com/web-flow",
-				"followers_url": "https://api.github.com/users/web-flow/followers",
-				"following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-				"gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-				"starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-				"subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-				"organizations_url": "https://api.github.com/users/web-flow/orgs",
-				"repos_url": "https://api.github.com/users/web-flow/repos",
-				"events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-				"received_events_url": "https://api.github.com/users/web-flow/received_events",
-				"type": "User",
-				"user_view_type": "public",
-				"site_admin": false
-			},
-			"parents": [
-				{
-					"sha": "85e3ab7920fb6dc389ed12f8d4697c4226427873",
-					"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/85e3ab7920fb6dc389ed12f8d4697c4226427873",
-					"html_url": "https://github.com/hozlucas28/UNLaM-Calendar/commit/85e3ab7920fb6dc389ed12f8d4697c4226427873"
-				}
-			]
-		},
-		{
-			"sha": "32ccc707a897d896dc2af9fff4c54e2b467fa12d",
-			"node_id": "C_kwDOQizWBtoAKDMyY2NjNzA3YTg5N2Q4OTZkYzJhZjlmZmY0YzU0ZTJiNDY3ZmExMmQ",
-			"commit": {
-				"author": {
-					"name": "Lucas Hoz",
-					"email": "loremIpsum@gmail.com",
-					"date": "2025-12-29T05:58:07Z"
-				},
-				"committer": {
-					"name": "GitHub",
-					"email": "noreply@github.com",
-					"date": "2025-12-29T05:58:07Z"
-				},
-				"message": "test(backend): update expected and received results",
-				"tree": {
-					"sha": "1ac92a332132110987fb2c8d77c5cf7873f9fa16",
-					"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/git/trees/1ac92a332132110987fb2c8d77c5cf7873f9fa16"
-				},
-				"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/git/commits/32ccc707a897d896dc2af9fff4c54e2b467fa12d",
-				"comment_count": 0,
-				"verification": {
-					"verified": true,
-					"reason": "valid",
-					"signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpUhhvCRC1aQ7uu5UhlAAAjsgQAKqJvOsOfMnsuFXQSLMrLBTh\nzRWLcXsiTV/dh4Y5IAIaIOrrV0fugAdQIsggGkp9esUX0V6jHOzzbjz/O5cxEiQ+\nSY0zD79RjY3t8/aro8yPZwkq6R23UsWMciU8sMJkxIAVEaql7zp29ZvC0uvHD2mM\nFLJxB56AJs2m9CiFXdo7TygXHbBkgoDEdZmuCA+yoJSdyjMGKdPZKyNQEYharNol\nchtFLXq9ZOsa7Aoty0himbPM8U/jk/KH64MYWL4NeqPgXhUR46HzD1+0/QBhhdjQ\noJ13YahKYb//SdpKyO34nE2g5Pfx83i2Y0DzEHJC53OysdkmrQVtMhVjhrVgpkfY\nC104LdQrB5lp/tbzatUkvyeZ8k2/sDVMyJMKnIrEEfWMOmmM6dxfTpKO6bHVf6cJ\nddto9bWhasY8SLYYUKE8WcnTlJVEzSocqLq58HnP0xgcaBiHYmwnZWh0AXir3D9D\nRuAQ6XHHo3VhPivTf4SnSVD37omkXS4jPKh9bSsvWf1GdbiaXYzGvTHnzPhZjgCA\nzM+CMroA68NY0cewqoW6D0+5dd4kH+ywR+4tBEPOiGm4rA2riN2mU/N3c2E5Es2F\ns1r5EpJh+szDdAPP2gWV7RxEX2kLA9fO3pku71bN7GmLmc6WSGHs0lAKJeWhQTAX\nQbnid2LzZCCNlg/VCi/s\n=ITN3\n-----END PGP SIGNATURE-----\n",
-					"payload": "tree 1ac92a332132110987fb2c8d77c5cf7873f9fa16\nparent 4d145f3750da28c03c97422baa340cccabfb4441\nauthor Lucas Hoz <loremIpsum@gmail.com> 1766987887 -0300\ncommitter GitHub <noreply@github.com> 1766987887 -0300\n\ntest(backend): update expected and received results",
-					"verified_at": "2025-12-29T05:58:07Z"
-				}
-			},
-			"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/32ccc707a897d896dc2af9fff4c54e2b467fa12d",
-			"html_url": "https://github.com/hozlucas28/UNLaM-Calendar/commit/32ccc707a897d896dc2af9fff4c54e2b467fa12d",
-			"comments_url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/32ccc707a897d896dc2af9fff4c54e2b467fa12d/comments",
-			"author": {
-				"login": "hozlucas28",
-				"id": 88015479,
-				"node_id": "MDQ6VXNlcjg4MDE1NDc5",
-				"avatar_url": "https://avatars.githubusercontent.com/u/88015479?v=4",
-				"gravatar_id": "",
-				"url": "https://api.github.com/users/hozlucas28",
-				"html_url": "https://github.com/hozlucas28",
-				"followers_url": "https://api.github.com/users/hozlucas28/followers",
-				"following_url": "https://api.github.com/users/hozlucas28/following{/other_user}",
-				"gists_url": "https://api.github.com/users/hozlucas28/gists{/gist_id}",
-				"starred_url": "https://api.github.com/users/hozlucas28/starred{/owner}{/repo}",
-				"subscriptions_url": "https://api.github.com/users/hozlucas28/subscriptions",
-				"organizations_url": "https://api.github.com/users/hozlucas28/orgs",
-				"repos_url": "https://api.github.com/users/hozlucas28/repos",
-				"events_url": "https://api.github.com/users/hozlucas28/events{/privacy}",
-				"received_events_url": "https://api.github.com/users/hozlucas28/received_events",
-				"type": "User",
-				"user_view_type": "public",
-				"site_admin": false
-			},
-			"committer": {
-				"login": "web-flow",
-				"id": 19864447,
-				"node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-				"avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
-				"gravatar_id": "",
-				"url": "https://api.github.com/users/web-flow",
-				"html_url": "https://github.com/web-flow",
-				"followers_url": "https://api.github.com/users/web-flow/followers",
-				"following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-				"gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-				"starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-				"subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-				"organizations_url": "https://api.github.com/users/web-flow/orgs",
-				"repos_url": "https://api.github.com/users/web-flow/repos",
-				"events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-				"received_events_url": "https://api.github.com/users/web-flow/received_events",
-				"type": "User",
-				"user_view_type": "public",
-				"site_admin": false
-			},
-			"parents": [
-				{
-					"sha": "4d145f3750da28c03c97422baa340cccabfb4441",
-					"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/4d145f3750da28c03c97422baa340cccabfb4441",
-					"html_url": "https://github.com/hozlucas28/UNLaM-Calendar/commit/4d145f3750da28c03c97422baa340cccabfb4441"
-				}
-			]
-		},
-		{
-			"sha": "ba4a311fb4ecc9039b88b01b91b1ff721c3b40f6",
-			"node_id": "C_kwDOQizWBtoAKGJhNGEzMTFmYjRlY2M5MDM5Yjg4YjAxYjkxYjFmZjcyMWMzYjQwZjY",
-			"commit": {
-				"author": {
-					"name": "Lucas Hoz",
-					"email": "loremIpsum@gmail.com",
-					"date": "2025-12-29T05:58:59Z"
-				},
-				"committer": {
-					"name": "GitHub",
-					"email": "noreply@github.com",
-					"date": "2025-12-29T05:58:59Z"
-				},
-				"message": "feature(backend): create `greet` function",
-				"tree": {
-					"sha": "24501dffab52d23caebd175b920ed057377840db",
-					"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/git/trees/24501dffab52d23caebd175b920ed057377840db"
-				},
-				"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/git/commits/ba4a311fb4ecc9039b88b01b91b1ff721c3b40f6",
-				"comment_count": 0,
-				"verification": {
-					"verified": true,
-					"reason": "valid",
-					"signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpUhijCRC1aQ7uu5UhlAAAgwYQADoOXM/gu698lgl20E502r5q\nwAQWkJT9e4bevION+IJRNNZsQyGKjiDJN3cYDlBj0xEDN3FNBWz7GG0Q1A0QmwBO\nLtkmMhFuPz3GeOvIxQ/0jBj8P5JBn6Yyp3hk3F5XovzLw/qbaxkM6+/B9E/xMj3O\nVfkaSYBtp91gwgJSeDx+iI0RA8jDUUTVX/COpRWm6Mib2tv5Wq2fjIHcPm+yzsyz\nP6nMKL8Wd6hQHtqAPxrW60oBkffD3rSqKoEEFK5frRkMEX59MjBURbWIUWuKRxHy\nN+mWEbagyJq++irdNCEhOI4aac0qtWLTPtCIezYa/KKeaA11Gz52bQMUjaE+SVpF\n5ExhSiD0eghqjx+aHk9V3+cOnbWt35va+8Wutq4n3/k9s2p9c+m+JQA0c2nt8dMB\n0k4ITSM/DPk0XTcBc/CXxMdxCXEMcR4pdmEY7rEsuElh3L01gDI65PJHK/db2rr3\nvNs+f2ZFLMgq2eygRRZpSBbv5ylE+ik4kaglIRsrDlh/FGDFSuyoqzzUFj0navZx\nwxf0i1mTP7Y2KTcCK3462bKLKsGqjEF4kfDiymwB/fKberhFJB61hby2UciSeNL2\njek5F+nnPdxNmYGOmZnj3Q2EXd+6LJtfw13ngsZtGGZghUKhiY44plgqBCCUXpcG\n3kthotuZCEdqbYurwAsE\n=Poq/\n-----END PGP SIGNATURE-----\n",
-					"payload": "tree 24501dffab52d23caebd175b920ed057377840db\nparent 32ccc707a897d896dc2af9fff4c54e2b467fa12d\nauthor Lucas Hoz <loremIpsum@gmail.com> 1766987939 -0300\ncommitter GitHub <noreply@github.com> 1766987939 -0300\n\nfeature(backend): create `greet` function",
-					"verified_at": "2025-12-29T05:58:59Z"
-				}
-			},
-			"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/ba4a311fb4ecc9039b88b01b91b1ff721c3b40f6",
-			"html_url": "https://github.com/hozlucas28/UNLaM-Calendar/commit/ba4a311fb4ecc9039b88b01b91b1ff721c3b40f6",
-			"comments_url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/ba4a311fb4ecc9039b88b01b91b1ff721c3b40f6/comments",
-			"author": {
-				"login": "hozlucas28",
-				"id": 88015479,
-				"node_id": "MDQ6VXNlcjg4MDE1NDc5",
-				"avatar_url": "https://avatars.githubusercontent.com/u/88015479?v=4",
-				"gravatar_id": "",
-				"url": "https://api.github.com/users/hozlucas28",
-				"html_url": "https://github.com/hozlucas28",
-				"followers_url": "https://api.github.com/users/hozlucas28/followers",
-				"following_url": "https://api.github.com/users/hozlucas28/following{/other_user}",
-				"gists_url": "https://api.github.com/users/hozlucas28/gists{/gist_id}",
-				"starred_url": "https://api.github.com/users/hozlucas28/starred{/owner}{/repo}",
-				"subscriptions_url": "https://api.github.com/users/hozlucas28/subscriptions",
-				"organizations_url": "https://api.github.com/users/hozlucas28/orgs",
-				"repos_url": "https://api.github.com/users/hozlucas28/repos",
-				"events_url": "https://api.github.com/users/hozlucas28/events{/privacy}",
-				"received_events_url": "https://api.github.com/users/hozlucas28/received_events",
-				"type": "User",
-				"user_view_type": "public",
-				"site_admin": false
-			},
-			"committer": {
-				"login": "web-flow",
-				"id": 19864447,
-				"node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-				"avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
-				"gravatar_id": "",
-				"url": "https://api.github.com/users/web-flow",
-				"html_url": "https://github.com/web-flow",
-				"followers_url": "https://api.github.com/users/web-flow/followers",
-				"following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-				"gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-				"starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-				"subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-				"organizations_url": "https://api.github.com/users/web-flow/orgs",
-				"repos_url": "https://api.github.com/users/web-flow/repos",
-				"events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-				"received_events_url": "https://api.github.com/users/web-flow/received_events",
-				"type": "User",
-				"user_view_type": "public",
-				"site_admin": false
-			},
-			"parents": [
-				{
-					"sha": "32ccc707a897d896dc2af9fff4c54e2b467fa12d",
-					"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/32ccc707a897d896dc2af9fff4c54e2b467fa12d",
-					"html_url": "https://github.com/hozlucas28/UNLaM-Calendar/commit/32ccc707a897d896dc2af9fff4c54e2b467fa12d"
-				}
-			]
-		},
-		{
-			"sha": "6272c9a3957d1b68ecb57e28ee3181307c58b544",
-			"node_id": "C_kwDOQizWBtoAKDYyNzJjOWEzOTU3ZDFiNjhlY2I1N2UyOGVlMzE4MTMwN2M1OGI1NDQ",
-			"commit": {
-				"author": {
-					"name": "Lucas Hoz",
-					"email": "loremIpsum@gmail.com",
-					"date": "2025-12-29T06:28:31Z"
-				},
-				"committer": {
-					"name": "GitHub",
-					"email": "noreply@github.com",
-					"date": "2025-12-29T06:28:31Z"
-				},
-				"message": "Update README.md",
-				"tree": {
-					"sha": "2e85dc39b7ec45b8911b3e4ac56dca114f1659e1",
-					"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/git/trees/2e85dc39b7ec45b8911b3e4ac56dca114f1659e1"
-				},
-				"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/git/commits/6272c9a3957d1b68ecb57e28ee3181307c58b544",
-				"comment_count": 0,
-				"verification": {
-					"verified": true,
-					"reason": "valid",
-					"signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpUh+PCRC1aQ7uu5UhlAAAJI8QAFCfZHIPonnEqE1C8TGompcI\nLU+6L0poZcV84mkL4HSUPNJlubexiulTiPm6GPHCxNl1ajHkSJFoLTIkWCvDH/Mi\nkP2i+dNzz66yGrRVhzzwUzrnltgKhb42jx31uI7qQgEYvloVuZguEHfT5Pa2QtmX\nb7NZzNajYn99Wj55bR43isdoqDcbh4locgGXXT5nDjvqFUikABRP7TSrcF/fB/jK\n3FT5cJWNJLfIEvBUmZDWrcLbolu+yTS041Db4Cz6MIaUH+0joY86UNG5MQU3g5nj\nTil7HycfevJ5xJazY/suzsEThbDaoE8Y/JZwhbOvZsjb26cPvqc6G1f8rDao7BCv\nGan8Xes67UyG2uLB6FOFDN465WTSvlcN0pBbRUFSzDC1n3Z2AfD1LDRonl6LlDu6\nQuezjXIBIoHcChc2YMywIHP9ruUl6lOnfOCOTXFRyl8MoQVCm71qw0mfpEi+PFeO\nNKwI7kSR3WvY4x0dJycDkXDFBaDhGV8SuaIincZN317ie38utOq/uaCGOLeYliKM\nriQP7dMOZxALfDXHC7GJltZwBZwqX+T11cT9zpDShT+FH0PnA9S87zoFhE+ybLjG\nBQZRn0wk+LcZp3/d+VIbbjiQ0/bLyBBVlazb+E819kstmMNo6Aboqj1qb/VMAtDF\n4QgBmpp82xho1KzYMImU\n=jBmG\n-----END PGP SIGNATURE-----\n",
-					"payload": "tree 2e85dc39b7ec45b8911b3e4ac56dca114f1659e1\nparent ba4a311fb4ecc9039b88b01b91b1ff721c3b40f6\nauthor Lucas Hoz <loremIpsum@gmail.com> 1766989711 -0300\ncommitter GitHub <noreply@github.com> 1766989711 -0300\n\nUpdate README.md",
-					"verified_at": "2025-12-29T06:28:32Z"
-				}
-			},
-			"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/6272c9a3957d1b68ecb57e28ee3181307c58b544",
-			"html_url": "https://github.com/hozlucas28/UNLaM-Calendar/commit/6272c9a3957d1b68ecb57e28ee3181307c58b544",
-			"comments_url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/6272c9a3957d1b68ecb57e28ee3181307c58b544/comments",
-			"author": {
-				"login": "hozlucas28",
-				"id": 88015479,
-				"node_id": "MDQ6VXNlcjg4MDE1NDc5",
-				"avatar_url": "https://avatars.githubusercontent.com/u/88015479?v=4",
-				"gravatar_id": "",
-				"url": "https://api.github.com/users/hozlucas28",
-				"html_url": "https://github.com/hozlucas28",
-				"followers_url": "https://api.github.com/users/hozlucas28/followers",
-				"following_url": "https://api.github.com/users/hozlucas28/following{/other_user}",
-				"gists_url": "https://api.github.com/users/hozlucas28/gists{/gist_id}",
-				"starred_url": "https://api.github.com/users/hozlucas28/starred{/owner}{/repo}",
-				"subscriptions_url": "https://api.github.com/users/hozlucas28/subscriptions",
-				"organizations_url": "https://api.github.com/users/hozlucas28/orgs",
-				"repos_url": "https://api.github.com/users/hozlucas28/repos",
-				"events_url": "https://api.github.com/users/hozlucas28/events{/privacy}",
-				"received_events_url": "https://api.github.com/users/hozlucas28/received_events",
-				"type": "User",
-				"user_view_type": "public",
-				"site_admin": false
-			},
-			"committer": {
-				"login": "web-flow",
-				"id": 19864447,
-				"node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-				"avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
-				"gravatar_id": "",
-				"url": "https://api.github.com/users/web-flow",
-				"html_url": "https://github.com/web-flow",
-				"followers_url": "https://api.github.com/users/web-flow/followers",
-				"following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-				"gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-				"starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-				"subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-				"organizations_url": "https://api.github.com/users/web-flow/orgs",
-				"repos_url": "https://api.github.com/users/web-flow/repos",
-				"events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-				"received_events_url": "https://api.github.com/users/web-flow/received_events",
-				"type": "User",
-				"user_view_type": "public",
-				"site_admin": false
-			},
-			"parents": [
-				{
-					"sha": "ba4a311fb4ecc9039b88b01b91b1ff721c3b40f6",
-					"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/ba4a311fb4ecc9039b88b01b91b1ff721c3b40f6",
-					"html_url": "https://github.com/hozlucas28/UNLaM-Calendar/commit/ba4a311fb4ecc9039b88b01b91b1ff721c3b40f6"
-				}
-			]
-		},
-		{
-			"sha": "cc8d147384b7d1d283b324f602abec2b2365f1c5",
-			"node_id": "C_kwDOQizWBtoAKGNjOGQxNDczODRiN2QxZDI4M2IzMjRmNjAyYWJlYzJiMjM2NWYxYzU",
-			"commit": {
-				"author": {
-					"name": "Lucas Hoz",
-					"email": "loremIpsum@gmail.com",
-					"date": "2025-12-29T19:20:27Z"
-				},
-				"committer": {
-					"name": "GitHub",
-					"email": "noreply@github.com",
-					"date": "2025-12-29T19:20:27Z"
-				},
-				"message": "chore(frontend): apply invalid format",
-				"tree": {
-					"sha": "3cb230a29970bffe2e0c87e6430ee3be1fce8199",
-					"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/git/trees/3cb230a29970bffe2e0c87e6430ee3be1fce8199"
-				},
-				"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/git/commits/cc8d147384b7d1d283b324f602abec2b2365f1c5",
-				"comment_count": 0,
-				"verification": {
-					"verified": true,
-					"reason": "valid",
-					"signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpUtR7CRC1aQ7uu5UhlAAA99IQADM01Z/OU+32DgFQCKntJ8I/\n/OXEFNnI+AOSegE570BcHCkSnomy288qZBs8aBtM0Y9YVhs1zzT61XXQxQydD3y0\nKNVfutevFLsL4rxF5FF+hk/sHzs2Qe0RAjJrRyi4Bicq78rSu0IyMyp3AVzZv/Yf\nl+LCvB/qkRNHCAz+H8YvV9ZWCjzIohmsvb0QqID7lPHsGFBH92OySMN+ftY2VlMT\n7w+Nu+LBi8TgbQmVQn7MKkE6+RCYPG8xlXzg/sHQrV9+RWVrrbn9gE3e4plJraEl\noYUf2AOeTX7MDKYstQYC9IIutEtNsc9Se0nVZU9Qt4dGnTzt2w1zttty+C3KXG7j\nUxBlTOT/oI+kaedVnuj/X/1dze+QFbvE4UkXnAm2ZZX88eQMEpdHP3avAi9Y63ph\nePArHq1E1evH++NQ3RdG6nKa02GLHw16IxxrTTokWWDFIUV9xcCd0FdniGZhuxwJ\naFMJ1I1m3+hq+sYWt4ddyLlCZ6Y9g6srfB5bI8BQG349LZXQyv/e6eakrkGsEDsS\n0M186Bk3OLxZ+ItkgQvQVHjasTz5qQnrN/FPVxQRsbP1LO/EpF8ckhPmYEVPMq0b\nbjhsv/jZrCubEas8yrSz5UxUI9ZkwlFSQW/Cf0IBZdz25OBWcYCVmOvcF1dh1Psd\nDyabzuepN8IIPj97rbvr\n=kusZ\n-----END PGP SIGNATURE-----\n",
-					"payload": "tree 3cb230a29970bffe2e0c87e6430ee3be1fce8199\nparent 6272c9a3957d1b68ecb57e28ee3181307c58b544\nauthor Lucas Hoz <loremIpsum@gmail.com> 1767036027 -0300\ncommitter GitHub <noreply@github.com> 1767036027 -0300\n\nchore(frontend): apply invalid format",
-					"verified_at": "2025-12-29T19:20:28Z"
-				}
-			},
-			"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/cc8d147384b7d1d283b324f602abec2b2365f1c5",
-			"html_url": "https://github.com/hozlucas28/UNLaM-Calendar/commit/cc8d147384b7d1d283b324f602abec2b2365f1c5",
-			"comments_url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/cc8d147384b7d1d283b324f602abec2b2365f1c5/comments",
-			"author": {
-				"login": "hozlucas28",
-				"id": 88015479,
-				"node_id": "MDQ6VXNlcjg4MDE1NDc5",
-				"avatar_url": "https://avatars.githubusercontent.com/u/88015479?v=4",
-				"gravatar_id": "",
-				"url": "https://api.github.com/users/hozlucas28",
-				"html_url": "https://github.com/hozlucas28",
-				"followers_url": "https://api.github.com/users/hozlucas28/followers",
-				"following_url": "https://api.github.com/users/hozlucas28/following{/other_user}",
-				"gists_url": "https://api.github.com/users/hozlucas28/gists{/gist_id}",
-				"starred_url": "https://api.github.com/users/hozlucas28/starred{/owner}{/repo}",
-				"subscriptions_url": "https://api.github.com/users/hozlucas28/subscriptions",
-				"organizations_url": "https://api.github.com/users/hozlucas28/orgs",
-				"repos_url": "https://api.github.com/users/hozlucas28/repos",
-				"events_url": "https://api.github.com/users/hozlucas28/events{/privacy}",
-				"received_events_url": "https://api.github.com/users/hozlucas28/received_events",
-				"type": "User",
-				"user_view_type": "public",
-				"site_admin": false
-			},
-			"committer": {
-				"login": "web-flow",
-				"id": 19864447,
-				"node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-				"avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
-				"gravatar_id": "",
-				"url": "https://api.github.com/users/web-flow",
-				"html_url": "https://github.com/web-flow",
-				"followers_url": "https://api.github.com/users/web-flow/followers",
-				"following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-				"gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-				"starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-				"subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-				"organizations_url": "https://api.github.com/users/web-flow/orgs",
-				"repos_url": "https://api.github.com/users/web-flow/repos",
-				"events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-				"received_events_url": "https://api.github.com/users/web-flow/received_events",
-				"type": "User",
-				"user_view_type": "public",
-				"site_admin": false
-			},
-			"parents": [
-				{
-					"sha": "6272c9a3957d1b68ecb57e28ee3181307c58b544",
-					"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/6272c9a3957d1b68ecb57e28ee3181307c58b544",
-					"html_url": "https://github.com/hozlucas28/UNLaM-Calendar/commit/6272c9a3957d1b68ecb57e28ee3181307c58b544"
-				}
-			]
-		},
-		{
-			"sha": "95327411da8f70a3ac1bd5d62ddcb8b75d7ad3a7",
-			"node_id": "C_kwDOQizWBtoAKDk1MzI3NDExZGE4ZjcwYTNhYzFiZDVkNjJkZGNiOGI3NWQ3YWQzYTc",
-			"commit": {
-				"author": {
-					"name": "Lucas Hoz",
-					"email": "loremIpsum@gmail.com",
-					"date": "2025-12-29T19:25:21Z"
-				},
-				"committer": {
-					"name": "GitHub",
-					"email": "noreply@github.com",
-					"date": "2025-12-29T19:25:21Z"
-				},
-				"message": "Update temporal.test.ts",
-				"tree": {
-					"sha": "d370392f67e45740226bf10186f07eb9638a1fdd",
-					"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/git/trees/d370392f67e45740226bf10186f07eb9638a1fdd"
-				},
-				"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/git/commits/95327411da8f70a3ac1bd5d62ddcb8b75d7ad3a7",
-				"comment_count": 0,
-				"verification": {
-					"verified": true,
-					"reason": "valid",
-					"signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpUtWhCRC1aQ7uu5UhlAAAINYQACQkod/sGTuhhZH3l40xz0II\nvhUSh4qo921Kir5pfTUMfNE9P6iE7NP/n3ILeMNdhR8eguVcIDypXjqG14P4HYyH\nWHsCfiIDUWQ938QeC/NTh1s98JC9c4CG5RfPu1dOrbGyO83v/bGx3VjTu7vz1ft4\nBrs5EHlrS1ZrKvNeJv1eeyGlTpvDUYrLK1bK1r9IzNFFm+RmAySEO8DR1m0l7E4M\n5PlMwAR9a6L6tIyc8b6wKyyPzSM1VX2LyyCBmziVJNOAXzShOsYv9IHcQWWx5WUL\nOC2oA0Ld1O6VAtKGDl6I8qaIr7/6+FIx6Bec8w1Eqs57Tbix9GGqGGMdANFarQJm\ng7CwOqF7CgKrR0aZM0S1Ig6qljgGDdyChzGCMdbyTfFoRoGkJGKJFlMN2eWYR/Tw\nnbde3CZWcm8G0rYdH466kH7u5EMpKkh8ezpnGYh9GhJVGPB33UQBAz+WjxRmTDeY\nASOMZchpFIuZdMN5TKRRJ79baMmKNMvbG7d7Gyc5zvelS9yEblCtkJWmc77w0qIX\nD367/YdXZoanS12elx3tBorTP62v7UNpYNLd41HenSQD9H3AVSQohe6FUzdq79pd\nVPnu5kKH8Z1fi9s5mq/gsZOYWLcue/OJdEHf+jJ3/flAvyYEvj6h/20nEF/rMX/u\nC4bDORw7ieacsLm+7xUq\n=/urJ\n-----END PGP SIGNATURE-----\n",
-					"payload": "tree d370392f67e45740226bf10186f07eb9638a1fdd\nparent cc8d147384b7d1d283b324f602abec2b2365f1c5\nauthor Lucas Hoz <loremIpsum@gmail.com> 1767036321 -0300\ncommitter GitHub <noreply@github.com> 1767036321 -0300\n\nUpdate temporal.test.ts",
-					"verified_at": "2025-12-29T19:25:22Z"
-				}
-			},
-			"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/95327411da8f70a3ac1bd5d62ddcb8b75d7ad3a7",
-			"html_url": "https://github.com/hozlucas28/UNLaM-Calendar/commit/95327411da8f70a3ac1bd5d62ddcb8b75d7ad3a7",
-			"comments_url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/95327411da8f70a3ac1bd5d62ddcb8b75d7ad3a7/comments",
-			"author": {
-				"login": "hozlucas28",
-				"id": 88015479,
-				"node_id": "MDQ6VXNlcjg4MDE1NDc5",
-				"avatar_url": "https://avatars.githubusercontent.com/u/88015479?v=4",
-				"gravatar_id": "",
-				"url": "https://api.github.com/users/hozlucas28",
-				"html_url": "https://github.com/hozlucas28",
-				"followers_url": "https://api.github.com/users/hozlucas28/followers",
-				"following_url": "https://api.github.com/users/hozlucas28/following{/other_user}",
-				"gists_url": "https://api.github.com/users/hozlucas28/gists{/gist_id}",
-				"starred_url": "https://api.github.com/users/hozlucas28/starred{/owner}{/repo}",
-				"subscriptions_url": "https://api.github.com/users/hozlucas28/subscriptions",
-				"organizations_url": "https://api.github.com/users/hozlucas28/orgs",
-				"repos_url": "https://api.github.com/users/hozlucas28/repos",
-				"events_url": "https://api.github.com/users/hozlucas28/events{/privacy}",
-				"received_events_url": "https://api.github.com/users/hozlucas28/received_events",
-				"type": "User",
-				"user_view_type": "public",
-				"site_admin": false
-			},
-			"committer": {
-				"login": "web-flow",
-				"id": 19864447,
-				"node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-				"avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
-				"gravatar_id": "",
-				"url": "https://api.github.com/users/web-flow",
-				"html_url": "https://github.com/web-flow",
-				"followers_url": "https://api.github.com/users/web-flow/followers",
-				"following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-				"gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-				"starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-				"subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-				"organizations_url": "https://api.github.com/users/web-flow/orgs",
-				"repos_url": "https://api.github.com/users/web-flow/repos",
-				"events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-				"received_events_url": "https://api.github.com/users/web-flow/received_events",
-				"type": "User",
-				"user_view_type": "public",
-				"site_admin": false
-			},
-			"parents": [
-				{
-					"sha": "cc8d147384b7d1d283b324f602abec2b2365f1c5",
-					"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/cc8d147384b7d1d283b324f602abec2b2365f1c5",
-					"html_url": "https://github.com/hozlucas28/UNLaM-Calendar/commit/cc8d147384b7d1d283b324f602abec2b2365f1c5"
-				}
-			]
-		},
-		{
-			"sha": "243fdf0c792a89371a97f66af9ac1f0cc0f7cfa0",
-			"node_id": "C_kwDOQizWBtoAKDI0M2ZkZjBjNzkyYTg5MzcxYTk3ZjY2YWY5YWMxZjBjYzBmN2NmYTA",
-			"commit": {
-				"author": {
-					"name": "hozlucas28",
-					"email": "+hozlucas28@users.noreply.github.com",
-					"date": "2025-12-29T20:26:42Z"
-				},
-				"committer": {
-					"name": "github-actions[bot]",
-					"email": "github-actions[bot]@users.noreply.github.com",
-					"date": "2025-12-29T20:26:42Z"
-				},
-				"message": "ci(frontend): apply safe fixes",
-				"tree": {
-					"sha": "4f5e9728ed1d6991c481c703f6212f9dcb5c54c2",
-					"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/git/trees/4f5e9728ed1d6991c481c703f6212f9dcb5c54c2"
-				},
-				"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/git/commits/243fdf0c792a89371a97f66af9ac1f0cc0f7cfa0",
-				"comment_count": 0,
-				"verification": {
-					"verified": false,
-					"reason": "unsigned",
-					"signature": null,
-					"payload": null,
-					"verified_at": null
-				}
-			},
-			"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/243fdf0c792a89371a97f66af9ac1f0cc0f7cfa0",
-			"html_url": "https://github.com/hozlucas28/UNLaM-Calendar/commit/243fdf0c792a89371a97f66af9ac1f0cc0f7cfa0",
-			"comments_url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/243fdf0c792a89371a97f66af9ac1f0cc0f7cfa0/comments",
-			"author": null,
-			"committer": {
-				"login": "github-actions[bot]",
-				"id": 41898282,
-				"node_id": "MDM6Qm90NDE4OTgyODI=",
-				"avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
-				"gravatar_id": "",
-				"url": "https://api.github.com/users/github-actions%5Bbot%5D",
-				"html_url": "https://github.com/apps/github-actions",
-				"followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
-				"following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
-				"gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
-				"starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
-				"subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
-				"organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
-				"repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
-				"events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
-				"received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
-				"type": "Bot",
-				"user_view_type": "public",
-				"site_admin": false
-			},
-			"parents": [
-				{
-					"sha": "95327411da8f70a3ac1bd5d62ddcb8b75d7ad3a7",
-					"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/95327411da8f70a3ac1bd5d62ddcb8b75d7ad3a7",
-					"html_url": "https://github.com/hozlucas28/UNLaM-Calendar/commit/95327411da8f70a3ac1bd5d62ddcb8b75d7ad3a7"
-				}
-			]
-		},
-		{
-			"sha": "103a40317fb4e4d023ffac8dff28c09b7e617755",
-			"node_id": "C_kwDOQizWBtoAKDEwM2E0MDMxN2ZiNGU0ZDAyM2ZmYWM4ZGZmMjhjMDliN2U2MTc3NTU",
-			"commit": {
-				"author": {
-					"name": "Lucas Hoz",
-					"email": "loremIpsum@gmail.com",
-					"date": "2025-12-29T21:17:12Z"
-				},
-				"committer": {
-					"name": "Lucas Hoz",
-					"email": "loremIpsum@gmail.com",
-					"date": "2025-12-29T21:17:12Z"
-				},
-				"message": "Revert \"ci(frontend): apply safe fixes\"\n\nThis reverts commit 243fdf0c792a89371a97f66af9ac1f0cc0f7cfa0.",
-				"tree": {
-					"sha": "d370392f67e45740226bf10186f07eb9638a1fdd",
-					"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/git/trees/d370392f67e45740226bf10186f07eb9638a1fdd"
-				},
-				"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/git/commits/103a40317fb4e4d023ffac8dff28c09b7e617755",
-				"comment_count": 0,
-				"verification": {
-					"verified": false,
-					"reason": "unsigned",
-					"signature": null,
-					"payload": null,
-					"verified_at": null
-				}
-			},
-			"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/103a40317fb4e4d023ffac8dff28c09b7e617755",
-			"html_url": "https://github.com/hozlucas28/UNLaM-Calendar/commit/103a40317fb4e4d023ffac8dff28c09b7e617755",
-			"comments_url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/103a40317fb4e4d023ffac8dff28c09b7e617755/comments",
-			"author": {
-				"login": "hozlucas28",
-				"id": 88015479,
-				"node_id": "MDQ6VXNlcjg4MDE1NDc5",
-				"avatar_url": "https://avatars.githubusercontent.com/u/88015479?v=4",
-				"gravatar_id": "",
-				"url": "https://api.github.com/users/hozlucas28",
-				"html_url": "https://github.com/hozlucas28",
-				"followers_url": "https://api.github.com/users/hozlucas28/followers",
-				"following_url": "https://api.github.com/users/hozlucas28/following{/other_user}",
-				"gists_url": "https://api.github.com/users/hozlucas28/gists{/gist_id}",
-				"starred_url": "https://api.github.com/users/hozlucas28/starred{/owner}{/repo}",
-				"subscriptions_url": "https://api.github.com/users/hozlucas28/subscriptions",
-				"organizations_url": "https://api.github.com/users/hozlucas28/orgs",
-				"repos_url": "https://api.github.com/users/hozlucas28/repos",
-				"events_url": "https://api.github.com/users/hozlucas28/events{/privacy}",
-				"received_events_url": "https://api.github.com/users/hozlucas28/received_events",
-				"type": "User",
-				"user_view_type": "public",
-				"site_admin": false
-			},
-			"committer": {
-				"login": "hozlucas28",
-				"id": 88015479,
-				"node_id": "MDQ6VXNlcjg4MDE1NDc5",
-				"avatar_url": "https://avatars.githubusercontent.com/u/88015479?v=4",
-				"gravatar_id": "",
-				"url": "https://api.github.com/users/hozlucas28",
-				"html_url": "https://github.com/hozlucas28",
-				"followers_url": "https://api.github.com/users/hozlucas28/followers",
-				"following_url": "https://api.github.com/users/hozlucas28/following{/other_user}",
-				"gists_url": "https://api.github.com/users/hozlucas28/gists{/gist_id}",
-				"starred_url": "https://api.github.com/users/hozlucas28/starred{/owner}{/repo}",
-				"subscriptions_url": "https://api.github.com/users/hozlucas28/subscriptions",
-				"organizations_url": "https://api.github.com/users/hozlucas28/orgs",
-				"repos_url": "https://api.github.com/users/hozlucas28/repos",
-				"events_url": "https://api.github.com/users/hozlucas28/events{/privacy}",
-				"received_events_url": "https://api.github.com/users/hozlucas28/received_events",
-				"type": "User",
-				"user_view_type": "public",
-				"site_admin": false
-			},
-			"parents": [
-				{
-					"sha": "243fdf0c792a89371a97f66af9ac1f0cc0f7cfa0",
-					"url": "https://api.github.com/repos/hozlucas28/UNLaM-Calendar/commits/243fdf0c792a89371a97f66af9ac1f0cc0f7cfa0",
-					"html_url": "https://github.com/hozlucas28/UNLaM-Calendar/commit/243fdf0c792a89371a97f66af9ac1f0cc0f7cfa0"
-				}
-			]
-		}
-	]
+		"type": "User",
+		"updated_at": "2025-12-27T07:06:10Z",
+		"url": "https://api.github.com/users/hozlucas28",
+		"user_view_type": "public"
+	}
 }
