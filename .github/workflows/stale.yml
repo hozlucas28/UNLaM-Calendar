@@ -14,9 +14,9 @@ jobs:
     runs-on: ubuntu-latest
 
     permissions:
-      issues: write
-      actions: write
-      pull-requests: write
+      issues: write # To mark issues as stale
+      actions: write # Not specified in https://github.com/actions/stale/
+      pull-requests: write # To mark pull requests as stale
 
     steps:
       - uses: actions/stale@v10

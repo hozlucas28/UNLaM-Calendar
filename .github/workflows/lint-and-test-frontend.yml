@@ -23,7 +23,7 @@ jobs:
     runs-on: ubuntu-latest
 
     permissions:
-      contents: write
+      contents: write # To commit and push fixes
 
     steps:
       - name: Create GitHub app token
@@ -70,7 +70,7 @@ jobs:
     needs: lint-changed-files
 
     permissions:
-      contents: read
+      contents: read # To checkout the repository
 
     steps:
       - name: Checkout frontend directory

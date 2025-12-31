@@ -24,7 +24,7 @@ jobs:
     if: ${{ github.event_name != 'schedule' }}
 
     permissions:
-      contents: read
+      contents: read # To checkout the repository
       security-events: write
 
     steps:
@@ -48,7 +48,7 @@ jobs:
     runs-on: ubuntu-latest
 
     permissions:
-      security-events: write
+      security-events: write # To create security alerts
 
     steps:
       - name: Checkout Dependabot file, GitHub Actions workflows directory, and Zizmor configuration
