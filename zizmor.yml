@@ -1,4 +1,9 @@
 rules:
+  artipacked:
+    ignore:
+      - lint-and-test-backend.yml
+      - lint-and-test-frontend.yml
+
   unpinned-uses:
     config:
       policies:

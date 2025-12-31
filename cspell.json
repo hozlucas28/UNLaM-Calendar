@@ -3,6 +3,7 @@
 	"language": "es,es-ES,en,en-US,en-GB",
 	"useGitignore": true,
 	"words": [
+		"artipacked",
 		"autogenera",
 		"autolabel",
 		"biomejs",

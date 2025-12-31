@@ -45,7 +45,7 @@ pre-commit:
             run: gitleaks git --pre-commit --staged --verbose --no-color --no-banner
 
           - name: " Lint Dependabot file and GitHub Actions workflows"
-            run: zizmor {staged_files} --color=never
+            run: zizmor --persona=auditor --color=never {staged_files}
             glob:
               - ".github/dependabot.{yml,yaml}"
               - ".github/workflows/*.{yml,yaml}"
