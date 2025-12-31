@@ -58,7 +58,7 @@ bun add --dev \
 echo -e "\e[32m\nRepository tools installed successfully.\e[0m"
 
 # Pull images
-zizmor_image="ghcr.io/zizmorcore/zizmor:1.16.3" # Linter for Dependabot file and GitHub Actions workflows
+zizmor_image="ghcr.io/zizmorcore/zizmor:latest" # Linter for Dependabot file and GitHub Actions workflows
 
 echo -e "\e[30m\nPulling docker images repository tools...\n\e[0m"
 
