@@ -10,7 +10,6 @@ updates:
       - "bot"
       - "frontend dependencies"
     cooldown:
-      default-days: 7
       semver-patch-days: 1
     open-pull-requests-limit: 4
     schedule:
@@ -27,7 +26,6 @@ updates:
       - "bot"
       - "backend dependencies"
     cooldown:
-      default-days: 7
       semver-patch-days: 1
     open-pull-requests-limit: 4
     schedule:
@@ -44,7 +42,6 @@ updates:
       - "bot"
       - "github actions"
     cooldown:
-      default-days: 7
     open-pull-requests-limit: 4
     schedule:
       interval: cron
@@ -60,7 +57,6 @@ updates:
       - "devcontainers"
     target-branch: main
     cooldown:
-      default-days: 7
     open-pull-requests-limit: 4
     schedule:
       interval: cron
