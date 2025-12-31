@@ -22,3 +22,7 @@ jobs:
         with:
           regex: '\/.+'
           allowed_prefixes: ${{ github.actor }}
+
+concurrency:
+  group: lint-head-branch-name_${{ github.event.pull_request.number }}
+  cancel-in-progress: true

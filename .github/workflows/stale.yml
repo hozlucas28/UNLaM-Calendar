@@ -30,3 +30,7 @@ jobs:
           stale-pr-message: This pull request has been marked as stale due to inactivity.
           stale-issue-message: This issue has been marked as stale due to inactivity.
           exempt-draft-pr: true
+
+concurrency:
+  group: stale
+  cancel-in-progress: true
