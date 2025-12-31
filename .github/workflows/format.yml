@@ -51,14 +51,8 @@ jobs:
           go-version-file: backend/go.mod
           cache-dependency-path: backend/go.sum
 
-      - name: Install Prettier
-        run: bun add --dev prettier@^3 prettier-plugin-astro@^0
-
-      - name: Install Biome
-        uses: biomejs/setup-biome@v2
-        with:
-          token: ${{ (steps.github-app-token.conclusion == 'skipped' && github.token) || steps.github-app-token.outputs.token }}
-          version: ^2
+      - name: Install Prettier and Biome
+        run: bun add --dev prettier@^3 prettier-plugin-astro@^0 @biomejs/biome@^2
 
       - name: Install Golangci-lint
         uses: golangci/golangci-lint-action@v9
@@ -70,7 +64,7 @@ jobs:
       - name: Format files
         run: |
           bun run prettier --write --ignore-unknown --no-error-on-unmatched-pattern .
-          biome format --write --no-errors-on-unmatched .
+          bun run --bun biome format --write --no-errors-on-unmatched .
           cd backend/
           golangci-lint fmt .
 
