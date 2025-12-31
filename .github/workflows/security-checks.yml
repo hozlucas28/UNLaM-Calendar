@@ -25,7 +25,6 @@ jobs:
 
     permissions:
       contents: read # To checkout the repository
-      security-events: write
 
     steps:
       - name: Checkout repository
