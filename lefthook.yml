@@ -43,11 +43,11 @@ pre-commit:
       group:
         parallel: true
         jobs:
+          - name: " Scan for leaked secrets"
+            run: gitleaks git --pre-commit --staged --verbose --no-color --no-banner
+
           - name: " Lint Dependabot file and GitHub Actions workflows"
             run: zizmor {staged_files} --color=never
             glob:
               - ".github/dependabot.{yml,yaml}"
               - ".github/workflows/*.{yml,yaml}"
-
-          - name: " Scan for leaked secrets"
-            run: gitleaks git --pre-commit --staged --verbose --no-color --no-banner

@@ -1,7 +1,7 @@
 ---
 name: Lint and Test Frontend
 run-name: Lint and Test Frontend
-description: Lints Frontend changed files (applying safe fixes), tests it, and scan for leaked secrets when code is pushed or a pull request is opened, reopened or synchronized.
+description: Lints Frontend changed files (applying safe fixes) and tests it when code is pushed or a pull request is opened, reopened or synchronized.
 permissions: {}
 
 on:
@@ -98,35 +98,6 @@ jobs:
       - name: Test Frontend
         run: bun test
         working-directory: frontend
-
-  scan-leaked-secrets:
-    name: Scan for leaked secrets
-    runs-on: ubuntu-latest
-
-    permissions:
-      pull-requests: write
-      security-events: write
-
-    steps:
-      - name: Checkout frontend directory and gitleaks configuration
-        uses: actions/checkout@v6
-        with:
-          ref: ${{ (github.event_name == 'pull_request' && github.event.pull_request.head.sha) || '' }}
-          fetch-depth: 0
-          sparse-checkout: |
-            frontend
-            .gitleaks.toml
-          persist-credentials: false
-          sparse-checkout-cone-mode: false
-
-      - name: Scan for leaked secrets
-        uses: gitleaks/gitleaks-action@ff98106e4c7b2bc287b24eaf42907196329070c7 # v2.3.9
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITLEAKS_VERSION: 8.30.0
-          GITLEAKS_ENABLE_COMMENTS: ${{ env.ACT != 'true' }}
-          GITLEAKS_NOTIFY_USER_LIST: ${{ env.ACT != 'true' && format('@hozlucas28,@{0}', github.actor) }}
-          GITLEAKS_ENABLE_UPLOAD_ARTIFACT: ${{ env.ACT != 'true' }}
 
 env:
   CI: true
