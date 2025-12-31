@@ -5,6 +5,7 @@ updates:
     directory: frontend
     target-branch: main
     commit-message:
+      prefix: ci(frontend)
     labels: []
     cooldown:
       default-days: 7
@@ -19,6 +20,7 @@ updates:
     directory: backend
     target-branch: main
     commit-message:
+      prefix: ci(backend)
     labels: []
     cooldown:
       default-days: 7
@@ -33,6 +35,7 @@ updates:
     directory: /
     target-branch: main
     commit-message:
+      prefix: ci(workflow)
     labels: []
     cooldown:
       default-days: 7
@@ -45,6 +48,7 @@ updates:
   - package-ecosystem: devcontainers
     directory: /
     commit-message:
+      prefix: ci(devcontainer)
     labels: []
     target-branch: main
     cooldown:
