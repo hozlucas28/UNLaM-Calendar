@@ -8,7 +8,7 @@ pre-commit:
         parallel: true
         jobs:
           - name: " Format with Prettier"
-            run: bun run prettier {staged_files} --write --ignore-unknown --no-color --no-error-on-unmatched-pattern
+            run: bun run prettier --write --ignore-unknown --no-color --no-error-on-unmatched-pattern {staged_files}
             glob:
               - "*.astro"
               - "*.{yml,yaml}"
@@ -32,7 +32,7 @@ pre-commit:
             stage_fixed: true
 
           - name: " Lint and format Golang files"
-            run: golangci-lint run {staged_files} --fix --color=never
+            run: golangci-lint run --fix --color=never {staged_files}
             root: "backend/"
             glob: "backend/*.go"
             stage_fixed: true
