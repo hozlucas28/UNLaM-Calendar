@@ -34,5 +34,5 @@ jobs:
           sync-labels: true
 
 concurrency:
-  group: ${{ github.event.pull_request.number }}_label
+  group: label_${{ github.event.pull_request.number }}
   cancel-in-progress: true

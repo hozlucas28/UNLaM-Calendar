@@ -133,5 +133,5 @@ env:
   LEFTHOOK: 0
 
 concurrency:
-  group: ${{ (github.event_name == 'push' && github.ref) || github.event.pull_request.number }}_lint-and-test-frontend
+  group: lint-and-test-frontend_${{ (github.event_name == 'push' && github.ref) || github.event.pull_request.number }}
   cancel-in-progress: true
