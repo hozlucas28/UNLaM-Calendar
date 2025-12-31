@@ -35,7 +35,7 @@ jobs:
           private-key: ${{ secrets.BYPASS_RULES_APP_PRIVATE_KEY }}
           permission-contents: write
 
-      - name: Checkout frontend directory and biome configuration
+      - name: Checkout repository
         uses: actions/checkout@v6
         with:
           ref: ${{ (github.event_name == 'pull_request' && github.head_ref) || '' }}
