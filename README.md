@@ -50,42 +50,44 @@ Para contribuir a este proyecto, lee la [guía de contribución](CONTRIBUTING.md
 ```bash
 UNLaM-Calendar/
 │
-├── .devcontainer/                # Archivos de configuración del DevContainer.
+├── .devcontainer/                      # Archivos de configuración del DevContainer.
 │
 ├── .github/
-│   ├── CODEOWNERS                # Archivo para asignar a los responsables de revisión de Pull Requests e Issues.
-│   ├── dependabot.yml            # Configuración del Dependabot (actualizaciones automáticas de dependencias).
-│   ├── labeler.yml               # Configuración de Labeler (asignación automática de etiquetas a Pull Requests).
-│   ├── PULL_REQUEST_TEMPLATE.md  # Plantilla para Pull Requests.
+│   ├── docs/                           # Documentación técnica y archivos multimedia del proyecto.
+│   ├── ISSUE_TEMPLATE/                 # Plantillas para Issues.
+│   ├── workflows/                      # Flujos de trabajo de GitHub Actions (CI/CD).
 │   │
-│   ├── docs/                     # Documentación técnica y archivos multimedia del proyecto.
-│   ├── ISSUE_TEMPLATE/           # Plantillas para Issues.
-│   └── workflows/                # Flujos de trabajo de GitHub Actions (CI/CD).
+│   ├── CODEOWNERS                      # Archivo para asignar a los responsables de revisión de Pull Requests e Issues.
+│   ├── dependabot.yml                  # Configuración del Dependabot (actualizaciones automáticas de dependencias).
+│   ├── labeler.yml                     # Configuración de Labeler (asignación automática de etiquetas a Pull Requests).
+│   └── PULL_REQUEST_TEMPLATE.md        # Plantilla para Pull Requests.
 │
 ├── .vscode/
-│   └── launch.json               # Configuraciones de depuración.
+│   ├── github-local-actions-payloads/  # Payloads para probar GitHub Actions localmente.
+│   │
+│   └── launch.json                     # Configuraciones de depuración.
 │
-├── backend/                      # Código del Backend.
-├── frontend/                     # Código del Frontend.
+├── backend/                            # Código del Backend.
+├── frontend/                           # Código del Frontend.
 │
 ├── scripts/
-│   ├── health-check.sh           # Script para comprobar que las herramientas necesarias estén instaladas.
-│   ├── run-tests.sh              # Script para ejecutar los tests del Frontend y Backend.
-│   └── setup-local-env.sh        # Script para configurar el entorno de desarrollo local.
+│   ├── health-check.sh                 # Script para comprobar que las herramientas necesarias estén instaladas.
+│   ├── run-tests.sh                    # Script para ejecutar los tests del Frontend y Backend.
+│   └── setup-local-env.sh              # Script para configurar el entorno de desarrollo local.
 │
-├── .editorconfig                 # Configuración para estandarizar el estilo de código entre diferentes IDEs.
-├── .gitattributes                # Configuración para los atributos de Git.
-├── .gitignore                    # Listado con todos los archivos y carpetas que Git debe ignorar.
-├── .gitleaks.toml                # Configuración de Gitleaks (herramienta para detectar filtración de secretos).
-├── .prettierignore               # Listado con todos los archivos y carpetas que Prettier debe ignorar.
-├── .prettierrc                   # Configuración de Prettier (formateador de código).
-├── biome.json                    # Configuración de Biome (linter y formateador de código).
-├── CONTRIBUTING.md               # Guía para contribuir al proyecto.
-├── cspell.json                   # Configuración de la extensión Code Spell Checker.
-├── lefthook.yml                  # Configuración de Lefthook (Git hooks manager).
-├── LICENSE                       # Licencia del proyecto.
-├── README.md                     # Este archivo.
-└── zizmor.yml                    # Configuración de Zizmor (linter de `dependabot.yml` y GitHub Actions).
+├── .editorconfig                       # Configuración para estandarizar el estilo de código entre diferentes IDEs.
+├── .gitattributes                      # Configuración para los atributos de Git.
+├── .gitignore                          # Listado con todos los archivos y carpetas que Git debe ignorar.
+├── .gitleaks.toml                      # Configuración de Gitleaks (herramienta para detectar filtración de secretos).
+├── .prettierignore                     # Listado con todos los archivos y carpetas que Prettier debe ignorar.
+├── .prettierrc                         # Configuración de Prettier (formateador de código).
+├── biome.json                          # Configuración de Biome (linter y formateador de código).
+├── CONTRIBUTING.md                     # Guía para contribuir al proyecto.
+├── cspell.json                         # Configuración de la extensión Code Spell Checker.
+├── lefthook.yml                        # Configuración de Lefthook (Git hooks manager).
+├── LICENSE                             # Licencia del proyecto.
+├── README.md                           # Este archivo.
+└── zizmor.yml                          # Configuración de Zizmor (linter de `dependabot.yml` y GitHub Actions).
 ```
 
 > [!TIP]
