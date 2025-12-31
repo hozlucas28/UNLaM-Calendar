@@ -1,4 +1,8 @@
 ---
+"bot":
+  - head-branch:
+      - ^dependabot
+
 "github":
   - changed-files:
       - any-glob-to-any-file:

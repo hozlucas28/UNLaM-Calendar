@@ -5,10 +5,7 @@ updates:
     directory: frontend
     target-branch: main
     commit-message:
-      prefix: ci
-    labels:
-      - "bot"
-      - "frontend dependencies"
+    labels: []
     cooldown:
       default-days: 7
       semver-patch-days: 1
@@ -22,10 +19,7 @@ updates:
     directory: backend
     target-branch: main
     commit-message:
-      prefix: ci
-    labels:
-      - "bot"
-      - "backend dependencies"
+    labels: []
     cooldown:
       default-days: 7
       semver-patch-days: 1
@@ -39,10 +33,7 @@ updates:
     directory: /
     target-branch: main
     commit-message:
-      prefix: ci
-    labels:
-      - "bot"
-      - "github actions"
+    labels: []
     cooldown:
       default-days: 7
     open-pull-requests-limit: 4
@@ -54,10 +45,7 @@ updates:
   - package-ecosystem: devcontainers
     directory: /
     commit-message:
-      prefix: ci
-    labels:
-      - "bot"
-      - "devcontainers"
+    labels: []
     target-branch: main
     cooldown:
       default-days: 7
