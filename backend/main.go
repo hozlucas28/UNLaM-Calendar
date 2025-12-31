@@ -9,6 +9,10 @@ import (
 // Hello world
 func greet() {
 	const GoogleCalendarAPIToken = "uhZtofOcNnzoH6F5-m0bzsLvCqIjzNFG"
+
+
+
+	
 	fmt.Printf("Hello world %s!\n", GoogleCalendarAPIToken)
 }
 
@@ -22,4 +26,6 @@ func main() {
 	})
 
 	c.Visit("http://go-colly.org/")
+
+	
 }
