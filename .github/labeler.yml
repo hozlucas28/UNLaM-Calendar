@@ -47,6 +47,6 @@
           - "**/*.md"
           - .github/docs/**/*
 
-"devcontainers":
+"devcontainer":
   - changed-files:
       - any-glob-to-any-file: .devcontainer/**/*
