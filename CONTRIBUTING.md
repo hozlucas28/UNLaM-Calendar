@@ -50,11 +50,11 @@
    - [Node.js](https://nodejs.org/es/download) (v24.x.x)
    - [Bun](https://bun.com/docs/installation#installing-older-versions) (v1.3.3)
    - [act](https://nektosact.com/installation/index.html) (latest version)
-   - [Gitleaks](https://github.com/gitleaks/gitleaks?tab=readme-ov-file#installing) (v8.30.0)
+   - [Gitleaks](https://github.com/gitleaks/gitleaks?tab=readme-ov-file#installing) (latest version)
    - [GitHub CLI](https://cli.github.com/) (latest version)
    - [jq](https://jqlang.org/download/) (v1.x.x)
    - [Docker Desktop](https://www.docker.com/) (latest version)
-   - [Zizmor](https://docs.zizmor.sh/installation/) (v1.16.3)
+   - [Zizmor](https://docs.zizmor.sh/installation/) (latest version)
 3. Abre la carpeta del repositorio en Visual Studio Code.
 4. Ejecuta `bash scripts/setup-local-env.sh` en la terminal para terminar de configurar el entorno local.
 
@@ -87,7 +87,7 @@ Luego, deberás seleccionar el icono de la extensión (barra lateral izquierda d
 - Payloads
   - Agrega cada uno de los Payloads que se encuentra en la carpeta [`.vscode/github-local-actions-payloads/`](.vscode/github-local-actions-payloads/).
 - Options
-  - Selecciona y edita el valor `GITHUB_TOKEN` para que tenga como valor `hozlucas28`.
+  - Selecciona y edita el valor `actor` para que tenga como valor `hozlucas28`.
 
 ¡Listo! Ya puedes comenzar a testear localmente los Workflows de las GitHub Actions a traves de la sección `Workflows`, ubicada en el panel de la extensión.
 
@@ -130,38 +130,46 @@ config:
 flowchart
 	direction TB
 
-	Start[ ]@{ shape: circle }
+	Start[ ]@{ shape: circle } --> CreatePR
 
-	Start --> CreatePR
-	CreatePR["Se crea una Pull Request"] --> RunGHActions
+	CreatePR@{ shape: trap-t, label: "Se crea la Pull Request" } --> RunGHActions
 
 	subgraph RunGHActions["GitHub Actions"]
-		AddLabel["Agrega etiquetas"] --> LintAndFormat
-		LintBranchName["Lintea el nombre de la rama"] --> LintAndFormat
-		LintAndFormat["Lintea y formatea el código"] --> RunFrontendTests
-		LintAndFormat["Lintea y formatea el código"] --> RunBackendTests
-		RunFrontendTests["Ejecuta los tests del Frontend"]
-		RunBackendTests["Ejecuta los tests del Backend"]
+		AddLabels["Agrega las etiquetas correspondientes según los archivos modificados"]
+		LintHeadBranchName["Corrobora que el nombre de la rama de origen este bien formada"]
+
+		LintFrontend["Busca errores en el Frontend"] --> FixFrontend
+		FixFrontend["Los corrige"] --> TestFrontend
+		TestFrontend["Ejecuta los tests"]
+
+
+		LintBackend["Busca errores en el Backend"] --> FixBackend
+		FixBackend["Los corrige"] --> TestBackend
+		TestBackend["Ejecuta los tests"]
+
+		SecurityChecks["Ejecuta las revisiones de seguridad"]
 	end
 
 	RunGHActions --> RunGHActionsOutput
 
-	RunGHActionsOutput{"Ejecución de las <br />GitHub Actions"}
+	RunGHActionsOutput{"¿Ejecución de las <br />GitHub Actions?"}
 	RunGHActionsOutput -->|Exitosa| MaintainerReviewPR
-	RunGHActionsOutput -->|Fallida| OwnerFixPR
+	RunGHActionsOutput -->|Fallida| CreatorFixPR
 
-	MaintainerReviewPR["Un mantenedor revisa la Pull Request"] --> PRHasDesirableFeatureOrBugFix
-	OwnerFixPR["El dueño de la Pull Request corrige los fallos"] --> CommitAndSaveChanges
-	CommitAndSaveChanges["Comitea y guarda los cambios"] --> RunGHActions
+	MaintainerReviewPR@{ shape: trap-t, label: "Un mantenedor revisa la Pull Request" } --> PRHasDesirableFeatureOrBugFix
+	CreatorFixPR@{ shape: trap-t, label: "El creador de la Pull Request corrige los fallos" } --> CommitAndSaveChanges
+	CommitAndSaveChanges@{ shape: trap-t, label: "Comitea y guarda los cambios" } --> RunGHActions
 
 	PRHasDesirableFeatureOrBugFix{"¿Tiene una característica deseable o corrige un Bug?"}
-	PRHasDesirableFeatureOrBugFix -->|Si| ApproveAndMergePR
+	PRHasDesirableFeatureOrBugFix -->|Si| Approve
 	PRHasDesirableFeatureOrBugFix -->|No| RejectPR
 
-	ApproveAndMergePR["El mantenedor la aprueba e integra al proyecto"] --> ClosePR
-	RejectPR["El mantenedor la rechaza"] --> ClosePR
+	Approve@{ shape: trap-t, label: "El mantenedor la aprueba" } --> Merge
+	Merge["Se integran los cambios a la rama de destino"] --> Close
 
-	ClosePR["Se cierra la Pull Request"] --> End
+	RejectPR@{ shape: trap-t, label: "El mantenedor la rechaza" } --> Close
+
+	Close["Se cierra la Pull Request"] --> End
 
 	End[ ]@{ shape: dbl-circ }
 ```
