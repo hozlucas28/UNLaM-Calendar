@@ -1,6 +1,7 @@
 rules:
   artipacked:
     ignore:
+      - copyright.yml
       - format.yml
       - lint-and-test-backend.yml
       - lint-and-test-frontend.yml
