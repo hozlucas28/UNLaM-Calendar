@@ -20,6 +20,7 @@ jobs:
     steps:
       - name: Create GitHub app token
         id: github-app-token
+        if: ${{ env.ACT != 'true' }}
         uses: actions/create-github-app-token@v2
         with:
           app-id: ${{ secrets.BYPASS_RULES_APP_ID }}
@@ -30,12 +31,13 @@ jobs:
       - name: Checkout license file
         uses: actions/checkout@v5
         with:
-          token: ${{ steps.github-app-token.outputs.token }}
+          token: ${{ (steps.github-app-token.conclusion == 'skipped' && github.token) || steps.github-app-token.outputs.token }}
           sparse-checkout: LICENSE
           persist-credentials: true
           sparse-checkout-cone-mode: false
 
       - name: Create pull request to update license copyright year
+        if: ${{ env.ACT != 'true' }}
         id: update-license
         uses: FantasticFiasco/action-update-license-year@d837fc83ecb71196807bdf3854208f556e66f6ed
         with:
@@ -48,7 +50,7 @@ jobs:
           commitAuthorEmail: github-actions[bot]@users.noreply.github.com
 
       - name: Merge pull request
-        if: ${{ steps.update-license.outputs.pullRequestNumber != '' }}
+        if: ${{ env.ACT != 'true' && steps.update-license.outputs.pullRequestNumber != '' }}
         run: gh pr merge $PULL_REQUEST_NUMBER --admin --merge --delete-branch
         env:
           GITHUB_TOKEN: ${{ steps.github-app-token.outputs.token }}
