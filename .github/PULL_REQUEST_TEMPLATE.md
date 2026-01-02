@@ -2,7 +2,7 @@
 	Sigue estas instrucciones para escribir la Pull Request correctamente...
 
 	• El título debe tener la siguiente estructura: "<TÍTULO BREVE>" (por ejemplo, 'Corrección en el mapeo del evento "Inscripción a materias - Segundo cuatrimestre"')
-	• Seleccione los Labels relacionadas con la Pull Request
+	• Si es necesario, seleccione los Labels relacionadas con la Pull Request
 	• Asigna a los Reviewers (por ejemplo: "hozlucas28")
 	• Si la Pull Request soluciona Issue(s), recuerde adjuntarlos con la sintaxis "#<NÚMERO DE LA ISSUE>"
  -->
