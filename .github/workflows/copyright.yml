@@ -15,6 +15,7 @@ jobs:
 
     permissions:
       contents: write # To update license file
+      pull-requests: write # To create and merge pull request
 
     steps:
       - name: Create GitHub app token
@@ -24,6 +25,7 @@ jobs:
           app-id: ${{ secrets.BYPASS_RULES_APP_ID }}
           private-key: ${{ secrets.BYPASS_RULES_APP_PRIVATE_KEY }}
           permission-contents: write
+          permission-pull-requests: write
 
       - name: Checkout license file
         uses: actions/checkout@v5
@@ -47,7 +49,7 @@ jobs:
 
       - name: Merge pull request
         if: ${{ steps.update-license.outputs.pullRequestNumber != '' }}
-        run: gh pr merge $PULL_REQUEST_NUMBER --merge --delete-branch
+        run: gh pr merge $PULL_REQUEST_NUMBER --admin --merge --delete-branch
         env:
           GITHUB_TOKEN: ${{ steps.github-app-token.outputs.token }}
           PULL_REQUEST_NUMBER: ${{ steps.update-license.outputs.pullRequestNumber }}
