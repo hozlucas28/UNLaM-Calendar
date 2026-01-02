@@ -43,14 +43,21 @@ jobs:
           fetch-depth: 0
           persist-credentials: true
 
-      - name: Install Biome
-        uses: biomejs/setup-biome@v2
+      - name: Install Node.js
+        uses: actions/setup-node@v6
         with:
-          token: ${{ (steps.github-app-token.conclusion == 'skipped' && github.token) || steps.github-app-token.outputs.token }}
-          version: ^2
+          node-version: 24 # Latest patch and minor of Node.js 24
+
+      - name: Install Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: 1.3.3
+
+      - name: Install Biome
+        run: bun add --dev @biomejs/biome@^2
 
       - name: Lint Frontend changed files
-        run: biome lint --fix $CONDITIONAL_ARGS --no-errors-on-unmatched frontend
+        run: bun run --bun biome lint --fix $CONDITIONAL_ARGS --no-errors-on-unmatched frontend
         env:
           CONDITIONAL_ARGS: ${{ (github.event_name == 'pull_request' && format('--changed --vcs-default-branch=origin/{0}', github.event.pull_request.base.ref)) || ''}}
 
