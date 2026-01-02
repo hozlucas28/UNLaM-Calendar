@@ -1,8 +1,4 @@
 ---
-"bot":
-  - head-branch:
-      - ^dependabot
-
 "github":
   - changed-files:
       - any-glob-to-any-file:
@@ -19,7 +15,10 @@
 
 "frontend":
   - changed-files:
-      - any-glob-to-any-file: frontend/**/*
+      - any-glob-to-any-file:
+          - frontend/**/*
+          - "!frontend/**/bun.lock"
+          - "!frontend/**/package.json"
 
 "frontend dependencies":
   - changed-files:
@@ -29,7 +28,10 @@
 
 "backend":
   - changed-files:
-      - any-glob-to-any-file: backend/**/*
+      - any-glob-to-any-file:
+          - backend/**/*
+          - "!backend/**/go.mod"
+          - "!backend/**/go.sum"
 
 "backend dependencies":
   - changed-files:
