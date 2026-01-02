@@ -21,7 +21,7 @@ jobs:
         uses: deepakputhraya/action-branch-name@e0f8db53a8e289f1ae6f6c3e8dc70a3d366fd876
         with:
           regex: '\/.+'
-          allowed_prefixes: ${{ github.actor }}
+          allowed_prefixes: ${{ (github.actor == 'dependabot[bot]' && 'dependabot') || github.actor }}
 
 concurrency:
   group: lint-head-branch-name_${{ github.event.pull_request.number }}
