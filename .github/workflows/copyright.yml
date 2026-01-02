@@ -29,7 +29,7 @@ jobs:
           permission-pull-requests: write
 
       - name: Checkout license file
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           token: ${{ (steps.github-app-token.conclusion == 'skipped' && github.token) || steps.github-app-token.outputs.token }}
           sparse-checkout: LICENSE
