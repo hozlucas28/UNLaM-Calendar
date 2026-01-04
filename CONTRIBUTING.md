@@ -47,12 +47,13 @@
    - [Go](https://go.dev/dl/) (v1.25.x)
    - [Node.js](https://nodejs.org/es/download) (v24.x.x)
    - [Bun](https://bun.com/docs/installation#installing-older-versions) (v1.3.3)
-   - [act](https://nektosact.com/installation/index.html) (latest version)
+   - [Golangci-lint](https://golangci-lint.run/docs/welcome/install/local/) (latest version)
    - [Gitleaks](https://github.com/gitleaks/gitleaks?tab=readme-ov-file#installing) (latest version)
+   - [act](https://nektosact.com/installation/index.html) (latest version)
    - [GitHub CLI](https://cli.github.com/) (latest version)
-   - [jq](https://jqlang.org/download/) (v1.x.x)
    - [Docker Desktop](https://www.docker.com/) (latest version)
    - [Zizmor](https://docs.zizmor.sh/installation/) (latest version)
+   - [jq](https://jqlang.org/download/) (v1.x.x)
 2. Abre la carpeta del repositorio en Visual Studio Code.
 3. Ejecuta `bash scripts/setup-local-env.sh` en la terminal para terminar de configurar el entorno local.
 

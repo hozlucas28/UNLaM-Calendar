@@ -97,10 +97,6 @@ fi
 # Show welcome message
 echo -e "\n# Welcome to the local environment\n"
 
-echo -e "You have to do a few things before you start coding:\n"
+echo -e "\e[33mTo finish the installation of necessary tools, please open the extensions sidebar, type \`@recommended\` and install the recommended extensions for VSCode.\e[0m"
 
-echo -e "\e[33m  1. Open the extensions sidebar, type \`@recommended\` and install the recommended extensions for VSCode.\e[0m"
-echo -e "\e[33m  2. Press \`F1\` and run the command \`> Go: Install/Update Tools\` to install Go tools (it may take a while).\e[0m"
-
-echo -e "\e[30m\n> If you want to make a commit, we recommend you \`git commit\` (without \`-m\` option) instead of using VSCode interface.\e[0m"
-
+echo -e "\e[30m\n> If you want to make a commit, we recommend you \`git commit -m \"COMMIT MESSAGE\"\` instead of using VSCode interface.\e[0m"
