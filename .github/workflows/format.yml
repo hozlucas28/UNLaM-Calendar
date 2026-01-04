@@ -66,7 +66,7 @@ jobs:
           bun run prettier --write --ignore-unknown --no-error-on-unmatched-pattern .
           bun run --bun biome format --write --no-errors-on-unmatched .
           cd backend/
-          golangci-lint fmt .
+          golangci-lint fmt ./...
 
       - name: Push fixes
         uses: stefanzweifel/git-auto-commit-action@04702edda442b2e678b25b537cec683a1493fcb9 # v7.1.0
