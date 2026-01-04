@@ -1,0 +1,10 @@
+- [ ] Crear arquitectura
+- [ ] Crear `README.md`
+  - [ ] Propósito
+  - [ ] Diagrama de casos de uso
+  - [ ] Especificación de los casos de uso
+  - [ ] Diagrama de clases con patrones GRASP y GOF
+  - [ ] Diagrama de secuencia
+  - [ ] Tecnologías utilizadas
+  - [ ] Estructura
+- [ ] Desarrollar Backend

@@ -1,0 +1,7 @@
+- [ ] Crear arquitectura
+- [ ] Crear `README.md`
+  - [ ] Propósito
+  - [ ] Diagrama de actividad
+  - [ ] Tecnologías utilizadas
+  - [ ] Estructura
+- [ ] Desarrollar Frontend
