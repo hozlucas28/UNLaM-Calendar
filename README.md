@@ -16,8 +16,7 @@
 </p>
 
 <p align="center">
-		<!-- TODO: agregar link a la página oficial cuando esté disponible -->
-    <a href="#" target="_blank">
+    <a href="https://unlam-calendar.vercel.app/" target="_blank">
 			<img src=".github/docs/assets/unlam-calendar-logo.png" alt='Logo de "UNLaM Calendar"' width="800">
 			<br />
 			Página oficial
