@@ -52,7 +52,9 @@
 				"YoavBls.pretty-ts-errors",
 				"astro-build.astro-vscode",
 				"redhat.vscode-yaml",
-				"SanjulaGanepola.github-local-actions"
+				"SanjulaGanepola.github-local-actions",
+				"tamasfe.even-better-toml",
+				"pflannery.vscode-versionlens"
 			],
 			"settings": {
 				"npm.scriptRunner": "bun",
