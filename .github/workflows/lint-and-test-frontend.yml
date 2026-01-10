@@ -9,6 +9,7 @@ on:
     paths:
       - frontend/**/*
     branches-ignore:
+      - main
       - hozlucas28/github-action/workflow-test
 
   pull_request:
