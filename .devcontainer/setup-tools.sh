@@ -115,10 +115,3 @@ else
 		echo -e "\e[33mHealth check completed with warnings.\e[0m"
 	fi
 fi
-
-# Show welcome message
-echo -e "\n# Welcome to the DevContainer\n"
-
-echo -e "DevContainer is set up with all the necessary tools and configurations to help you get started quickly.\n"
-
-echo -e "\e[30m> If you want to make a commit, we recommend you \`git commit -m \"COMMIT MESSAGE\"\` instead of using VSCode interface.\e[0m"
