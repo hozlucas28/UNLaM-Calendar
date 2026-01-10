@@ -44,7 +44,7 @@ fi
 cd $(cd "$(dirname "$0")/.." && pwd)
 
 # Install packages (formatters, linters, and git hooks manager)
-echo -e "\e[30m\nInstalling repository tools (formatters, linters, and git hooks manager)...\n\e[0m"
+echo -e "\e[90m\nInstalling repository tools (formatters, linters, and git hooks manager)...\n\e[0m"
 
 bun add --dev \
 	prettier@^3 \
@@ -55,7 +55,7 @@ bun add --dev \
 echo -e "\e[32m\nRepository tools installed successfully.\e[0m"
 
 # Create Visual Studio Code setting and recommended extensions files
-echo -e "\e[30m\nCreating Visual Studio Code setting and recommended extensions files...\n\e[0m"
+echo -e "\e[90m\nCreating Visual Studio Code setting and recommended extensions files...\n\e[0m"
 
 jq '.customizations.vscode.settings' .devcontainer/devcontainer.json > .vscode/settings.json
 jq '{recommendations: .customizations.vscode.extensions}' .devcontainer/devcontainer.json > .vscode/extensions.json
@@ -63,14 +63,14 @@ jq '{recommendations: .customizations.vscode.extensions}' .devcontainer/devconta
 echo -e "\e[32m\nVisual Studio Code setting and recommended extensions files created successfully.\e[0m"
 
 # Set git hooks
-echo -e "\e[30m\nSetting up git hooks...\n\e[0m"
+echo -e "\e[90m\nSetting up git hooks...\n\e[0m"
 
 bun run lefthook install
 
 echo -e "\e[32m\nGit hooks set successfully.\e[0m"
 
 # Install Frontend dependencies
-echo -e "\e[30m\nInstalling Frontend dependencies...\n\e[0m"
+echo -e "\e[90m\nInstalling Frontend dependencies...\n\e[0m"
 
 cd frontend/
 bun install
@@ -79,7 +79,7 @@ cd ../
 echo -e "\e[32m\nFrontend dependencies installed successfully.\e[0m"
 
 # Health check
-echo -e "\e[30m\nRunning health check...\n\e[0m"
+echo -e "\e[90m\nRunning health check...\n\e[0m"
 
 bash scripts/health-check.sh --env=local
 
@@ -99,4 +99,4 @@ echo -e "\n# Welcome to the local environment\n"
 
 echo -e "\e[33mTo finish the installation of necessary tools, please open the extensions sidebar, type \`@recommended\` and install the recommended extensions for VSCode.\e[0m"
 
-echo -e "\e[30m\n> If you want to make a commit, we recommend you \`git commit -m \"COMMIT MESSAGE\"\` instead of using VSCode interface.\e[0m"
+echo -e "\e[90m\n> If you want to make a commit, we recommend you \`git commit -m \"COMMIT MESSAGE\"\` instead of using VSCode interface.\e[0m"

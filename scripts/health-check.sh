@@ -57,7 +57,7 @@ exit_code=0
 
 # ------------------------------- Common Tools ------------------------------- #
 
-echo -e "\e[30mChecking common tools...\n\e[0m"
+echo -e "\e[90mChecking common tools...\n\e[0m"
 
 node --version >/dev/null 2>&1
 if [[ $? -ne 0 ]]; then
@@ -152,7 +152,7 @@ fi
 
 # -------------------------- Dedicated Backend Tools ------------------------- #
 
-echo -e "\e[30m\nChecking dedicated Backend tools...\n\e[0m"
+echo -e "\e[90m\nChecking dedicated Backend tools...\n\e[0m"
 
 go version >/dev/null 2>&1
 if [[ $? -ne 0 ]]; then

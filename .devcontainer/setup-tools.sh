@@ -47,7 +47,7 @@ fi
 cd $(cd "$(dirname "$0")/.." && pwd)
 
 # Install packages (formatters, linters, and git hooks manager)
-echo -e "\e[30m\nInstalling repository tools (formatters, linters, and git hooks manager)...\n\e[0m"
+echo -e "\e[90m\nInstalling repository tools (formatters, linters, and git hooks manager)...\n\e[0m"
 
 bun add --dev \
 	prettier@^3 \
@@ -60,7 +60,7 @@ echo -e "\e[32m\nRepository tools installed successfully.\e[0m"
 # Pull images
 zizmor_image="ghcr.io/zizmorcore/zizmor:latest" # Linter for Dependabot file and GitHub Actions workflows
 
-echo -e "\e[30m\nPulling docker images repository tools...\n\e[0m"
+echo -e "\e[90m\nPulling docker images repository tools...\n\e[0m"
 
 docker pull "$zizmor_image"
 
@@ -83,7 +83,7 @@ chmod +x /usr/local/bin/zizmor
 chmod +x /workspaces/UNLaM-Calendar/scripts/*.sh
 
 # Set git configuration and hooks
-echo -e "\e[30m\nSetting up git configuration and hooks...\n\e[0m"
+echo -e "\e[90m\nSetting up git configuration and hooks...\n\e[0m"
 
 git config --global --add safe.directory /workspaces/UNLaM-Calendar
 
@@ -92,7 +92,7 @@ bun run lefthook install
 echo -e "\e[32m\nGit configuration and hooks set successfully.\e[0m"
 
 # Install Frontend dependencies
-echo -e "\e[30m\nInstalling Frontend dependencies...\n\e[0m"
+echo -e "\e[90m\nInstalling Frontend dependencies...\n\e[0m"
 
 cd frontend/
 bun install
@@ -101,7 +101,7 @@ cd ../
 echo -e "\e[32m\nFrontend dependencies installed successfully.\e[0m"
 
 # Health check
-echo -e "\e[30m\nRunning health check...\n\e[0m"
+echo -e "\e[90m\nRunning health check...\n\e[0m"
 
 bash scripts/health-check.sh
 
