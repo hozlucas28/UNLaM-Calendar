@@ -85,11 +85,6 @@ chmod +x /workspaces/UNLaM-Calendar/scripts/*.sh
 # Set git configuration and hooks
 echo -e "\e[30m\nSetting up git configuration and hooks...\n\e[0m"
 
-git config --global merge.tool code
-git config --global core.editor code
-git config --global diff.external code
-git config --global fetch.prune true
-git config --global pull.rebase false
 git config --global --add safe.directory /workspaces/UNLaM-Calendar
 
 bun run lefthook install

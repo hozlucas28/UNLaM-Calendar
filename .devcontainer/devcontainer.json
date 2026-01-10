@@ -27,7 +27,7 @@
 		}
 	},
 	"remoteUser": "root",
-	"postCreateCommand": "bash .devcontainer/setup-tools.sh",
+	"postCreateCommand": ".devcontainer/setup-tools.sh",
 	"customizations": {
 		"vscode": {
 			"extensions": [
