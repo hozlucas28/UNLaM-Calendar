@@ -5,13 +5,6 @@ description: Lints Frontend changed files (applying safe fixes) and tests it whe
 permissions: {}
 
 on:
-  push:
-    paths:
-      - frontend/**/*
-    branches-ignore:
-      - main
-      - hozlucas28/github-action/workflow-test
-
   pull_request:
     paths:
       - frontend/**/*
@@ -39,9 +32,9 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v6
         with:
-          ref: ${{ (github.event_name == 'pull_request' && github.head_ref) || '' }}
+          ref: ${{ github.event.pull_request.head.ref }}
           token: ${{ (steps.github-app-token.conclusion == 'skipped' && github.token) || steps.github-app-token.outputs.token }}
-          fetch-depth: 0
+          fetch-depth: 0 # To lint only changed files with Biome
           persist-credentials: true
 
       - name: Install Node.js
@@ -60,7 +53,7 @@ jobs:
       - name: Lint Frontend changed files
         run: bun run --bun biome lint --fix $CONDITIONAL_ARGS --no-errors-on-unmatched frontend
         env:
-          CONDITIONAL_ARGS: ${{ (github.event_name == 'pull_request' && format('--changed --vcs-default-branch=origin/{0}', github.event.pull_request.base.ref)) || ''}}
+          CONDITIONAL_ARGS: ${{ format('--changed --vcs-default-branch=origin/{0}', github.event.pull_request.base.ref) }}
 
       - name: Push fixes
         uses: stefanzweifel/git-auto-commit-action@04702edda442b2e678b25b537cec683a1493fcb9 # v7.1.0
@@ -84,7 +77,7 @@ jobs:
       - name: Checkout frontend directory
         uses: actions/checkout@v6
         with:
-          ref: ${{ (github.event_name == 'pull_request' && github.head_ref) || '' }}
+          ref: ${{ github.event.pull_request.head.ref }}
           sparse-checkout: frontend
           persist-credentials: false
           sparse-checkout-cone-mode: false
@@ -112,5 +105,5 @@ env:
   LEFTHOOK: 0
 
 concurrency:
-  group: lint-and-test-frontend_${{ (github.event_name == 'push' && github.ref) || github.event.pull_request.number }}
+  group: lint-and-test-frontend_${{ github.event.pull_request.number }}
   cancel-in-progress: true

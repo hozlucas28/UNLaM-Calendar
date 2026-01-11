@@ -5,13 +5,6 @@ description: Lints Backend changed files (applying safe fixes) and tests it when
 permissions: {}
 
 on:
-  push:
-    paths:
-      - backend/**/*
-    branches-ignore:
-      - main
-      - hozlucas28/github-action/workflow-test
-
   pull_request:
     paths:
       - backend/**/*
@@ -41,7 +34,7 @@ jobs:
       - name: Checkout backend directory
         uses: actions/checkout@v6
         with:
-          ref: ${{ (github.event_name == 'pull_request' && github.head_ref) || '' }}
+          ref: ${{ github.event.pull_request.head.ref }}
           token: ${{ (steps.github-app-token.conclusion == 'skipped' && github.token) || steps.github-app-token.outputs.token }}
           sparse-checkout: backend
           persist-credentials: true
@@ -85,7 +78,7 @@ jobs:
       - name: Checkout backend directory
         uses: actions/checkout@v6
         with:
-          ref: ${{ (github.event_name == 'pull_request' && github.head_ref) || '' }}
+          ref: ${{ github.event.pull_request.head.ref }}
           sparse-checkout: backend
           persist-credentials: false
           sparse-checkout-cone-mode: false
@@ -105,5 +98,5 @@ env:
   LEFTHOOK: 0
 
 concurrency:
-  group: lint-and-test-backend_${{ (github.event_name == 'push' && github.ref) || github.event.pull_request.number }}
+  group: lint-and-test-backend_${{ github.event.pull_request.number }}
   cancel-in-progress: true
