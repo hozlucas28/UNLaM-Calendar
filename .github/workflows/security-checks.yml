@@ -46,6 +46,8 @@ jobs:
     name: Lint Dependabot file and GitHub Actions workflows
     runs-on: ubuntu-latest
 
+    if: ${{ github.event_name != 'schedule' }}
+
     permissions:
       security-events: write # To create security alerts
 
