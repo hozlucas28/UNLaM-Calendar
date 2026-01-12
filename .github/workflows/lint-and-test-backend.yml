@@ -1,6 +1,6 @@
 ---
 name: Lint and Test Backend
-run-name: Lint and Test Backend
+run-name: Lint and test Backend
 description: Lints Backend changed files (applying safe fixes) and tests it when code is pushed or a pull request is opened, reopened or synchronized.
 permissions: {}
 

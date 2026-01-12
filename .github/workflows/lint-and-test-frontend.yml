@@ -1,6 +1,6 @@
 ---
 name: Lint and Test Frontend
-run-name: Lint and Test Frontend
+run-name: Lint and test Frontend
 description: Lints Frontend changed files (applying safe fixes) and tests it when code is pushed or a pull request is opened, reopened or synchronized.
 permissions: {}
 
