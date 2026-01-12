@@ -31,7 +31,6 @@ jobs:
         uses: actions/checkout@v6
         with:
           token: ${{ (steps.github-app-token.conclusion == 'skipped' && github.token) || steps.github-app-token.outputs.token }}
-          fetch-depth: 0
           persist-credentials: true
 
       - name: Install Node.js
