@@ -6,6 +6,9 @@ permissions: {}
 
 on:
   pull_request_target:
+    types:
+      - opened
+      - synchronize
     branches-ignore:
       - hozlucas28/github-action/workflow-test
 
@@ -31,6 +34,7 @@ jobs:
       - name: Label pull request
         uses: actions/labeler@v6
         with:
+          pr-number: ${{ github.event.pull_request.number }} # Prevents take into account merge commits with base branch
           sync-labels: true
 
 concurrency:
