@@ -1,16 +1,13 @@
 ---
 name: Security Checks
 run-name: Security checks
-description: Scans for leaked secrets, lints Dependabot file and GitHub Actions workflows when code is pushed or a pull request is opened, reopened or synchronized.
+description: Scans for leaked secrets when code is pushed or a pull request is opened, reopened or synchronized.
 permissions: {}
 
 on:
   push:
     branches-ignore:
       - hozlucas28/github-action/workflow-test
-
-  schedule:
-    - cron: 0 8 * * *
 
   pull_request:
     branches-ignore:
@@ -41,34 +38,6 @@ jobs:
           GITLEAKS_ENABLE_COMMENTS: false
           GITLEAKS_NOTIFY_USER_LIST: ${{ env.ACT != 'true' && format('@{0}', github.actor) }}
           GITLEAKS_ENABLE_UPLOAD_ARTIFACT: ${{ env.ACT != 'true' }}
-
-  lint-dependabot-and-workflows:
-    name: Lint Dependabot file and GitHub Actions workflows
-    runs-on: ubuntu-latest
-
-    if: ${{ github.event_name != 'schedule' }}
-
-    permissions:
-      security-events: write # To create security alerts
-
-    steps:
-      - name: Checkout Dependabot file, GitHub Actions workflows directory, and Zizmor configuration
-        uses: actions/checkout@v6
-        with:
-          ref: ${{ (github.event_name == 'pull_request' && github.head_ref) || '' }}
-          sparse-checkout: |
-            .github/dependabot.yml
-            .github/workflows
-            zizmor.yml
-          persist-credentials: false
-          sparse-checkout-cone-mode: false
-
-      - name: Lint Dependabot file and GitHub Actions workflows
-        uses: zizmorcore/zizmor-action@e639db99335bc9038abc0e066dfcd72e23d26fb4 # v0.3.0
-        with:
-          persona: auditor
-          version: latest
-          advanced-security: ${{ env.ACT != 'true' }}
 
 env:
   CI: true

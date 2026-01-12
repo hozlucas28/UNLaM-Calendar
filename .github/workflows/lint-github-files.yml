@@ -1,0 +1,54 @@
+---
+name: Lint Dependabot File and GitHub Actions
+run-name: Lint Dependabot file and GitHub Actions workflows
+description: Lints Dependabot file and GitHub Actions workflows when a pull request is opened, reopened or synchronized.
+permissions: {}
+
+on:
+  schedule:
+    - cron: 0 8 1 * *
+
+  pull_request:
+    paths:
+      - .github/dependabot.yml
+      - .github/workflows/**/*
+      - zizmor.yml
+    branches-ignore:
+      - hozlucas28/github-action/workflow-test
+
+jobs:
+  lint-dependabot-and-workflows:
+    name: Lint Dependabot file and GitHub Actions workflows
+    runs-on: ubuntu-latest
+
+    if: ${{ github.event_name != 'schedule' }}
+
+    permissions:
+      security-events: write # To create security alerts
+
+    steps:
+      - name: Checkout Dependabot file, GitHub Actions workflows directory, and Zizmor configuration
+        uses: actions/checkout@v6
+        with:
+          ref: ${{ github.head_ref }}
+          sparse-checkout: |
+            .github/dependabot.yml
+            .github/workflows
+            zizmor.yml
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+
+      - name: Lint Dependabot file and GitHub Actions workflows
+        uses: zizmorcore/zizmor-action@e639db99335bc9038abc0e066dfcd72e23d26fb4 # v0.3.0
+        with:
+          persona: auditor
+          version: latest
+          advanced-security: ${{ env.ACT != 'true' }}
+
+env:
+  CI: true
+  LEFTHOOK: 0
+
+concurrency:
+  group: lint-github-files_${{ github.event.pull_request.number }}
+  cancel-in-progress: true
