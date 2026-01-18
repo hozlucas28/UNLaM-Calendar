@@ -5,7 +5,7 @@
     <a href="#proceso-para-determinar-la-integración-de-una-pull-request">Proceso para determinar la integración de una Pull Request</a>
 </p>
 
-> Te recomendados leer la [documentación técnica del proyecto](github/docs/) para entender su diseño y funcionamiento.
+> Te recomendados leer la [documentación técnica del proyecto](.github/docs/README.md) para entender su diseño y funcionamiento.
 
 ## Pasos para contribuir
 
