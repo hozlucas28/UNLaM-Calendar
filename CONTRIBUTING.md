@@ -1,7 +1,8 @@
 <p align="center">
     <a href="#pasos-para-contribuir">Pasos para contribuir</a> •
     <a href="#guías-de-instalación">Guías de instalación</a> •
-    <a href="#cómo-ejecutar-los-tests">Cómo ejecutar los tests</a> •
+    <a href="#cómo-ejecutar-los-tests">Cómo ejecutar los tests</a>
+		<br />
     <a href="#proceso-para-determinar-la-integración-de-una-pull-request">Proceso para determinar la integración de una Pull Request</a>
 </p>
 
