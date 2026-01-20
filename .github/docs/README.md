@@ -62,7 +62,7 @@ architecture-beta
 	backendRJunction:B -- L:officialCalendar
 ```
 
-## Diagrama de casos de uso (simplificado)
+## Diagrama de casos de uso
 
 ```mermaid
 ---
@@ -82,12 +82,96 @@ flowchart LR
 	Timer["⏲️<br />Temporizador"] --> UseCase04
 
   subgraph "UNLaM Calendar"
-			UseCase01([Suscribirse al calendario])
-			UseCase02([Contribuir al proyecto])
-			UseCase03([Crear eventos])
-			UseCase04([Actualizar eventos])
+			UseCase01([Suscribirse al Calendario])
+			UseCase02([Contribuir al Proyecto])
+			UseCase03([Crear Nuevos Eventos])
+			UseCase04([Actualizar Eventos])
   end
 ```
 
 > [!NOTE]
 > Los casos de uso `Consultar calendario` y `Desuscribirse del calendario` son propios del servicio de calendario utilizado (Google Calendar, Apple Calendar, etc.) al momento de suscribirse, por lo tanto no son responsabilidad de UNLaM Calendar.
+
+## Especificaciones de casos de uso
+
+<details>
+<summary>
+	<strong>Suscribirse al calendario</strong>
+</summary>
+
+- **Descripción**: el estudiante se suscribe a un calendario utilizando el servicio de calendario que desea.
+- **Actor principal**: Estudiante.
+- **Actor(es) secundario(s)**: Servicio de calendario.
+- **Precondición**: Crear enlaces de suscripción a calendarios.
+- **Postcondición**: el estudiante logra suscribirse al calendario en el servicio de calendario que desea.
+- **Flujo normal**:
+
+  | Estudiante                                                                                                                                                                                             | Sistema                                                                                                                                                                              |
+  | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+  | 1. Ingresa al Frontend de la aplicación.                                                                                                                                                               |                                                                                                                                                                                      |
+  | 2. Selecciona un departamento (Ingeniería, Derecho, Ciencias de La Salud, etc.), la terminación de su DNI (par ó impar) y el servicio de calendario (Google Calendar, Apple Calendar, etc.) que desea. |                                                                                                                                                                                      |
+  |                                                                                                                                                                                                        | 3. En base al departamento, la terminación del DNI y el servicio de calendario seleccionado, el sistema muestra por la interfaz del Frontend el enlace de suscripción al calendario. |
+  | 4. Cliquea el enlace de suscripción al calendario.                                                                                                                                                     |                                                                                                                                                                                      |
+  |                                                                                                                                                                                                        | 5. Redirige al estudiante al servicio de calendario para aceptar la suscripción al calendario.                                                                                       |
+  | 6. Acepta la suscripción al calendario.                                                                                                                                                                |                                                                                                                                                                                      |
+  | 7. Fin del caso de uso.                                                                                                                                                                                |                                                                                                                                                                                      |
+
+</details>
+
+<details>
+<summary>
+	<strong>Contribuir al Proyecto</strong>
+</summary>
+
+- **Descripción**: el desarrollador contribuye al proyecto realizando una Pull Request.
+- **Actor principal**: Desarrollador.
+- **Actor(es) secundario(s)**: Ninguno.
+- **Precondición**: Crear repositorio del proyecto.
+- **Postcondición**: el desarrollador logra contribuir al proyecto y el sistema incorpora los nuevos cambios.
+
+> El flujo normal esta explicado en la [guía de contribución](../../CONTRIBUTING.md/#pasos-para-contribuir).
+
+</details>
+
+<details>
+<summary>
+	<strong>Crear Nuevos Eventos</strong>
+</summary>
+
+- **Descripción**: se scrapea el calendario oficial de la UNLaM y se crean los nuevos eventos en los calendarios.
+- **Actor principal**: Timer.
+- **Actor(es) secundario(s)**: Ninguno.
+- **Precondición**: Crear calendarios.
+- **Postcondición**: el sistema logra crear los nuevos eventos en los calendarios.
+- **Flujo normal**:
+
+  | Sistema                                                    |
+  | ---------------------------------------------------------- |
+  | 1. Scrapea los eventos del calendario oficial de la UNLaM. |
+  | 2. Filtra los nuevos eventos.                              |
+  | 3. Formatea la información de los nuevos eventos.          |
+  | 4. Agrega los nuevos eventos a los calendarios.            |
+  | 5. Fin del caso de uso.                                    |
+
+</details>
+
+<details>
+<summary>
+	<strong>Actualizar Eventos</strong>
+</summary>
+
+- **Descripción**: se scrapea el calendario oficial de la UNLaM y se actualizan las fechas de los eventos en los calendarios.
+- **Actor principal**: Timer.
+- **Actor(es) secundario(s)**: Ninguno.
+- **Precondición**: Crear calendarios.
+- **Postcondición**: el sistema logra actualizar las fechas de los eventos en los calendarios.
+- **Flujo normal**:
+
+  | Sistema                                                    |
+  | ---------------------------------------------------------- |
+  | 1. Scrapea el calendario oficial de la UNLaM.              |
+  | 2. Filtra los eventos cuya fecha se haya actualizado.      |
+  | 3. Actualiza las fechas de los eventos en los calendarios. |
+  | 4. Fin del caso de uso.                                    |
+
+</details>
