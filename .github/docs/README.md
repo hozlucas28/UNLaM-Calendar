@@ -74,8 +74,8 @@ config:
 flowchart LR
 	Student["👨‍🎓<br />Estudiante"] --> UseCase01
 	Contributor["🧔<br />Desarrollador"] --> UseCase02
-	Timer["⏲️<br />Temporizador"] --> UseCase03
-	Timer["⏲️<br />Temporizador"] --> UseCase04
+	CronJob["⏲️<br />Cron Job"] --> UseCase03
+	CronJob["⏲️<br />Cron Job"] --> UseCase04
 
   subgraph "UNLaM Calendar"
 			UseCase01([Suscribirse al Calendario])
@@ -96,21 +96,26 @@ flowchart LR
 </summary>
 
 - **Descripción**: el estudiante se suscribe a un calendario utilizando el servicio de calendario que desea.
+
 - **Actor principal**: Estudiante.
+
 - **Actor(es) secundario(s)**: Servicio de calendario.
+
 - **Precondición**: Crear enlaces de suscripción a calendarios.
+
 - **Postcondición**: el estudiante logra suscribirse al calendario en el servicio de calendario que desea.
+
 - **Flujo normal**:
 
-  | Estudiante                                                                                                                                                                                             | Sistema                                                                                                                                                                              |
-  | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-  | 1. Ingresa al Frontend de la aplicación.                                                                                                                                                               |                                                                                                                                                                                      |
-  | 2. Selecciona un departamento (Ingeniería, Derecho, Ciencias de La Salud, etc.), la terminación de su DNI (par ó impar) y el servicio de calendario (Google Calendar, Apple Calendar, etc.) que desea. |                                                                                                                                                                                      |
-  |                                                                                                                                                                                                        | 3. En base al departamento, la terminación del DNI y el servicio de calendario seleccionado, el sistema muestra por la interfaz del Frontend el enlace de suscripción al calendario. |
-  | 4. Cliquea el enlace de suscripción al calendario.                                                                                                                                                     |                                                                                                                                                                                      |
-  |                                                                                                                                                                                                        | 5. Redirige al estudiante al servicio de calendario para aceptar la suscripción al calendario.                                                                                       |
-  | 6. Acepta la suscripción al calendario.                                                                                                                                                                |                                                                                                                                                                                      |
-  | 7. Fin del caso de uso.                                                                                                                                                                                |                                                                                                                                                                                      |
+  | Estudiante                                                                                                                                                                                             | Sistema                                                                                                                                                                  |
+  | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+  | 1. Ingresa al Frontend de la aplicación.                                                                                                                                                               |                                                                                                                                                                          |
+  | 2. Selecciona un departamento (Ingeniería, Derecho, Ciencias de La Salud, etc.), la terminación de su DNI (par ó impar) y el servicio de calendario (Google Calendar, Apple Calendar, etc.) que desea. |                                                                                                                                                                          |
+  |                                                                                                                                                                                                        | 3. En base al departamento, la terminación del DNI y el servicio de calendario seleccionado, muestra en la interfaz del Frontend el enlace de suscripción al calendario. |
+  | 4. Cliquea el enlace de suscripción al calendario.                                                                                                                                                     |                                                                                                                                                                          |
+  |                                                                                                                                                                                                        | 5. Redirige al estudiante al servicio de calendario para aceptar la suscripción al calendario.                                                                           |
+  | 6. Acepta la suscripción al calendario.                                                                                                                                                                |                                                                                                                                                                          |
+  | 7. Fin del caso de uso.                                                                                                                                                                                |                                                                                                                                                                          |
 
 </details>
 
@@ -120,9 +125,13 @@ flowchart LR
 </summary>
 
 - **Descripción**: el desarrollador contribuye al proyecto realizando una Pull Request.
+
 - **Actor principal**: Desarrollador.
+
 - **Actor(es) secundario(s)**: Ninguno.
+
 - **Precondición**: Crear repositorio del proyecto.
+
 - **Postcondición**: el desarrollador logra contribuir al proyecto y el sistema incorpora los nuevos cambios.
 
 > El flujo normal esta explicado en la [guía de contribución](../../CONTRIBUTING.md/#pasos-para-contribuir).
@@ -135,19 +144,26 @@ flowchart LR
 </summary>
 
 - **Descripción**: se scrapea el calendario oficial de la UNLaM y se crean los nuevos eventos en los calendarios.
-- **Actor principal**: Timer.
+
+- **Actor principal**: Cron Job.
+
 - **Actor(es) secundario(s)**: Ninguno.
+
 - **Precondición**: Crear calendarios.
+
 - **Postcondición**: el sistema logra crear los nuevos eventos en los calendarios.
+
 - **Flujo normal**:
 
-  | Sistema                                                    |
-  | ---------------------------------------------------------- |
-  | 1. Scrapea los eventos del calendario oficial de la UNLaM. |
-  | 2. Filtra los nuevos eventos.                              |
-  | 3. Formatea la información de los nuevos eventos.          |
-  | 4. Agrega los nuevos eventos a los calendarios.            |
-  | 5. Fin del caso de uso.                                    |
+  | Cron Job                          | Sistema                                                    |
+  | --------------------------------- | ---------------------------------------------------------- |
+  | 1. Inicia cada día a las 23:00hs. |                                                            |
+  |                                   | 2. Scrapea los eventos del calendario oficial de la UNLaM. |
+  |                                   | 3. Filtra los nuevos eventos.                              |
+  |                                   | 4. Formatea la información de los nuevos eventos.          |
+  |                                   | 5. Agrega los nuevos eventos a los calendarios.            |
+  | 6. Finaliza.                      |                                                            |
+  | 7. Fin del caso de uso.           |                                                            |
 
 </details>
 
@@ -157,17 +173,24 @@ flowchart LR
 </summary>
 
 - **Descripción**: se scrapea el calendario oficial de la UNLaM y se actualizan las fechas de los eventos en los calendarios.
-- **Actor principal**: Timer.
+
+- **Actor principal**: Cron Job.
+
 - **Actor(es) secundario(s)**: Ninguno.
+
 - **Precondición**: Crear calendarios.
+
 - **Postcondición**: el sistema logra actualizar las fechas de los eventos en los calendarios.
+
 - **Flujo normal**:
 
-  | Sistema                                                    |
-  | ---------------------------------------------------------- |
-  | 1. Scrapea el calendario oficial de la UNLaM.              |
-  | 2. Filtra los eventos cuya fecha se haya actualizado.      |
-  | 3. Actualiza las fechas de los eventos en los calendarios. |
-  | 4. Fin del caso de uso.                                    |
+  | Cron Job                          | Sistema                                                    |
+  | --------------------------------- | ---------------------------------------------------------- |
+  | 1. Inicia cada día a las 23:00hs. |                                                            |
+  |                                   | 2. Scrapea el calendario oficial de la UNLaM.              |
+  |                                   | 3. Filtra los eventos cuya fecha se haya actualizado.      |
+  |                                   | 4. Actualiza las fechas de los eventos en los calendarios. |
+  | 5. Finaliza.                      |                                                            |
+  | 6. Fin del caso de uso.           |                                                            |
 
 </details>
