@@ -62,6 +62,32 @@ architecture-beta
 	backendRJunction:B -- L:officialCalendar
 ```
 
-## Diagrama de casos de uso
+## Diagrama de casos de uso (simplificado)
 
-TODO.
+```mermaid
+---
+config:
+  look: neo
+  theme: redux
+  flowchart:
+    curve: linear
+    inheritDir: true
+    htmlLabels: true
+---
+
+flowchart LR
+	Student["👨‍🎓<br />Estudiante"] --> UseCase01
+	Contributor["🧔<br />Desarrollador"] --> UseCase02
+	Timer["⏲️<br />Temporizador"] --> UseCase03
+	Timer["⏲️<br />Temporizador"] --> UseCase04
+
+  subgraph "UNLaM Calendar"
+			UseCase01([Suscribirse al calendario])
+			UseCase02([Contribuir al proyecto])
+			UseCase03([Crear eventos])
+			UseCase04([Actualizar eventos])
+  end
+```
+
+> [!NOTE]
+> Los casos de uso `Consultar calendario` y `Desuscribirse del calendario` son propios del servicio de calendario utilizado (Google Calendar, Apple Calendar, etc.) al momento de suscribirse, por lo tanto no son responsabilidad de UNLaM Calendar.
