@@ -26,10 +26,6 @@ Actualmente, los estudiantes se ven obligados a acceder constantemente a la pág
 
 - Si la fecha de un evento se modifica en el calendario oficial, el cambio deberá reflejarse automáticamente en los calendarios generados por la aplicación.
 
-## Diagrama de componentes
-
-TODO.
-
 ## Diagrama de despliegue
 
 ```mermaid
