@@ -32,7 +32,35 @@ TODO.
 
 ## Diagrama de despliegue
 
-TODO.
+```mermaid
+---
+config:
+  look: neo
+  theme: redux
+---
+
+architecture-beta
+	service student(internet)[Estudiantes]
+
+	group cloud(cloud)[UNLaM Calendar]
+
+	service frontend(server)[Frontend] in cloud
+	service disk(disk)[Enlaces de suscripcion a calendarios] in cloud
+	service backend(server)[Backend] in cloud
+	junction backendBJunction in cloud
+	junction backendRJunction in cloud
+
+	service calendarServices(cloud)[Servicios de Calendario]
+	service officialCalendar(internet)[Calendario oficial de la UNLaM]
+
+	student:B -- T:frontend
+	frontend:B -- T:disk
+	disk:R -- L:backendBJunction
+	backendBJunction:T -- B:backend
+	backend:R -- L:backendRJunction
+	backendRJunction:R -- L:calendarServices
+	backendRJunction:B -- L:officialCalendar
+```
 
 ## Diagrama de casos de uso
 
