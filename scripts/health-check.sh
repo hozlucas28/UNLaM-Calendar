@@ -165,10 +165,9 @@ fi
 golangci-lint --version >/dev/null 2>&1
 if [[ $? -ne 0 ]]; then
 	echo -e "\e[33m  - Golangci-lint is not installed or not found in PATH.\e[0m" >&2
-	exit_code=2
+	exit_code=1
 else
 	echo -e "\e[32m  - Golangci-lint installed.\e[0m"
 fi
-
 
 exit $exit_code

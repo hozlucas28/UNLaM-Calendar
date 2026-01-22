@@ -28,7 +28,7 @@ while true; do
 		esac
 done
 
-# Exit on error
+# Exit on any command error
 set -e
 
 # Show help if needed
@@ -105,13 +105,4 @@ echo -e "\e[90m\nRunning health check...\n\e[0m"
 
 bash scripts/health-check.sh
 
-if [ $? -eq 0 ]; then
-	echo -e "\e[32m\nAll tools are installed and working correctly.\e[0m"
-else
-	if [ $? -eq 1 ]; then
-		echo -e "\e[31mHealth check failed.\e[0m" >&2
-		exit 1
-	else
-		echo -e "\e[33mHealth check completed with warnings.\e[0m"
-	fi
-fi
+echo -e "\e[32m\nAll tools are installed and working correctly.\e[0m"
