@@ -42,9 +42,10 @@ body:
       label: ¿En qué entornos experimentaste este Bug?
       description: Seleccione los entornos en los que experimento el Bug.
       options:
-        - DevContainer
-        - Entorno local
-      default: 0
+        - Producción
+        - Entorno de desarrollo - DevContainer
+        - Entorno de desarrollo - Entorno local
+      default: 1
       multiple: true
     validations:
       required: true
@@ -55,8 +56,8 @@ body:
       label: Pasos para reproducirlo
       description: Proporcione una lista paso a paso de cómo reproducir el Bug.
       placeholder: |
-        1. Envía una solicitud a...
-        2. Después, ejecuta...
+        1. Ejecuta...
+        2. Luego, vuelve a ejecutar...
         3. Finalmente, observa el Bug en...
     validations:
       required: true
