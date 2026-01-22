@@ -2,8 +2,6 @@
 	Sigue estas instrucciones para escribir la Pull Request correctamente...
 
 	• El título debe tener la siguiente estructura: "<TÍTULO BREVE>" (por ejemplo, 'Corrección en el mapeo del evento "Inscripción a materias - Segundo cuatrimestre"')
-	• Si es necesario, seleccione los Labels relacionadas con la Pull Request
-	• Asigna a los Reviewers (por ejemplo: "hozlucas28")
 	• Si la Pull Request soluciona Issue(s), recuerde adjuntarlos con la sintaxis "#<NÚMERO DE LA ISSUE>"
  -->
 
@@ -31,17 +29,10 @@ La Pull Request agrega/mejora...
 2. Luego haz aquello...
 3. Finalmente, comprueba que...
 
-### ¿Qué areas han sido modificadas?
-
-<!-- Seleccione las áreas cuyo código ha sido modificado por la Pull Request. -->
-
-- [ ] Frontend
-- [ ] Backend
-- [ ] Otras
-
 ### Entornos donde la Pull Request ha sido probada
 
 <!-- Seleccione los entornos donde probó la Pull Request. -->
 
-- [ ] Dev Container
-- [ ] Entorno local
+- [ ] Producción
+- [ ] Entorno de desarrollo - DevContainer
+- [ ] Entorno de desarrollo - Entorno local
