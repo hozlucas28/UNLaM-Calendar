@@ -51,6 +51,7 @@ jobs:
         uses: golangci/golangci-lint-action@v9
         with:
           args: --fix
+          verify: false
           version: latest
           github-token: ${{ (steps.github-app-token.conclusion == 'skipped' && github.token) || steps.github-app-token.outputs.token }}
           only-new-issues: true

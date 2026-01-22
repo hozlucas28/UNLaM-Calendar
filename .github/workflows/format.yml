@@ -56,6 +56,7 @@ jobs:
       - name: Install Golangci-lint
         uses: golangci/golangci-lint-action@v9
         with:
+          verify: false
           version: latest
           github-token: ${{ (steps.github-app-token.conclusion == 'skipped' && github.token) || steps.github-app-token.outputs.token }}
           working-directory: backend
