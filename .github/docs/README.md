@@ -165,6 +165,19 @@ flowchart LR
   | 6. Finaliza.                      |                                                            |
   | 7. Fin del caso de uso.           |                                                            |
 
+- **Flujo alternativo**:
+
+  No se puede formatear la información de algunos eventos porque no existen en el mapeo.
+
+  | Cron Job                                                      | Sistema                                          |
+  | ------------------------------------------------------------- | ------------------------------------------------ |
+  |                                                               | 6. Lista los eventos que no existen en el mapeo. |
+  | 7. Crea una Issue con los eventos que no existen en el mapeo. |                                                  |
+  | 8. Finaliza.                                                  |                                                  |
+  | 9. Fin del caso de uso.                                       |                                                  |
+
+> El mapeo de eventos es una colección que formatea los títulos de los eventos del calendario oficial de la UNLaM para sean acordes a un evento de calendario.
+
 </details>
 
 <details>
