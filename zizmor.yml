@@ -11,7 +11,6 @@ rules:
       policies:
         actions/*: ref-pin
         oven-sh/setup-bun: ref-pin
-        biomejs/setup-biome: ref-pin
         golangci/golangci-lint-action: ref-pin
 
   dangerous-triggers:
