@@ -28,7 +28,7 @@ jobs:
       - name: Checkout Dependabot file, GitHub Actions workflows directory, and Zizmor configuration
         uses: actions/checkout@v6
         with:
-          ref: ${{ github.head_ref }}
+          ref: ${{ (github.event_name == 'pull_request' && github.event.pull_request.head.ref) || '' }}
           sparse-checkout: |
             .github/dependabot.yml
             .github/workflows
