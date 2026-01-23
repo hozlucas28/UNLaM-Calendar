@@ -122,7 +122,7 @@ if [[ $? -ne 0 ]]; then
 	echo -e "\e[31m  - Prettier is not installed.\e[0m" >&2
 	exit_code=1
 else
-	echo -e "\e[32m  - Prettier installed\e[0m"
+	echo -e "\e[32m  - Prettier installed.\e[0m"
 fi
 
 bun run biome --version >/dev/null 2>&1
@@ -130,7 +130,7 @@ if [[ $? -ne 0 ]]; then
 	echo -e "\e[31m  - Biome is not installed.\e[0m" >&2
 	exit_code=1
 else
-	echo -e "\e[32m  - Biome installed\e[0m"
+	echo -e "\e[32m  - Biome installed.\e[0m"
 fi
 
 bun run lefthook --version >/dev/null 2>&1
@@ -146,7 +146,7 @@ if [[ $? -ne 0 ]]; then
 	echo -e "\e[31m  - Zizmor is not installed or not found in PATH.\e[0m" >&2
 	exit_code=1
 else
-	echo -e "\e[32m  - Zizmor installed\e[0m"
+	echo -e "\e[32m  - Zizmor installed.\e[0m"
 fi
 
 
