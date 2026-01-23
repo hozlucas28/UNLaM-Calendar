@@ -59,7 +59,7 @@ exit_code=0
 
 echo -e "\e[90mChecking common tools...\n\e[0m"
 
-node --version >/dev/null 2>&1
+which node >/dev/null 2>&1
 if [[ $? -ne 0 ]]; then
 	echo -e "\e[31m  - Node.js is not installed or not found in PATH.\e[0m" >&2
 	exit_code=1
@@ -67,7 +67,7 @@ else
 	echo -e "\e[32m  - Node.js installed.\e[0m"
 fi
 
-bun --version >/dev/null 2>&1
+which bun >/dev/null 2>&1
 if [[ $? -ne 0 ]]; then
 	echo -e "\e[31m  - Bun is not installed or not found in PATH.\e[0m" >&2
 	exit_code=1
@@ -75,7 +75,7 @@ else
 	echo -e "\e[32m  - Bun installed.\e[0m"
 fi
 
-act --version >/dev/null 2>&1
+which act >/dev/null 2>&1
 if [[ $? -ne 0 ]]; then
 	echo -e "\e[31m  - act is not installed or not found in PATH.\e[0m" >&2
 	exit_code=1
@@ -83,7 +83,7 @@ else
 	echo -e "\e[32m  - act installed.\e[0m"
 fi
 
-gitleaks --version >/dev/null 2>&1
+which gitleaks >/dev/null 2>&1
 if [[ $? -ne 0 ]]; then
 	echo -e "\e[31m  - Gitleaks is not installed or not found in PATH.\e[0m" >&2
 	exit_code=1
@@ -91,7 +91,7 @@ else
 	echo -e "\e[32m  - Gitleaks installed.\e[0m"
 fi
 
-gh --version >/dev/null 2>&1
+which gh >/dev/null 2>&1
 if [[ $? -ne 0 ]]; then
 	echo -e "\e[31m  - GitHub CLI is not installed or not found in PATH.\e[0m" >&2
 	exit_code=1
@@ -100,7 +100,7 @@ else
 fi
 
 if [[ "$env" == "local" ]]; then
-	jq --version >/dev/null 2>&1
+	which jq >/dev/null 2>&1
 	if [[ $? -ne 0 ]]; then
 		echo -e "\e[31m  - jq is not installed or not found in PATH.\e[0m" >&2
 		exit_code=1
@@ -109,7 +109,7 @@ if [[ "$env" == "local" ]]; then
 	fi
 fi
 
-docker --version >/dev/null 2>&1
+which docker >/dev/null 2>&1
 if [[ $? -ne 0 ]]; then
 	echo -e "\e[31m  - Docker is not installed, not found in PATH, or not running.\e[0m" >&2
 	exit_code=1
@@ -141,7 +141,7 @@ else
 	echo -e "\e[32m  - Lefthook installed.\e[0m"
 fi
 
-zizmor --version >/dev/null 2>&1
+which zizmor >/dev/null 2>&1
 if [[ $? -ne 0 ]]; then
 	echo -e "\e[31m  - Zizmor is not installed or not found in PATH.\e[0m" >&2
 	exit_code=1
@@ -154,7 +154,7 @@ fi
 
 echo -e "\e[90m\nChecking dedicated Backend tools...\n\e[0m"
 
-go version >/dev/null 2>&1
+which go >/dev/null 2>&1
 if [[ $? -ne 0 ]]; then
 	echo -e "\e[31m  - Go is not installed or not found in PATH.\e[0m" >&2
 	exit_code=1
@@ -162,7 +162,7 @@ else
 	echo -e "\e[32m  - Go installed.\e[0m"
 fi
 
-golangci-lint --version >/dev/null 2>&1
+which golangci-lint >/dev/null 2>&1
 if [[ $? -ne 0 ]]; then
 	echo -e "\e[33m  - Golangci-lint is not installed or not found in PATH.\e[0m" >&2
 	exit_code=1
