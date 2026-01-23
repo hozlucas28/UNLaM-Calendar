@@ -8,8 +8,6 @@ on:
   push:
     branches:
       - main
-    branches-ignore:
-      - hozlucas28/github-action/workflow-test
 
   pull_request:
     branches-ignore:
