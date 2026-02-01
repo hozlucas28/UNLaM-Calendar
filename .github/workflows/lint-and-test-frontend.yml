@@ -40,7 +40,7 @@ jobs:
       - name: Install Node.js
         uses: actions/setup-node@v6
         with:
-          node-version: 24 # Latest patch and minor of Node.js 24
+          node-version: 24 # Equivalent to the latest version of Node.js v24.x.x.
 
       - name: Install Bun
         uses: oven-sh/setup-bun@v2
@@ -85,7 +85,7 @@ jobs:
       - name: Install Node.js
         uses: actions/setup-node@v6
         with:
-          node-version: 24 # Latest patch and minor of Node.js 24
+          node-version: 24 # Equivalent to the latest version of Node.js v24.x.x.
 
       - name: Install Bun
         uses: oven-sh/setup-bun@v2
