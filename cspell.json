@@ -48,10 +48,10 @@
 		"zizmorcore"
 	],
 	"ignorePaths": [
-		"**/.devcontainer/devcontainer.json",
-		"**/.gitignore",
-		"**/.prettierignore",
-		"**/go.mod",
-		"**/go.sum"
+		".devcontainer/devcontainer.json",
+		"backend/go.mod",
+		"backend/go.sum",
+		".gitignore",
+		".prettierignore"
 	]
 }
