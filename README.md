@@ -59,7 +59,8 @@ UNLaM-Calendar/
 │   ├── CODEOWNERS                      # Archivo para asignar a los responsables de revisión de Pull Requests e Issues.
 │   ├── dependabot.yml                  # Configuración del Dependabot (actualizaciones automáticas de dependencias).
 │   ├── labeler.yml                     # Configuración de Labeler (asignación automática de etiquetas a Pull Requests).
-│   └── PULL_REQUEST_TEMPLATE.md        # Plantilla para Pull Requests.
+│   ├── PULL_REQUEST_TEMPLATE.md        # Plantilla para Pull Requests.
+│   └── renovate.json                   # Configuración de Renovate (actualizaciones automáticas de dependencias).
 │
 ├── .vscode/
 │   ├── github-local-actions-payloads/  # Payloads para probar GitHub Actions localmente.
