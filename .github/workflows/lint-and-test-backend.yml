@@ -52,7 +52,7 @@ jobs:
         with:
           args: --fix
           verify: false
-          version: latest
+          version: v2.8.0
           github-token: ${{ (steps.github-app-token.conclusion == 'skipped' && github.token) || steps.github-app-token.outputs.token }}
           only-new-issues: true
           working-directory: backend

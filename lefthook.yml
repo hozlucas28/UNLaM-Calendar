@@ -44,6 +44,11 @@ pre-commit:
           - name: " Scan for leaked secrets"
             run: gitleaks git --pre-commit --staged --verbose --no-color --no-banner
 
+          - name: " Lint Renovate file"
+            run: bunx --yes --package renovate -- renovate-config-validator {staged_files}
+            glob:
+              - ".github/renovate.json"
+
           - name: " Lint Dependabot file and GitHub Actions workflows"
             run: zizmor --persona=auditor --color=never {staged_files}
             glob:

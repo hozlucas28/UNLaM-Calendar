@@ -1,0 +1,278 @@
+{
+	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
+
+	"extends": [
+		":semanticCommits"
+	],
+	"enabledManagers": [
+		"custom.regex"
+	],
+	"baseBranchPatterns": [
+		"main"
+	],
+
+	"prBodyColumns": [
+		"Package",
+		"Change"
+	],
+	"prBodyTemplate": "{{{table}}}{{{changelogs}}}",
+	"labels": [
+		"bot"
+	],
+
+	"semanticCommitType": "ci",
+	"semanticCommitScope": "dependency",
+	"commitMessageAction": "bump",
+	"commitMessageTopic": "{{packageName}}",
+	"commitMessageExtra": "from {{currentVersion}} to {{newVersion}}",
+
+	"packageRules": [
+		{
+			"groupName": "bun",
+			"additionalBranchPrefix": "bun/main/",
+			"addLabels": [
+				"devcontainer",
+				"github actions",
+				"documentation"
+			],
+			"extractVersion": "^bun-v(?<version>\\d+\\.\\d+\\.\\d+)$",
+			"matchDatasources": [
+				"github-releases"
+			],
+			"matchPackageNames": [
+				"oven-sh/bun"
+			],
+			"prConcurrentLimit": 4,
+			"minimumReleaseAge": "7 days",
+			"schedule": [
+				"after 8am and before 9am"
+			],
+			"timezone": "America/Argentina/Buenos_Aires"
+		},
+		{
+			"groupName": "golangci-lint",
+			"additionalBranchPrefix": "golangci-lint/main/",
+			"addLabels": [
+				"devcontainer",
+				"github actions",
+				"documentation"
+			],
+			"extractVersion": "^v(?<version>\\d+\\.\\d+\\.\\d+)$",
+			"matchDatasources": [
+				"github-releases"
+			],
+			"matchPackageNames": [
+				"golangci/golangci-lint"
+			],
+			"prConcurrentLimit": 4,
+			"minimumReleaseAge": "7 days",
+			"schedule": [
+				"after 8am and before 9am"
+			],
+			"timezone": "America/Argentina/Buenos_Aires"
+		},
+		{
+			"groupName": "gitleaks",
+			"additionalBranchPrefix": "gitleaks/main/",
+			"addLabels": [
+				"devcontainer",
+				"github actions",
+				"documentation"
+			],
+			"extractVersion": "^v(?<version>\\d+\\.\\d+\\.\\d+)$",
+			"matchDatasources": [
+				"github-releases"
+			],
+			"matchPackageNames": [
+				"gitleaks/gitleaks"
+			],
+			"prConcurrentLimit": 4,
+			"minimumReleaseAge": "7 days",
+			"schedule": [
+				"after 8am and before 9am"
+			],
+			"timezone": "America/Argentina/Buenos_Aires"
+		},
+		{
+			"groupName": "zizmor",
+			"additionalBranchPrefix": "zizmor/main/",
+			"addLabels": [
+				"devcontainer",
+				"github actions",
+				"documentation"
+			],
+			"extractVersion": "^v(?<version>\\d+\\.\\d+\\.\\d+)$",
+			"matchDatasources": [
+				"github-releases"
+			],
+			"matchPackageNames": [
+				"zizmorcore/zizmor"
+			],
+			"prConcurrentLimit": 4,
+			"minimumReleaseAge": "7 days",
+			"schedule": [
+				"after 8am and before 9am"
+			],
+			"timezone": "America/Argentina/Buenos_Aires"
+		}
+	],
+
+	"customManagers": [
+		{
+			"customType": "regex",
+			"depNameTemplate": "bun",
+			"datasourceTemplate": "github-releases",
+			"packageNameTemplate": "oven-sh/bun",
+			"matchStrings": [
+				"\"ghcr\\.io\\/devcontainers-extra\\/features\\/bun:\\d+\":\\s*\\{[\\s\\S]*?\"version\":\\s*\"(?<currentValue>\\d+\\.\\d+\\.\\d+)\""
+			],
+			"managerFilePatterns": [
+				"^\\.devcontainer\\/devcontainer\\.json$"
+			]
+		},
+		{
+			"customType": "regex",
+			"depNameTemplate": "golangci-lint",
+			"datasourceTemplate": "github-releases",
+			"packageNameTemplate": "golangci/golangci-lint",
+			"matchStrings": [
+				"\"ghcr\\.io\\/guiyomh\\/features\\/golangci-lint:\\d+\":\\s*\\{[\\s\\S]*?\"version\":\\s*\"(?<currentValue>\\d+\\.\\d+\\.\\d+)\""
+			],
+			"managerFilePatterns": [
+				"^\\.devcontainer\\/devcontainer\\.json$"
+			]
+		},
+		{
+			"customType": "regex",
+			"depNameTemplate": "gitleaks",
+			"datasourceTemplate": "github-releases",
+			"packageNameTemplate": "gitleaks/gitleaks",
+			"matchStrings": [
+				"\"ghcr\\.io\\/jsburckhardt\\/devcontainer-features\\/gitleaks:\\d+\":\\s*\\{[\\s\\S]*?\"version\":\\s*\"v(?<currentValue>\\d+\\.\\d+\\.\\d+)\""
+			],
+			"managerFilePatterns": [
+				"^\\.devcontainer\\/devcontainer\\.json$"
+			]
+		},
+		{
+			"customType": "regex",
+			"depNameTemplate": "zizmor",
+			"datasourceTemplate": "github-releases",
+			"packageNameTemplate": "zizmorcore/zizmor",
+			"matchStrings": [
+				"ghcr\\.io\\/zizmorcore\\/zizmor:(?<currentValue>\\d+\\.\\d+\\.\\d+)"
+			],
+			"managerFilePatterns": [
+				"^\\.devcontainer\\/setup-tools\\.sh$"
+			]
+		},
+		{
+			"customType": "regex",
+			"depNameTemplate": "bun",
+			"datasourceTemplate": "github-releases",
+			"packageNameTemplate": "oven-sh/bun",
+			"matchStrings": [
+				"bun-version:\\s*(?<currentValue>\\d+\\.\\d+\\.\\d+)"
+			],
+			"managerFilePatterns": [
+				"^\\.github\\/workflows\\/.*\\.ya?ml$"
+			]
+		},
+		{
+			"customType": "regex",
+			"depNameTemplate": "golangci-lint",
+			"datasourceTemplate": "github-releases",
+			"packageNameTemplate": "golangci/golangci-lint",
+			"matchStrings": [
+				"golangci\\/golangci-lint-action@[\\d\\D]+[\\s\\S]*?version:\\s*v(?<currentValue>\\d+\\.\\d+\\.\\d+)"
+			],
+			"managerFilePatterns": [
+				"^\\.github\\/workflows\\/.*\\.ya?ml$"
+			]
+		},
+		{
+			"customType": "regex",
+			"depNameTemplate": "gitleaks",
+			"datasourceTemplate": "github-releases",
+			"packageNameTemplate": "gitleaks/gitleaks",
+			"matchStrings": [
+				"GITLEAKS_VERSION:\\s*(?<currentValue>\\d+\\.\\d+\\.\\d+)"
+			],
+			"managerFilePatterns": [
+				"^\\.github\\/workflows\\/.*\\.ya?ml$"
+			]
+		},
+		{
+			"customType": "regex",
+			"depNameTemplate": "zizmor",
+			"datasourceTemplate": "github-releases",
+			"packageNameTemplate": "zizmorcore/zizmor",
+			"matchStrings": [
+				"zizmorcore\\/zizmor-action@[\\d\\D]+[\\s\\S]*?version:\\s*v(?<currentValue>\\d+\\.\\d+\\.\\d+)"
+			],
+			"managerFilePatterns": [
+				"^\\.github\\/workflows\\/.*\\.ya?ml$"
+			]
+		},
+		{
+			"customType": "regex",
+			"depNameTemplate": "gitleaks",
+			"datasourceTemplate": "github-releases",
+			"packageNameTemplate": "gitleaks/gitleaks",
+			"matchStrings": [
+				"minVersion\\s*=\\s*\"v(?<currentValue>\\d+\\.\\d+\\.\\d+)\""
+			],
+			"managerFilePatterns": [
+				"^\\.gitleaks\\.toml$"
+			]
+		},
+		{
+			"customType": "regex",
+			"depNameTemplate": "bun",
+			"datasourceTemplate": "github-releases",
+			"packageNameTemplate": "oven-sh/bun",
+			"matchStrings": [
+				"\\[Bun\\]\\([^)]+\\)\\s*\\(v(?<currentValue>\\d+\\.\\d+\\.\\d+)\\)"
+			],
+			"managerFilePatterns": [
+				"^CONTRIBUTING\\.md$"
+			]
+		},
+		{
+			"customType": "regex",
+			"depNameTemplate": "golangci-lint",
+			"datasourceTemplate": "github-releases",
+			"packageNameTemplate": "golangci/golangci-lint",
+			"matchStrings": [
+				"\\[Golangci-lint\\]\\([^)]+\\)\\s*\\(v(?<currentValue>\\d+\\.\\d+\\.\\d+)\\)"
+			],
+			"managerFilePatterns": [
+				"^CONTRIBUTING\\.md$"
+			]
+		},
+		{
+			"customType": "regex",
+			"depNameTemplate": "gitleaks",
+			"datasourceTemplate": "github-releases",
+			"packageNameTemplate": "gitleaks/gitleaks",
+			"matchStrings": [
+				"\\[Gitleaks\\]\\([^)]+\\)\\s*\\(v(?<currentValue>\\d+\\.\\d+\\.\\d+)\\)"
+			],
+			"managerFilePatterns": [
+				"^CONTRIBUTING\\.md$"
+			]
+		},
+		{
+			"customType": "regex",
+			"depNameTemplate": "zizmor",
+			"datasourceTemplate": "github-releases",
+			"packageNameTemplate": "zizmorcore/zizmor",
+			"matchStrings": [
+				"\\[Zizmor\\]\\([^)]+\\)\\s*\\(v(?<currentValue>\\d+\\.\\d+\\.\\d+)\\)"
+			],
+			"managerFilePatterns": [
+				"^CONTRIBUTING\\.md$"
+			]
+		}
+	]
+}
