@@ -43,10 +43,7 @@
 				"oven-sh/bun"
 			],
 			"prConcurrentLimit": 4,
-			"minimumReleaseAge": "7 days",
-			"schedule": [
-				"after 8am and before 9am"
-			],
+			"minimumReleaseAge": "1 days",
 			"timezone": "America/Argentina/Buenos_Aires"
 		},
 		{
@@ -65,10 +62,7 @@
 				"golangci/golangci-lint"
 			],
 			"prConcurrentLimit": 4,
-			"minimumReleaseAge": "7 days",
-			"schedule": [
-				"after 8am and before 9am"
-			],
+			"minimumReleaseAge": "1 days",
 			"timezone": "America/Argentina/Buenos_Aires"
 		},
 		{
@@ -87,10 +81,7 @@
 				"gitleaks/gitleaks"
 			],
 			"prConcurrentLimit": 4,
-			"minimumReleaseAge": "7 days",
-			"schedule": [
-				"after 8am and before 9am"
-			],
+			"minimumReleaseAge": "1 days",
 			"timezone": "America/Argentina/Buenos_Aires"
 		},
 		{
@@ -109,10 +100,7 @@
 				"zizmorcore/zizmor"
 			],
 			"prConcurrentLimit": 4,
-			"minimumReleaseAge": "7 days",
-			"schedule": [
-				"after 8am and before 9am"
-			],
+			"minimumReleaseAge": "1 days",
 			"timezone": "America/Argentina/Buenos_Aires"
 		}
 	],
