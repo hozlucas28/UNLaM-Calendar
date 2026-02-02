@@ -133,7 +133,7 @@
 				"\"ghcr\\.io\\/devcontainers-extra\\/features\\/bun:\\d+\":\\s*\\{[\\s\\S]*?\"version\":\\s*\"(?<currentValue>\\d+\\.\\d+\\.\\d+)\""
 			],
 			"managerFilePatterns": [
-				"^\\.devcontainer\\/devcontainer\\.json$"
+				"/^\\.devcontainer\\/devcontainer\\.json$/"
 			]
 		},
 		{
@@ -145,7 +145,7 @@
 				"\"ghcr\\.io\\/guiyomh\\/features\\/golangci-lint:\\d+\":\\s*\\{[\\s\\S]*?\"version\":\\s*\"(?<currentValue>\\d+\\.\\d+\\.\\d+)\""
 			],
 			"managerFilePatterns": [
-				"^\\.devcontainer\\/devcontainer\\.json$"
+				"/^\\.devcontainer\\/devcontainer\\.json$/"
 			]
 		},
 		{
@@ -157,7 +157,7 @@
 				"\"ghcr\\.io\\/jsburckhardt\\/devcontainer-features\\/gitleaks:\\d+\":\\s*\\{[\\s\\S]*?\"version\":\\s*\"v(?<currentValue>\\d+\\.\\d+\\.\\d+)\""
 			],
 			"managerFilePatterns": [
-				"^\\.devcontainer\\/devcontainer\\.json$"
+				"/^\\.devcontainer\\/devcontainer\\.json$/"
 			]
 		},
 		{
@@ -169,7 +169,7 @@
 				"ghcr\\.io\\/zizmorcore\\/zizmor:(?<currentValue>\\d+\\.\\d+\\.\\d+)"
 			],
 			"managerFilePatterns": [
-				"^\\.devcontainer\\/setup-tools\\.sh$"
+				"/^\\.devcontainer\\/setup-tools\\.sh$/"
 			]
 		},
 		{
@@ -181,7 +181,7 @@
 				"bun-version:\\s*(?<currentValue>\\d+\\.\\d+\\.\\d+)"
 			],
 			"managerFilePatterns": [
-				"^\\.github\\/workflows\\/.*\\.ya?ml$"
+				"/^\\.github\\/workflows\\/.*\\.ya?ml$/"
 			]
 		},
 		{
@@ -193,7 +193,7 @@
 				"golangci\\/golangci-lint-action@[\\d\\D]+[\\s\\S]*?version:\\s*v(?<currentValue>\\d+\\.\\d+\\.\\d+)"
 			],
 			"managerFilePatterns": [
-				"^\\.github\\/workflows\\/.*\\.ya?ml$"
+				"/^\\.github\\/workflows\\/.*\\.ya?ml$/"
 			]
 		},
 		{
@@ -205,7 +205,7 @@
 				"GITLEAKS_VERSION:\\s*(?<currentValue>\\d+\\.\\d+\\.\\d+)"
 			],
 			"managerFilePatterns": [
-				"^\\.github\\/workflows\\/.*\\.ya?ml$"
+				"/^\\.github\\/workflows\\/.*\\.ya?ml$/"
 			]
 		},
 		{
@@ -217,7 +217,7 @@
 				"zizmorcore\\/zizmor-action@[\\d\\D]+[\\s\\S]*?version:\\s*v(?<currentValue>\\d+\\.\\d+\\.\\d+)"
 			],
 			"managerFilePatterns": [
-				"^\\.github\\/workflows\\/.*\\.ya?ml$"
+				"/^\\.github\\/workflows\\/.*\\.ya?ml$/"
 			]
 		},
 		{
@@ -229,7 +229,7 @@
 				"minVersion\\s*=\\s*\"v(?<currentValue>\\d+\\.\\d+\\.\\d+)\""
 			],
 			"managerFilePatterns": [
-				"^\\.gitleaks\\.toml$"
+				"/^\\.gitleaks\\.toml$/"
 			]
 		},
 		{
@@ -241,7 +241,7 @@
 				"\\[Bun\\]\\([^)]+\\)\\s*\\(v(?<currentValue>\\d+\\.\\d+\\.\\d+)\\)"
 			],
 			"managerFilePatterns": [
-				"^CONTRIBUTING\\.md$"
+				"/^CONTRIBUTING\\.md$/"
 			]
 		},
 		{
@@ -253,7 +253,7 @@
 				"\\[Golangci-lint\\]\\([^)]+\\)\\s*\\(v(?<currentValue>\\d+\\.\\d+\\.\\d+)\\)"
 			],
 			"managerFilePatterns": [
-				"^CONTRIBUTING\\.md$"
+				"/^CONTRIBUTING\\.md$/"
 			]
 		},
 		{
@@ -265,7 +265,7 @@
 				"\\[Gitleaks\\]\\([^)]+\\)\\s*\\(v(?<currentValue>\\d+\\.\\d+\\.\\d+)\\)"
 			],
 			"managerFilePatterns": [
-				"^CONTRIBUTING\\.md$"
+				"/^CONTRIBUTING\\.md$/"
 			]
 		},
 		{
@@ -277,7 +277,7 @@
 				"\\[Zizmor\\]\\([^)]+\\)\\s*\\(v(?<currentValue>\\d+\\.\\d+\\.\\d+)\\)"
 			],
 			"managerFilePatterns": [
-				"^CONTRIBUTING\\.md$"
+				"/^CONTRIBUTING\\.md$/"
 			]
 		}
 	]
