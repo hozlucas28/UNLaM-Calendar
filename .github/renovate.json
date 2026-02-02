@@ -44,6 +44,9 @@
 			],
 			"prConcurrentLimit": 4,
 			"minimumReleaseAge": "1 days",
+			"schedule": [
+				"after 4pm and before 5pm"
+			],
 			"timezone": "America/Argentina/Buenos_Aires"
 		},
 		{
@@ -63,6 +66,9 @@
 			],
 			"prConcurrentLimit": 4,
 			"minimumReleaseAge": "1 days",
+			"schedule": [
+				"after 4pm and before 5pm"
+			],
 			"timezone": "America/Argentina/Buenos_Aires"
 		},
 		{
@@ -82,6 +88,9 @@
 			],
 			"prConcurrentLimit": 4,
 			"minimumReleaseAge": "1 days",
+			"schedule": [
+				"after 4pm and before 5pm"
+			],
 			"timezone": "America/Argentina/Buenos_Aires"
 		},
 		{
@@ -101,6 +110,9 @@
 			],
 			"prConcurrentLimit": 4,
 			"minimumReleaseAge": "1 days",
+			"schedule": [
+				"after 4pm and before 5pm"
+			],
 			"timezone": "America/Argentina/Buenos_Aires"
 		}
 	],
