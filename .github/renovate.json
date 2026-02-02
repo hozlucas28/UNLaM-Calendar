@@ -11,6 +11,12 @@
 		"main"
 	],
 
+	"dependencyDashboard": true,
+	"dependencyDashboardTitle": "Dependency dashboard",
+	"dependencyDashboardLabels": [
+		"bot"
+	],
+
 	"prBodyColumns": [
 		"Package",
 		"Change"
