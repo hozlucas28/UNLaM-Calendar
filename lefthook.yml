@@ -45,7 +45,7 @@ pre-commit:
             run: gitleaks git --pre-commit --staged --verbose --no-color --no-banner
 
           - name: " Lint Renovate file"
-            run: bunx --yes --package renovate -- renovate-config-validator {staged_files}
+            run: renovate-config-validator {staged_files}
             glob:
               - ".github/renovate.json"
 

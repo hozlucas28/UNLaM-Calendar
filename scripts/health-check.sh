@@ -84,6 +84,13 @@ else
 	exit_code=1
 fi
 
+if command -v renovate >/dev/null 2>&1; then
+	echo -e "\e[32m  - Renovate $(command_version act --version) installed.\e[0m"
+else
+	echo -e "\e[31m  - Renovate is not installed or not found in PATH.\e[0m" >&2
+	exit_code=1
+fi
+
 if command -v act >/dev/null 2>&1; then
 	echo -e "\e[32m  - act $(command_version act --version) installed.\e[0m"
 else

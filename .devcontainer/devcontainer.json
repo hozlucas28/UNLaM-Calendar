@@ -15,6 +15,9 @@
 		"ghcr.io/jsburckhardt/devcontainer-features/gitleaks:1": {
 			"version": "v8.30.0"
 		},
+		"ghcr.io/devcontainers-extra/features/renovate-cli:2": {
+			"version": "latest" // Necessary to match with Renovate GitHub Application.
+		},
 		"ghcr.io/devcontainers-extra/features/act:1": {
 			"version": "latest" // Necessary for GitHub Local Actions extension.
 		},
