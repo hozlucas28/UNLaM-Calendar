@@ -17,11 +17,8 @@
 		"bot"
 	],
 
-	"prBodyColumns": [
-		"Package",
-		"Change"
-	],
-	"prBodyTemplate": "{{{table}}}{{{changelogs}}}",
+	"branchTopic": "{{{groupName}}}/{{{baseBranch}}}/{{{packageName}}}",
+	"prBodyTemplate": "{{{changelogs}}}",
 	"labels": [
 		"bot"
 	],
@@ -31,11 +28,17 @@
 	"commitMessageAction": "bump",
 	"commitMessageTopic": "{{packageName}}",
 	"commitMessageExtra": "from {{currentVersion}} to {{newVersion}}",
+	"commitBody": "- [Release notes]({{{url}}})",
+
+	"minimumReleaseAge": "3 days",
+	"schedule": [
+		"after 8am and before 9am"
+	],
+	"timezone": "America/Argentina/Buenos_Aires",
 
 	"packageRules": [
 		{
 			"groupName": "bun",
-			"additionalBranchPrefix": "bun/main/",
 			"addLabels": [
 				"devcontainer",
 				"github actions",
@@ -47,17 +50,10 @@
 			],
 			"matchPackageNames": [
 				"oven-sh/bun"
-			],
-			"prConcurrentLimit": 4,
-			"minimumReleaseAge": "1 days",
-			"schedule": [
-				"after 4pm and before 5pm"
-			],
-			"timezone": "America/Argentina/Buenos_Aires"
+			]
 		},
 		{
 			"groupName": "golangci-lint",
-			"additionalBranchPrefix": "golangci-lint/main/",
 			"addLabels": [
 				"devcontainer",
 				"github actions",
@@ -69,17 +65,10 @@
 			],
 			"matchPackageNames": [
 				"golangci/golangci-lint"
-			],
-			"prConcurrentLimit": 4,
-			"minimumReleaseAge": "1 days",
-			"schedule": [
-				"after 4pm and before 5pm"
-			],
-			"timezone": "America/Argentina/Buenos_Aires"
+			]
 		},
 		{
 			"groupName": "gitleaks",
-			"additionalBranchPrefix": "gitleaks/main/",
 			"addLabels": [
 				"devcontainer",
 				"github actions",
@@ -91,17 +80,10 @@
 			],
 			"matchPackageNames": [
 				"gitleaks/gitleaks"
-			],
-			"prConcurrentLimit": 4,
-			"minimumReleaseAge": "1 days",
-			"schedule": [
-				"after 4pm and before 5pm"
-			],
-			"timezone": "America/Argentina/Buenos_Aires"
+			]
 		},
 		{
 			"groupName": "zizmor",
-			"additionalBranchPrefix": "zizmor/main/",
 			"addLabels": [
 				"devcontainer",
 				"github actions",
@@ -113,13 +95,7 @@
 			],
 			"matchPackageNames": [
 				"zizmorcore/zizmor"
-			],
-			"prConcurrentLimit": 4,
-			"minimumReleaseAge": "1 days",
-			"schedule": [
-				"after 4pm and before 5pm"
-			],
-			"timezone": "America/Argentina/Buenos_Aires"
+			]
 		}
 	],
 
