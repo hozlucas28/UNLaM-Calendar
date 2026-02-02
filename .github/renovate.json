@@ -10,6 +10,15 @@
 	"baseBranchPatterns": [
 		"main"
 	],
+	"minimumReleaseAge": "7 days",
+	"schedule": [
+		"after 8am and before 9am"
+	],
+	"timezone": "America/Argentina/Buenos_Aires",
+
+	"minor": {
+		"minimumReleaseAge": "3 days"
+	},
 
 	"dependencyDashboard": true,
 	"dependencyDashboardTitle": "Dependency dashboard",
@@ -29,12 +38,6 @@
 	"commitMessageTopic": "{{packageName}}",
 	"commitMessageExtra": "from {{currentVersion}} to {{newVersion}}",
 	"commitBody": "- [Release notes]({{{url}}})",
-
-	"minimumReleaseAge": "3 days",
-	"schedule": [
-		"after 8am and before 9am"
-	],
-	"timezone": "America/Argentina/Buenos_Aires",
 
 	"packageRules": [
 		{
