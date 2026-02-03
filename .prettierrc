@@ -1,6 +1,6 @@
 {
-	"endOfLine": "lf",
 	"useTabs": true,
+	"endOfLine": "lf",
 	"tabWidth": 4,
 	"printWidth": 120,
 	"semi": false,
@@ -15,7 +15,9 @@
 	"trailingComma": "none",
 	"htmlWhitespaceSensitivity": "ignore",
 	"embeddedLanguageFormatting": "auto",
-	"plugins": ["prettier-plugin-astro"],
+	"plugins": [
+		"prettier-plugin-astro"
+	],
 	"overrides": [
 		{
 			"files": [
@@ -27,8 +29,7 @@
 		},
 		{
 			"files": [
-				"*.{yml,yaml}",
-				"*.mermaid"
+				"*.yml"
 			],
 			"options": {
 				"useTabs": false,
