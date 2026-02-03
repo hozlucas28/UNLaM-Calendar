@@ -43,7 +43,6 @@ updates:
       - github actions
     cooldown:
       default-days: 7
-      semver-patch-days: 3
     schedule:
       interval: cron
       cronjob: 0 8 * * * # Every day at 08:00
@@ -59,7 +58,6 @@ updates:
     target-branch: main
     cooldown:
       default-days: 7
-      semver-patch-days: 3
     schedule:
       interval: cron
       cronjob: 0 8 * * * # Every day at 08:00
