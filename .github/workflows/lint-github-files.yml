@@ -10,10 +10,7 @@ on:
   pull_request:
     paths:
       - .github/dependabot.yml
-      - .github/workflows/**/*
       - zizmor.yml
-    branches-ignore:
-      - hozlucas28/github-action/workflow-test
 
 jobs:
   lint-dependabot-and-workflows:

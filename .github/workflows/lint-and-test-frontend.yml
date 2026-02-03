@@ -7,8 +7,6 @@ on:
   pull_request:
     paths:
       - frontend/**/*
-    branches-ignore:
-      - hozlucas28/github-action/workflow-test
 
 jobs:
   lint-changed-files:

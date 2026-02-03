@@ -8,8 +8,6 @@ on:
     types:
       - opened
       - synchronize
-    branches-ignore:
-      - hozlucas28/github-action/workflow-test
 
 jobs:
   label:
