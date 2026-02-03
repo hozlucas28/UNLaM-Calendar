@@ -4,11 +4,12 @@ description: Lints Dependabot file and GitHub Actions workflows when a pull requ
 permissions: {}
 
 on:
-  schedule:
+  schedule: # To find new issues when Zizmor version is updated by Renovate
     - cron: 0 8 1 * *
 
   pull_request:
     paths:
+      - .github/workflows/**/*
       - .github/dependabot.yml
       - zizmor.yml
 
@@ -26,8 +27,8 @@ jobs:
         with:
           ref: ${{ (github.event_name == 'pull_request' && github.event.pull_request.head.ref) || '' }}
           sparse-checkout: |
-            .github/dependabot.yml
             .github/workflows
+            .github/dependabot.yml
             zizmor.yml
           persist-credentials: false
           sparse-checkout-cone-mode: false
