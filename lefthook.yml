@@ -1,56 +1,41 @@
----
 assert_lefthook_installed: true
 
 pre-commit:
+  parallel: true
+
   jobs:
-    - name: " Lint, format, and apply fixes"
-      group:
-        parallel: true
-        jobs:
-          - name: " Format with Prettier"
-            run: bun run prettier --write --ignore-unknown --no-color --no-error-on-unmatched-pattern {staged_files}
-            glob:
-              - "*.astro"
-              - "*.{yml,yaml}"
-              - "*.md"
-              - "*.mermaid"
-            stage_fixed: true
+    - name: " Format with prettier"
+      run: bun run prettier --write --ignore-unknown --no-color --no-error-on-unmatched-pattern {staged_files}
+      glob:
+        - "*.astro"
+        - "*.yml"
+        - "*.md"
+      stage_fixed: true
 
-          - name: " Lint and format with Biome"
-            run: |
-              for stagedFile in {staged_files}; do
-                echo "$stagedFile"
-              done
-              echo ''
-              bun run --bun biome check --write --staged --colors=off --no-errors-on-unmatched
-            glob:
-              - "*.html"
-              - "*.css"
-              - "*.{js,jsx}"
-              - "*.{ts,tsx}"
-              - "*.json"
-            stage_fixed: true
+    - name: " Lint and format with Biome"
+      run: bun run --bun biome check --write --staged --colors=off --no-errors-on-unmatched
+      glob:
+        - "*.html"
+        - "*.css"
+        - "*.{js,jsx}"
+        - "*.{ts,tsx}"
+        - "*.json"
+      stage_fixed: true
 
-          - name: " Lint and format Golang files"
-            run: golangci-lint run --fix --color=never {staged_files}
-            root: "backend/"
-            glob: "backend/*.go"
-            stage_fixed: true
+    - name: " Lint and format Golang files applying safe fixes"
+      run: golangci-lint run --fix --color=never {staged_files}
+      glob: "*.go"
+      stage_fixed: true
 
-    - name: " Lint"
-      group:
-        parallel: true
-        jobs:
-          - name: " Scan for leaked secrets"
-            run: gitleaks git --pre-commit --staged --verbose --no-color --no-banner
+    - name: " Lint Renovate file"
+      run: renovate-config-validator {staged_files}
+      glob: .github/renovate.json
 
-          - name: " Lint Renovate file"
-            run: renovate-config-validator {staged_files}
-            glob:
-              - ".github/renovate.json"
+    - name: " Lint Dependabot file and GitHub Actions workflows"
+      run: zizmor --persona=auditor --color=never {staged_files}
+      glob:
+        - .github/workflows/*.yml
+        - .github/dependabot.yml
 
-          - name: " Lint Dependabot file and GitHub Actions workflows"
-            run: zizmor --persona=auditor --color=never {staged_files}
-            glob:
-              - ".github/dependabot.{yml,yaml}"
-              - ".github/workflows/*.{yml,yaml}"
+    - name: " Scan for leaked secrets"
+      run: gitleaks git --pre-commit --staged --verbose --no-color --no-banner
