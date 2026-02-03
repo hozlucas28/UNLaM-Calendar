@@ -16,7 +16,7 @@ jobs:
     name: Label pull request
     runs-on: ubuntu-latest
 
-    if: ${{ !startsWith(github.event.pull_request.head.ref, 'dependabot/') && github.repository == 'hozlucas28/UNLaM-Calendar' }}
+    if: ${{ !startsWith(github.event.pull_request.head.ref, 'dependabot/') && !startsWith(github.event.pull_request.head.ref, 'renovate/') && github.repository == 'hozlucas28/UNLaM-Calendar' }}
 
     permissions:
       contents: read # To checkout the repository
