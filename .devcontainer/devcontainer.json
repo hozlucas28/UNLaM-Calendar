@@ -68,10 +68,10 @@
 				"telemetry.feedback.enabled": false,
 				"files.exclude": {
 					"**/.DS_Store": true,
-					"**/.git": true,
-					"**/.hg": false,
-					"**/.svn": false,
-					"**/Thumbs.db": false,
+					"**/.git": false,
+					"**/.hg": true,
+					"**/.svn": true,
+					"**/Thumbs.db": true,
 					"bun.lock": true,
 					"node_modules": true,
 					"package.json": true
