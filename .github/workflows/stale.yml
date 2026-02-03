@@ -4,7 +4,7 @@ description: Stales pull requests and issues after a period of inactivity.
 permissions: {}
 
 on:
-  schedule:
+  schedule: # To ensure stale process runs regularly
     - cron: 0 8 * * *
 
 jobs:

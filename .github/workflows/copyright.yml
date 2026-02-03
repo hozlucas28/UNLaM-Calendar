@@ -4,7 +4,7 @@ description: Updates license copyright year annually.
 permissions: {}
 
 on:
-  schedule:
+  schedule: # To update license copyright year annually on January 1st
     - cron: 0 0 1 1 *
 
 jobs:
