@@ -1,4 +1,3 @@
----
 name: Format
 run-name: Format files
 description: Formats files on push to main branch.

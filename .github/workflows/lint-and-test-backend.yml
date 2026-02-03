@@ -1,4 +1,3 @@
----
 name: Lint and Test Backend
 run-name: Lint and test Backend
 description: Lints Backend changed files (applying safe fixes) and tests it when a pull request is opened, reopened or synchronized.

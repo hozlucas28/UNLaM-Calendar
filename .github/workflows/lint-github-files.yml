@@ -1,4 +1,3 @@
----
 name: Lint Dependabot File and GitHub Actions
 run-name: Lint Dependabot file and GitHub Actions workflows
 description: Lints Dependabot file and GitHub Actions workflows when a pull request is opened, reopened or synchronized.

@@ -1,4 +1,3 @@
----
 name: Label
 run-name: Label
 description: Labels pull request based on changed files when it is opened, reopened, or synchronized.

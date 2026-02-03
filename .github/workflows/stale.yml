@@ -1,4 +1,3 @@
----
 name: Stale
 run-name: Stale pull requests and issues
 description: Stales pull requests and issues after a period of inactivity.
