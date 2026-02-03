@@ -61,7 +61,7 @@ jobs:
         with:
           skip_push: ${{ env.ACT == 'true' }}
           file_pattern: backend/**/*
-          commit_message: "ci(backend): apply safe fixes"
+          commit_message: "fix(backend): apply Golangci-lint safe fixes"
           commit_user_name: github-actions[bot]
           commit_user_email: github-actions[bot]@users.noreply.github.com
 

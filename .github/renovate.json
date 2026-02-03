@@ -32,8 +32,8 @@
 		"bot"
 	],
 
-	"semanticCommitType": "ci",
-	"semanticCommitScope": "dependency",
+	"semanticCommitType": "chore",
+	"semanticCommitScope": "deps",
 	"commitMessageAction": "bump",
 	"commitMessageTopic": "{{packageName}}",
 	"commitMessageExtra": "from {{currentVersion}} to {{newVersion}}",

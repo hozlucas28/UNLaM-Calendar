@@ -59,7 +59,7 @@ jobs:
         with:
           skip_push: ${{ env.ACT == 'true' }}
           file_pattern: frontend/**/*
-          commit_message: "ci(frontend): apply safe fixes"
+          commit_message: "fix(frontend): apply Biome safe fixes"
           commit_user_name: github-actions[bot]
           commit_user_email: github-actions[bot]@users.noreply.github.com
 

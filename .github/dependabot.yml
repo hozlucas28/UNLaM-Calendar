@@ -5,7 +5,7 @@ updates:
     directory: frontend
     target-branch: main
     commit-message:
-      prefix: ci(frontend)
+      prefix: chore(frontend)
     labels:
       - "bot"
       - "frontend dependencies"
@@ -21,7 +21,7 @@ updates:
     directory: backend
     target-branch: main
     commit-message:
-      prefix: ci(backend)
+      prefix: chore(backend)
     labels:
       - "bot"
       - "backend dependencies"
@@ -37,7 +37,7 @@ updates:
     directory: /
     target-branch: main
     commit-message:
-      prefix: ci(workflow)
+      prefix: ci(github actions)
     labels:
       - "bot"
       - "github actions"
@@ -52,7 +52,7 @@ updates:
   - package-ecosystem: devcontainers
     directory: /
     commit-message:
-      prefix: ci(devcontainer)
+      prefix: chore(devcontainer)
     labels:
       - "bot"
       - "devcontainer"
