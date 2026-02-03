@@ -40,10 +40,6 @@ jobs:
           version: v1.22.0
           advanced-security: ${{ env.ACT != 'true' }}
 
-env:
-  CI: true
-  LEFTHOOK: 0
-
 concurrency:
   group: lint-github-files_${{ github.event.pull_request.number }}
   cancel-in-progress: true

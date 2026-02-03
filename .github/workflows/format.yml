@@ -75,10 +75,6 @@ jobs:
           commit_user_name: github-actions[bot]
           commit_user_email: github-actions[bot]@users.noreply.github.com
 
-env:
-  CI: true
-  LEFTHOOK: 0
-
 concurrency:
   group: format
   cancel-in-progress: true

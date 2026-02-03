@@ -97,10 +97,6 @@ jobs:
         run: bun test
         working-directory: frontend
 
-env:
-  CI: true
-  LEFTHOOK: 0
-
 concurrency:
   group: lint-and-test-frontend_${{ github.event.pull_request.number }}
   cancel-in-progress: true
