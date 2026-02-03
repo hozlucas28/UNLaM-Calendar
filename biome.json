@@ -1,6 +1,12 @@
 {
 	"$schema": "node_modules/@biomejs/biome/configuration_schema.json",
 	"root": true,
+	"vcs": {
+		"enabled": true,
+		"clientKind": "git",
+		"useIgnoreFile": true,
+		"defaultBranch": "main"
+	},
 	"files": {
 		"ignoreUnknown": true,
 		"includes": [
@@ -10,12 +16,6 @@
 			"**/*.{ts,tsx}",
 			"**/*.json"
 		]
-	},
-	"vcs": {
-		"enabled": true,
-		"clientKind": "git",
-		"useIgnoreFile": true,
-		"defaultBranch": "main"
 	},
 	"assist": {
 		"enabled": true
@@ -28,8 +28,8 @@
 	},
 	"formatter": {
 		"enabled": true,
-		"lineEnding": "lf",
 		"lineWidth": 120,
+		"lineEnding": "lf",
 		"indentWidth": 4,
 		"indentStyle": "tab",
 		"bracketSpacing": true,
