@@ -1,9 +1,17 @@
 name: Lint Dependabot and GitHub Actions
 run-name: Lint Dependabot configuration file and GitHub Actions workflows
-description: Lints Dependabot configuration file and GitHub Actions workflows when a pull request is opened, reopened or synchronized.
+description: Lints Dependabot configuration file and GitHub Actions workflows when code is pushed to the main branch or a pull request is opened, reopened or synchronized.
 permissions: {}
 
 on:
+  push:
+    paths:
+      - .github/workflows/**/*
+      - .github/dependabot.yml
+      - zizmor.yml
+    branches:
+      - main
+
   schedule: # To find new issues when Zizmor version is updated by Renovate
     - cron: 0 8 1 * *
 

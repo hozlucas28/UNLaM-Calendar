@@ -1,12 +1,20 @@
 name: Lint and Test Frontend
 run-name: Lint and test Frontend
-description: Lints Frontend changed files (applying safe fixes) and tests it when a pull request is opened, reopened or synchronized.
+description: Lints Frontend changed files (applying safe fixes) and tests it when code is pushed to the main branch or a pull request is opened, reopened or synchronized.
 permissions: {}
 
 on:
+  push:
+    paths:
+      - frontend/**/*
+      - "!frontend/**/*.md"
+    branches:
+      - main
+
   pull_request:
     paths:
       - frontend/**/*
+      - "!frontend/**/*.md"
 
 jobs:
   lint-changed-files:

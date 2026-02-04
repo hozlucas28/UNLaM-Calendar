@@ -1,9 +1,15 @@
 name: Lint Renovate
 run-name: Lint Renovate configuration file
-description: Lints Renovate configuration file when a pull request is opened, reopened or synchronized.
+description: Lints Renovate configuration file when code is pushed to the main branch or a pull request is opened, reopened or synchronized.
 permissions: {}
 
 on:
+  push:
+    paths:
+      - .github/renovate.json
+    branches:
+      - main
+
   pull_request:
     paths:
       - .github/renovate.json
