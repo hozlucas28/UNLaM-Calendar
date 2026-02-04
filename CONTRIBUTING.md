@@ -61,7 +61,7 @@
 
 ¡Listo! El Fork del proyecto ya está instalado.
 
-> Asegúrate de que Go, Node.js, Bun, act, Gitleaks, GitHub CLI, jq, Docker Desktop y Zizmor hayan sido añadidos al PATH. Para verificarlo ejecuta `bash scripts/health-check.sh --env=local` en la terminal, no debería aparecer ningún error relacionado con estas herramientas.
+> Asegúrate de que Go, Node.js, Bun, Gitleaks, Renovate, act, GitHub CLI, Docker Desktop, Zizmor y jq hayan sido añadidos al PATH. Para verificarlo ejecuta `bash scripts/health-check.sh --env=local` en la terminal, no debería aparecer ningún error relacionado con estas herramientas.
 
 </details>
 
