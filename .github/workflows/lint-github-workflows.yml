@@ -41,5 +41,5 @@ jobs:
           advanced-security: ${{ env.ACT != 'true' }}
 
 concurrency:
-  group: lint-github-files_${{ github.event.pull_request.number }}
+  group: lint-github-workflows_${{ github.event.pull_request.number }}
   cancel-in-progress: true
