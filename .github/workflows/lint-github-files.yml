@@ -1,6 +1,6 @@
-name: Lint Dependabot File and GitHub Actions
-run-name: Lint Dependabot file and GitHub Actions workflows
-description: Lints Dependabot file and GitHub Actions workflows when a pull request is opened, reopened or synchronized.
+name: Lint Dependabot and GitHub Actions
+run-name: Lint Dependabot configuration file and GitHub Actions workflows
+description: Lints Dependabot configuration file and GitHub Actions workflows when a pull request is opened, reopened or synchronized.
 permissions: {}
 
 on:
@@ -15,14 +15,14 @@ on:
 
 jobs:
   lint-dependabot-and-workflows:
-    name: Lint Dependabot file and GitHub Actions workflows
+    name: Lint Dependabot configuration file and GitHub Actions workflows
     runs-on: ubuntu-latest
 
     permissions:
       security-events: write # To create security alerts
 
     steps:
-      - name: Checkout Dependabot file, GitHub Actions workflows directory, and Zizmor configuration
+      - name: Checkout Dependabot configuration file, GitHub Actions workflows directory, and Zizmor configuration file
         uses: actions/checkout@v6
         with:
           ref: ${{ (github.event_name == 'pull_request' && github.event.pull_request.head.ref) || '' }}
@@ -33,7 +33,7 @@ jobs:
           persist-credentials: false
           sparse-checkout-cone-mode: false
 
-      - name: Lint Dependabot file and GitHub Actions workflows
+      - name: Lint Dependabot configuration file and GitHub Actions workflows
         uses: zizmorcore/zizmor-action@e639db99335bc9038abc0e066dfcd72e23d26fb4 # v0.3.0
         with:
           persona: auditor

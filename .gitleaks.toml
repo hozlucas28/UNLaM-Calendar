@@ -1,4 +1,4 @@
-title = "Gitleaks configuration"
+title = "Gitleaks configuration file"
 minVersion = "v8.30.0"
 
 [extend]

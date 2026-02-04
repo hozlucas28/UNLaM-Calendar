@@ -21,7 +21,7 @@ jobs:
       pull-requests: write # To add labels to the pull request
 
     steps:
-      - name: Checkout labeler configuration
+      - name: Checkout labeler configuration file
         uses: actions/checkout@v6
         with:
           sparse-checkout: .github/labeler.yml

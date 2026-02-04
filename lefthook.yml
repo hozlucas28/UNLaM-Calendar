@@ -27,11 +27,11 @@ pre-commit:
       glob: "*.go"
       stage_fixed: true
 
-    - name: " Lint Renovate file"
+    - name: " Lint Renovate configuration file"
       run: renovate-config-validator {staged_files}
       glob: .github/renovate.json
 
-    - name: " Lint Dependabot file and GitHub Actions workflows"
+    - name: " Lint Dependabot configuration file and GitHub Actions workflows"
       run: zizmor --persona=auditor --color=never {staged_files}
       glob:
         - .github/workflows/*.yml

@@ -1,6 +1,6 @@
-name: Lint Renovate File
-run-name: Lint Renovate file
-description: Lints Renovate file when a pull request is opened, reopened or synchronized.
+name: Lint Renovate
+run-name: Lint Renovate configuration file
+description: Lints Renovate configuration file when a pull request is opened, reopened or synchronized.
 permissions: {}
 
 on:
@@ -10,11 +10,11 @@ on:
 
 jobs:
   lint-renovate:
-    name: Lint Renovate file
+    name: Lint Renovate configuration file
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Renovate file
+      - name: Checkout Renovate configuration file
         uses: actions/checkout@v6
         with:
           ref: ${{ github.event.pull_request.head.ref }}
@@ -37,7 +37,7 @@ jobs:
           bun install --global renovate@latest
           echo 'export PATH="/root/.bun/bin:$PATH"' >> ~/.bashrc
 
-      - name: Lint Renovate file
+      - name: Lint Renovate configuration file
         run: renovate-config-validator .github/renovate.json
 
 concurrency:
