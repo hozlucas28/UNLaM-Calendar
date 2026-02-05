@@ -37,7 +37,6 @@
 			"extensions": [
 				"golang.go",
 				"eamodio.gitlens",
-				"GitHub.copilot",
 				"GitHub.copilot-chat",
 				"biomejs.biome",
 				"esbenp.prettier-vscode",
