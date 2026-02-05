@@ -28,7 +28,7 @@ pre-commit:
       stage_fixed: true
 
     - name: " Lint Renovate configuration file"
-      run: renovate-config-validator {staged_files}
+      run: renovate-config-validator --strict {staged_files}
       glob: .github/renovate.json
 
     - name: " Lint Dependabot configuration file and GitHub Actions workflows"
