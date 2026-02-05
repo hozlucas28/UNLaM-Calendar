@@ -26,8 +26,8 @@
 		"bot"
 	],
 
-	"branchTopic": "{{{groupName}}}/{{{baseBranch}}}/{{{packageName}}}",
-	"prBodyTemplate": "{{{changelogs}}}",
+	"branchTopic": "{{groupName}}/{{baseBranch}}/{{packageName}}",
+	"prBodyTemplate": "{{{table}}}{{{changelogs}}}",
 	"labels": [
 		"bot"
 	],
@@ -37,7 +37,7 @@
 	"commitMessageAction": "bump",
 	"commitMessageTopic": "{{packageName}}",
 	"commitMessageExtra": "from {{currentVersion}} to {{newVersion}}",
-	"commitBody": "- [Release notes]({{{url}}})",
+	"commitBody": "- [Release notes]({{url}})",
 
 	"packageRules": [
 		{
