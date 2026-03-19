@@ -88,7 +88,7 @@ Luego, deberás seleccionar el icono de la extensión (barra lateral izquierda d
 - Payloads
   - Agrega cada uno de los Payloads que se encuentra en la carpeta [`.vscode/github-local-actions-payloads/`](.vscode/github-local-actions-payloads/).
 - Options
-  - Activa `no-slip-checkout` y selecciónalo.
+  - Activa `no-skip-checkout` y selecciónalo.
   - Edita `actor` para que tenga como valor `hozlucas28` y selecciónalo.
 
 > Si desea tener un mayor control sobre la ejecución de los Workflows, utilice las opciones `job` y `reuse`.

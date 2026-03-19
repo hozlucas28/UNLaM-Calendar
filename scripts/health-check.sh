@@ -29,7 +29,7 @@ while true; do
 			echo -e "\e[31mAn internal error occurred!\e[0m" >&2
 			exit 1
 			;;
-		esac
+	esac
 done
 
 # Show help if needed
@@ -48,8 +48,8 @@ fi
 command_version() {
 	local version
 
-	if version=$("$@" 2>/dev/null); then
-		echo "v$(echo "$version" | grep --perl-regexp --only-matching '\d+\.\d+\.\d+' | head --lines=1)"
+	if version=$("$@" 2> /dev/null); then
+		echo "v$(echo "$version" | grep --perl-regexp --only-matching '\d+(?:\.\d+){0,2}' | head --lines=1)"
 	else
 		return 1
 	fi
@@ -66,56 +66,56 @@ fi
 exit_code=0
 
 
-if command -v go >/dev/null 2>&1; then
+if command -v go > /dev/null 2>&1; then
 	echo -e "\e[32m- Go $(command_version go version) installed.\e[0m"
 else
 	echo -e "\e[31m- Go is not installed or not found in PATH.\e[0m" >&2
 	exit_code=1
 fi
 
-if command -v node >/dev/null 2>&1; then
+if command -v node > /dev/null 2>&1; then
 	echo -e "\e[32m- Node.js $(command_version node --version) installed.\e[0m"
 else
 	echo -e "\e[31m- Node.js is not installed or not found in PATH.\e[0m" >&2
 	exit_code=1
 fi
 
-if command -v bun >/dev/null 2>&1; then
+if command -v bun > /dev/null 2>&1; then
 	echo -e "\e[32m- Bun $(command_version bun --version) installed.\e[0m"
 else
 	echo -e "\e[31m- Bun is not installed or not found in PATH.\e[0m" >&2
 	exit_code=1
 fi
 
-if command -v golangci-lint >/dev/null 2>&1; then
+if command -v golangci-lint > /dev/null 2>&1; then
 	echo -e "\e[32m- Golangci-lint $(command_version golangci-lint version) installed.\e[0m"
 else
 	echo -e "\e[33m  - Golangci-lint is not installed or not found in PATH.\e[0m" >&2
 	exit_code=1
 fi
 
-if command -v gitleaks >/dev/null 2>&1; then
+if command -v gitleaks > /dev/null 2>&1; then
 	echo -e "\e[32m- Gitleaks $(command_version gitleaks --version) installed.\e[0m"
 else
 	echo -e "\e[31m- Gitleaks is not installed or not found in PATH.\e[0m" >&2
 	exit_code=1
 fi
 
-if command -v renovate >/dev/null 2>&1; then
+if command -v renovate > /dev/null 2>&1; then
 	echo -e "\e[32m- Renovate $(command_version act --version) installed.\e[0m"
 else
 	echo -e "\e[31m- Renovate is not installed or not found in PATH.\e[0m" >&2
 	exit_code=1
 fi
 
-if command -v act >/dev/null 2>&1; then
+if command -v act > /dev/null 2>&1; then
 	echo -e "\e[32m- act $(command_version act --version) installed.\e[0m"
 else
 	echo -e "\e[31m- act is not installed or not found in PATH.\e[0m" >&2
 	exit_code=1
 fi
 
-if command -v gh >/dev/null 2>&1; then
+if command -v gh > /dev/null 2>&1; then
 	echo -e "\e[32m- GitHub CLI $(command_version gh --version) installed.\e[0m"
 else
 	echo -e "\e[31m- GitHub CLI is not installed or not found in PATH.\e[0m" >&2
@@ -123,7 +123,7 @@ else
 fi
 
 if [[ "$env" == "local" ]]; then
-	if command -v jq >/dev/null 2>&1; then
+	if command -v jq > /dev/null 2>&1; then
 		echo -e "\e[32m- jq $(command_version jq --version) installed.\e[0m"
 	else
 		echo -e "\e[31m- jq is not installed or not found in PATH.\e[0m" >&2
@@ -131,7 +131,7 @@ if [[ "$env" == "local" ]]; then
 	fi
 fi
 
-if command -v docker >/dev/null 2>&1; then
+if command -v docker > /dev/null 2>&1; then
 	echo -e "\e[32m- Docker $(command_version docker --version) installed.\e[0m"
 else
 	echo -e "\e[31m- Docker is not installed, not found in PATH, or not running.\e[0m" >&2
@@ -159,7 +159,7 @@ else
 	exit_code=1
 fi
 
-if command -v zizmor >/dev/null 2>&1; then
+if command -v zizmor > /dev/null 2>&1; then
 	echo -e "\e[32m- Zizmor $(command_version zizmor --version) installed.\e[0m"
 else
 	echo -e "\e[31m- Zizmor is not installed or not found in PATH.\e[0m" >&2

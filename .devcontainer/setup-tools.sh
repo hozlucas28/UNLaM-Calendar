@@ -25,7 +25,7 @@ while true; do
 			echo -e "\e[31mAn internal error occurred!\e[0m" >&2
 			exit 1
 			;;
-		esac
+	esac
 done
 
 # Exit on any command error
@@ -35,7 +35,7 @@ set -e
 if [ -n "$need_help" ]; then
 	printf "Usage: $0 [OPTION]...
 
-Setup repository tools (linters, formatters, and git hooks).
+Setup project tools (linters, formatters, and git hooks).
 
 Options:
 	-h, --help   display this help and exit
@@ -47,7 +47,7 @@ fi
 cd $(cd "$(dirname "$0")/.." && pwd)
 
 # Install packages (formatters, linters, and git hooks manager)
-echo -e "\e[90m\nInstalling repository tools (formatters, linters, and git hooks manager)...\n\e[0m"
+echo -e "\e[90m\nInstalling project tools (formatters, linters, and git hooks manager)...\n\e[0m"
 
 bun add --dev \
 	prettier@^3 \
@@ -55,12 +55,12 @@ bun add --dev \
 	@biomejs/biome@^2 \
 	lefthook@^2
 
-echo -e "\e[32m\nRepository tools installed successfully.\e[0m"
+echo -e "\e[32m\nProject tools installed successfully.\e[0m"
 
 # Pull images
 zizmor_image="ghcr.io/zizmorcore/zizmor:1.22.0" # Linter for Dependabot configuration file and GitHub Actions workflows.
 
-echo -e "\e[90m\nPulling docker images repository tools...\n\e[0m"
+echo -e "\e[90m\nPulling docker images project tools...\n\e[0m"
 
 docker pull "$zizmor_image"
 

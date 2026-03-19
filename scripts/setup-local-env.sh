@@ -25,7 +25,7 @@ while true; do
 			echo -e "\e[31mAn internal error occurred!\e[0m" >&2
 			exit 1
 			;;
-		esac
+	esac
 done
 
 # Exit on any command error
@@ -47,7 +47,7 @@ fi
 cd $(cd "$(dirname "$0")/.." && pwd)
 
 # Install packages (formatters, linters, and git hooks manager)
-echo -e "\e[90m\nInstalling repository tools (formatters, linters, and git hooks manager)...\n\e[0m"
+echo -e "\e[90m\nInstalling project tools (formatters, linters, and git hooks manager)...\n\e[0m"
 
 bun add --dev \
 	prettier@^3 \
@@ -55,7 +55,7 @@ bun add --dev \
 	@biomejs/biome@^2 \
 	lefthook@^2
 
-echo -e "\e[32m\nRepository tools installed successfully.\e[0m"
+echo -e "\e[32m\nProject tools installed successfully.\e[0m"
 
 # Create Visual Studio Code setting and recommended extensions files
 echo -e "\e[90m\nCreating Visual Studio Code setting and recommended extensions files...\n\e[0m"

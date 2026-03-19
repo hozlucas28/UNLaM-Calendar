@@ -25,7 +25,7 @@ while true; do
 			echo -e "\e[31mAn internal error occurred!\e[0m" >&2
 			exit 1
 			;;
-		esac
+	esac
 done
 
 # Show help if needed
