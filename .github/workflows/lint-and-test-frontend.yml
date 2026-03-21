@@ -28,7 +28,7 @@ jobs:
       - name: Create GitHub app token
         id: github-app-token
         if: ${{ env.ACT != 'true' }}
-        uses: actions/create-github-app-token@v2
+        uses: actions/create-github-app-token@v3
         with:
           app-id: ${{ secrets.BYPASS_RULES_APP_ID }}
           private-key: ${{ secrets.BYPASS_RULES_APP_PRIVATE_KEY }}
