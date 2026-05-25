@@ -121,12 +121,10 @@ Al realizar una Pull Request, estos son los procedimientos automáticos y manual
 ```mermaid
 ---
 config:
-  look: neo
-  theme: redux
+  htmlLabels: true
   flowchart:
     curve: linear
     inheritDir: true
-    htmlLabels: true
 ---
 
 flowchart
