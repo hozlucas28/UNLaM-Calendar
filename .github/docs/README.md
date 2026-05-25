@@ -29,12 +29,6 @@ Actualmente, los estudiantes se ven obligados a acceder constantemente a la pág
 ## Diagrama de despliegue
 
 ```mermaid
----
-config:
-  look: neo
-  theme: redux
----
-
 architecture-beta
 	service student(internet)[Estudiantes]
 
@@ -63,12 +57,10 @@ architecture-beta
 ```mermaid
 ---
 config:
-  look: neo
-  theme: redux
+  htmlLabels: true
   flowchart:
     curve: linear
     inheritDir: true
-    htmlLabels: true
 ---
 
 flowchart LR
