@@ -1,5 +1,5 @@
 title = "Gitleaks configuration file"
-minVersion = "v8.30.0"
+minVersion = "v8.30.1"
 
 [extend]
 useDefault = true
