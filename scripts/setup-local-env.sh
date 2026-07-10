@@ -1,35 +1,29 @@
 #! /bin/bash
 
 # Parse options
-options=$(getopt -o "h" --long "help" -- "$@")
-
-if [ $? -ne 0 ]; then
-	echo -e "\e[31mAn error occurred on parsing options.\e[0m" >&2
-	exit 1
-fi
-
-eval set -- "$options"
-
-while true; do
+while [[ $# -gt 0 ]]; do
 	case "$1" in
-		"-h" | "--help")
-			need_help="true"
+		-h | --help)
+			need_help='true'
 			shift 1
 			break
 			;;
-		"--")
-			shift
+
+		--)
+			shift 1
 			break
 			;;
-		*)
-			echo -e "\e[31mAn internal error occurred!\e[0m" >&2
+
+		-*)
+			printf "\e[31mAn invalid option was found!\e[0m\n" >&2
 			exit 1
 			;;
+
+        *)
+            break
+            ;;
 	esac
 done
-
-# Exit on any command error
-set -e
 
 # Show help if needed
 if [[ -n "$need_help" ]]; then
@@ -46,8 +40,16 @@ fi
 # Change from script directory to project root directory
 cd $(cd "$(dirname "$0")/.." && pwd)
 
+if [[ $? -ne 0 ]]; then
+	printf "\e[31mFailed to change directory to project root.\e[0m\n" >&2
+	exit 1
+fi
+
+# Exit on any command failure
+set -e
+
 # Install packages (formatters, linters, and git hooks manager)
-echo -e "\e[90m\nInstalling project tools (formatters, linters, and git hooks manager)...\n\e[0m"
+printf "\e[90m\nInstalling project tools (formatters, linters, and git hooks manager)...\e[0m\n\n"
 
 bun add --dev \
 	prettier@^3 \
@@ -55,42 +57,42 @@ bun add --dev \
 	@biomejs/biome@^2 \
 	lefthook@^2
 
-echo -e "\e[32m\nProject tools installed successfully.\e[0m"
+printf "\e[32m\nProject tools installed successfully.\e[0m\n"
 
 # Create Visual Studio Code setting and recommended extensions files
-echo -e "\e[90m\nCreating Visual Studio Code setting and recommended extensions files...\n\e[0m"
+printf "\e[90m\nCreating Visual Studio Code setting and recommended extensions files...\e[0m\n\n"
 
 jq '.customizations.vscode.settings' .devcontainer/devcontainer.json > .vscode/settings.json
 jq '{recommendations: .customizations.vscode.extensions}' .devcontainer/devcontainer.json > .vscode/extensions.json
 
-echo -e "\e[32m\nVisual Studio Code setting and recommended extensions files created successfully.\e[0m"
+printf "\e[32m\nVisual Studio Code setting and recommended extensions files created successfully.\e[0m\n"
 
 # Set git hooks
-echo -e "\e[90m\nSetting up git hooks...\n\e[0m"
+printf "\e[90m\nSetting up git hooks...\e[0m\n\n"
 
 bun run lefthook install
 
-echo -e "\e[32m\nGit hooks set successfully.\e[0m"
+printf "\e[32m\nGit hooks set successfully.\e[0m\n"
 
 # Install Frontend dependencies
-echo -e "\e[90m\nInstalling Frontend dependencies...\n\e[0m"
+printf "\e[90m\nInstalling Frontend dependencies...\e[0m\n\n"
 
 cd frontend/
 bun install
 cd ../
 
-echo -e "\e[32m\nFrontend dependencies installed successfully.\e[0m"
+printf "\e[32m\nFrontend dependencies installed successfully.\e[0m\n"
 
 # Health check
-echo -e "\e[90m\nRunning health check...\n\e[0m"
+printf "\e[90m\nRunning health check...\e[0m\n\n"
 
 bash scripts/health-check.sh --env=local
 
-echo -e "\e[32m\nAll tools are installed and working correctly.\e[0m"
+printf "\e[32m\nAll tools are installed and working correctly.\e[0m\n"
 
 # Show welcome message
-echo -e "\n# Welcome to the local environment\n"
+printf "\n# Welcome to the local environment\n\n"
 
-echo -e "\e[33mTo finish the installation of necessary tools, please open the extensions sidebar, type \`@recommended\` and install the recommended extensions for VSCode.\e[0m"
+printf "\e[33mTo finish the installation of necessary tools, please open the extensions sidebar, type \`@recommended\` and install the recommended extensions for VSCode.\e[0m\n"
 
-echo -e "\e[90m\n> If you want to make a commit, we recommend you \`git commit -m \"COMMIT MESSAGE\"\` instead of using VSCode interface.\e[0m"
+printf "\e[90m\n> If you want to make a commit, we recommend you \`git commit -m \"COMMIT MESSAGE\"\` instead of using VSCode interface.\e[0m\n"
