@@ -1,30 +1,27 @@
 #! /bin/bash
 
 # Parse options
-options=$(getopt -o "h" --long "help" -- "$@")
-
-if [ $? -ne 0 ]; then
-	echo -e "\e[31mAn error occurred on parsing options.\e[0m" >&2
-	exit 1
-fi
-
-eval set -- "$options"
-
-while true; do
+while [[ $# -gt 0 ]]; do
 	case "$1" in
-		"-h" | "--help")
-			need_help="true"
+		-h | --help)
+			need_help='true'
 			shift 1
 			break
 			;;
-		"--")
-			shift
+
+		--)
+			shift 1
 			break
 			;;
-		*)
-			echo -e "\e[31mAn internal error occurred!\e[0m" >&2
+
+		-*)
+			printf "\e[31mAn invalid option was found!\e[0m\n" >&2
 			exit 1
 			;;
+
+        *)
+            break
+            ;;
 	esac
 done
 
@@ -43,15 +40,20 @@ fi
 # Change from script directory to project root directory
 cd $(cd "$(dirname "$0")/.." && pwd)
 
+if [[ $? -ne 0 ]]; then
+	printf "\e[31mFailed to change directory to project root.\e[0m\n" >&2
+	exit 1
+fi
+
 # Test Frontend
-echo -e "\e[90m\nTesting Frontend...\n\e[0m"
+printf "\e[90m\nTesting Frontend...\n\e[0m\n"
 
 cd frontend/
 bun test
 cd ../
 
 # Test Backend
-echo -e "\e[90m\nTesting Backend...\n\e[0m"
+printf "\e[90m\nTesting Backend...\n\e[0m\n"
 
 cd backend/
 go test ./...
