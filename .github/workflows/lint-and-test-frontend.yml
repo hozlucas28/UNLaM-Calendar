@@ -43,7 +43,7 @@ jobs:
           persist-credentials: true
 
       - name: Install Node.js
-        uses: actions/setup-node@v6
+        uses: actions/setup-node@v6.3.0
         with:
           node-version: 24 # Equivalent to the latest version of Node.js v24.x.x.
 
@@ -88,7 +88,7 @@ jobs:
           sparse-checkout-cone-mode: false
 
       - name: Install Node.js
-        uses: actions/setup-node@v6
+        uses: actions/setup-node@v6.3.0
         with:
           node-version: 24 # Equivalent to the latest version of Node.js v24.x.x.
 
