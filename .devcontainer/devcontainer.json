@@ -7,7 +7,7 @@
 			"version": "24" // Equivalent to the latest version of Node.js v24.x.x.
 		},
 		"ghcr.io/devcontainers-extra/features/bun:1": {
-			"version": "1.3.3"
+			"version": "1.4.0"
 		},
 		"ghcr.io/guiyomh/features/golangci-lint:0": {
 			"version": "2.8.0"

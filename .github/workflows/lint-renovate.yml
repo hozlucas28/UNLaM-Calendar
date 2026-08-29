@@ -36,7 +36,7 @@ jobs:
       - name: Install Bun
         uses: oven-sh/setup-bun@v2
         with:
-          bun-version: 1.3.8
+          bun-version: 1.4.0
 
       - name: Install Renovate
         run: |

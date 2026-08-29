@@ -47,7 +47,7 @@
    - [Visual Studio Code](https://code.visualstudio.com/)
    - [Go](https://go.dev/dl/) (v1.25.x)
    - [Node.js](https://nodejs.org/es/download) (v24.x.x)
-   - [Bun](https://bun.com/docs/installation#installing-older-versions) (v1.3.3)
+   - [Bun](https://bun.com/docs/installation#installing-older-versions) (v1.4.0)
    - [Golangci-lint](https://golangci-lint.run/docs/welcome/install/local/) (v2.8.0)
    - [Gitleaks](https://github.com/gitleaks/gitleaks?tab=readme-ov-file#installing) (v8.30.0)
    - [Renovate](https://www.npmjs.com/package/renovate) (latest version)
