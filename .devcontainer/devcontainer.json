@@ -10,7 +10,7 @@
 			"version": "1.3.3"
 		},
 		"ghcr.io/guiyomh/features/golangci-lint:0": {
-			"version": "2.8.0"
+			"version": "2.13.2"
 		},
 		"ghcr.io/jsburckhardt/devcontainer-features/gitleaks:1": {
 			"version": "v8.30.0"
