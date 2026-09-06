@@ -54,7 +54,7 @@
    - [act](https://nektosact.com/installation/index.html) (latest version)
    - [GitHub CLI](https://cli.github.com/) (latest version)
    - [Docker Desktop](https://www.docker.com/) (latest version)
-   - [Zizmor](https://docs.zizmor.sh/installation/) (v1.22.0)
+   - [Zizmor](https://docs.zizmor.sh/installation/) (v1.30.0)
    - [jq](https://jqlang.org/download/) (v1.x.x)
 2. Abre la carpeta del repositorio en Visual Studio Code.
 3. Ejecuta `bash scripts/setup-local-env.sh` en la terminal para terminar de configurar el entorno local.

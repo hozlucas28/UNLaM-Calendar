@@ -60,7 +60,7 @@ bun add --dev \
 printf "\e[32m\nProject tools installed successfully.\e[0m\n"
 
 # Pull images
-zizmor_image='ghcr.io/zizmorcore/zizmor:1.22.0' # Linter for Dependabot configuration file and GitHub Actions workflows.
+zizmor_image='ghcr.io/zizmorcore/zizmor:1.30.0' # Linter for Dependabot configuration file and GitHub Actions workflows.
 
 printf "\e[90m\nPulling docker images project tools...\n\e[0m\n"
 
