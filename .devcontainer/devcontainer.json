@@ -13,7 +13,7 @@
 			"version": "2.8.0"
 		},
 		"ghcr.io/jsburckhardt/devcontainer-features/gitleaks:1": {
-			"version": "v8.30.0"
+			"version": "v8.30.1"
 		},
 		"ghcr.io/devcontainers-extra/features/renovate-cli:2": {
 			"version": "latest" // Necessary to match with Renovate GitHub Application.
